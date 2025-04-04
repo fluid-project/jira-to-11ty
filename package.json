@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/fluid-project/jira-to-11ty#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0-alpha.17",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-fetch": "^4.0.1",
     "@shikijs/markdown-it": "^1.10.3",
     "axios": "^1.7.2",

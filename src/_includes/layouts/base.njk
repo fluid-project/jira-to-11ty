@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>{% if title %} {{ title }} {% else %} {{ site.title }} {% endif %} | {{ site.name }}</title>
+
+        {% include "partials/global/meta.njk" %}
+
+        {% include "partials/global/stylesheets.njk" %}
+    </head>
+    <body class="{{ pageType }} {{ pageClasses }}">
+        <nav>
+            <a id="skip" href="#content">Skip to Content</a>
+        </nav>
+        <main>
+            <div class="wrapper">
+                {% block pageHeader %}
+                    <header>
+                        <h1>{% if heading %} {{ heading }} {% else %} {{ site.name }} {% endif %}</h1>
+                    </header>
+                {% endblock %}
+
+                {% block content %}
+                    <div id="content" class="content">
+                        {{ content | safe }}
+                    </div>
+                {% endblock %}
+            </div>
+        </main>
+    </body>
+</html>

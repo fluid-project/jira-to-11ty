@@ -24,13 +24,32 @@ export default function eleventy(eleventyConfig) {
     return md.render(
       toMarkdown(fromADF(value), { extensions: [gfmTableToMarkdown()] }),
     );
+  })
+
+  // based on https://lea.verou.me/blog/2023/11ty-indices/#dynamic-postsbytag-collection
+  eleventyConfig.addCollection("projects", (collectionsApi) => {
+    // fetch a page so that we can access the global data through it.
+    const page = collectionsApi.getFilteredByGlob("src/index.njk");
+
+    let ret = {};
+
+    for (let issue of page[0].data.issues ?? []) {
+      let project = issue.fields?.project?.name;
+      if (project) {
+        ret[project] ??= [];
+        ret[project].push(issue);
+      }
+    }
+
+    // Now sort, and reconstruct the object
+    // ret = Object.fromEntries(Object.entries(ret).sort((a, b) => b[1].length - a[1].length));
+    return ret;
   });
 
   return {
     dir: {
       input: "src",
       includes: "_includes",
-      layouts: "_layouts",
       data: "_data",
     },
     htmlTemplateEngine: "njk",

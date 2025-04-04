@@ -10,21 +10,26 @@ const http = rateLimit(axios.create(), {
 
 async function fetchIssues() {
   const res = [];
-  let totalPages;
   let page = 1;
-  let startAt = page * 100 - 100;
+  let jql = "created%20%3C%20now()%20order%20by%20created%20ASC";
+  let params = "fields=*all";
+  let nextPageToken = null;
 
   do {
-    console.log(`Loading page ${page}…`);
+    let url = `https://fluidproject.atlassian.net/rest/api/3/search/jql?jql=${jql}${nextPageToken ? `&nextPageToken=${nextPageToken}` : ""}&${params}`;
+    console.log(`Loading page ${page} from ${url}`);
 
     const { data } = await http.get(
-      `https://fluidproject.atlassian.net/rest/api/3/search?jql=project%3DFLUID&maxIssues=100&startAt=${startAt}`,
+      url,
     );
-    res.push(data.issues);
-    totalPages = Math.ceil(data.total / 100);
+    res.push(data.issues)
     page++;
-    startAt = page * 100 - 100;
-  } while (page <= totalPages);
+    nextPageToken = res.nextPageToken ?? null;
+
+    console.log(res);
+
+    // nextPageToken = page < 10 ? res.nextPageToken ?? null : null;
+  } while (nextPageToken);
   return res.flat();
 }
 

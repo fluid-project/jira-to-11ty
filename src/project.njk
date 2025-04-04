@@ -1,0 +1,19 @@
+---
+layout: "layouts/base.njk"
+pagination:
+  data: collections.projects
+  size: 1
+  alias: project
+permalink: /projects/{{ project | slugify }}/
+eleventyComputed:
+  heading: "{{ project }}"
+  title: "{{ project }}"
+---
+
+<ol>
+{% for issue in collections.projects[ project ] %}
+    <li>
+        {% include "partials/components/issue-listing.njk" %}
+    </li>
+{% endfor %}
+</ol>

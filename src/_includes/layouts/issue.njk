@@ -1,0 +1,70 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = "page-issue" %}
+
+{% block content %}
+    <div id="content" class="content">
+        <dl>
+            <div>
+                <dt>Type</dt>
+                <dd>{{ issue.fields.issuetype.name }}</dd>
+            </div>
+            <div>
+                <dt>Priority</dt>
+                <dd>{{ issue.fields.priority.name }}</dd>
+            </div>
+            <div>
+                <dt>Status</dt>
+                <dd>{{ issue.fields.status.name }}</dd>
+            </div>
+            <div>
+                <dt>Resolution</dt>
+                <dd>{{ issue.fields.resolution.name }}</dd>
+            </div>
+            <div>
+                <dt>Assignee</dt>
+                <dd>{{ issue.fields.assignee.displayName }}</dd>
+            </div>
+            <div>
+                <dt>Reporter</dt>
+                <dd>{{ issue.fields.reporter.displayName }}</dd>
+            </div>
+            <div>
+                <dt>Created</dt>
+                <dd>{{ issue.fields.created }}</dd>
+            </div>
+            <div>
+                <dt>Updated</dt>
+                <dd>{{ issue.fields.updated }}</dd>
+            </div>
+            <div>
+                <dt>Versions</dt>
+                <dd>
+                    {% for version in issue.fields.versions %}{{ version.name
+                    }} {% endfor %}
+                </dd>
+            </div>
+            <div>
+                <dt>Component</dt>
+                <dd>
+                    {% for component in issue.fields.components %}{{
+                    component.name }} {% endfor %}
+                </dd>
+            </div>
+        </dl>
+
+        {{ content | safe }}
+
+        {% if issue.fields.comment.comments.length %}
+        <h3>Comments</h3>
+        <ul>
+            {% for comment in issue.fields.comment.comments %}
+            <li>
+                <p>By {{ comment.author.displayName }} on {{ comment.created }}</p>
+                {{ comment.body | adf | safe }}
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+{% endblock %}

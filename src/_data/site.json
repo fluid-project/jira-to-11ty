@@ -1,0 +1,11 @@
+{
+    "name": "Fluid Project Issues Archive",
+    "shortDesc": "Archive of Fluid Project issues",
+    "description": "Archive of Fluid Project issues from the JIRA issue tracker",
+    "url": "https://issues.fluidproject.org",
+    "authorEmail": "idrc@ocadu.ca",
+    "authorName": "Inclusive Design Research Centre, OCAD University",
+    "authorWebsite": "https://idrc.ocadu.ca",
+    "faviconPath": "/assets/images/favicon.ico",
+    "title": "Fluid Project Issues Archive"
+}
