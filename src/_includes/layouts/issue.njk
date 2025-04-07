@@ -2,6 +2,13 @@
 
 {% set pageType = "page-issue" %}
 
+{% block pageHeader %}
+    <header>
+        <h1>{% if heading %} {{ heading }} {% else %} {{ site.name }} {% endif %}</h1>
+        <p>Source: <a href="{{ site.sourceBaseUrl }}{{ issue.key }}">{{ issue.key }}</a></p>
+    </header>
+{% endblock %}
+
 {% block content %}
     <div id="content" class="content">
         <dl>
@@ -40,8 +47,21 @@
             <div>
                 <dt>Versions</dt>
                 <dd>
-                    {% for version in issue.fields.versions %}{{ version.name
-                    }} {% endfor %}
+                    <ol>
+                        {% for version in issue.fields.versions %}
+                        <li>{{ version.name }}</li>
+                        {% endfor %}
+                    </ol>
+                </dd>
+            </div>
+            <div>
+                <dt>Fixed Versions</dt>
+                <dd>
+                    <ol>
+                        {% for version in issue.fields.fixVersions %}
+                        <li>{{ version.name }}</li>
+                        {% endfor %}
+                    </ol>
                 </dd>
             </div>
             <div>
@@ -54,6 +74,41 @@
         </dl>
 
         {{ content | safe }}
+
+        {% if issue.fields.issuelinks.length %}
+        <h3>Issue Links</h3>
+        <ul>
+            {% for issuelink in issue.fields.issuelinks %}
+            <li>
+                {{ issuelink.type.name }}
+                {% if issuelink.outwardIssue %}
+                    <a href="/browse/{{ issuelink.outwardIssue.key }}">{{ issuelink.outwardIssue.key }}: {{ issuelink.outwardIssue.fields.summary | safe }}</a>
+                {% else %}
+                    <a href="/browse/{{ issuelink.inwardIssue.key }}">{{ issuelink.inwardIssue.key }}: {{ issuelink.inwardIssue.fields.summary | safe}}</a>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if issue.fields.attachment.length %}
+        {% set mimeRegExp = r/^image/i %}
+        <h3>Attachments</h3>
+        <ul>
+            {% for attachment in issue.fields.attachment %}
+
+            <li>
+                <a href="{{ site.attachmentBaseUrl }}{{ issue.fields.project.key }}/{{ issue.key }}/{{ attachment.filename }}">
+                    {% if mimeRegExp.test(attachment.mimeType) %}
+                        <img src="{{ site.attachmentBaseUrl }}{{ issue.fields.project.key }}/{{ issue.key }}/{{ attachment.filename }}" alt="{{ attachment.filename }}"/>
+                    {% else %}
+                        {{ attachment.filename }}
+                    {% endif %}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
 
         {% if issue.fields.comment.comments.length %}
         <h3>Comments</h3>

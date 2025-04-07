@@ -6,7 +6,7 @@ pagination:
     alias: issue
 permalink: "browse/{{ issue.key }}/"
 eleventyComputed:
-    heading: "{{ issue.key }}: {{ issue.fields.summary }}"
+    heading: "{{ issue.key }}: {{ issue.fields.summary | safe }}"
     title: "{{ issue.key }}"
     tags: "{{ issue.fields.project.name }}"
 ---
