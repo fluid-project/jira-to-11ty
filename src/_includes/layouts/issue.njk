@@ -75,6 +75,11 @@
 
         {{ content | safe }}
 
+        {% if issue.fields.environment %}
+        <h3>Environments</h3>
+        {{ issue.fields.environment | adf | safe }}
+        {% endif %}
+
         {% if issue.fields.issuelinks.length %}
         <h3>Issue Links</h3>
         <ul>

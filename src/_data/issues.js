@@ -1,36 +1,55 @@
 import { AssetCache } from "@11ty/eleventy-fetch";
-import axios from "axios";
-import rateLimit from "axios-rate-limit";
+import Bottleneck from "bottleneck";
 
-const http = rateLimit(axios.create(), {
-  maxRequests: 2,
-  perMilliseconds: 1000,
-  maxRPS: 2,
-});
+async function fetchIssues(limiter, nextPageToken) {
+  let data = {};
+  const url = "https://fluidproject.atlassian.net/rest/api/3/search/jql";
+  const params = {
+    jql: "created < now() order by created ASC",
+    fields: "*all",
+  };
 
-async function fetchIssues() {
-  const res = [];
-  let page = 1;
-  let jql = "created%20%3C%20now()%20order%20by%20created%20ASC";
-  let params = "fields=*all";
-  let nextPageToken = null;
+  if (nextPageToken) {
+    params["nextPageToken"] = nextPageToken;
+  }
 
-  do {
-    let url = `https://fluidproject.atlassian.net/rest/api/3/search/jql?jql=${jql}${nextPageToken ? `&nextPageToken=${nextPageToken}` : ""}&${params}`;
-    console.log(`Loading page ${page} from ${url}`);
+  const query = new URLSearchParams(params);
 
-    const { data } = await http.get(
-      url,
-    );
-    res.push(data.issues)
-    page++;
-    nextPageToken = res.nextPageToken ?? null;
+  limiter = limiter || new Bottleneck({
+    reservoir: 500,
+    reservoirRefreshAmount: 500,
+    reservoirRefreshInterval: 5 * 60 * 1000,
+    maxConcurrent: 1,
+    minTime: 100
+  });
 
-    console.log(res);
+  try {
+    console.log(`Loading page ${url}?${query}`);
+    const response = await limiter.schedule(() => fetch(`${url}?${query}`, {
+      method: "GET",
+      headers: {
+        "Accept": "application/json",
+        "X-Force-Accept-Language": true,
+        "Accept-Language": "en"
+      }
+    }));
 
-    // nextPageToken = page < 10 ? res.nextPageToken ?? null : null;
-  } while (nextPageToken);
-  return res.flat();
+    if (!response.status === "200") {
+      throw new Error(`${response.status}: ${response.statusText}`);
+    }
+
+    data = await response.json();
+
+  } catch (error) {
+    throw error;
+  }
+
+  if (data.nextPageToken) {
+    let issues = await fetchIssues(limiter, data.nextPageToken);
+    return data.issues.concat(issues);
+  }
+
+  return data.issues;
 }
 
 export default async function () {
@@ -41,17 +60,7 @@ export default async function () {
   }
 
   const data = await fetchIssues();
-  // data.map(async (issue) => {
-  //   console.log(`Retrieving ${issue.key}…`);
 
-  //   const { issueData } = await http.get(
-  //     `https://fluidproject.atlassian.net/rest/api/3/issue/${issue.key}`,
-  //   );
-
-  //   issue.comments = issueData.fields.comment.comments;
-
-  //   return issue;
-  // });
   await asset.save(data, "json");
 
   return data;

@@ -3,6 +3,7 @@ import Shiki from "@shikijs/markdown-it";
 import { fromADF } from "mdast-util-from-adf";
 import { toMarkdown } from "mdast-util-to-markdown";
 import { gfmTableToMarkdown } from "mdast-util-gfm-table";
+import { gfmStrikethroughToMarkdown } from 'mdast-util-gfm-strikethrough';
 
 const md = new MarkdownIt({
   html: true,
@@ -22,7 +23,7 @@ md.use(
 export default function eleventy(eleventyConfig) {
   eleventyConfig.addFilter("adf", (value) => {
     return md.render(
-      toMarkdown(fromADF(value), { extensions: [gfmTableToMarkdown()] }),
+      toMarkdown(fromADF(value), {extensions: [gfmTableToMarkdown(), gfmStrikethroughToMarkdown()] }),
     );
   })
 
