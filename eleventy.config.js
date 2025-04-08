@@ -42,8 +42,6 @@ export default function eleventy(eleventyConfig) {
       }
     }
 
-    // Now sort, and reconstruct the object
-    // ret = Object.fromEntries(Object.entries(ret).sort((a, b) => b[1].length - a[1].length));
     return ret;
   });
 
