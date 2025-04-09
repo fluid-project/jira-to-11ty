@@ -162,8 +162,8 @@
 <nav aria-labelledby="pagination">
     <h2 class="visually-hidden">pagination</h2>
     <p class="flex">
-        {% if pagination.href.previous %}<a class="mx-1" href="{{ pagination.href.previous }}">Previous</a>{% else %}Previous{% endif %}
-        {% if pagination.href.next %}<a class="mx-1" href="{{ pagination.href.next }}">Next</a>{% else %}Next{% endif %}
+        {% if pagination.href.previous %}<a class="mx-1" href="{{ pagination.href.previous }}"><span class="aria-hidden">&larr;</span> Previous</a>{% else %}<span class="aria-hidden">&larr;</span> Previous{% endif %}
+        {% if pagination.href.next %}<a class="mx-1" href="{{ pagination.href.next }}">Next <span class="aria-hidden">&rarr;</span></a>{% else %}Next <span class="aria-hidden">&rarr;</span>{% endif %}
     </p>
 </nav>
 {% endblock %}
