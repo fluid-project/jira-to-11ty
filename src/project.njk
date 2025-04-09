@@ -1,5 +1,5 @@
 ---
-layout: "layouts/base.njk"
+layout: "layouts/project.njk"
 pagination:
   data: collections.projects
   size: 1
@@ -10,10 +10,47 @@ eleventyComputed:
   title: "{{ project }}"
 ---
 
-<ol>
-{% for issue in collections.projects[ project ] %}
-    <li>
-        {% include "partials/components/issue-listing.njk" %}
-    </li>
-{% endfor %}
-</ol>
+<filter-container class="spacing-y-2">
+  <p>
+    <label for="type">Type</label>
+    <select data-filter-key="type" id="type">
+      <option value="">All</option>
+      {% for type in issueTypes %}
+      <option value="{{ type }}">{{ type }}</option>
+      {% endfor %}
+    </select>
+  </p>
+  <p>
+    <label for="status">Status</label>
+    <select data-filter-key="status" id="status">
+      <option value="">All</option>
+      {% for status in issueStatuses %}
+      <option value="{{ status }}">{{ status }}</option>
+      {% endfor %}
+    </select>
+  </p>
+  <table>
+    <caption class="top mb-1" data-filter-results="of {{ collections.projects[ project ].length }} Issues/of {{ collections.projects[ project ].length }} Issues">{{ collections.projects[ project ].length }} of {{ collections.projects[ project ].length }} Issues</caption>
+    <tr>
+      <th>Issue</th>
+      <th>Type</th>
+      <th>Status</th>
+    </tr>
+    {% for issue in collections.projects[ project ] | reverse %}
+    <tr data-filter-type="{{ issue.fields.issuetype.name }}" data-filter-status="{{ issue.fields.status.name }}">
+      <td>
+        <a href="/browse/{{ issue.key }}">
+          {{ issue.key }}: {{ issue.fields.summary }}
+        </a>
+      </td>
+      <td>
+        {{ issue.fields.issuetype.name }}
+      </td>
+      <td>
+        {{ issue.fields.status.name }}
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</filter-container>
+<script src="/assets/scripts/filter-container.js" type="module"></script>

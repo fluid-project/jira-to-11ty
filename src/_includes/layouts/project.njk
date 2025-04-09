@@ -1,0 +1,13 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = "page-project" %}
+
+{% block pageHeader %}
+        <nav aria-label="breadcrumb">
+            <ol>
+                <li><a rel="home" href="/">Home</a></li>
+                <li><a href="{{ page.url }}">{{ title }}</a></li>
+            </ol>
+        </nav>
+        <h1>{% if heading %} {{ heading }} {% else %} {{ site.name }} {% endif %}</h1>
+{% endblock %}

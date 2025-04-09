@@ -1,9 +1,11 @@
 import MarkdownIt from "markdown-it";
-import Shiki from "@shikijs/markdown-it";
+import highlightjs from "markdown-it-highlightjs";
 import { fromADF } from "mdast-util-from-adf";
 import { toMarkdown } from "mdast-util-to-markdown";
 import { gfmTableToMarkdown } from "mdast-util-gfm-table";
 import { gfmStrikethroughToMarkdown } from 'mdast-util-gfm-strikethrough';
+import parseTransform from "./src/_transforms/parse.js";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 
 const md = new MarkdownIt({
   html: true,
@@ -11,14 +13,7 @@ const md = new MarkdownIt({
   typographer: true,
 });
 
-md.use(
-  await Shiki({
-    themes: {
-      light: "github-light",
-      dark: "github-dark",
-    },
-  }),
-);
+md.use(highlightjs);
 
 export default function eleventy(eleventyConfig) {
   eleventyConfig.addFilter("adf", (value) => {
@@ -32,18 +27,26 @@ export default function eleventy(eleventyConfig) {
     // fetch a page so that we can access the global data through it.
     const page = collectionsApi.getFilteredByGlob("src/index.njk");
 
-    let ret = {};
+    const ret = {};
 
-    for (let issue of page[0].data.issues ?? []) {
-      let project = issue.fields?.project?.name;
+    for (const issue of page[0].data.issues ?? []) {
+      const project = issue.fields?.project?.name;
       if (project) {
         ret[project] ??= [];
         ret[project].push(issue);
       }
     }
 
-    return ret;
+    return Object.fromEntries(Object.entries(ret).sort());
   });
+
+  eleventyConfig.addPassthroughCopy("src/assets/styles/app.css");
+  eleventyConfig.addPassthroughCopy({ "node_modules/@github/relative-time-element/dist": "assets/scripts/relative-time/"});
+  eleventyConfig.addPassthroughCopy({ "node_modules/@zachleat/filter-container/filter-container.js": "assets/scripts/"});
+
+  eleventyConfig.addTransform("parse", parseTransform);
+
+ 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   return {
     dir: {

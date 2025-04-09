@@ -55,7 +55,7 @@ async function fetchIssues(limiter, nextPageToken) {
 export default async function () {
   const asset = new AssetCache("issues");
 
-  if (asset.isCacheValid("2h")) {
+  if (asset.isCacheValid("24h")) {
     return asset.getCachedValue();
   }
 

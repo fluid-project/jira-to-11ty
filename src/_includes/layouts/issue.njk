@@ -3,15 +3,25 @@
 {% set pageType = "page-issue" %}
 
 {% block pageHeader %}
-    <header>
+        <nav aria-label="breadcrumbs">
+            <ol>
+                <li><a rel="home" href="/">Home</a></li>
+                <li><a href="/projects/{{ issue.fields.project.name | slug }}">{{ issue.fields.project.name }}</a></li>
+                <li><a href="{{ page.url }}">{{ issue.key }}</a></li>
+            </ol>
+        </nav>
         <h1>{% if heading %} {{ heading }} {% else %} {{ site.name }} {% endif %}</h1>
-        <p>Source: <a href="{{ site.sourceBaseUrl }}{{ issue.key }}">{{ issue.key }}</a></p>
-    </header>
 {% endblock %}
 
 {% block content %}
     <div id="content" class="content">
+        <aside class="spacing-y-1 bg-default">
+            <h2>Metadata</h2>
         <dl>
+            <div>
+                <dt>Source</dt>
+                <dd><a href="{{ site.sourceBaseUrl }}{{ issue.key }}">{{ issue.key }}</a></dd>
+            </div>
             <div>
                 <dt>Type</dt>
                 <dd>{{ issue.fields.issuetype.name }}</dd>
@@ -26,11 +36,11 @@
             </div>
             <div>
                 <dt>Resolution</dt>
-                <dd>{{ issue.fields.resolution.name }}</dd>
+                <dd>{{ issue.fields.resolution.name if issue.fields.resolution.name else "N/A" }}</dd>
             </div>
             <div>
                 <dt>Assignee</dt>
-                <dd>{{ issue.fields.assignee.displayName }}</dd>
+                <dd>{{ issue.fields.assignee.displayName if issue.fields.assignee.displayName else "N/A" }}</dd>
             </div>
             <div>
                 <dt>Reporter</dt>
@@ -38,30 +48,38 @@
             </div>
             <div>
                 <dt>Created</dt>
-                <dd>{{ issue.fields.created }}</dd>
+                <dd><relative-time datetime="{{ issue.fields.created }}" prefix="">{{ issue.fields.created }}</relative-time></dd>
             </div>
             <div>
                 <dt>Updated</dt>
-                <dd>{{ issue.fields.updated }}</dd>
+                <dd><relative-time datetime="{{ issue.fields.updated }}" prefix="">{{ issue.fields.updated }}</relative-time></dd>
             </div>
             <div>
                 <dt>Versions</dt>
                 <dd>
-                    <ol>
+                    {% if issue.fields.versions.length > 0 %}
+                    <ol role="list">
                         {% for version in issue.fields.versions %}
                         <li>{{ version.name }}</li>
                         {% endfor %}
                     </ol>
+                    {% else %}
+                    N/A
+                    {% endif %}
                 </dd>
             </div>
             <div>
                 <dt>Fixed Versions</dt>
                 <dd>
-                    <ol>
+                    {% if issue.fields.fixVersions.length > 0 %}
+                    <ol role="list">
                         {% for version in issue.fields.fixVersions %}
                         <li>{{ version.name }}</li>
                         {% endfor %}
                     </ol>
+                    {% else %}
+                    N/A
+                    {% endif %}
                 </dd>
             </div>
             <div>
@@ -72,59 +90,80 @@
                 </dd>
             </div>
         </dl>
+        </aside>
 
-        {{ content | safe }}
+        <div class="spacing-y-1">
+            <h2>Description</h2>
+            {{ content | safe }}
+        </div>
 
         {% if issue.fields.environment %}
-        <h3>Environments</h3>
-        {{ issue.fields.environment | adf | safe }}
+        <div class="spacing-y-1">
+            <h2>Environments</h2>
+            {{ issue.fields.environment | adf | safe }}
+        </div>
         {% endif %}
 
         {% if issue.fields.issuelinks.length %}
-        <h3>Issue Links</h3>
-        <ul>
-            {% for issuelink in issue.fields.issuelinks %}
-            <li>
-                {{ issuelink.type.name }}
-                {% if issuelink.outwardIssue %}
-                    <a href="/browse/{{ issuelink.outwardIssue.key }}">{{ issuelink.outwardIssue.key }}: {{ issuelink.outwardIssue.fields.summary | safe }}</a>
-                {% else %}
-                    <a href="/browse/{{ issuelink.inwardIssue.key }}">{{ issuelink.inwardIssue.key }}: {{ issuelink.inwardIssue.fields.summary | safe}}</a>
-                {% endif %}
-            </li>
-            {% endfor %}
-        </ul>
+        <div class="spacing-y-1">
+            <h2>Issue Links</h2>
+            <ul class="spacing-y-1">
+                {% for issuelink in issue.fields.issuelinks %}
+                <li>
+                    {{ issuelink.type.name }}
+                    {% if issuelink.outwardIssue %}
+                        <a href="/browse/{{ issuelink.outwardIssue.key }}">{{ issuelink.outwardIssue.key }}: {{ issuelink.outwardIssue.fields.summary | safe }}</a>
+                    {% else %}
+                        <a href="/browse/{{ issuelink.inwardIssue.key }}">{{ issuelink.inwardIssue.key }}: {{ issuelink.inwardIssue.fields.summary | safe}}</a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
         {% endif %}
 
         {% if issue.fields.attachment.length %}
-        {% set mimeRegExp = r/^image/i %}
-        <h3>Attachments</h3>
-        <ul>
-            {% for attachment in issue.fields.attachment %}
-
-            <li>
-                <a href="{{ site.attachmentBaseUrl }}{{ issue.fields.project.key }}/{{ issue.key }}/{{ attachment.filename }}">
-                    {% if mimeRegExp.test(attachment.mimeType) %}
-                        <img src="{{ site.attachmentBaseUrl }}{{ issue.fields.project.key }}/{{ issue.key }}/{{ attachment.filename }}" alt="{{ attachment.filename }}"/>
-                    {% else %}
-                        {{ attachment.filename }}
-                    {% endif %}
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
+        <div class="spacing-y-1">
+            {% set mimeRegExp = r/^image/i %}
+            <h2>Attachments</h2>
+            <ul class="spacing-y-1" role="list">
+                {% for attachment in issue.fields.attachment %}
+                <li>
+                    <a href="{{ site.attachmentBaseUrl }}{{ issue.fields.project.key }}/{{ issue.key }}/{{ attachment.filename }}">
+                        {% if mimeRegExp.test(attachment.mimeType) %}
+                            <img src="{{ site.attachmentBaseUrl }}{{ issue.fields.project.key }}/{{ issue.key }}/{{ attachment.filename }}" alt="{{ attachment.filename }}"/>
+                        {% else %}
+                            {{ attachment.filename }}
+                        {% endif %}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
         {% endif %}
 
         {% if issue.fields.comment.comments.length %}
-        <h3>Comments</h3>
-        <ul>
-            {% for comment in issue.fields.comment.comments %}
-            <li>
-                <p>By {{ comment.author.displayName }} on {{ comment.created }}</p>
-                {{ comment.body | adf | safe }}
-            </li>
-            {% endfor %}
-        </ul>
+        <div class="spacing-y-1">
+            <h2>Comments</h2>
+            <ul class="spacing-y-2" role="list">
+                {% for comment in issue.fields.comment.comments %}
+                <li>
+                    <p class="mb-0"><b>{{ comment.author.displayName }}</b> <i>commented <relative-time datetime="{{ comment.created }}">{{ comment.created }}</relative-time></i></p>
+                    {{ comment.body | adf | safe }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
         {% endif %}
     </div>
+{% endblock %}
+
+{% block footer %}
+<nav aria-labelledby="pagination">
+    <h2 class="visually-hidden">pagination</h2>
+    <p class="flex">
+        {% if pagination.href.previous %}<a class="mx-1" href="{{ pagination.href.previous }}">Previous</a>{% else %}Previous{% endif %}
+        {% if pagination.href.next %}<a class="mx-1" href="{{ pagination.href.next }}">Next</a>{% else %}Next{% endif %}
+    </p>
+</nav>
 {% endblock %}

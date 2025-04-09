@@ -4,10 +4,10 @@ layout: "layouts/base.njk"
 
 <h2>Projects</h2>
 
-<ol>
+<ul>
     {% for project, projects in collections.projects %}
     <li>
         <a href="projects/{{ project | slugify }}">{{ project }} ({{ projects.length }} issues)</a>
     </li>
     {% endfor %}
-</ol>
+</ul>

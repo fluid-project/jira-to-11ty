@@ -22,11 +22,16 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-fetch": "^4.0.1",
+    "@github/relative-time-element": "^4.4.5",
     "@shikijs/markdown-it": "^1.10.3",
+    "@zachleat/filter-container": "^4.0.0",
     "bottleneck": "^2.19.5",
+    "linkedom": "^0.18.9",
+    "markdown-it-highlightjs": "^4.2.0",
     "mdast-util-from-adf": "^2.1.1",
     "mdast-util-gfm-strikethrough": "^2.0.0",
     "mdast-util-gfm-table": "^2.0.0",
-    "mdast-util-to-markdown": "^2.1.0"
+    "mdast-util-to-markdown": "^2.1.0",
+    "open-props": "^1.7.14"
   }
 }
