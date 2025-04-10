@@ -5,7 +5,6 @@ import { toMarkdown } from "mdast-util-to-markdown";
 import { gfmTableToMarkdown } from "mdast-util-gfm-table";
 import { gfmStrikethroughToMarkdown } from 'mdast-util-gfm-strikethrough';
 import parseTransform from "./src/_transforms/parse.js";
-import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 
 const md = new MarkdownIt({
   html: true,
@@ -43,10 +42,9 @@ export default function eleventy(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/styles/app.css");
   eleventyConfig.addPassthroughCopy({ "node_modules/@github/relative-time-element/dist": "assets/scripts/relative-time/"});
   eleventyConfig.addPassthroughCopy({ "node_modules/@zachleat/filter-container/filter-container.js": "assets/scripts/"});
-
+  eleventyConfig.addPassthroughCopy({ "node_modules/@lowlighter/matcha/dist/matcha.css": "assets/styles/"});
+  
   eleventyConfig.addTransform("parse", parseTransform);
-
- 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   return {
     dir: {
