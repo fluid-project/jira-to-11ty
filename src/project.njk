@@ -21,6 +21,15 @@ eleventyComputed:
     </select>
   </p>
   <p>
+    <label for="reporter">Reporter</label>
+    <select data-filter-key="reporter" id="reporter">
+      <option value="">All</option>
+      {% for reporter in issueReporters %}
+      <option value="{{ reporter }}">{{ reporter }}</option>
+      {% endfor %}
+    </select>
+  </p>
+  <p>
     <label for="resolution">Resolution</label>
     <select data-filter-key="resolution" id="resolution">
       <option value="">All</option>
@@ -34,10 +43,11 @@ eleventyComputed:
     <tr>
       <th>Issue</th>
       <th>Type</th>
+      <th>Reporter</th>
       <th>Resolution</th>
     </tr>
     {% for issue in collections.projects[ project ] | reverse %}
-    <tr data-filter-type="{{ issue.fields.issuetype.name }}" data-filter-resolution="{{ issue.fields.resolution.name if issue.fields.resolution.name else 'N/A' }}">
+    <tr data-filter-type="{{ issue.fields.issuetype.name }}" data-filter-reporter="{{ issue.fields.reporter.displayName if issue.fields.reporter.displayName else 'N/A' }}" data-filter-resolution="{{ issue.fields.resolution.name if issue.fields.resolution.name else 'N/A' }}">
       <td>
         <a href="/browse/{{ issue.key }}">
           {{ issue.key }}: {{ issue.fields.summary }}
@@ -45,6 +55,9 @@ eleventyComputed:
       </td>
       <td>
         {{ issue.fields.issuetype.name }}
+      </td>
+      <td>
+        {{ issue.fields.reporter.displayName if issue.fields.reporter.displayName else 'N/A' }}
       </td>
       <td>
         {{ issue.fields.resolution.name if issue.fields.resolution.name else 'N/A' }}
