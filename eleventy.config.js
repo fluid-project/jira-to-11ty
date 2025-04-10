@@ -41,8 +41,8 @@ export default function eleventy(eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({ "node_modules/@github/relative-time-element/dist": "assets/scripts/relative-time/"});
-  eleventyConfig.addPassthroughCopy({ "node_modules/@zachleat/filter-container/filter-container.js": "assets/scripts/"});
-  eleventyConfig.addPassthroughCopy({ "node_modules/@lowlighter/matcha/dist/matcha.css": "assets/styles/"});
+  eleventyConfig.addPassthroughCopy({ "node_modules/@zachleat/filter-container/filter-container.js": "assets/scripts/filter-container.js"});
+  eleventyConfig.addPassthroughCopy({ "node_modules/@lowlighter/matcha/dist/matcha.css": "assets/styles/matcha.css"});
   
   eleventyConfig.addTransform("parse", parseTransform);
 
