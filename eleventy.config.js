@@ -40,6 +40,7 @@ export default function eleventy(eleventyConfig) {
     return Object.fromEntries(Object.entries(ret).sort());
   });
 
+  eleventyConfig.addPassthroughCopy({ "src/favicon.ico": "favicon.ico"});
   eleventyConfig.addPassthroughCopy({ "node_modules/@github/relative-time-element/dist": "assets/scripts/relative-time/"});
   eleventyConfig.addPassthroughCopy({ "node_modules/@zachleat/filter-container/filter-container.js": "assets/scripts/filter-container.js"});
   eleventyConfig.addPassthroughCopy({ "node_modules/@lowlighter/matcha/dist/matcha.css": "assets/styles/matcha.css"});
