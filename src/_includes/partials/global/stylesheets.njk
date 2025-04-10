@@ -1,0 +1,66 @@
+<link media="all" rel="stylesheet" type="text/css" href="/assets/styles/matcha.css" />
+<style>
+    [role="list"] {
+        list-style-type: none;
+        padding-inline-start: 0;
+    }
+
+    caption.top {
+        caption-side: top;
+    }
+
+    menu > li > :is(a, a:hover) {
+        text-decoration: underline;
+    }
+
+    menu > li > :is(a[aria-current="page"]) {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .skip-link {
+        position: absolute;
+        display: inline-block;
+        padding: .375rem .75rem;
+        line-height: 1;
+        font-size: 1.25rem;
+        background-color: white;
+        transform: translateY(0);
+        top: 0.5rem;
+        left: 0.5rem;
+    }
+
+    .skip-link:not(:focus) {
+        transform: translateY(-5rem);
+    }
+
+    .visually-hidden {
+        border: 0;
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        word-wrap: normal !important;
+    }
+
+    .pagefind-ui__form > * + *,
+    .pagefind-ui__results > * + * {
+        margin-top: 1rem;
+    }
+
+    .pagefind-ui__result-title {
+        margin-bottom: 0.5rem;
+    }
+
+    .pagefind-ui__result-excerpt {
+        font-style: italic;
+    }
+
+    .pagefind-ui__result-excerpt::before,
+    .pagefind-ui__result-excerpt::after {
+        content: "…";
+    }
+</style>

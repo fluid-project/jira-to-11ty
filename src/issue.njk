@@ -1,114 +1,16 @@
 ---
+layout: "layouts/issue.njk"
 pagination:
     data: issues
     size: 1
     alias: issue
 permalink: "browse/{{ issue.key }}/"
+eleventyComputed:
+    heading: "{{ issue.key }}: {{ issue.fields.summary | safe }}"
+    title: "{{ issue.key }}"
+    tags: "{{ issue.fields.project.name }}"
 ---
 
-<!doctype html>
-<html>
-    <head>
-        <title>{{ issue.key }}</title>
-
-        <style>
-            body {
-                font-family:
-                    system-ui,
-                    -apple-system,
-                    BlinkMacSystemFont,
-                    "Segoe UI",
-                    Roboto,
-                    Oxygen,
-                    Ubuntu,
-                    Cantarell,
-                    "Open Sans",
-                    "Helvetica Neue",
-                    sans-serif;
-            }
-
-            dt {
-                display: inline;
-                font-weight: bold;
-            }
-
-            dt::after {
-                content: ": ";
-            }
-
-            dd {
-                display: inline;
-                margin-inline-start: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <main class="container">
-            <h1>{{ issue.key }}: {{ issue.fields.summary }}</h1>
-            <dl>
-                <div>
-                    <dt>Type</dt>
-                    <dd>{{ issue.fields.issuetype.name }}</dd>
-                </div>
-                <div>
-                    <dt>Priority</dt>
-                    <dd>{{ issue.fields.priority.name }}</dd>
-                </div>
-                <div>
-                    <dt>Status</dt>
-                    <dd>{{ issue.fields.status.name }}</dd>
-                </div>
-                <div>
-                    <dt>Resolution</dt>
-                    <dd>{{ issue.fields.resolution.name }}</dd>
-                </div>
-                <div>
-                    <dt>Assignee</dt>
-                    <dd>{{ issue.fields.assignee.displayName }}</dd>
-                </div>
-                <div>
-                    <dt>Reporter</dt>
-                    <dd>{{ issue.fields.reporter.displayName }}</dd>
-                </div>
-                <div>
-                    <dt>Created</dt>
-                    <dd>{{ issue.fields.created }}</dd>
-                </div>
-                <div>
-                    <dt>Updated</dt>
-                    <dd>{{ issue.fields.updated }}</dd>
-                </div>
-                <div>
-                    <dt>Versions</dt>
-                    <dd>
-                        {% for version in issue.fields.versions %}{{ version.name
-                        }} {% endfor %}
-                    </dd>
-                </div>
-                <div>
-                    <dt>Component</dt>
-                    <dd>
-                        {% for component in issue.fields.components %}{{
-                        component.name }} {% endfor %}
-                    </dd>
-                </div>
-            </dl>
-            {% if issue.fields.description.version == 1 %} {{
-            issue.fields.description | adf | safe }} {% endif %} {% if
-            issue.comments %}
-            <h3>Comments</h3>
-            <ul>
-                {% for comment in issue.comments.comment %}
-                <li>
-                    {{ comment._text | safe }}
-                    <p>
-                        By {{ comment._attributes.author }} on {{
-                        comment._attributes.created }}
-                    </p>
-                </li>
-                {% endfor %}
-            </ul>
-            {% endif %}
-        </main>
-    </body>
-</html>
+{% if issue.fields.description.version == 1 %}
+    {{ issue.fields.description | adf | safe }}
+{% endif %}

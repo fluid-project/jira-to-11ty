@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-color-scheme="light">
+    <head>
+        <title>{% if title %} {{ title }} {% else %} {{ site.title }} {% endif %} | {{ site.name }}</title>
+
+        {% include "partials/global/meta.njk" %}
+
+        {% include "partials/global/stylesheets.njk" %}
+
+        <script type="module" src="/assets/scripts/relative-time/bundle.js"></script>
+    </head>
+    <body class="{{ pageType }} {{ pageClasses }}">
+        <header class="mt-3">
+            <a class="skip-link" href="#main">Skip to Content</a>
+            <nav aria-label="main menu">
+                <menu>
+                    <li><a rel="home" href="/" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a></li>
+                    <li><a href="/search/" {% if page.url == '/search/' %}aria-current="page"{% endif %}>Search</a></li>
+                </menu>
+            </nav>
+            {% block pageHeader %}
+                <h1>{% if heading %} {{ heading }} {% else %} {{ site.name }} {% endif %}</h1>
+            {% endblock %}
+        </header>
+        <main id="main">
+            {% block content %}
+            <div class="content">
+                {{ content | safe }}
+            </div>
+            {% endblock %}
+        </main>
+        <footer>
+            {% block footer %}
+            {% endblock %}
+        </footer>
+    </body>
+</html>

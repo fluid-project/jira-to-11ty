@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "eleventy",
-    "start": "eleventy --serve",
+    "start": "eleventy --serve --incremental",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,13 +20,18 @@
   },
   "homepage": "https://github.com/fluid-project/jira-to-11ty#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0-alpha.17",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-fetch": "^4.0.1",
-    "@shikijs/markdown-it": "^1.10.3",
-    "axios": "^1.7.2",
-    "axios-rate-limit": "^1.4.0",
+    "@github/relative-time-element": "^4.4.5",
+    "@lowlighter/matcha": "^3.0.0",
+    "@zachleat/filter-container": "^4.0.0",
+    "bottleneck": "^2.19.5",
+    "linkedom": "^0.18.9",
+    "markdown-it-highlightjs": "^4.2.0",
     "mdast-util-from-adf": "^2.1.1",
+    "mdast-util-gfm-strikethrough": "^2.0.0",
     "mdast-util-gfm-table": "^2.0.0",
-    "mdast-util-to-markdown": "^2.1.0"
+    "mdast-util-to-markdown": "^2.1.0",
+    "pagefind": "^1.3.0"
   }
 }
