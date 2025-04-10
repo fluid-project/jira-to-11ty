@@ -1,24 +1,23 @@
 {
-  "name": "jira-to-11ty",
+  "name": "issues-fluidproject-org",
   "version": "1.0.0",
-  "description": "Archive JIRA issues to Eleventy.",
+  "description": "Archive of FLUID Project JIRA issues.",
   "main": "eleventy.config.js",
   "type": "module",
   "scripts": {
     "build": "eleventy",
-    "start": "eleventy --serve --incremental",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve --incremental"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fluid-project/jira-to-11ty.git"
+    "url": "git+https://github.com/fluid-project/issues.fluidproject.org.git"
   },
   "author": "OCAD University <idrc@ocadu.ca>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/fluid-project/jira-to-11ty/issues"
+    "url": "https://github.com/fluid-project/issues.fluidproject.org/issues"
   },
-  "homepage": "https://github.com/fluid-project/jira-to-11ty#readme",
+  "homepage": "https://github.com/fluid-project/issues.fluidproject.org#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-fetch": "^4.0.1",
