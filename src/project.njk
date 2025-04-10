@@ -21,11 +21,11 @@ eleventyComputed:
     </select>
   </p>
   <p>
-    <label for="status">Status</label>
-    <select data-filter-key="status" id="status">
+    <label for="resolution">Resolution</label>
+    <select data-filter-key="resolution" id="resolution">
       <option value="">All</option>
-      {% for status in issueStatuses %}
-      <option value="{{ status }}">{{ status }}</option>
+      {% for resolution in issueResolutions %}
+      <option value="{{ resolution }}">{{ resolution }}</option>
       {% endfor %}
     </select>
   </p>
@@ -34,10 +34,10 @@ eleventyComputed:
     <tr>
       <th>Issue</th>
       <th>Type</th>
-      <th>Status</th>
+      <th>Resolution</th>
     </tr>
     {% for issue in collections.projects[ project ] | reverse %}
-    <tr data-filter-type="{{ issue.fields.issuetype.name }}" data-filter-status="{{ issue.fields.status.name }}">
+    <tr data-filter-type="{{ issue.fields.issuetype.name }}" data-filter-resolution="{{ issue.fields.resolution.name if issue.fields.resolution.name else 'N/A' }}">
       <td>
         <a href="/browse/{{ issue.key }}">
           {{ issue.key }}: {{ issue.fields.summary }}
@@ -47,7 +47,7 @@ eleventyComputed:
         {{ issue.fields.issuetype.name }}
       </td>
       <td>
-        {{ issue.fields.status.name }}
+        {{ issue.fields.resolution.name if issue.fields.resolution.name else 'N/A' }}
       </td>
     </tr>
     {% endfor %}
