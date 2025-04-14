@@ -25,7 +25,7 @@
                 <div>
                     <dt>Type</dt>
                     <dd>
-                        <a href="/projects/{{ eleventyNavigation.parent }}/?type={{ type | urlencode }}">{{ type }}</a>
+                        <a href="/projects/{{ project.key }}/?type={{ type | urlencode }}">{{ type }}</a>
                     </dd>
                 </div>
                 <div>
@@ -39,7 +39,7 @@
                 <div>
                     <dt>Resolution</dt>
                     <dd>{% if resolution %}
-                            <a href="/projects/{{ eleventyNavigation.parent }}/?resolution={{ resolution | urlencode }}">{{ resolution }}</a>
+                            <a href="/projects/{{ project.key }}/?resolution={{ resolution | urlencode }}">{{ resolution }}</a>
                         {% else %}
                             N/A
                         {% endif %}
@@ -52,7 +52,7 @@
                 <div>
                     <dt>Reporter</dt>
                     <dd>
-                        <a href="/projects/{{ eleventyNavigation.parent }}/?reporter={{ reporter | urlencode }}">{{ reporter }}</a>
+                        <a href="/projects/{{ project.key }}/?reporter={{ reporter | urlencode }}">{{ reporter }}</a>
                     </dd>
                 </div>
                 <div>
