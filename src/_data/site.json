@@ -8,6 +8,5 @@
     "authorWebsite": "https://idrc.ocadu.ca",
     "faviconPath": "/assets/images/favicon.ico",
     "title": "Fluid Project Issues Archive",
-    "attachmentBaseUrl": "https://idrc.cachefly.net/issues.fluidproject.org/",
     "sourceBaseUrl": "https://fluidproject.atlassian.net/browse/"
 }

@@ -1,0 +1,47 @@
+---json
+{
+  "title": "FLUID-1992",
+  "summary": "Style of text of reordererable list item does not change on hover",
+  "tags": "FLUID",
+  "project": {
+    "key": "FLUID",
+    "title": "Fluid Infusion"
+  },
+  "type": "Bug",
+  "priority": "Minor",
+  "status": "Closed",
+  "resolution": "Won't Fix",
+  "reporter": "Herb Wideman",
+  "date": "2008-12-16T16:00:23.000-0500",
+  "updated": "2011-01-14T09:53:26.155-0500",
+  "versions": [
+    "0.6beta1",
+    "0.6",
+    "0.7",
+    "0.8",
+    "1.0",
+    "1.1",
+    "1.1.1"
+  ],
+  "fixVersions": [],
+  "components": [
+    "Demos",
+    "Reorderer"
+  ],
+  "environment": "FF2, FF3, Opera 9.6, Safari 3.2 (Mac OS 10.5)\\\nSafari 3.2 (Mac OS 10.4)\\\nFF2, FF3, IE6, IE7, IE8, Opera 9.6 (Win XP)\\\nFF3, IE7, IE8 (Win Vista)\\\nIE6 (Win 2000)\n",
+  "issueLinks": [],
+  "attachments": [],
+  "comments": [
+    {
+      "author": "Justin Obara",
+      "date": "2009-11-04T14:56:03.000-0500",
+      "body": "No longer have this example\n"
+    }
+  ]
+}
+---
+On moving the mouse pointer over a moveable list item in a vertical semi-sortable list, the list item does not change in appearance as specified in the testing protocol:
+
+"The styling of the list item should change "
+
+        

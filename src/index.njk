@@ -1,13 +1,14 @@
 ---
 layout: "layouts/base.njk"
+eleventyNavigation:
+    key: Home
 ---
-
 <h2>Projects</h2>
 
 <ul>
-    {% for project, projects in collections.projects %}
+    {% for project in collections.projects %}
     <li>
-        <a href="projects/{{ project | slugify }}">{{ project }} ({{ projects.length }} issues)</a>
+        <a href="{{ project.url }}">{{ project.data.title }} ({{ collections[ project.data.key ].length }} issues)</a>
     </li>
     {% endfor %}
 </ul>

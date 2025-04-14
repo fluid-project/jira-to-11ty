@@ -11,3 +11,63 @@
         </nav>
         <h1>{% if heading %} {{ heading }} {% else %} {{ site.name }} {% endif %}</h1>
 {% endblock %}
+
+{% block content %}
+<filter-container class="spacing-y-2" oninit>
+  <p>
+    <label for="type">Type</label>
+    <select data-filter-key="type" id="type">
+      <option value="">All</option>
+      {% for type in types %}
+      <option value="{{ type }}">{{ type }}</option>
+      {% endfor %}
+    </select>
+  </p>
+  <p>
+    <label for="reporter">Reporter</label>
+    <select data-filter-key="reporter" id="reporter">
+      <option value="">All</option>
+      {% for reporter in reporters %}
+      <option value="{{ reporter }}">{{ reporter }}</option>
+      {% endfor %}
+    </select>
+  </p>
+  <p>
+    <label for="resolution">Resolution</label>
+    <select data-filter-key="resolution" id="resolution">
+      <option value="">All</option>
+      {% for resolution in resolutions %}
+      <option value="{{ resolution }}">{{ resolution }}</option>
+      {% endfor %}
+    </select>
+  </p>
+  <table>
+    <caption class="top mb-1" data-filter-results="of {{ collections[ key ].length }} Issues/of {{ collections[ key ].length }} Issues">{{ collections[ key ].length }} of {{ collections[ key ].length }} Issues</caption>
+    <tr>
+      <th>Issue</th>
+      <th>Type</th>
+      <th>Reporter</th>
+      <th>Resolution</th>
+    </tr>
+    {% for issue in collections[ key ] | reverse %}
+    <tr data-filter-type="{{ issue.data.type }}" data-filter-reporter="{{ issue.data.reporter if issue.data.reporter else 'N/A' }}" data-filter-resolution="{{ issue.data.resolution if issue.data.resolution else 'N/A' }}">
+      <td>
+        <a href="{{ issue.url }}">
+          {{ issue.data.title }}: {{ issue.data.summary }}
+        </a>
+      </td>
+      <td>
+        {{ issue.data.type }}
+      </td>
+      <td>
+        {{ issue.data.reporter if issue.data.reporter else 'N/A' }}
+      </td>
+      <td>
+        {{ issue.data.resolution if issue.data.resolution else 'N/A' }}
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</filter-container>
+<script src="/assets/scripts/filter-container.js" type="module"></script>
+{% endblock %}
