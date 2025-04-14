@@ -1,0 +1,61 @@
+---json
+{
+  "title": "INFRA-108",
+  "summary": "pfSense 2.4.3 upgrade",
+  "tags": "INFRA",
+  "project": {
+    "key": "INFRA",
+    "title": "Infrastructure"
+  },
+  "type": "Improvement",
+  "priority": "Major",
+  "status": "Resolved",
+  "resolution": "Done",
+  "assignee": "Giovanni Tirloni",
+  "reporter": "Giovanni Tirloni",
+  "date": "2018-02-02T05:51:03.314-0500",
+  "updated": "2018-04-28T13:58:47.924-0400",
+  "versions": [],
+  "fixVersions": [],
+  "components": [],
+  "environment": null,
+  "issueLinks": [],
+  "attachments": [
+    {
+      "type": "image",
+      "url": "https://idrc.cachefly.net/issues.fluidproject.org/INFRA/INFRA-108/Screenshot from 2018-04-27 20-58-44.png",
+      "filename": "Screenshot from 2018-04-27 20-58-44.png"
+    }
+  ],
+  "comments": [
+    {
+      "author": "Giovanni Tirloni",
+      "date": "2018-02-27T11:00:31.881-0500",
+      "body": "Release notes are public but v2.4.3 is still not available for download (<https://doc.pfsense.org/index.php/2.4.3_New_Features_and_Changes>)\n"
+    },
+    {
+      "author": "Giovanni Tirloni",
+      "date": "2018-03-09T08:29:00.741-0500",
+      "body": "Confirmed with pfSense staff that 2.4.3 should be available in March. It's still only available in the dev channel.\n"
+    },
+    {
+      "author": "Giovanni Tirloni",
+      "date": "2018-04-03T04:41:53.325-0400",
+      "body": "v2.4.3 is finally available. I will coordinate with @@Alan Harnum to find a time slot to apply this update.\n"
+    },
+    {
+      "author": "Giovanni Tirloni",
+      "date": "2018-04-27T20:00:24.329-0400",
+      "body": "Updated to pfSense 2.4.3 successfully. All service monitors are clear.\n\nProactively changed \"Firewall Maximum Table Entries\" from 200k to 400k due to some issues reported by other pfSense users.\n\n```\n2.4.3-RELEASE (amd64) \r\nbuilt on Mon Mar 26 18:02:04 CDT 2018 \r\nFreeBSD 11.1-RELEASE-p7 \r\n\r\nThe system is on the latest version.\r\nVersion information updated at Fri Apr 27 19:57:02 EDT 2018\n```\n\n \n"
+    },
+    {
+      "author": "Giovanni Tirloni",
+      "date": "2018-04-28T13:58:47.924-0400",
+      "body": "For reference:\n\n```\n>>> Updating repositories metadata... \r\nUpdating pfSense-core repository catalogue...\r\npfSense-core repository is up to date.\r\nUpdating pfSense repository catalogue...\r\npfSense repository is up to date.\r\nAll repositories are up to date.\r\n>>> Setting vital flag on pkg... done.\r\n>>> Downloading upgrade packages... \r\nUpdating pfSense-core repository catalogue...\r\npfSense-core repository is up to date.\r\nUpdating pfSense repository catalogue...\r\npfSense repository is up to date.\r\nAll repositories are up to date.\r\nChecking for upgrades (79 candidates): .......... done\r\nProcessing candidates (79 candidates): .......... done\r\nThe following 82 package(s) will be affected (of 0 checked):\r\n\r\nNew packages to be INSTALLED:\r\n\tdevcpu-data: 1.16 [pfSense]\r\n\tpy27-ply: 3.10_1 [pfSense]\r\n\tpy27-setuptools: 36.5.0 [pfSense]\r\n\r\nInstalled packages to be UPGRADED:\r\n\tunbound: 1.6.6 -> 1.6.8 [pfSense]\r\n\tsudo: 1.8.21p2 -> 1.8.21p2_1 [pfSense]\r\n\tstrongswan: 5.6.0 -> 5.6.2_1 [pfSense]\r\n\tsqlite3: 3.20.1_1 -> 3.21.0_1 [pfSense]\r\n\tsnort: 2.9.9.0_3 -> 2.9.11.1_1 [pfSense]\r\n\tsmartmontools: 6.5_2 -> 6.6_1 [pfSense]\r\n\treadline: 7.0.3 -> 7.0.3_1 [pfSense]\r\n\tradvd: 1.9.1 -> 2.17_4 [pfSense]\r\n\tpython27: 2.7.14 -> 2.7.14_1 [pfSense]\r\n\tphp56-zlib: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-xmlwriter: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-xmlreader: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-xml: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-tokenizer: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-sysvshm: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-sysvsem: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-sysvmsg: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-sqlite3: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-sockets: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-simplexml: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-shmop: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-session: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-readline: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-posix: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-pfSense-module: 0.54 -> 0.61 [pfSense]\r\n\tphp56-pdo_sqlite: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-pdo: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-pcntl: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-openssl: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-opcache: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-mcrypt: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-mbstring: 5.6.31_1 -> 5.6.34 [pfSense]\r\n\tphp56-ldap: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-json: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-hash: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-gettext: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-filter: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-dom: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-curl: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-ctype: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-bz2: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56-bcmath: 5.6.31 -> 5.6.34 [pfSense]\r\n\tphp56: 5.6.31 -> 5.6.34 [pfSense]\r\n\tpfSense-rc: 2.4.1 -> 2.4.3 [pfSense-core]\r\n\tpfSense-pkg-snort: 3.2.9.5_3 -> 3.2.9.6_1 [pfSense]\r\n\tpfSense-kernel-pfSense: 2.4.1 -> 2.4.3 [pfSense-core]\r\n\tpfSense-default-config: 2.4.1 -> 2.4.3 [pfSense-core]\r\n\tpfSense-base: 2.4.1 -> 2.4.3 [pfSense-core]\r\n\tpfSense-Status_Monitoring: 1.7.5 -> 1.7.6 [pfSense]\r\n\tpfSense: 2.4.1 -> 2.4.3 [pfSense]\r\n\tpear: 1.10.5 -> 1.10.5_1 [pfSense]\r\n\tp7zip: 16.02 -> 16.02_1 [pfSense]\r\n\topenvpn: 2.4.4 -> 2.4.4_1 [pfSense]\r\n\toniguruma6: 6.4.0 -> 6.6.1 [pfSense]\r\n\tntp: 4.2.8p10_2 -> 4.2.8p11 [pfSense]\r\n\tnginx: 1.12.1_2,2 -> 1.12.2_3,2 [pfSense]\r\n\tnettle: 3.3 -> 3.4 [pfSense]\r\n\tmysql56-client: 5.6.37_1 -> 5.6.39 [pfSense]\r\n\tluajit: 2.0.5 -> 2.1.0.b3 [pfSense]\r\n\tlibzmq4: 4.2.2 -> 4.2.2_1 [pfSense]\r\n\tlibxml2: 2.9.4 -> 2.9.7 [pfSense]\r\n\tlibunistring: 0.9.7 -> 0.9.8 [pfSense]\r\n\tlibnghttp2: 1.26.0 -> 1.29.0 [pfSense]\r\n\tlibffi: 3.2.1_1 -> 3.2.1_2 [pfSense]\r\n\tlibevent: 2.1.8 -> 2.1.8_1 [pfSense]\r\n\tjson-c: 0.12.1 -> 0.13 [pfSense]\r\n\tisc-dhcp43-server: 4.3.6_1 -> 4.3.6P1 [pfSense]\r\n\tisc-dhcp43-relay: 4.3.6 -> 4.3.6P1 [pfSense]\r\n\tisc-dhcp43-client: 4.3.6 -> 4.3.6P1 [pfSense]\r\n\tindexinfo: 0.2.6 -> 0.3.1 [pfSense]\r\n\tidnkit: 1.0_6 -> 1.0_7 [pfSense]\r\n\tglib: 2.50.2_6,1 -> 2.50.3_1,1 [pfSense]\r\n\texpat: 2.2.1 -> 2.2.5 [pfSense]\r\n\tdpinger: 2.0_1 -> 3.0 [pfSense]\r\n\tdaq: 2.0.6_1 -> 2.2.2 [pfSense]\r\n\tcurl: 7.56.0 -> 7.58.0 [pfSense]\r\n\tca_root_nss: 3.32.1 -> 3.36 [pfSense]\r\n\tbind-tools: 9.11.2 -> 9.11.2P1 [pfSense]\r\n\r\nInstalled packages to be REINSTALLED:\r\n\tminiupnpd-1.9.20160113,1 [pfSense] (options changed)\r\n\r\nNumber of packages to be installed: 3\r\nNumber of packages to be upgraded: 78\r\nNumber of packages to be reinstalled: 1\r\n\r\nThe process will require 10 MiB more space.\r\n92 MiB to be downloaded.\r\n[1/82] Fetching unbound-1.6.8.txz: .......... done\r\n[2/82] Fetching sudo-1.8.21p2_1.txz: .......... done\r\n[3/82] Fetching strongswan-5.6.2_1.txz: .......... done\r\n[4/82] Fetching sqlite3-3.21.0_1.txz: .......... done\r\n[5/82] Fetching snort-2.9.11.1_1.txz: .......... done\r\n[6/82] Fetching smartmontools-6.6_1.txz: .......... done\r\n[7/82] Fetching readline-7.0.3_1.txz: .......... done\r\n[8/82] Fetching radvd-2.17_4.txz: ....... done\r\n[9/82] Fetching python27-2.7.14_1.txz: .......... done\r\n[10/82] Fetching php56-zlib-5.6.34.txz: .. done\r\n[11/82] Fetching php56-xmlwriter-5.6.34.txz: .. done\r\n[12/82] Fetching php56-xmlreader-5.6.34.txz: .. done\r\n[13/82] Fetching php56-xml-5.6.34.txz: ... done\r\n[14/82] Fetching php56-tokenizer-5.6.34.txz: . done\r\n[15/82] Fetching php56-sysvshm-5.6.34.txz: . done\r\n[16/82] Fetching php56-sysvsem-5.6.34.txz: . done\r\n[17/82] Fetching php56-sysvmsg-5.6.34.txz: .. done\r\n[18/82] Fetching php56-sqlite3-5.6.34.txz: ... done\r\n[19/82] Fetching php56-sockets-5.6.34.txz: ..... done\r\n[20/82] Fetching php56-simplexml-5.6.34.txz: ... done\r\n[21/82] Fetching php56-shmop-5.6.34.txz: . done\r\n[22/82] Fetching php56-session-5.6.34.txz: .... done\r\n[23/82] Fetching php56-readline-5.6.34.txz: .. done\r\n[24/82] Fetching php56-posix-5.6.34.txz: .. done\r\n[25/82] Fetching php56-pfSense-module-0.61.txz: ...... done\r\n[26/82] Fetching php56-pdo_sqlite-5.6.34.txz: .. done\r\n[27/82] Fetching php56-pdo-5.6.34.txz: ...... done\r\n[28/82] Fetching php56-pcntl-5.6.34.txz: .. done\r\n[29/82] Fetching php56-openssl-5.6.34.txz: ...... done\r\n[30/82] Fetching php56-opcache-5.6.34.txz: ........ done\r\n[31/82] Fetching php56-mcrypt-5.6.34.txz: .. done\r\n[32/82] Fetching php56-mbstring-5.6.34.txz: .......... done\r\n[33/82] Fetching php56-ldap-5.6.34.txz: ... done\r\n[34/82] Fetching php56-json-5.6.34.txz: ... done\r\n[35/82] Fetching php56-hash-5.6.34.txz: .......... done\r\n[36/82] Fetching php56-gettext-5.6.34.txz: . done\r\n[37/82] Fetching php56-filter-5.6.34.txz: ... done\r\n[38/82] Fetching php56-dom-5.6.34.txz: ....... done\r\n[39/82] Fetching php56-curl-5.6.34.txz: .... done\r\n[40/82] Fetching php56-ctype-5.6.34.txz: . done\r\n[41/82] Fetching php56-bz2-5.6.34.txz: .. done\r\n[42/82] Fetching php56-bcmath-5.6.34.txz: ... done\r\n[43/82] Fetching php56-5.6.34.txz: .......... done\r\n[44/82] Fetching pfSense-rc-2.4.3.txz: .. done\r\n[45/82] Fetching pfSense-pkg-snort-3.2.9.6_1.txz: .......... done\r\n[46/82] Fetching pfSense-kernel-pfSense-2.4.3.txz: .......... done\r\n[47/82] Fetching pfSense-default-config-2.4.3.txz: . done\r\n[48/82] Fetching pfSense-base-2.4.3.txz: .......... done\r\n[49/82] Fetching pfSense-Status_Monitoring-1.7.6.txz: ... done\r\n[50/82] Fetching pfSense-2.4.3.txz: . done\r\n[51/82] Fetching pear-1.10.5_1.txz: .......... done\r\n[52/82] Fetching p7zip-16.02_1.txz: .......... done\r\n[53/82] Fetching openvpn-2.4.4_1.txz: .......... done\r\n[54/82] Fetching oniguruma6-6.6.1.txz: .......... done\r\n[55/82] Fetching ntp-4.2.8p11.txz: .......... done\r\n[56/82] Fetching nginx-1.12.2_3,2.txz: .......... done\r\n[57/82] Fetching nettle-3.4.txz: .......... done\r\n[58/82] Fetching mysql56-client-5.6.39.txz: .......... done\r\n[59/82] Fetching miniupnpd-1.9.20160113,1.txz: ........ done\r\n[60/82] Fetching luajit-2.1.0.b3.txz: .......... done\r\n[61/82] Fetching libzmq4-4.2.2_1.txz: .......... done\r\n[62/82] Fetching libxml2-2.9.7.txz: .......... done\r\n[63/82] Fetching libunistring-0.9.8.txz: .......... done\r\n[64/82] Fetching libnghttp2-1.29.0.txz: .......... done\r\n[65/82] Fetching libffi-3.2.1_2.txz: ..... done\r\n[66/82] Fetching libevent-2.1.8_1.txz: .......... done\r\n[67/82] Fetching json-c-0.13.txz: ........ done\r\n[68/82] Fetching isc-dhcp43-server-4.3.6P1.txz: .......... done\r\n[69/82] Fetching isc-dhcp43-relay-4.3.6P1.txz: .......... done\r\n[70/82] Fetching isc-dhcp43-client-4.3.6P1.txz: .......... done\r\n[71/82] Fetching indexinfo-0.3.1.txz: . done\r\n[72/82] Fetching idnkit-1.0_7.txz: .......... done\r\n[73/82] Fetching glib-2.50.3_1,1.txz: .......... done\r\n[74/82] Fetching expat-2.2.5.txz: .......... done\r\n[75/82] Fetching dpinger-3.0.txz: .. done\r\n[76/82] Fetching daq-2.2.2.txz: .......... done\r\n[77/82] Fetching curl-7.58.0.txz: .......... done\r\n[78/82] Fetching ca_root_nss-3.36.txz: .......... done\r\n[79/82] Fetching bind-tools-9.11.2P1.txz: .......... done\r\n[80/82] Fetching devcpu-data-1.16.txz: .......... done\r\n[81/82] Fetching py27-ply-3.10_1.txz: .......... done\r\n[82/82] Fetching py27-setuptools-36.5.0.txz: .......... done\r\nChecking integrity... done (0 conflicting)\r\n>>> Upgrading pfSense kernel... \r\nChecking integrity... done (0 conflicting)\r\nThe following 2 package(s) will be affected (of 0 checked):\r\n\r\nInstalled packages to be UPGRADED:\r\n\tpfSense-kernel-pfSense: 2.4.1 -> 2.4.3 [pfSense-core]\r\n\tpfSense-rc: 2.4.1 -> 2.4.3 [pfSense-core]\r\n\r\nNumber of packages to be upgraded: 2\r\n[1/2] Upgrading pfSense-rc from 2.4.1 to 2.4.3...\r\n[1/2] Extracting pfSense-rc-2.4.3: .... done\r\n[2/2] Upgrading pfSense-kernel-pfSense from 2.4.1 to 2.4.3...\r\n[2/2] Extracting pfSense-kernel-pfSense-2.4.3: .......... done\r\n===> Keeping a copy of current kernel in /boot/kernel.old\r\nUpgrade is complete.  Rebooting in 10 seconds.\r\nSuccess\n```\n"
+    }
+  ]
+}
+---
+This release will have fixes for Meltdown/Spectre.
+
+        

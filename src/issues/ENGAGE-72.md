@@ -1,0 +1,38 @@
+---json
+{
+  "title": "ENGAGE-72",
+  "summary": "IM: Generate Patterns: Sept.25",
+  "tags": "ENGAGE",
+  "project": {
+    "key": "ENGAGE",
+    "title": "Fluid Engage"
+  },
+  "type": "Task",
+  "priority": "Major",
+  "status": "Closed",
+  "resolution": "Won't Fix",
+  "assignee": "Kevin Muise",
+  "reporter": "Kevin Muise",
+  "date": "2009-09-21T13:16:06.000-0400",
+  "updated": "2017-12-22T09:44:34.925-0500",
+  "versions": [],
+  "fixVersions": [],
+  "components": [
+    "Research"
+  ],
+  "environment": null,
+  "issueLinks": [],
+  "attachments": [],
+  "comments": [
+    {
+      "author": "Justin Obara",
+      "date": "2017-12-22T09:44:34.924-0500",
+      "body": "The repository has been archived.\n"
+    }
+  ]
+}
+---
+* Protomodels analyzed along with scenarios for patterns
+* &#x20;Museum Research on visit styles, dif. Museum types, audiences in museums
+
+        

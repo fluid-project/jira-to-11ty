@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "build": "eleventy",
-    "start": "eleventy --serve --incremental"
+    "import": "eleventy --config import/eleventy.config.js",
+    "start": "eleventy --serve --incremental",
+    "start:import": "eleventy --serve --config import/eleventy.config.js"
   },
   "repository": {
     "type": "git",
