@@ -18,20 +18,23 @@ export default function eleventy(eleventyConfig) {
       if (path !== './src/assets/styles/style.css') {
         return;
       }
-  
+
       return async () => {
         let output = await postcss([
           atImport(),
           autoprefixer(),
           purgeCSSPlugin({
             content: ['./src/**/*.njk'],
-            safelist: ['form', 'input', 'button', 'fieldset', 'legend']
+            safelist: {
+              standard: ['form', 'input', 'button', 'fieldset', 'legend', 'mark', 'code', 'pre', /hljs-string$/],
+              deep: [/hljs$/]
+            }
           }),
           csso()
         ]).process(content, {
           from: path,
         });
-  
+
         return output.css;
       }
     }
@@ -44,7 +47,7 @@ export default function eleventy(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "node_modules/@zachleat/filter-container/filter-container.js": "assets/scripts/filter-container.js" });
 
   eleventyConfig.addTransform("parse", parseTransform);
-	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(highlightjs));
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(highlightjs));
   eleventyConfig.on("afterBuild", async () => {
     // Create a Pagefind search index to work with
     const { index } = await pagefind.createIndex();
