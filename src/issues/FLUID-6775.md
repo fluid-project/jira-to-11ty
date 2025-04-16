@@ -26,7 +26,7 @@
   "comments": []
 }
 ---
-As reported by @@Tony Atkins in the following codepen <https://codepen.io/duhrer/pen/mdoVxdo?editors=1111> and in Element at <https://matrix.to/#/!JcoHDrfLedPQdFhAXn:matrix.org/$uBQoihUnLhDpOaIUixVmBYshye3PEC3AQdL6VronYJI?via=matrix.org&via=sibnsk.net> , model relay definitions where the namespace is supplied as an internal key, rather than as a hash level, do not override correctly in derived grades. This doesn’t affect model listeners (which use the same mergePolicy) because of the programmatic way they get registered - we could do the same for model listeners as a stopgap. The workaround is to use a hash key for the relay definition instead.
+As reported by Tony Atkins in the following codepen <https://codepen.io/duhrer/pen/mdoVxdo?editors=1111> and in Element at <https://matrix.to/#/!JcoHDrfLedPQdFhAXn:matrix.org/$uBQoihUnLhDpOaIUixVmBYshye3PEC3AQdL6VronYJI?via=matrix.org&via=sibnsk.net> , model relay definitions where the namespace is supplied as an internal key, rather than as a hash level, do not override correctly in derived grades. This doesn’t affect model listeners (which use the same mergePolicy) because of the programmatic way they get registered - we could do the same for model listeners as a stopgap. The workaround is to use a hash key for the relay definition instead.
 
 ```javascript
 var my = fluid.registerNamespace("my");

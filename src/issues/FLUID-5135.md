@@ -41,7 +41,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-03-06T08:44:59.183-0500",
-      "body": "@@Mohamed Shadab I've updated the description with links to the demos in action. You can find these in the repo at <https://github.com/fluid-project/infusion/tree/master/examples/framework/preferences/usingGrades> and <https://github.com/fluid-project/infusion/tree/master/demos/uiOptions.>\n\nI would also suggest looking over all of the UIO/Prefs Framework related demos, examples, and manual tests to ensure that they are all working properly. \n"
+      "body": "Mohamed Shadab I've updated the description with links to the demos in action. You can find these in the repo at <https://github.com/fluid-project/infusion/tree/master/examples/framework/preferences/usingGrades> and <https://github.com/fluid-project/infusion/tree/master/demos/uiOptions.>\n\nI would also suggest looking over all of the UIO/Prefs Framework related demos, examples, and manual tests to ensure that they are all working properly. \n"
     }
   ]
 }

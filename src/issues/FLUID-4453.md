@@ -45,7 +45,7 @@
   ]
 }
 ---
-Checking the "table of contents" checkbox in the UIOptions demo (full preview configuration) provokes a JS error (asynchronously, as the template loads/renders) and fails to show the table of contents on IE6. The component does work correctly under IE8, and the test cases also pass under IE6. The error (in typically uselessly reported IE6 form) reads Line: 64 Char: 13 Error: "Object doesn't support this property or method", file: uiOptionsFullWithPreview.html\
+Checking the "table of contents" checkbox in the UIOptions demo (full preview configuration) provokes a JS error (asynchronously, as the template loads/renders) and fails to show the table of contents on IE6. The component does work correctly under IE8, and the test cases also pass under IE6. The error (in typically uselessly reported IE6 form) reads Line: 64 Char: 13 Error: "Object doesn't support this property or method", file: uiOptionsFullWithPreview\.html\
 I noticed this when running through the FLUID-4449 fix but the previous version in trunk failed as well.\
 Almost all test cases pass in IE6 including the ToC and FullPreview ones, however the FatPanel test cases do not start in IE6.
 

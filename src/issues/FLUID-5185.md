@@ -61,7 +61,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-01-20T08:45:08.805-0500",
-      "body": "@@Antranig Basman jQuery UI 1.10.4 was just released on Jan 17. You may want to update this in your branch too.\\\n<http://blog.jqueryui.com/2014/01/jquery-ui-1-10-4/>\n"
+      "body": "Antranig Basman jQuery UI 1.10.4 was just released on Jan 17. You may want to update this in your branch too.\\\n<http://blog.jqueryui.com/2014/01/jquery-ui-1-10-4/>\n"
     },
     {
       "author": "Antranig Basman",

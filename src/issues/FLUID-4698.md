@@ -35,7 +35,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-02-11T07:45:25.679-0500",
-      "body": "@@Anastasia Cheetham it seems that setting the size on \\<html> instead of \\<body> is the appropriate way to work with rems. The article that @@Johnny Taylor linked to in his post to the fluid-work list explains this.\n\n<http://snook.ca/archives/html_and_css/font-size-with-rem>\n\nIn general, it sounds like rems are the way to go, however, IE8 doesn't support them.\\\n<http://caniuse.com/#search=rem>\n\nThat being said, we have been considering dropping IE support post Infusion 1.5. If that is the case, I think we are fine to use rems, and move the font size setting from the \\<body> to \\<html>\n"
+      "body": "Anastasia Cheetham it seems that setting the size on \\<html> instead of \\<body> is the appropriate way to work with rems. The article that Johnny Taylor linked to in his post to the fluid-work list explains this.\n\n<http://snook.ca/archives/html_and_css/font-size-with-rem>\n\nIn general, it sounds like rems are the way to go, however, IE8 doesn't support them.\\\n<http://caniuse.com/#search=rem>\n\nThat being said, we have been considering dropping IE support post Infusion 1.5. If that is the case, I think we are fine to use rems, and move the font size setting from the \\<body> to \\<html>\n"
     },
     {
       "author": "Justin Obara",

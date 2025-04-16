@@ -44,17 +44,17 @@
     {
       "author": "Dana",
       "date": "2014-04-21T10:32:10.470-0400",
-      "body": "Hi @@Jonathan Hung,\\\nI attached a word doc with my suggestions in red.\\\nThanks.\n"
+      "body": "Hi Jonathan Hung,\\\nI attached a word doc with my suggestions in red.\\\nThanks.\n"
     },
     {
       "author": "Michelle D'Souza",
       "date": "2014-04-21T13:34:29.810-0400",
-      "body": "I think the text on the metadata demo needs to make it clear that we haven't created an editor, but rather a suite of components that can be used in other people's tools.  @@Dana said she will rework this a bit.\n"
+      "body": "I think the text on the metadata demo needs to make it clear that we haven't created an editor, but rather a suite of components that can be used in other people's tools.  Dana said she will rework this a bit.\n"
     },
     {
       "author": "Dana",
       "date": "2014-04-21T14:05:31.319-0400",
-      "body": "Here you go @@Jonathan Hung, @@Michelle D'Souza\n\nThe FLOE metadata authoring components can be integrated into existing content editors to allow authors to create or edit metadata that accompanies the content of their Open Education Resource (OER).  For the purposes of this demo, the metadata components are shown within a simple content editor.\n"
+      "body": "Here you go Jonathan Hung, Michelle D'Souza\n\nThe FLOE metadata authoring components can be integrated into existing content editors to allow authors to create or edit metadata that accompanies the content of their Open Education Resource (OER).  For the purposes of this demo, the metadata components are shown within a simple content editor.\n"
     }
   ]
 }

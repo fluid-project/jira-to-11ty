@@ -80,7 +80,7 @@ onCreate: "{that}.refreshView"\
 },\
 invokers: {\
 refreshView: {\
-funcName: "fluid.settingView.needToImplement", //replace with specific function to render our the view\
+funcName: "fluid.settingView\.needToImplement", //replace with specific function to render our the view\
 args: \["{that}"]\
 }\
 }\

@@ -35,7 +35,7 @@
 We need to make two changes to the floeproject.org content to be ready for github pages:
 
 1\) move the index.html file to the root\
-2\) create a file called CNAME with "www.floeproject.org" as its content:\
+2\) create a file called CNAME with "www\.floeproject.org" as its content:\
 <https://help.github.com/articles/setting-up-a-custom-domain-with-pages>
 
         

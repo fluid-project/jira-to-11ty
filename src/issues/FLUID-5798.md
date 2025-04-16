@@ -35,14 +35,14 @@
 When trying to apply an NPM dist-tag an error occurs. It appears that the cause of this is that the command to get the revision number from git returns with a new line character at the end. This in turn pushes the tag name onto a new line, which results in an error where the "latest" tag has already been applied and there is no command called "dev".
 
 Console Error:\
-\[colin@tofino infusion (master $=)]$ fluid-publish \
+\[colin\@tofino infusion (master $=)]$ fluid-publish \
 npm WARN dist-tag add latest is already set to version 2.0.0-dev-dev.20151024T010910Z.d1e5b8d \
 /bin/sh: line 1: dev: command not found \
 child\_process.js:484 \
 throw err; \
 ^&#x20;
 
-Error: Command failed: npm dist-tag add infusion@2.0.0-dev-dev.20151024T010910Z.d1e5b8d \
+Error: Command failed: npm dist-tag add infusion\@2.0.0-dev-dev.20151024T010910Z.d1e5b8d \
 dev \
 npm WARN dist-tag add latest is already set to version 2.0.0-dev-dev.20151024T010910Z.d1e5b8d \
 /bin/sh: line 1: dev: command not found&#x20;

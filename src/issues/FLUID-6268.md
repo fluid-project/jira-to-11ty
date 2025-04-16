@@ -38,7 +38,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-04-04T09:30:23.127-0400",
-      "body": "@@Mike Gifford I think this tutorial will help a bit\n\n<https://docs.fluidproject.org/infusion/development/tutorial-userInterfaceOptions/WorkingWithUserInterfaceOptions.html>\n\n \n\nThere are other tutorials there that might help with other aspects, including some on contrast.\n"
+      "body": "Mike Gifford I think this tutorial will help a bit\n\n<https://docs.fluidproject.org/infusion/development/tutorial-userInterfaceOptions/WorkingWithUserInterfaceOptions.html>\n\n \n\nThere are other tutorials there that might help with other aspects, including some on contrast.\n"
     },
     {
       "author": "Justin Obara",

@@ -56,7 +56,7 @@ these()labels-javascript (line 2148)\
 getTransport()labels-javascript (line 2558)\
 initialize("/plugins/dynamictasklist/completeTask.action?entityId=2883927\&task=Inline+Edit+-Simple+Text%28Oper...", Object)labels-javascript (line 2633)\
 create()labels-javascript (line 2085)\
-changeStatus("/plugins/dynamictasklist/completeTask.action?entityId=2883927\&task=Inline+Edit+-Simple+Text%28Oper...", li#alphaView.view)tasklist.js (line 217)\
+changeStatus("/plugins/dynamictasklist/completeTask.action?entityId=2883927\&task=Inline+Edit+-Simple+Text%28Oper...", li#alphaView\.view)tasklist.js (line 217)\
 onclick(click clientX=0, clientY=0)Current+Needs (line 1)
 
         

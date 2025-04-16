@@ -25,7 +25,7 @@
   "comments": []
 }
 ---
-In attempting an upgrade of SJRK last week to the latest version of Kettle, @@Justin Obara ran into an obscure-looking error that was eventually traced to mismatched versions of Kettle being loaded through different transitive dependency paths.
+In attempting an upgrade of SJRK last week to the latest version of Kettle, Justin Obara ran into an obscure-looking error that was eventually traced to mismatched versions of Kettle being loaded through different transitive dependency paths.
 
 <https://matrix.to/#/!JcoHDrfLedPQdFhAXn:matrix.org/$zRkt-vrp8vjsoJrxNLCKAMqHlwh-CiWVecss52wxSf4?via=matrix.org>
 

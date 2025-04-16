@@ -34,17 +34,17 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2017-03-01T08:50:31.425-0500",
-      "body": "@@Antranig Basman, predictably, I am having problems using gpii-testem as a dev dependency.  the \"fluid.require\" within that package fails with the old \"dedupe\" warning.  I am hoping there is some way around this other than moving gpii-testem into the new monorepo concept.\n"
+      "body": "Antranig Basman, predictably, I am having problems using gpii-testem as a dev dependency.  the \"fluid.require\" within that package fails with the old \"dedupe\" warning.  I am hoping there is some way around this other than moving gpii-testem into the new monorepo concept.\n"
     },
     {
       "author": "Tony Atkins [RtF]",
       "date": "2017-03-10T10:09:30.610-0500",
-      "body": "@@Antranig Basman, the PR with your dedupe fix and my own work on providing test coverage reports using gpii-testem is ready for review here:\n\n<https://github.com/fluid-project/infusion/pull/822>\n"
+      "body": "Antranig Basman, the PR with your dedupe fix and my own work on providing test coverage reports using gpii-testem is ready for review here:\n\n<https://github.com/fluid-project/infusion/pull/822>\n"
     },
     {
       "author": "Tony Atkins [RtF]",
       "date": "2017-07-03T06:18:39.486-0400",
-      "body": "@@Antranig Basman (and @@Cindy Li) I was hoping @@Cindy Li could pick this up, as she handled the comparable universal pull very well.  Thoughts?\n"
+      "body": "Antranig Basman (and Cindy Li) I was hoping Cindy Li could pick this up, as she handled the comparable universal pull very well.  Thoughts?\n"
     }
   ]
 }

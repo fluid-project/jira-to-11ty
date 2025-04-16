@@ -28,7 +28,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-05-20T13:44:24.485-0400",
-      "body": "@@Anastasia Cheetham could you add the mentioned discussion to the wiki.\n"
+      "body": "Anastasia Cheetham could you add the mentioned discussion to the wiki.\n"
     },
     {
       "author": "Justin Obara",

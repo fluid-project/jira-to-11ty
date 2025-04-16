@@ -56,7 +56,7 @@
     {
       "author": "Eli Cochran",
       "date": "2009-05-21T17:03:28.000-0400",
-      "body": "We've gone with option 1, which means that any code or styles which hide the row must be removed, including the template styling, before the row created.&#x20;\n\nThe two changes are in Uploader.js:\n\nIn addFile (line 360):\\\n/\\* <https://fluidproject.atlassian.net/browse/FLUID-2720#icft=FLUID-2720> - do not hide the row under IE8 \\*/\\\nif (!($.browser.msie && ($.browser.version >= 8))) {\\\nrow.hide();\\\n}   &#x20;\n\nIn prepareTemplateElements (line 457):\\\n/\\* <https://fluidproject.atlassian.net/browse/FLUID-2720#icft=FLUID-2720> - do hide the row under IE8 \\*/\\\nif ($.browser.msie && ($.browser.version >= 8)) {\\\nthat.rowTemplate.removeClass(that.options.styles.hiddenTemplate).removeClass(that.options.styles.rowTemplate);\\\n}\n"
+      "body": "We've gone with option 1, which means that any code or styles which hide the row must be removed, including the template styling, before the row created.&#x20;\n\nThe two changes are in Uploader.js:\n\nIn addFile (line 360):\\\n/\\* <https://fluidproject.atlassian.net/browse/FLUID-2720#icft=FLUID-2720> - do not hide the row under IE8 \\*/\\\nif (!($.browser.msie && ($.browser.version >= 8))) {\\\nrow\\.hide();\\\n}   &#x20;\n\nIn prepareTemplateElements (line 457):\\\n/\\* <https://fluidproject.atlassian.net/browse/FLUID-2720#icft=FLUID-2720> - do hide the row under IE8 \\*/\\\nif ($.browser.msie && ($.browser.version >= 8)) {\\\nthat.rowTemplate.removeClass(that.options.styles.hiddenTemplate).removeClass(that.options.styles.rowTemplate);\\\n}\n"
     },
     {
       "author": "Michelle D'Souza",

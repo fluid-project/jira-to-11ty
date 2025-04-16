@@ -51,7 +51,7 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2017-11-15T04:57:49.113-0500",
-      "body": "I have submitted a PR for this:\n\n<https://github.com/fluid-project/infusion-docs/pull/130>\n\nThanks to @@Simon Bates and @@Michelle D'Souza for catching this, and apologies for the goof.  I found a couple of other small problems while working on this:\n\n1. A couple of Javascript types in function docs were not enclosed in backticks.\n2. A lot of emphasised blocks were not rendered in bold because there was an interstitial space between the asterisks and the text, as in \"\\*\\*\\* should be bold \\*\\*\\*\", which rendered as the literal text including asterisks.\n"
+      "body": "I have submitted a PR for this:\n\n<https://github.com/fluid-project/infusion-docs/pull/130>\n\nThanks to Simon Bates and Michelle D'Souza for catching this, and apologies for the goof.  I found a couple of other small problems while working on this:\n\n1. A couple of Javascript types in function docs were not enclosed in backticks.\n2. A lot of emphasised blocks were not rendered in bold because there was an interstitial space between the asterisks and the text, as in \"\\*\\*\\* should be bold \\*\\*\\*\", which rendered as the literal text including asterisks.\n"
     },
     {
       "author": "Simon Bates",

@@ -50,7 +50,7 @@ I've integrated the sessionid get function into a greater function that redirect
 
 Thus for the all-hands meeting the command was changed to NOT include the sessionid and merely just redirect to the post-survey page.
 
-The javascript for the redirect is in place and can be viewed on the vulab.yorku.ca site. Note that in the window.location command that pushed the user to the post-survey I added a \
+The javascript for the redirect is in place and can be viewed on the vulab.yorku.ca site. Note that in the window\.location command that pushed the user to the post-survey I added a \
 +.document.rascal.sessionid() but this caused an error.
 
         

@@ -27,7 +27,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2017-09-03T09:58:28.520-0400",
-      "body": "I've temporarily fixed this in production by running this comment on the deployed website:\n\n```\nfind . -type f -exec sed -i 's/http:\\/\\/fluid/\\/\\/fluid/g' {} +\n```\n\nThis replaced all ocurrence of [http://fluid](http://fluid/) with a schemaless URL //fluidproject.org and fixed the mixed-content warnings\n\n@@Jonathan Hung @@Justin Obara, could you take a look at this? It seems that site.url should be defined to \"//fluidproject.org\"\n"
+      "body": "I've temporarily fixed this in production by running this comment on the deployed website:\n\n```\nfind . -type f -exec sed -i 's/http:\\/\\/fluid/\\/\\/fluid/g' {} +\n```\n\nThis replaced all ocurrence of [http://fluid](http://fluid/) with a schemaless URL //fluidproject.org and fixed the mixed-content warnings\n\nJonathan Hung Justin Obara, could you take a look at this? It seems that site.url should be defined to \"//fluidproject.org\"\n"
     },
     {
       "author": "Justin Obara",

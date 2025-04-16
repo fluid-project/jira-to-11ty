@@ -1,14 +1,13 @@
 import { fromADF } from "mdast-util-from-adf";
 import { toMarkdown } from "mdast-util-to-markdown";
-import { gfmTableToMarkdown } from "mdast-util-gfm-table";
-import { gfmStrikethroughToMarkdown } from 'mdast-util-gfm-strikethrough';
+import { gfmToMarkdown } from "mdast-util-gfm";
 
 export default function eleventy(eleventyConfig) {
     eleventyConfig.addFilter("fromADF", value => {
-      return toMarkdown(fromADF(value), { extensions: [gfmTableToMarkdown(), gfmStrikethroughToMarkdown()] });
+      return toMarkdown(fromADF(value), { extensions: [gfmToMarkdown()] });
     });
 
-    eleventyConfig.addFilter("escapeTemplates", value => value.replace(/[`$]/g, (match) => `\\${match}`));
+    eleventyConfig.addFilter("removeMentions", value => value.replace(/@@/g, ''));
 
     // based on https://lea.verou.me/blog/2023/11ty-indices/#dynamic-postsbytag-collection
     eleventyConfig.addCollection("projects", (collectionsApi) => {

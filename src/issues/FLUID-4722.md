@@ -61,7 +61,7 @@ Proposed solution would require an addition of another lifecycle function that i
 Here's a pasted patch that I used in cspace's infusion :\
 — a/src/main/webapp/defaults/lib/infusion/CSpaceInfusion.js\
 +++ b/src/main/webapp/defaults/lib/infusion/CSpaceInfusion.js\
-@@ -11157,7 +11157,8 @@ var fluid = fluid || fluid\_1\_5;\
+ -11157,7 +11157,8  var fluid = fluid || fluid\_1\_5;\
 fluid.lifecycleFunctions = {\
 preInitFunction: true,\
 postInitFunction: true,
@@ -73,7 +73,7 @@ postInitFunction: true,
 
 &#x20;    \
 fluid.rootMergePolicy = fluid.transform(fluid.lifecycleFunctions, function () {\
-@@ -11275,11 +11276,26 @@ var fluid = fluid || fluid\_1\_5;\
+ -11275,11 +11276,26  var fluid = fluid || fluid\_1\_5;\
 options: 0\
 }\
 });\
@@ -100,7 +100,7 @@ listeners: fluid.mergeListenersPolicy\
 }\
 });
 
-@@ -11556,6 +11572,9 @@ var fluid = fluid || fluid\_1\_5;
+ -11556,6 +11572,9  var fluid = fluid || fluid\_1\_5;
 
 fluid.clearLifecycleFunctions = function (options) {\
 fluid.each(fluid.lifecycleFunctions, function (value, key) {\
@@ -110,7 +110,7 @@ fluid.each(fluid.lifecycleFunctions, function (value, key) {\
 delete options\[key];\
 });\
 delete options.initFunction; \
-@@ -14710,6 +14729,7 @@ var fluid\_1\_5 = fluid\_1\_5 || {};\
+ -14710,6 +14729,7  var fluid\_1\_5 = fluid\_1\_5 || {};\
 that.clearComponent = function(component, name, child, options, noModTree) {\
 options = options || {visited: {}, flat: true};\
 child = child || component\[name];\

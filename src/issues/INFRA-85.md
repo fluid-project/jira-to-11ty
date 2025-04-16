@@ -36,7 +36,7 @@
   ]
 }
 ---
-Per @@Giovanni Tirloni's recent email about the issues we were having with the OwnCloud instance, we should have a playbook to capture the cert renewal process with Let's Encrypt:
+Per Giovanni Tirloni's recent email about the issues we were having with the OwnCloud instance, we should have a playbook to capture the cert renewal process with Let's Encrypt:
 
 ```
 Let’s Encrypt was having issues renewing certificates for the past few days. Errors like this:

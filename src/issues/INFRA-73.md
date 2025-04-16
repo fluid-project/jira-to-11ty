@@ -41,7 +41,7 @@
   ]
 }
 ---
-@@Giovanni Tirloni, @@Avtar Gill, @@Alfredo Matas please comment on the below.
+Giovanni Tirloni, Avtar Gill, Alfredo Matas please comment on the below.
 
 Background: when the Docker containers for GPII were last built, [supervisor](http://supervisord.org/) was installed as a means of restarting applications running in Docker containers if they exited. At the time, [Docker restart policies](https://docs.docker.com/engine/reference/run/#restart-policies-restart) did not exist.
 

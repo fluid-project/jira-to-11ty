@@ -43,7 +43,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-07-08T11:02:45.462-0400",
-      "body": "@@Colin Clark could you provide more information about what this issue is referring to and what change is needed.\n"
+      "body": "Colin Clark could you provide more information about what this issue is referring to and what change is needed.\n"
     }
   ]
 }

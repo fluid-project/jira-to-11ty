@@ -35,7 +35,7 @@
     {
       "author": "Jonathan Hung",
       "date": "2018-07-12T15:44:38.619-0400",
-      "body": "@@Caren Watkins can this Jira be closed? If you need a space for tracking work, you can use the [Iteration Plan page](https://wiki.fluidproject.org/display/fluid/Floe+Iteration+Plan) or file separate Jiras for tasks.\n"
+      "body": "Caren Watkins can this Jira be closed? If you need a space for tracking work, you can use the [Iteration Plan page](https://wiki.fluidproject.org/display/fluid/Floe+Iteration+Plan) or file separate Jiras for tasks.\n"
     }
   ]
 }

@@ -27,7 +27,7 @@
     {
       "author": "Avtar Gill",
       "date": "2016-07-05T11:16:41.440-0400",
-      "body": "I think the following commented out lines might be the cause:\\\n<https://github.com/fluid-project/ci-service/blob/master/jenkins_jobs/fluid-infusion.yml#L26-L28>\n\nI'll check with @@Giovanni Tirloni but we may either want to check if using `clean-remote` will still result in issues or uncomment [line #28](https://github.com/fluid-project/ci-service/blob/master/jenkins_jobs/fluid-infusion.yml#L28).\n"
+      "body": "I think the following commented out lines might be the cause:\\\n<https://github.com/fluid-project/ci-service/blob/master/jenkins_jobs/fluid-infusion.yml#L26-L28>\n\nI'll check with Giovanni Tirloni but we may either want to check if using `clean-remote` will still result in issues or uncomment [line #28](https://github.com/fluid-project/ci-service/blob/master/jenkins_jobs/fluid-infusion.yml#L28).\n"
     },
     {
       "author": "Giovanni Tirloni",

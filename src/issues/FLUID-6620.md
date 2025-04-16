@@ -28,7 +28,7 @@
     {
       "author": "Justin Obara",
       "date": "2021-05-12T16:02:19.621-0400",
-      "body": "@@Ned Zimmerman found a related issue filed against webkit.\n\n<https://bugs.webkit.org/show_bug.cgi?id=221102>\n"
+      "body": "Ned Zimmerman found a related issue filed against webkit.\n\n<https://bugs.webkit.org/show_bug.cgi?id=221102>\n"
     },
     {
       "author": "Justin Obara",
@@ -38,6 +38,6 @@
   ]
 }
 ---
-On Firefox and Edge/Chrome (macOS 11), values for the line height and text size adjusters are announced by VoiceOver as 1, 1.1, etc. However in Safari, a value of 1 is announced as *33.3%*. @@Justin Obara theorized that this is the result of Safari performing a calculation based on `aria-valuemin`, `aria-valuemax` and `aria-valuenow`. The announced value should match the displayed value.
+On Firefox and Edge/Chrome (macOS 11), values for the line height and text size adjusters are announced by VoiceOver as 1, 1.1, etc. However in Safari, a value of 1 is announced as *33.3%*. Justin Obara theorized that this is the result of Safari performing a calculation based on `aria-valuemin`, `aria-valuemax` and `aria-valuenow`. The announced value should match the displayed value.
 
         

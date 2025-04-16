@@ -27,7 +27,7 @@
     {
       "author": "Justin Obara",
       "date": "2017-11-28T14:15:22.624-0500",
-      "body": "@@Alan Harnum I agree that having both a whitelist and blacklist would be helpful. \n"
+      "body": "Alan Harnum I agree that having both a whitelist and blacklist would be helpful. \n"
     },
     {
       "author": "Alan Harnum",

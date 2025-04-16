@@ -33,7 +33,7 @@
   ]
 }
 ---
-There's a fault in our bookkeeping of options distributions. The destruction of a target should clear out its entry in "shadow.outDistributions" but this doesn't account for the case where the head of the distribution source selector is shorter-lived than the actual distribution source component. The following configuration:
+There's a fault in our bookkeeping of options distributions. The destruction of a target should clear out its entry in "shadow\.outDistributions" but this doesn't account for the case where the head of the distribution source selector is shorter-lived than the actual distribution source component. The following configuration:
 
 ```javascript
 fluid.defaults("gpii.flowManager.pcpChannel", {

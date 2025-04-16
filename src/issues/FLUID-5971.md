@@ -27,7 +27,7 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2016-09-27T05:55:50.896-0400",
-      "body": "@@Antranig Basman, is there a particular branch I should start with?\n"
+      "body": "Antranig Basman, is there a particular branch I should start with?\n"
     },
     {
       "author": "Tony Atkins [RtF]",
@@ -52,7 +52,7 @@
   ]
 }
 ---
-In reviewing my proposed date-handling transformation functions in [gpii-binder](https://issues.gpii.net/browse/GPII-2053), @@Antranig Basman asked me to submit this against Fluid's Model Transformation API instead.
+In reviewing my proposed date-handling transformation functions in [gpii-binder](https://issues.gpii.net/browse/GPII-2053), Antranig Basman asked me to submit this against Fluid's Model Transformation API instead.
 
 There are two functions, one for string -> date, the other for date -> string.   Both use RFC 3339 conventions, which builds on ISO 8601 and is used with both the HTML5 date field and JSON Schema.
 

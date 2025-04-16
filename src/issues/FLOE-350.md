@@ -59,7 +59,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-05-28T13:05:20.410-0400",
-      "body": "@@Jonathan Hung could you please file a new jira for the last issue\n"
+      "body": "Jonathan Hung could you please file a new jira for the last issue\n"
     },
     {
       "author": "Justin Obara",

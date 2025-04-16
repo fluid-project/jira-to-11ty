@@ -43,7 +43,7 @@
   ]
 }
 ---
-If the Fluid website is deployed to a non-root path, UI options will not work. This error is caused by the calculation of the paths in uio.js which uses window.location.origin to calculate the absolute path.
+If the Fluid website is deployed to a non-root path, UI options will not work. This error is caused by the calculation of the paths in uio.js which uses window\.location.origin to calculate the absolute path.
 
 The absolute path is needed so the news content in the /news/ directory can use UIO.
 

@@ -59,7 +59,7 @@
 ---
 Steps to reproduce the problem:
 
-1\. Check out @@Gregor Moss's SJRK-255 branch - <https://github.com/BlueSlug/sjrk-story-telling/tree/SJRK-255>\
+1\. Check out Gregor Moss's SJRK-255 branch - <https://github.com/BlueSlug/sjrk-story-telling/tree/SJRK-255>\
 2\. In SJRK root directory, copy the file sjrk.storyTelling.server.config.json5.example to sjrk.storyTelling.server.config.json5\
 3\. Modify sjrk.storyTelling.server.config.json5 to set the value of "theme" to an empty string;\
 4\. Open a powershell window, run these commands to start SJRK site:

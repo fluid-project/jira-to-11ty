@@ -57,17 +57,17 @@
     {
       "author": "Gregor Moss",
       "date": "2019-07-15T11:03:23.158-0400",
-      "body": "I echo @@Alan Harnum's sentiment. It makes sense that the dist folder should be wholly sufficient for usage of infusion in an external project.\n"
+      "body": "I echo Alan Harnum's sentiment. It makes sense that the dist folder should be wholly sufficient for usage of infusion in an external project.\n"
     },
     {
       "author": "Justin Obara",
       "date": "2019-07-16T11:30:31.459-0400",
-      "body": "In talking with @@Colin Clark another option would be to create a \"package\" specific NPM module. For example an infusion-uiOptions module that provided everything needed for UIO at an easy to grab place. This would be setup to pull in infusion, and copy over all the necessary bits to a specific location before publishing.\n"
+      "body": "In talking with Colin Clark another option would be to create a \"package\" specific NPM module. For example an infusion-uiOptions module that provided everything needed for UIO at an easy to grab place. This would be setup to pull in infusion, and copy over all the necessary bits to a specific location before publishing.\n"
     },
     {
       "author": "Justin Obara",
       "date": "2019-07-16T11:31:36.244-0400",
-      "body": "Another option form talking with @@Colin Clark is to copy templates and message bundles to the dist directory.\n"
+      "body": "Another option form talking with Colin Clark is to copy templates and message bundles to the dist directory.\n"
     },
     {
       "author": "Justin Obara",
@@ -77,7 +77,7 @@
     {
       "author": "Justin Obara",
       "date": "2019-08-02T08:54:59.516-0400",
-      "body": "I was talking to @@Antranig Basman in the [fluid-work channel today](http://irc-logs.fluidproject.org/%23fluid-work/%23fluid-work.2019-08-02.log) and it came up that we may want to perform this work in conjunction with <https://fluidproject.atlassian.net/browse/FLUID-5579#icft=FLUID-5579>\n"
+      "body": "I was talking to Antranig Basman in the [fluid-work channel today](http://irc-logs.fluidproject.org/%23fluid-work/%23fluid-work.2019-08-02.log) and it came up that we may want to perform this work in conjunction with <https://fluidproject.atlassian.net/browse/FLUID-5579#icft=FLUID-5579>\n"
     },
     {
       "author": "Antranig Basman",

@@ -35,7 +35,7 @@
     {
       "author": "Justin Obara",
       "date": "2019-07-17T12:47:06.700-0400",
-      "body": "@@Antranig Basman suggested in the \\[fluid-work channel today|<http://irc-logs.fluidproject.org/%23fluid-work/%23fluid-work.2019-07-17.log>,] \"If I were to make a random guess, I would say that the failure is that it is possible sometimes for the promise dispensed from fluid.prefs.enactor.syllabification.injectScript to never resolve\" \n\nAdditionally he suggested that it could be related to $.ajax and that we should try using raw XHR. \n"
+      "body": "Antranig Basman suggested in the \\[fluid-work channel today|<http://irc-logs.fluidproject.org/%23fluid-work/%23fluid-work.2019-07-17.log>,] \"If I were to make a random guess, I would say that the failure is that it is possible sometimes for the promise dispensed from fluid.prefs.enactor.syllabification.injectScript to never resolve\" \n\nAdditionally he suggested that it could be related to $.ajax and that we should try using raw XHR. \n"
     },
     {
       "author": "Justin Obara",

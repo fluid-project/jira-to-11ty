@@ -35,12 +35,12 @@
     {
       "author": "Michelle D'Souza",
       "date": "2014-04-04T15:54:35.993-0400",
-      "body": "I think at the very least, we should be aware of the API changes that we've made and make that clear in documentation.\n\nThis is probably a community effort, but I think @@Antranig Basman is best suited to start it.\n\n<http://wiki.fluidproject.org/display/fluid/API+Changes+Since+1.4>\n"
+      "body": "I think at the very least, we should be aware of the API changes that we've made and make that clear in documentation.\n\nThis is probably a community effort, but I think Antranig Basman is best suited to start it.\n\n<http://wiki.fluidproject.org/display/fluid/API+Changes+Since+1.4>\n"
     },
     {
       "author": "Michelle D'Souza",
       "date": "2014-05-26T11:51:16.371-0400",
-      "body": "We discussed this at the community meeting on May 21, 2014 and @@Antranig Basman said that the page is now complete and ready to be migrated to the new documentation space.&#x20;\n"
+      "body": "We discussed this at the community meeting on May 21, 2014 and Antranig Basman said that the page is now complete and ready to be migrated to the new documentation space.&#x20;\n"
     }
   ]
 }

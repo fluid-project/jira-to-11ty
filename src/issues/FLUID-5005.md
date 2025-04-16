@@ -39,12 +39,12 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-15T10:21:50.291-0400",
-      "body": "@@Cindy Li is the experimentation for this complete?\n"
+      "body": "Cindy Li is the experimentation for this complete?\n"
     },
     {
       "author": "Cindy Li",
       "date": "2015-06-15T10:36:04.610-0400",
-      "body": "@@Justin Obara, only the features described above were experimented in the specified branch, which doesn't yet have actual designed menu items and functionalities.\n"
+      "body": "Justin Obara, only the features described above were experimented in the specified branch, which doesn't yet have actual designed menu items and functionalities.\n"
     }
   ]
 }

@@ -27,7 +27,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-15T09:48:07.029-0400",
-      "body": "@@Kasper Galschiot Markus this is a pretty open ended jira, can it be closed and new ones opened for the specific model transformations that are needed. I'm going to guess we have most of them in already.\n"
+      "body": "Kasper Galschiot Markus this is a pretty open ended jira, can it be closed and new ones opened for the specific model transformations that are needed. I'm going to guess we have most of them in already.\n"
     },
     {
       "author": "Kasper Galschiot Markus",

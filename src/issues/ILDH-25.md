@@ -25,7 +25,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-16T13:30:58.585-0400",
-      "body": "@@Jonathan Hung and @@Anastasia Cheetham I'm assuming this is referring to the ILDH, can it be closed now that we are going to use docpad for it?\n"
+      "body": "Jonathan Hung and Anastasia Cheetham I'm assuming this is referring to the ILDH, can it be closed now that we are going to use docpad for it?\n"
     },
     {
       "author": "Anastasia Cheetham",

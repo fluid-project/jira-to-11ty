@@ -32,6 +32,6 @@
 ---
 It occurred to me as I was writing a new post for the website that people might misunderstand the term "mailing list" on our website. The idea of this list is to encourage open discussion and participation. But often companies use the term "mailing list" to describe a "push" model where they send advertising emails out their customers.
 
-So @@Simon Bates suggested the term "discussion list" to better convey the bi-directional, conversational nature of this list.
+So Simon Bates suggested the term "discussion list" to better convey the bi-directional, conversational nature of this list.
 
         

@@ -25,7 +25,7 @@
   "comments": []
 }
 ---
-Quoting @@Cindy Li:
+Quoting Cindy Li:
 
 "I think we eventually would like to support the space since it's a common control for video or audio players. We can create another JIRA for it since this pull request is already big enough."
 

@@ -36,7 +36,7 @@
   ]
 }
 ---
-After some [discussion](https://matrix.to/#/!JcoHDrfLedPQdFhAXn:matrix.org/$HNjRJi42NowLyUtt2C3BTJV36_ZmIztyUaXlW8G_rJk?via=matrix.org), @@Antranig Basman, @@Justin Obara and I agreed that it would make sense to remove the Normalize dependency for Infusion CSS for a couple of reasons:
+After some [discussion](https://matrix.to/#/!JcoHDrfLedPQdFhAXn:matrix.org/$HNjRJi42NowLyUtt2C3BTJV36_ZmIztyUaXlW8G_rJk?via=matrix.org), Antranig Basman, Justin Obara and I agreed that it would make sense to remove the Normalize dependency for Infusion CSS for a couple of reasons:
 
 * Projects using infusion may already be using Normalize as a reset, which would result in duplicate CSS
 * Projects using Infusion may use a different reset ([Sanitize](https://github.com/csstools/sanitize.css/), [Modern Normalize](https://github.com/sindresorhus/modern-normalize), [Modern CSS Reset](https://github.com/hankchizljaw/modern-css-reset), etc) which could result in duplicate or conflicting rules

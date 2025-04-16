@@ -26,12 +26,12 @@
     {
       "author": "Cindy Li",
       "date": "2019-11-05T14:16:25.790-0500",
-      "body": "@@Justin Obara, could you describe how to reproduce the problem? Thanks.\n"
+      "body": "Justin Obara, could you describe how to reproduce the problem? Thanks.\n"
     },
     {
       "author": "Justin Obara",
       "date": "2019-11-05T15:56:25.855-0500",
-      "body": "@@Cindy Li if using the UIO+ chrome extension, you an go to the morphic.world site and enable the syllabification preference. With the bug, the content in the middle of the page is not syllabified, while the text at the top and bottom is. \n\nIf you want to try in infusion, you could modify the prefs framework demo have a container that only held floating elements.\n\nThe PR includes test cases for the issue, so you could also grab those and try them with master.\n"
+      "body": "Cindy Li if using the UIO+ chrome extension, you an go to the morphic.world site and enable the syllabification preference. With the bug, the content in the middle of the page is not syllabified, while the text at the top and bottom is. \n\nIf you want to try in infusion, you could modify the prefs framework demo have a container that only held floating elements.\n\nThe PR includes test cases for the issue, so you could also grab those and try them with master.\n"
     },
     {
       "author": "Cindy Li",

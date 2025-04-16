@@ -29,7 +29,7 @@
     {
       "author": "Michelle D'Souza",
       "date": "2014-04-04T15:51:34.526-0400",
-      "body": "@@Anastasia Cheetham, can you please start a conversation on list about naming these?&#x20;\n"
+      "body": "Anastasia Cheetham, can you please start a conversation on list about naming these?&#x20;\n"
     },
     {
       "author": "Justin Obara",

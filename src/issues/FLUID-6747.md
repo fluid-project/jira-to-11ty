@@ -25,7 +25,7 @@
   "comments": []
 }
 ---
-Recently @@Cindy Li ran into an issue where she supplied `method: "GET"` as a top-level option in a DataSource - because of the way options merging occurs in the rather ad hoc code in fluid.dataSource.URL.prepareRequestOptions and poorly factored into fluid.dataSource.URL.handleHttp this makes the dataSource unusable for writing, since this option then takes precedence over anything supplied as writeMethod.\
+Recently Cindy Li ran into an issue where she supplied `method: "GET"` as a top-level option in a DataSource - because of the way options merging occurs in the rather ad hoc code in fluid.dataSource.URL.prepareRequestOptions and poorly factored into fluid.dataSource.URL.handleHttp this makes the dataSource unusable for writing, since this option then takes precedence over anything supplied as writeMethod.\
 We should simply remove "method" from the permittedRequestOptions since the result is going to be undesirable in most cases.
 
         

@@ -32,7 +32,7 @@
   ]
 }
 ---
-Create a helper function which takes a link with "http://" in markdown and apply the class ".link-external" to it when generating output.
+Create a helper function which takes a link with "http\://" in markdown and apply the class ".link-external" to it when generating output.
 
 For example:\
 (Link 1)<http://www.example.com> = \<a href="[http://www.example.com](http://www.example.com/)" class="link-external">Link1\</a>\

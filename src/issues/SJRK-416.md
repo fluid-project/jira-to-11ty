@@ -42,9 +42,9 @@
   ]
 }
 ---
-In response to [this piece of review](https://github.com/fluid-project/sjrk-story-telling/pull/77#pullrequestreview-502402490) left by @@Justin Obara on the pull request for <https://fluidproject.atlassian.net/browse/SJRK-289#icft=SJRK-289>, the server endpoints for getting, saving and editing stories should be adjusted to be more [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) and internally consistent with respect to the routes for stories and files. This work will also require updating the client side to call the correct endpoints.
+In response to [this piece of review](https://github.com/fluid-project/sjrk-story-telling/pull/77#pullrequestreview-502402490) left by Justin Obara on the pull request for <https://fluidproject.atlassian.net/browse/SJRK-289#icft=SJRK-289>, the server endpoints for getting, saving and editing stories should be adjusted to be more [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) and internally consistent with respect to the routes for stories and files. This work will also require updating the client side to call the correct endpoints.
 
-@@Justin Obara's original comments from October 5, 2020:
+Justin Obara's original comments from October 5, 2020:
 
 > Should review the end points for proper RESTful semantics. In this case POST to create a story makes sense. However uploading a file would likely be better to POST to /stories/:id/files. Updating specific files, or stories can use PUT and deleting a file or story can use DELETE.
 

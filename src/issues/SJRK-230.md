@@ -25,7 +25,7 @@
     {
       "author": "Dana",
       "date": "2019-02-20T12:31:57.999-0500",
-      "body": "FYI @@Jonathan Hung\n"
+      "body": "FYI Jonathan Hung\n"
     },
     {
       "author": "Avtar Gill",

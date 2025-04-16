@@ -57,7 +57,7 @@ In order to make the site easier to load in low-bandwidth/high-latency situation
 * minifying and bundling JavaScript files (SJRK-144)
 * minifying and bundling CSS files
 
-@@Giovanni Tirloni took a couple of screenshots (attached) to show load times in a simulated "Slow 3G" situation, with load times of around 30 seconds. He also provided links to a couple of tools to help with analysis:
+Giovanni Tirloni took a couple of screenshots (attached) to show load times in a simulated "Slow 3G" situation, with load times of around 30 seconds. He also provided links to a couple of tools to help with analysis:
 
 * <https://www.webpagetest.org/result/180517_DT_3a98dae9ed05fd7d161b99286b3e04a6/1/performance_optimization/>
 * <https://webspeedtest.cloudinary.com/results/180517_DT_3a98dae9ed05fd7d161b99286b3e04a6>

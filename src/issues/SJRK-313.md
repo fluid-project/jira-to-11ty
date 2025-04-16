@@ -25,7 +25,7 @@
   "comments": []
 }
 ---
-Reported by @@Dana:\
+Reported by Dana:\
 I added Silvia’s MOOCs resource to the Learning Tools section, and TIG’s SDG guide to the Inclusive Design Guides sections - but as you can see, this caused both of the sections to change their location in the list order, so what used to be:\
 Youth Activism\
 Inclusive Design Guides\

@@ -30,7 +30,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-07-14T09:41:02.394-0400",
-      "body": "@@Antranig Basman was this changed in the refactoring done for 1.5? If not, could you please provide more information about what the specific error is and how to reproduce it?\n"
+      "body": "Antranig Basman was this changed in the refactoring done for 1.5? If not, could you please provide more information about what the specific error is and how to reproduce it?\n"
     }
   ]
 }

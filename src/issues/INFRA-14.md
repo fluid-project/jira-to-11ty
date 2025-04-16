@@ -35,7 +35,7 @@
 
 As of 2015-08-07, this is the list of Wordpress websites from the VM Contents spreadsheet:
 
-www.inclusivedesign.ca\
+www\.inclusivedesign.ca\
 dev.inclusivedesign.ca\
 hackathon.inclusivedesign.ca\
 mobile-accessibility.idrc.ocadu.ca\

@@ -44,7 +44,7 @@
     {
       "author": "Kasper Galschiot Markus",
       "date": "2016-04-06T11:22:52.864-0400",
-      "body": "The part related to the input paths \"\" as mentioned in the comments above by @@Antranig Basman should be done via <https://fluidproject.atlassian.net/browse/FLUID-5357#icft=FLUID-5357> which aims for this to be fixed as a general framework feature.\n\nIf the valueMapper should follow the standard semantics of the Model Transformation framework input-wise, the naming should probably be 'input' and 'inputPath'. In terms of defaultOutputPath, this is something we would need to figure out\n"
+      "body": "The part related to the input paths \"\" as mentioned in the comments above by Antranig Basman should be done via <https://fluidproject.atlassian.net/browse/FLUID-5357#icft=FLUID-5357> which aims for this to be fixed as a general framework feature.\n\nIf the valueMapper should follow the standard semantics of the Model Transformation framework input-wise, the naming should probably be 'input' and 'inputPath'. In terms of defaultOutputPath, this is something we would need to figure out\n"
     },
     {
       "author": "Kasper Galschiot Markus",

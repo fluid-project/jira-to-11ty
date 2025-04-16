@@ -73,7 +73,7 @@
   ]
 }
 ---
-Reported by @@Caren Watkins via email
+Reported by Caren Watkins via email
 
 "Hi Gregor, during a scan of the stories I noticed this odd rendering of a story from last Wednesday. The student did note in their critique of the tool that the copy was running "off screen" but I wasn't clear until I saw this:" \[refer to attached image]
 

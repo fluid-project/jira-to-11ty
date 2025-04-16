@@ -55,7 +55,7 @@
     {
       "author": "Kasper Galschiot Markus",
       "date": "2014-01-15T09:57:01.567-0500",
-      "body": "@@Justin Obara Am I understanding this JIRA correctly - that the problem was that you're getting the output from both true and false blocks (hence three outputs)... and would something like <https://github.com/kaspermarkus/infusion/commit/607088fac3f57cd91abd5f90065e1d63a1af35ed> correctly illustrate the desired result? Or is this JIRA about something completely different?\n"
+      "body": "Justin Obara Am I understanding this JIRA correctly - that the problem was that you're getting the output from both true and false blocks (hence three outputs)... and would something like <https://github.com/kaspermarkus/infusion/commit/607088fac3f57cd91abd5f90065e1d63a1af35ed> correctly illustrate the desired result? Or is this JIRA about something completely different?\n"
     },
     {
       "author": "Justin Obara",
@@ -80,7 +80,7 @@
     {
       "author": "Michelle D'Souza",
       "date": "2014-03-19T15:29:55.045-0400",
-      "body": "@@Justin Obara can you please see if this issue can be closed?\n"
+      "body": "Justin Obara can you please see if this issue can be closed?\n"
     },
     {
       "author": "Michelle D'Souza",

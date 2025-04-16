@@ -88,7 +88,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-07-11T14:22:47.641-0400",
-      "body": "@@Colin Clark do you know if this issue has been resolved?\n"
+      "body": "Colin Clark do you know if this issue has been resolved?\n"
     }
   ]
 }

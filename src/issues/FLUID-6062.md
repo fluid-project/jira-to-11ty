@@ -42,7 +42,7 @@
     {
       "author": "Dana",
       "date": "2016-11-17T14:04:13.519-0500",
-      "body": "As we discussed at the crit – something like this @@Justin Obara, @@Simon Bates, @@Jonathan Hung, @@Antranig Basman (see attachment)? I added some highlighting to the text as it sounded like part of the problem is that it's too easy to miss the changes. I don't think the text alone would solve that.&#x20;\n"
+      "body": "As we discussed at the crit – something like this Justin Obara, Simon Bates, Jonathan Hung, Antranig Basman (see attachment)? I added some highlighting to the text as it sounded like part of the problem is that it's too easy to miss the changes. I don't think the text alone would solve that.&#x20;\n"
     },
     {
       "author": "Justin Obara",

@@ -40,6 +40,6 @@
   "comments": []
 }
 ---
-At the moment, there are a number of hard-baked assumptions about how URLs are handled on the client side that cause our components to break when hosted within the ScreenNavigator. We need to place a layer of indirection between components and the URL space, including how they access query parameters and get/set window.location.
+At the moment, there are a number of hard-baked assumptions about how URLs are handled on the client side that cause our components to break when hosted within the ScreenNavigator. We need to place a layer of indirection between components and the URL space, including how they access query parameters and get/set window\.location.
 
         

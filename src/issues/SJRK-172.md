@@ -48,7 +48,7 @@
     {
       "author": "Dana",
       "date": "2020-07-14T12:04:38.394-0400",
-      "body": "Thanks @@Gregor Moss this is great. I don't think we'd want to have links in the description or alt-text, but I'm thinking we should allow them in headings.\n"
+      "body": "Thanks Gregor Moss this is great. I don't think we'd want to have links in the description or alt-text, but I'm thinking we should allow them in headings.\n"
     },
     {
       "author": "Cindy Li",

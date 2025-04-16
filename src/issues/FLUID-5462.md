@@ -50,7 +50,7 @@
     {
       "author": "Anastasia Cheetham",
       "date": "2015-12-10T11:10:57.880-0500",
-      "body": "@@Antranig Basman Given the changes made to the docs for <https://fluidproject.atlassian.net/browse/FLUID-5791#icft=FLUID-5791>, do you thing we should close this issue (and FLUID=5329) as \"won't do\"?\n"
+      "body": "Antranig Basman Given the changes made to the docs for <https://fluidproject.atlassian.net/browse/FLUID-5791#icft=FLUID-5791>, do you thing we should close this issue (and FLUID=5329) as \"won't do\"?\n"
     },
     {
       "author": "Justin Obara",

@@ -24,7 +24,7 @@
     {
       "author": "Antranig Basman",
       "date": "2017-01-09T09:47:27.566-0500",
-      "body": "Looks like the current implementation has half-rotted - it dates from the pre-maturity days of Kettle and there seem to be no tests for use of dataSources together with cookies. Also, the only implementation of \"cookieJar\" is inappropriately within kettle.test.dataSource. Finally, it appears that @@Tony Atkins \\[RtF]'s investigations show that the dataSource integration with cookies is readOnly - cookies are only read from the jar and never written. And indeed, following fixing all of this and writing tests for it, we then need docs.\n"
+      "body": "Looks like the current implementation has half-rotted - it dates from the pre-maturity days of Kettle and there seem to be no tests for use of dataSources together with cookies. Also, the only implementation of \"cookieJar\" is inappropriately within kettle.test.dataSource. Finally, it appears that Tony Atkins \\[RtF]'s investigations show that the dataSource integration with cookies is readOnly - cookies are only read from the jar and never written. And indeed, following fixing all of this and writing tests for it, we then need docs.\n"
     }
   ]
 }

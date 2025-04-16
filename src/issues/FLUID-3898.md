@@ -40,7 +40,7 @@
   ]
 }
 ---
-Yura pointed out that unit tests are failing under IE, I also noticed that in that the Dropdown inlineEdit is no longer working with the mouse. (note, that the file also wasn't updated properly and is also missing the fluidView.js file, which I added locally when testing).
+Yura pointed out that unit tests are failing under IE, I also noticed that in that the Dropdown inlineEdit is no longer working with the mouse. (note, that the file also wasn't updated properly and is also missing the fluidView\.js file, which I added locally when testing).
 
 Steps to reproduce:
 

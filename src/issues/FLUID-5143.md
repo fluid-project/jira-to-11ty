@@ -34,7 +34,7 @@
     {
       "author": "Michelle D'Souza",
       "date": "2014-03-27T14:42:11.982-0400",
-      "body": "@@Antranig Basman Can you take a look at these docs and close this JIRA if they are reasonable?\n"
+      "body": "Antranig Basman Can you take a look at these docs and close this JIRA if they are reasonable?\n"
     },
     {
       "author": "Antranig Basman",

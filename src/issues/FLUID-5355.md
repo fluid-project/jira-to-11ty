@@ -36,7 +36,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-05-01T13:32:16.424-0400",
-      "body": "@@Michelle D'Souza I attempted to implement a simple solution for this using the onError event from the SelfVoicingEnactor: \\\n<https://github.com/fluid-project/infusion/blob/master/src/demos/prefsFramework/js/SelfVoicingEnactor.js#L103-L106>\n\nThis works okay in Firefox, but the event isn't triggered in Chrome. It appears that Chrome throws an error as soon as the resource is inaccessible, preventing our error event pipeline from triggering.\n\nIs it enough to have this working just in Firefox? (only firefox and chrome support the TTS enactor).\n"
+      "body": "Michelle D'Souza I attempted to implement a simple solution for this using the onError event from the SelfVoicingEnactor: \\\n<https://github.com/fluid-project/infusion/blob/master/src/demos/prefsFramework/js/SelfVoicingEnactor.js#L103-L106>\n\nThis works okay in Firefox, but the event isn't triggered in Chrome. It appears that Chrome throws an error as soon as the resource is inaccessible, preventing our error event pipeline from triggering.\n\nIs it enough to have this working just in Firefox? (only firefox and chrome support the TTS enactor).\n"
     },
     {
       "author": "Justin Obara",

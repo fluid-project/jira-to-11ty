@@ -37,6 +37,6 @@
   ]
 }
 ---
-After discussion of how to approach <https://issues.fluidproject.org/browse/SJRK-32> with @@Michelle D'Souza, it seemed to make the most sense to do this work in a fork of Kettle with an eye towards the eventual contribution of this to Kettle as a whole, as the capacity to handle file uploads would be a useful core feature for Kettle.
+After discussion of how to approach <https://issues.fluidproject.org/browse/SJRK-32> with Michelle D'Souza, it seemed to make the most sense to do this work in a fork of Kettle with an eye towards the eventual contribution of this to Kettle as a whole, as the capacity to handle file uploads would be a useful core feature for Kettle.
 
         

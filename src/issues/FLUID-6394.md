@@ -67,7 +67,7 @@
     {
       "author": "Justin Obara",
       "date": "2019-10-08T10:32:36.761-0400",
-      "body": "In speaking with @@Jonathan Hung and @@Gregor Moss it came up that the absolute positioning is relative to the closest positioned parent. ( see: <https://developer.mozilla.org/en-US/docs/Web/CSS/position> ). The above code made the assumption that it was always positioning against the document. Also, it was discussed that it might be helpful to break this positioning piece out of the Orator so that it can can be used by other widgets in the future.\n"
+      "body": "In speaking with Jonathan Hung and Gregor Moss it came up that the absolute positioning is relative to the closest positioned parent. ( see: <https://developer.mozilla.org/en-US/docs/Web/CSS/position> ). The above code made the assumption that it was always positioning against the document. Also, it was discussed that it might be helpful to break this positioning piece out of the Orator so that it can can be used by other widgets in the future.\n"
     },
     {
       "author": "Cindy Li",

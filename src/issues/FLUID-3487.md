@@ -145,7 +145,7 @@
     {
       "author": "Justin Obara",
       "date": "2011-01-17T11:52:23.170-0500",
-      "body": "fluid.deadMansBlur is now in FluidView.js. Any issues related to it, should be filed under new jiras\n"
+      "body": "fluid.deadMansBlur is now in FluidView\\.js. Any issues related to it, should be filed under new jiras\n"
     },
     {
       "author": "Antranig Basman",

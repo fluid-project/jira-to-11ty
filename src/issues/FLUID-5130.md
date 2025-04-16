@@ -31,7 +31,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-15T10:43:08.167-0400",
-      "body": "@@Kasper Galschiot Markus Could you see if this issue has been resolved. See above comment from @@Antranig Basman\n"
+      "body": "Kasper Galschiot Markus Could you see if this issue has been resolved. See above comment from Antranig Basman\n"
     },
     {
       "author": "Kasper Galschiot Markus",

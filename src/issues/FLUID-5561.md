@@ -60,7 +60,7 @@
     {
       "author": "Cindy Li",
       "date": "2016-03-15T09:24:43.542-0400",
-      "body": "Thanks for pointing this out, @@Dinuka Desilva.&#x20;\n\nI believe the original idea of having \"high contrast\" section in the pager css is to allow Pager to work with one of our other components - UI Options. You can try UI Options demo at <http://build.fluidproject.org/infusion/demos/uiOptions/>.&#x20;\n\nHowever, this section does look incomplete since it only handles \"black on white\" theme and is not used in any pager demo or examples. I agree that it (as well as the handling of the high contrast themes) can be removed from the pager component css.&#x20;\n\n@@Justin Obara, let us know if you have other thoughts. Thanks.\n"
+      "body": "Thanks for pointing this out, Dinuka Desilva.&#x20;\n\nI believe the original idea of having \"high contrast\" section in the pager css is to allow Pager to work with one of our other components - UI Options. You can try UI Options demo at <http://build.fluidproject.org/infusion/demos/uiOptions/>.&#x20;\n\nHowever, this section does look incomplete since it only handles \"black on white\" theme and is not used in any pager demo or examples. I agree that it (as well as the handling of the high contrast themes) can be removed from the pager component css.&#x20;\n\nJustin Obara, let us know if you have other thoughts. Thanks.\n"
     },
     {
       "author": "Dinuka Desilva",
@@ -70,7 +70,7 @@
     {
       "author": "Cindy Li",
       "date": "2016-03-15T11:59:26.650-0400",
-      "body": "@@Dinuka Desilva If you meant to add classes and images for high contrast themes, I don't think it's necessary since we first need to have a design of how Pager should look like with high contrast themes, which is worth a separate JIRA.\n"
+      "body": "Dinuka Desilva If you meant to add classes and images for high contrast themes, I don't think it's necessary since we first need to have a design of how Pager should look like with high contrast themes, which is worth a separate JIRA.\n"
     },
     {
       "author": "Dinuka Desilva",
@@ -80,7 +80,7 @@
     {
       "author": "Cindy Li",
       "date": "2016-03-18T10:10:27.452-0400",
-      "body": "@@Dinuka Desilva, I left a comment on your pull request:&#x20;\n\n\"actually another pull request #685 is modifying and consolidating the pager component and demo css files. The stylus conversion should happen after that when we have a clean component css.\"\n"
+      "body": "Dinuka Desilva, I left a comment on your pull request:&#x20;\n\n\"actually another pull request #685 is modifying and consolidating the pager component and demo css files. The stylus conversion should happen after that when we have a clean component css.\"\n"
     },
     {
       "author": "Justin Obara",

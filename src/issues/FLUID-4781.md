@@ -55,6 +55,6 @@
 
 3\. Click on "edit" link of the first demo
 
-4\. Throws javascript error "Object doesn't support this property or method" (FluidView.js, line 515 character 13)
+4\. Throws javascript error "Object doesn't support this property or method" (FluidView\.js, line 515 character 13)
 
         

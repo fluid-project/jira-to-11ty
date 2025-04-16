@@ -46,6 +46,6 @@
 ---
 In order to address [the last code review comment](https://github.com/fluid-project/infusion/pull/949#discussion_r249489976) on [the pull request for FLUID-6303](https://github.com/fluid-project/infusion/pull/949), [this change](https://github.com/fluid-project/infusion/pull/951/commits/99085ab7d2fda8b73379084641b6f3d9f84c3b0b) was made to remove the localization preference/panel from the prefsFramework demo.
 
-It would be helpful to have @@Justin Obara revisit this change to make sure it makes sense.
+It would be helpful to have Justin Obara revisit this change to make sure it makes sense.
 
         

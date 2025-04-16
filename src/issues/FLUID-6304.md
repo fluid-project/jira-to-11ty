@@ -42,7 +42,7 @@
   ]
 }
 ---
-As has been pointed out by @@Sepideh Shahi, certain adjuster may not make sense in certain locale contexts. The concrete example is the new "letter spacing" adjuster, which has no meaning for a script-based character set like Farsi, and in fact is detrimental to the comprehensibility of the text.
+As has been pointed out by Sepideh Shahi, certain adjuster may not make sense in certain locale contexts. The concrete example is the new "letter spacing" adjuster, which has no meaning for a script-based character set like Farsi, and in fact is detrimental to the comprehensibility of the text.
 
 Per this issue, it would be good to have an approach to excluding or including certain panels based on locale.
 

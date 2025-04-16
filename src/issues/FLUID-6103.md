@@ -37,7 +37,7 @@
     {
       "author": "Alan Harnum",
       "date": "2017-01-06T14:30:51.077-0500",
-      "body": "Quick observations from testing on what I've got in front of me:\n\n**Windows 10, Chrome 55.0.2883.87**\n\n* tests fail as @@Antranig Basman describes in Chrome (same version)\n* tests pass in Firefox 50.1.0\n* tests pass in latest MS Edge 38.14393.0.0 / EdgeHTML 14.14393\n\n**Mac OS X, Chrome 55.0.2883.95**\n\n* tests continue to pass on Chrome in this environment\n* tests pass on Firefox 50.1.0\n* tests pass on Safari 10.0.2\n\nEarly conclusions:\n\n* bug appears to be isolated to latest Chrome on Windows\n* ~~version difference between Chrome on Windows (55.0.2883.88) and Mac OS X (55.0.2883.95) may be an indicator of a browser bug that will be patched when the Windows release catches up to the Mac OS X release~~ Don't think this is correct in light of issue in the next comment.\n\nWill continue investigation.\n"
+      "body": "Quick observations from testing on what I've got in front of me:\n\n**Windows 10, Chrome 55.0.2883.87**\n\n* tests fail as Antranig Basman describes in Chrome (same version)\n* tests pass in Firefox 50.1.0\n* tests pass in latest MS Edge 38.14393.0.0 / EdgeHTML 14.14393\n\n**Mac OS X, Chrome 55.0.2883.95**\n\n* tests continue to pass on Chrome in this environment\n* tests pass on Firefox 50.1.0\n* tests pass on Safari 10.0.2\n\nEarly conclusions:\n\n* bug appears to be isolated to latest Chrome on Windows\n* ~~version difference between Chrome on Windows (55.0.2883.88) and Mac OS X (55.0.2883.95) may be an indicator of a browser bug that will be patched when the Windows release catches up to the Mac OS X release~~ Don't think this is correct in light of issue in the next comment.\n\nWill continue investigation.\n"
     },
     {
       "author": "Alan Harnum",
@@ -47,7 +47,7 @@
     {
       "author": "Alan Harnum",
       "date": "2017-01-06T16:54:15.834-0500",
-      "body": "I feel I've confirmed the root cause with this fiddle as originating in a browser bug: <http://jsfiddle.net/e2q81qLz/14/> - @@Antranig Basman, when you have a chance could you try that fiddle and confirm that you see the issues I describe on it? (pause and resume happen, but their corresponding events are not fired)\n\nWhile the pause and resume functions continue to work in the latest Chrome, the onpause and onresume events are not being properly fired. The TTS component and its test rely upon them to manage and detect the state of the speech.\n\nI will investigate this further and see about filing an issue with the Chrome team.\n"
+      "body": "I feel I've confirmed the root cause with this fiddle as originating in a browser bug: <http://jsfiddle.net/e2q81qLz/14/> - Antranig Basman, when you have a chance could you try that fiddle and confirm that you see the issues I describe on it? (pause and resume happen, but their corresponding events are not fired)\n\nWhile the pause and resume functions continue to work in the latest Chrome, the onpause and onresume events are not being properly fired. The TTS component and its test rely upon them to manage and detect the state of the speech.\n\nI will investigate this further and see about filing an issue with the Chrome team.\n"
     },
     {
       "author": "Alan Harnum",

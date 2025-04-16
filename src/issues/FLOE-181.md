@@ -27,7 +27,7 @@
     {
       "author": "Dana",
       "date": "2014-04-21T11:49:20.355-0400",
-      "body": "Hi @@Anastasia Cheetham,\n\nHere is what I suggest as an addition to the FLOE page, with \"Preference Management Tools\" text linking to the screen-cast. &#x20;\n\nPreference editing tools help learners discover and customize resources. User Interface Options allows learners to indicate their preferences and get exactly what they need. The Preference Management Tools allow learners to fine-tune their preferences, store them in the cloud, and apply them across multiple devices.\n\nAlso, in the following section could we change the line \"If a learner doesn't know what they need\" to \"If a learner doesn't know what might be helpful to them\"? It sounds a little less prescriptive to me.  Do you agree?\n"
+      "body": "Hi Anastasia Cheetham,\n\nHere is what I suggest as an addition to the FLOE page, with \"Preference Management Tools\" text linking to the screen-cast. &#x20;\n\nPreference editing tools help learners discover and customize resources. User Interface Options allows learners to indicate their preferences and get exactly what they need. The Preference Management Tools allow learners to fine-tune their preferences, store them in the cloud, and apply them across multiple devices.\n\nAlso, in the following section could we change the line \"If a learner doesn't know what they need\" to \"If a learner doesn't know what might be helpful to them\"? It sounds a little less prescriptive to me.  Do you agree?\n"
     },
     {
       "author": "Jonathan Hung",

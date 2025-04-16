@@ -32,17 +32,17 @@
     {
       "author": "Dana",
       "date": "2020-07-15T14:58:11.665-0400",
-      "body": "@@Gregor Moss, @@Justin Obara Something else I just noticed about the media placeholders. In Safari and Firefox (and not in Chrome), the image block placeholder has a frame (unfocusable) around it that shouldn't be there, to be consistent with the other blocks, and make it clear that it is not focusable.\n"
+      "body": "Gregor Moss, Justin Obara Something else I just noticed about the media placeholders. In Safari and Firefox (and not in Chrome), the image block placeholder has a frame (unfocusable) around it that shouldn't be there, to be consistent with the other blocks, and make it clear that it is not focusable.\n"
     },
     {
       "author": "Justin Obara",
       "date": "2020-07-15T15:39:08.362-0400",
-      "body": "@@Dana I believe this is filed as <https://fluidproject.atlassian.net/browse/SJRK-226#icft=SJRK-226>. Could you please confirm if that's the same issue you are experiencing.\n"
+      "body": "Dana I believe this is filed as <https://fluidproject.atlassian.net/browse/SJRK-226#icft=SJRK-226>. Could you please confirm if that's the same issue you are experiencing.\n"
     },
     {
       "author": "Dana",
       "date": "2020-07-16T12:14:22.114-0400",
-      "body": "@@Justin Obara thanks, yep, looks like 226 covers this issue.\n"
+      "body": "Justin Obara thanks, yep, looks like 226 covers this issue.\n"
     },
     {
       "author": "Cindy Li",

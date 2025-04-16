@@ -39,7 +39,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-07-14T10:31:56.685-0400",
-      "body": "@@Antranig Basman can you verify if this is still an issue?\n"
+      "body": "Antranig Basman can you verify if this is still an issue?\n"
     },
     {
       "author": "Antranig Basman",

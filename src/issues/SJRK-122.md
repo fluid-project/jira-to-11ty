@@ -39,7 +39,7 @@
     {
       "author": "Gregor Moss",
       "date": "2018-07-17T12:09:10.950-0400",
-      "body": "@@Alan Harnum can you please remind me what the use of this will be?\n"
+      "body": "Alan Harnum can you please remind me what the use of this will be?\n"
     },
     {
       "author": "Gregor Moss",

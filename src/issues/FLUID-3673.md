@@ -46,7 +46,7 @@
     {
       "author": "Justin Obara",
       "date": "2010-06-22T14:32:43.487-0400",
-      "body": "using windows.location doesn't work either as it uses the window.location from the iframe instead of from the parent page.&#x20;\n"
+      "body": "using windows.location doesn't work either as it uses the window\\.location from the iframe instead of from the parent page.&#x20;\n"
     },
     {
       "author": "Justin Obara",

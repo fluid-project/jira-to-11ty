@@ -31,7 +31,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-15T09:52:36.105-0400",
-      "body": "@@Colin Clark seeing as this is 2 years old, is it still something that is worth doing?\n"
+      "body": "Colin Clark seeing as this is 2 years old, is it still something that is worth doing?\n"
     }
   ]
 }

@@ -37,7 +37,7 @@
   ]
 }
 ---
-This bug affects all fairly recent versions of the framework (from the latter half of 2020 or so). In some situation, possibly when I/O resolves synchronously as a result of being cached by the browser from an earlier request, the onResourcesLoaded event of a ResourceLoader component can fire before fluid.bindDeferredComponent via fluid.concludeComponentObservation can register its listener. The following trace was obtained from @@Tony Atkins \[RtF] recent update of fluid-handlebars which is in progress at <https://github.com/fluid-project/fluid-handlebars/pull/38>
+This bug affects all fairly recent versions of the framework (from the latter half of 2020 or so). In some situation, possibly when I/O resolves synchronously as a result of being cached by the browser from an earlier request, the onResourcesLoaded event of a ResourceLoader component can fire before fluid.bindDeferredComponent via fluid.concludeComponentObservation can register its listener. The following trace was obtained from Tony Atkins \[RtF] recent update of fluid-handlebars which is in progress at <https://github.com/fluid-project/fluid-handlebars/pull/38>
 
 ```java
 bindDeferred instantiation for main of parent component { typeName: "fluid.tests.templateAware.testEnvironment id: 7oh44guo-77" gradeNames: ["fluid.test.testEnvironment","fluid.tests.templateAware.testEnvironment"]} at path testEnvironment-7oh44guo-77 for event {that}.events.createFixtures

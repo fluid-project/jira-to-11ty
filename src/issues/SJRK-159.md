@@ -26,6 +26,6 @@
   "comments": []
 }
 ---
-The <https://fluidproject.atlassian.net/browse/KETTLE-66#icft=KETTLE-66> pull request that added file uploading has been reviewed and refactored (<https://github.com/fluid-project/kettle/pull/41)> - while not yet merged, the public API should now be mostly stable, and the SJRK server that uses the <https://fluidproject.atlassian.net/browse/KETTLE-66#icft=KETTLE-66> branch in @@Alan Harnum's fork should be updated to it.
+The <https://fluidproject.atlassian.net/browse/KETTLE-66#icft=KETTLE-66> pull request that added file uploading has been reviewed and refactored (<https://github.com/fluid-project/kettle/pull/41)> - while not yet merged, the public API should now be mostly stable, and the SJRK server that uses the <https://fluidproject.atlassian.net/browse/KETTLE-66#icft=KETTLE-66> branch in Alan Harnum's fork should be updated to it.
 
         

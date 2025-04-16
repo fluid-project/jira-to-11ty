@@ -27,27 +27,27 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2017-11-03T05:14:39.043-0400",
-      "body": "Thanks for continuing to look into alternatives, @@Avtar Gill.  I'd like to try out buildkite, can you please send an invite to tony@raisingthefloor.org?\n"
+      "body": "Thanks for continuing to look into alternatives, Avtar Gill.  I'd like to try out buildkite, can you please send an invite to tony\\@raisingthefloor.org?\n"
     },
     {
       "author": "Avtar Gill",
       "date": "2017-11-03T09:28:19.094-0400",
-      "body": "@@Tony Atkins \\[RtF] I sent you an invitation. Please note that I was running the [Buildkite agent](https://buildkite.com/docs/agent) on my laptop while testing. [You'll need to run it](https://buildkite.com/docs/agent/osx) as well if you'd like to set up test builds – the SSH key details can be ignored for now.\n"
+      "body": "Tony Atkins \\[RtF] I sent you an invitation. Please note that I was running the [Buildkite agent](https://buildkite.com/docs/agent) on my laptop while testing. [You'll need to run it](https://buildkite.com/docs/agent/osx) as well if you'd like to set up test builds – the SSH key details can be ignored for now.\n"
     },
     {
       "author": "Gregor Moss",
       "date": "2017-11-03T18:09:13.694-0400",
-      "body": "Thanks for putting this together, @@Avtar Gill! I'd like to check out the Buildkite site, can you invite <mossmonkey@gmail.com> please? 🙂\n\nI think the disadvantage of Buildkite being a proprietary service is worth noting, though it's a similar case to GitHub or Jira, which are both proprietary services with free-to-open-source tiers.\n"
+      "body": "Thanks for putting this together, Avtar Gill! I'd like to check out the Buildkite site, can you invite <mossmonkey@gmail.com> please? 🙂\n\nI think the disadvantage of Buildkite being a proprietary service is worth noting, though it's a similar case to GitHub or Jira, which are both proprietary services with free-to-open-source tiers.\n"
     },
     {
       "author": "Avtar Gill",
       "date": "2017-11-06T08:48:47.238-0500",
-      "body": "@@Gregor Moss, you should have an invitation now. Thanks for the help!\n\nThe GitHub comparison seems fair. I would add Slack to the list since more open source projects seem to be using their service. There's obviously the risk that some of these companies might change their free tier policies at some point in the future but it does let people kick the maintenance cost can down the road a bit.\n"
+      "body": "Gregor Moss, you should have an invitation now. Thanks for the help!\n\nThe GitHub comparison seems fair. I would add Slack to the list since more open source projects seem to be using their service. There's obviously the risk that some of these companies might change their free tier policies at some point in the future but it does let people kick the maintenance cost can down the road a bit.\n"
     },
     {
       "author": "Tony Atkins [RtF]",
       "date": "2017-11-07T05:35:18.162-0500",
-      "body": "@@Avtar Gill, any info on setup steps, such as the minimum permissions required when setting up your API Access Token?\n"
+      "body": "Avtar Gill, any info on setup steps, such as the minimum permissions required when setting up your API Access Token?\n"
     },
     {
       "author": "Tony Atkins [RtF]",
@@ -57,7 +57,7 @@
     {
       "author": "Avtar Gill",
       "date": "2017-11-07T16:44:40.122-0500",
-      "body": "@@Tony Atkins \\[RtF], there's now a Buildkite agent running in the IDRC data centre so you can avoid that part of the setup process. This is the repository that I've been testing with:\n\n<https://github.com/fluid-bot/testingz>\n\nIf you send PRs there you should see CI statuses.\n"
+      "body": "Tony Atkins \\[RtF], there's now a Buildkite agent running in the IDRC data centre so you can avoid that part of the setup process. This is the repository that I've been testing with:\n\n<https://github.com/fluid-bot/testingz>\n\nIf you send PRs there you should see CI statuses.\n"
     },
     {
       "author": "Avtar Gill",
@@ -67,7 +67,7 @@
     {
       "author": "Justin Obara",
       "date": "2017-11-09T08:39:58.937-0500",
-      "body": "@@Avtar Gill your feature request makes a lot of sense. In the meantime is there anything else we could do? I wonder if we have access to the [pull request event](https://developer.github.com/v3/activity/events/types/#pullrequestevent) and if we can check for anything ourselves?\n"
+      "body": "Avtar Gill your feature request makes a lot of sense. In the meantime is there anything else we could do? I wonder if we have access to the [pull request event](https://developer.github.com/v3/activity/events/types/#pullrequestevent) and if we can check for anything ourselves?\n"
     },
     {
       "author": "Avtar Gill",
@@ -87,7 +87,7 @@
     {
       "author": "Colin Clark",
       "date": "2017-12-05T17:54:39.480-0500",
-      "body": "I merged the pull request at 3d20742aa38ce60cd9a0167960d1f4cad43841d8 and  have added the Github webhook for build kite. Anything else you need, @@Avtar Gill?\n"
+      "body": "I merged the pull request at 3d20742aa38ce60cd9a0167960d1f4cad43841d8 and  have added the Github webhook for build kite. Anything else you need, Avtar Gill?\n"
     },
     {
       "author": "Justin Obara",

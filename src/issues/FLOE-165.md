@@ -32,7 +32,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-03-04T12:49:44.931-0500",
-      "body": "The recommended method for hiding presentational font icons, as stated in <http://filamentgroup.com/lab/bulletproof_icon_fonts/>, is currently incorrect according to the ARIA spec.\\\n<http://www.w3.org/TR/wai-aria/states_and_properties#aria-hidden>\n\nHowever, in talking to @@Joseph Scheuhammer it seems that this is the way that future versions of ARIA will go. However, Firefox still implements the spec'd behaviour, so we should wait till after they have modified their implementation to follow these guidelines.\n\n<https://bugzilla.mozilla.org/show_bug.cgi?id=945194>\\\n<https://bugzilla.mozilla.org/show_bug.cgi?id=974351>\n"
+      "body": "The recommended method for hiding presentational font icons, as stated in <http://filamentgroup.com/lab/bulletproof_icon_fonts/>, is currently incorrect according to the ARIA spec.\\\n<http://www.w3.org/TR/wai-aria/states_and_properties#aria-hidden>\n\nHowever, in talking to Joseph Scheuhammer it seems that this is the way that future versions of ARIA will go. However, Firefox still implements the spec'd behaviour, so we should wait till after they have modified their implementation to follow these guidelines.\n\n<https://bugzilla.mozilla.org/show_bug.cgi?id=945194>\\\n<https://bugzilla.mozilla.org/show_bug.cgi?id=974351>\n"
     }
   ]
 }

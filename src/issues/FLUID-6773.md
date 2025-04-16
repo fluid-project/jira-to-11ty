@@ -28,7 +28,7 @@
     {
       "author": "Justin Obara",
       "date": "2023-07-31T06:38:10.583-0400",
-      "body": "@@Mark thanks for your suggestion. Some of this can be accomplished with the “Enhanced Inputs” options. It will also affect things like buttons though. This will make the links larger, bold, and underlined.\n\nAlso, if you are on a recent version of UI Options you can use the base style sheets along with the CSS custom properties to define your own behaviour when preferences are enabled.&#x20;\n\n(See: <https://github.com/fluid-project/infusion/blob/b9a1432e8f28c80b2eb7800b05a1177247046039/src/framework/preferences/css/sass/README.md> )\n\n@@Uttara Ghodke when you have chance, you may want to look into this suggestion in regards to the redesign of UIO.&#x20;\n"
+      "body": "Mark thanks for your suggestion. Some of this can be accomplished with the “Enhanced Inputs” options. It will also affect things like buttons though. This will make the links larger, bold, and underlined.\n\nAlso, if you are on a recent version of UI Options you can use the base style sheets along with the CSS custom properties to define your own behaviour when preferences are enabled.&#x20;\n\n(See: <https://github.com/fluid-project/infusion/blob/b9a1432e8f28c80b2eb7800b05a1177247046039/src/framework/preferences/css/sass/README.md> )\n\nUttara Ghodke when you have chance, you may want to look into this suggestion in regards to the redesign of UIO.&#x20;\n"
     },
     {
       "author": "Justin Obara",

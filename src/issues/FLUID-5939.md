@@ -28,9 +28,9 @@
 Due to changes in the Web Speech API, it is currently necessary to place a SpeechSynthesisVoice <https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisVoice> object directly on the component model to permanently change the voice utterances will be spoken by. There is a separate issue already about updating the documentation to reflect this state: <https://issues.fluidproject.org/projects/FLUID/issues/FLUID-5935>
 
 Storing objects on the model is an undesirable practice (even if it technically works), and we should find a better means of supporting selecting different voices through the wrapper, surfacing available voices and handling the asynchronous nature of voice loading represented by the \
-onVoicesChanged event of the window.speechSynthesis object (this is particularly an issue in Chrome, which does not load available voices until after the document.ready event has fired).
+onVoicesChanged event of the window\.speechSynthesis object (this is particularly an issue in Chrome, which does not load available voices until after the document.ready event has fired).
 
-From discussion with @@Justin Obara our thoughts are trending towards the following:
+From discussion with Justin Obara our thoughts are trending towards the following:
 
 * support setting a "voice" object on the component model with some of the same values (lang / name / voiceURI) as available in a SpeechSynthesisVoice object
 * monitor changes to that model path and provide functionality to try and resolve the voice that matches that voice most closely from the available browser voices

@@ -33,6 +33,6 @@ The old fluid.construct signature was "grandfathered in" to return its old paylo
 
 However, this has created an API hole - in the case the construction fails, the old-style API invocation simply returns undefined with no means of accessing the failure. We need to provide a similar adaptation as we do in fluid.initFreeComponent to convert the promise rejection back into an exception (in case the construction has failed synchronously) whilst encouraging users to update to the new API form (or even away from the so-called "Nexus API" entirely, in favour of the new potentialised methods fluid.registerPotentia and fluid.commitPotentiae).
 
-This problem was encountered in @@Philip Tchernavskij's work on Nexus-gsheets when invoking fluid.construct via the old Nexus implementation at <https://github.com/fluid-project/infusion-nexus/blob/d576f36a6a1f96337b925c64d66fa4081db76e4b/src/nexusUtils.js#L34>
+This problem was encountered in Philip Tchernavskij's work on Nexus-gsheets when invoking fluid.construct via the old Nexus implementation at <https://github.com/fluid-project/infusion-nexus/blob/d576f36a6a1f96337b925c64d66fa4081db76e4b/src/nexusUtils.js#L34>
 
         

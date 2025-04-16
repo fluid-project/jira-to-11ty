@@ -50,7 +50,7 @@ resolveListenerRecord (FluidIoC.js, line 1724)\
 each (Fluid.js, line 463)\
 mergeListeners (Fluid.js, line 1231)\
 initLittleComponent (Fluid.js, line 2145)\
-initView (FluidView.js, line 251)\
+initView (FluidView\.js, line 251)\
 invokeGlobalFunction (Fluid.js, line 944)\
 initComponent (Fluid.js, line 2220)\
 creator (Fluid.js, line 1558)\

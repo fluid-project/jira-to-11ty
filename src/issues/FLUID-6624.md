@@ -37,7 +37,7 @@
     {
       "author": "Justin Obara",
       "date": "2021-05-19T16:15:10.199-0400",
-      "body": "@@Antranig Basman is there anything in particular that needs to be documented or deprecated?\n"
+      "body": "Antranig Basman is there anything in particular that needs to be documented or deprecated?\n"
     }
   ]
 }

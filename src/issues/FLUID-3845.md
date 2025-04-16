@@ -67,7 +67,7 @@
     {
       "author": "Justin Obara",
       "date": "2017-09-27T10:33:56.793-0400",
-      "body": "@@Jonathan Hung do you think we can close this issues as won't fix? I think the behaviour is acceptable as is.\n"
+      "body": "Jonathan Hung do you think we can close this issues as won't fix? I think the behaviour is acceptable as is.\n"
     }
   ]
 }

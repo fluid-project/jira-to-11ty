@@ -32,7 +32,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-09T08:44:41.209-0400",
-      "body": "@@Antranig Basman do you have any thoughts on this issue?\n"
+      "body": "Antranig Basman do you have any thoughts on this issue?\n"
     },
     {
       "author": "Antranig Basman",

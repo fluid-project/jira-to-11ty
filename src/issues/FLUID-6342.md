@@ -26,7 +26,7 @@
     {
       "author": "Steven Githens",
       "date": "2018-09-20T22:12:38.993-0400",
-      "body": "@@Antranig Basman or anyone else.  Any comments on this appreciated (or maybe something I missed in the sequence impl that does allow passing payloads).  I'm happy to implement this.\n"
+      "body": "Antranig Basman or anyone else.  Any comments on this appreciated (or maybe something I missed in the sequence impl that does allow passing payloads).  I'm happy to implement this.\n"
     },
     {
       "author": "Antranig Basman",

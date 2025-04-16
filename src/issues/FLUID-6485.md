@@ -27,7 +27,7 @@
     {
       "author": "Justin Obara",
       "date": "2020-04-08T07:08:44.497-0400",
-      "body": "@@Bate martins, which site(s) is this for?\n"
+      "body": "Bate martins, which site(s) is this for?\n"
     },
     {
       "author": "Bate martins",

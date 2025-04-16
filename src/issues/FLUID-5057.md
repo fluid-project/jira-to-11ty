@@ -34,7 +34,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-03T08:59:07.936-0500",
-      "body": "@@sparsh paliwal I see you've forked the code, which is a good start. You'll probably want to make the change in a branch, and test it from there. Start by making your change in the styl file you indicated. This is a [stylus](http://stylus-lang.com) file. After you have made the change you'll need to run a grunt build which compiles the stylus changes into proper css. See: <https://github.com/fluid-project/infusion#developing-with-the-preferences-framework> for the command to run, and the rest of the README if you need help getting Grunt setup. After the build is complete run your code from some web server and open the UI Options and Prefs Framework demos. You should also run the unit tests just to be sure. We are currently testing in last versions of Internet Explorer, Chrome, Safari, and Firefox. If possible, please test in all of those browsers.\n"
+      "body": "sparsh paliwal I see you've forked the code, which is a good start. You'll probably want to make the change in a branch, and test it from there. Start by making your change in the styl file you indicated. This is a [stylus](http://stylus-lang.com) file. After you have made the change you'll need to run a grunt build which compiles the stylus changes into proper css. See: <https://github.com/fluid-project/infusion#developing-with-the-preferences-framework> for the command to run, and the rest of the README if you need help getting Grunt setup. After the build is complete run your code from some web server and open the UI Options and Prefs Framework demos. You should also run the unit tests just to be sure. We are currently testing in last versions of Internet Explorer, Chrome, Safari, and Firefox. If possible, please test in all of those browsers.\n"
     },
     {
       "author": "Mohamed Shadab",
@@ -44,7 +44,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-03-09T09:58:00.796-0500",
-      "body": "@@Mohamed Shadab that's looking good. Could you please file a pull request for the change. A couple things I noticed while looking at your branch:\n\n* it seems to be mixed with changes for another issue\n* if the background image isn't needed any more it should be removed from the source\n* the TODO comment in the stylus file where you made your changes may not be needed any more, please double check.\n"
+      "body": "Mohamed Shadab that's looking good. Could you please file a pull request for the change. A couple things I noticed while looking at your branch:\n\n* it seems to be mixed with changes for another issue\n* if the background image isn't needed any more it should be removed from the source\n* the TODO comment in the stylus file where you made your changes may not be needed any more, please double check.\n"
     },
     {
       "author": "Mohamed Shadab",

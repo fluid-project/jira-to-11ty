@@ -35,7 +35,7 @@ We envision the Social Justice Repair Kit's storytelling tools to be expressive 
 
 Given this, we should implement a prototype of the components required to record audio stories.
 
-@@Alan Harnum has [implemented a prototype audio recorder](https://github.com/waharnum/transcribingRecorder) that also includes the ability to transcribe voice recordings using the Web Speech Recognition APIs.
+Alan Harnum has [implemented a prototype audio recorder](https://github.com/waharnum/transcribingRecorder) that also includes the ability to transcribe voice recordings using the Web Speech Recognition APIs.
 
 I have [refactored this implementation](https://github.com/colinbdclark/transcribingRecorder/tree/componentization) and am progressively adding new functionality such as:
 

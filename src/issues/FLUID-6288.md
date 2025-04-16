@@ -43,7 +43,7 @@
     {
       "author": "Justin Obara",
       "date": "2020-06-11T08:10:19.281-0400",
-      "body": "@@Giovanni Tirloni I'm looking at this issue in relation to the related Infusion PR ( <https://github.com/fluid-project/infusion/pull/994> ). However, I'm not entirely sure what the purpose is and the description of this issue seems to be missing details. Related to Infusion, my assumption is that we will be doing CI via GitHub Actions. Which leads me to believe that the related Infusion PR is for CD (deployment) of the demos? Is that correct, or am I missing something?\n"
+      "body": "Giovanni Tirloni I'm looking at this issue in relation to the related Infusion PR ( <https://github.com/fluid-project/infusion/pull/994> ). However, I'm not entirely sure what the purpose is and the description of this issue seems to be missing details. Related to Infusion, my assumption is that we will be doing CI via GitHub Actions. Which leads me to believe that the related Infusion PR is for CD (deployment) of the demos? Is that correct, or am I missing something?\n"
     },
     {
       "author": "Giovanni Tirloni",

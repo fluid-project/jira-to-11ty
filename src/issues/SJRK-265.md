@@ -33,7 +33,7 @@
 ---
 The contents of storyTellingServerUI.js are unwieldy and would better be placed in different files according to when and how they are used. This may involve the use of events and attaching to the onCreate event of page components or another approach.
 
-From [pull request feedback](https://github.com/fluid-project/sjrk-story-telling/pull/33#discussion_r308400547) provided by @@Cindy Li:
+From [pull request feedback](https://github.com/fluid-project/sjrk-story-telling/pull/33#discussion_r308400547) provided by Cindy Li:
 
 > ... I actually think all functions in this file can be moved into components and all workflows can be incorporated and controlled by individual components. Use "Browse story" as an example:
 

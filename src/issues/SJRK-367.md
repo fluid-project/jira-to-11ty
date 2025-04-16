@@ -26,12 +26,12 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2020-06-26T12:43:47.532-0400",
-      "body": "There isn't a per-theme (or, ideally, per-deployment/domain) way to add the Matomo analytics code to the SJRK Story Telling tool.\n\nWe'd have to add a single analytics code to the base theme, but that wouldn't allow us to know which instances are not being actively used anymore.\n\nThe alternative is to do some refactoring of the code so that each deployment has its own \\<head> template where the analytics code could be added.\n\n@@Cindy Li @@Gregor Moss thoughts?\n"
+      "body": "There isn't a per-theme (or, ideally, per-deployment/domain) way to add the Matomo analytics code to the SJRK Story Telling tool.\n\nWe'd have to add a single analytics code to the base theme, but that wouldn't allow us to know which instances are not being actively used anymore.\n\nThe alternative is to do some refactoring of the code so that each deployment has its own \\<head> template where the analytics code could be added.\n\nCindy Li Gregor Moss thoughts?\n"
     },
     {
       "author": "Cindy Li",
       "date": "2020-06-26T13:29:22.260-0400",
-      "body": "I agree each deployment/domain should have its own analytics code.\n\nEach domain has [its own theme folder](https://github.com/fluid-project/sjrk-story-telling/tree/master/themes) in the master branch. \"/template\" is one subfolder holding custom templates for this theme. I think the analytics code for a domain can be placed in its theme folder for it to be pulled in by the base template in the base theme.&#x20;\n\n@@Gregor Moss, what do you think?\n"
+      "body": "I agree each deployment/domain should have its own analytics code.\n\nEach domain has [its own theme folder](https://github.com/fluid-project/sjrk-story-telling/tree/master/themes) in the master branch. \"/template\" is one subfolder holding custom templates for this theme. I think the analytics code for a domain can be placed in its theme folder for it to be pulled in by the base template in the base theme.&#x20;\n\nGregor Moss, what do you think?\n"
     },
     {
       "author": "Gregor Moss",

@@ -63,12 +63,12 @@
     {
       "author": "Justin Obara",
       "date": "2016-10-24T16:28:52.367-0400",
-      "body": "@@Antranig Basman I'd say it'd definitely get covered by a webdriver-backed UI test as we'd need to be manipulating the adjusters and etc inside the panel. A jQunit style test might be a bit more difficult.\n"
+      "body": "Antranig Basman I'd say it'd definitely get covered by a webdriver-backed UI test as we'd need to be manipulating the adjusters and etc inside the panel. A jQunit style test might be a bit more difficult.\n"
     },
     {
       "author": "Justin Obara",
       "date": "2016-10-24T16:53:47.299-0400",
-      "body": "@@Antranig Basman I attempted to write a test for this case but am having trouble. The values for the iframe document height ( 981 ) and panel height ( 69 ) seem to be way off in the test instance. I tried modifiying the test file both before and after the fix was applied and both seemed to return the same values. ( using FF ).\n"
+      "body": "Antranig Basman I attempted to write a test for this case but am having trouble. The values for the iframe document height ( 981 ) and panel height ( 69 ) seem to be way off in the test instance. I tried modifiying the test file both before and after the fix was applied and both seemed to return the same values. ( using FF ).\n"
     },
     {
       "author": "Cindy Li",

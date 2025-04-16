@@ -36,7 +36,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-04T08:47:30.498-0500",
-      "body": "@@Dinuka Desilva feel free to work on this. This was originally filed quite a while ago in terms of Chrome and NVDA releases, so you may want to start by testing it first.&#x20;\n"
+      "body": "Dinuka Desilva feel free to work on this. This was originally filed quite a while ago in terms of Chrome and NVDA releases, so you may want to start by testing it first.&#x20;\n"
     },
     {
       "author": "Justin Obara",

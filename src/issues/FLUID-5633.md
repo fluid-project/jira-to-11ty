@@ -47,7 +47,7 @@
     {
       "author": "Antranig Basman",
       "date": "2018-09-17T20:33:41.899-0400",
-      "body": "Further failure cases discovered by @@Gregor Moss\n"
+      "body": "Further failure cases discovered by Gregor Moss\n"
     },
     {
       "author": "Justin Obara",

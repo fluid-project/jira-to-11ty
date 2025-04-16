@@ -52,7 +52,7 @@
     {
       "author": "Jamon Jamon",
       "date": "2010-11-03T16:10:26.728-0400",
-      "body": "Including an external (non version controlled) infusion-builder.properties file in ${home}/infusion-builder.properties allows storing database credentials semi-securely while also using them in an ant build.xml file per the following patch:\n\nIndex: build.xml\\\n\\===================================================================\\\n— build.xml   (revision 10175)\\\n+++ build.xml   (working copy)\\\n@@ -4,6 +4,7 @@\n\n\\<property environment=\"env\" />\\\n\\<property file=\"build.properties\" />\\\n\\+       \\<property file=\"${home}/infusion-builder.properties\" />\n\n\\<target name=\"setup\\_server\\_props\" description=\"Loads server properties\">\\\n\\<property file=\"server\\_build.properties\" />\n"
+      "body": "Including an external (non version controlled) infusion-builder.properties file in ${home}/infusion-builder.properties allows storing database credentials semi-securely while also using them in an ant build.xml file per the following patch:\n\nIndex: build.xml\\\n\\===================================================================\\\n— build.xml   (revision 10175)\\\n+++ build.xml   (working copy)\\\n -4,6 +4,7 \n\n\\<property environment=\"env\" />\\\n\\<property file=\"build.properties\" />\\\n\\+       \\<property file=\"${home}/infusion-builder.properties\" />\n\n\\<target name=\"setup\\_server\\_props\" description=\"Loads server properties\">\\\n\\<property file=\"server\\_build.properties\" />\n"
     },
     {
       "author": "Cindy Li",

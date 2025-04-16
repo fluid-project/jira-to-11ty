@@ -34,7 +34,7 @@
 ---
 Joanna has suggested a different base font for the site, other than Times:
 
-www.google.com/webfonts#QuickUsePlace:quickUse/Family:Neuton:300,700,400,400italic
+www\.google.com/webfonts#QuickUsePlace:quickUse/Family:Neuton:300,700,400,400italic
 
 This will have to be embedded.
 

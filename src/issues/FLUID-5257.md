@@ -30,7 +30,7 @@
     {
       "author": "Michelle D'Souza",
       "date": "2014-03-27T14:50:54.237-0400",
-      "body": "@@Antranig Basman I know that these docs aren't complete yet, but can you check them for truthfulness in terms of what we will be shipping for 1.5? As long as they are not misleading, this issue will not hold up the release.\n"
+      "body": "Antranig Basman I know that these docs aren't complete yet, but can you check them for truthfulness in terms of what we will be shipping for 1.5? As long as they are not misleading, this issue will not hold up the release.\n"
     },
     {
       "author": "Justin Obara",

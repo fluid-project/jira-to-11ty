@@ -31,7 +31,7 @@
     {
       "author": "Michelle D'Souza",
       "date": "2014-03-27T15:01:35.225-0400",
-      "body": "@@Colin Clark@@Antranig Basman Should this issue be fixed for 1.5 or 2.0?&#x20;\n"
+      "body": "Colin ClarkAntranig Basman Should this issue be fixed for 1.5 or 2.0?&#x20;\n"
     },
     {
       "author": "Antranig Basman",

@@ -27,7 +27,7 @@
     {
       "author": "Gregor Moss",
       "date": "2019-09-12T14:08:54.703-0400",
-      "body": "@@Justin Obara has done this as part of <https://fluidproject.atlassian.net/browse/SJRK-274#icft=SJRK-274>\n"
+      "body": "Justin Obara has done this as part of <https://fluidproject.atlassian.net/browse/SJRK-274#icft=SJRK-274>\n"
     }
   ]
 }

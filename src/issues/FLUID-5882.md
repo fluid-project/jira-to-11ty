@@ -150,7 +150,7 @@ Listening @ 8003\
 304 - /tests/lib/qunit/js/qunit.js - ::1\
 304 - /tests/test-core/jqUnit/js/jqUnit.js - ::1\
 200 - /tests/framework-tests/core/js/FluidViewTests.js - ::1\
-304 - /src/framework/core/js/FluidView.js - fe80::1\
+304 - /src/framework/core/js/FluidView\.js - fe80::1\
 200 - /tests/framework-tests/core/html/Caching-test.html - fe80::1\
 304 - /tests/lib/qunit/css/qunit.css - fe80::1\
 304 - /src/lib/jquery/core/js/jquery.js - fe80::1\
@@ -170,7 +170,7 @@ Listening @ 8003\
 304 - /src/framework/core/js/Fluid.js - fe80::1\
 304 - /src/framework/core/js/FluidDocument.js - fe80::1\
 304 - /src/framework/core/js/FluidIoC.js - fe80::1\
-304 - /src/framework/core/js/FluidView.js - ::1\
+304 - /src/framework/core/js/FluidView\.js - ::1\
 304 - /src/framework/core/js/DataBinding.js - fe80::1\
 304 - /src/framework/core/js/FluidRequests.js - fe80::1\
 304 - /tests/lib/qunit/js/qunit.js - fe80::1\
@@ -202,7 +202,7 @@ Listening @ 8003\
 304 - /src/framework/core/js/FluidDocument.js - fe80::1\
 304 - /src/framework/core/js/FluidDebugging.js - fe80::1\
 304 - /src/framework/core/js/DataBinding.js - fe80::1\
-304 - /src/framework/core/js/FluidView.js - fe80::1\
+304 - /src/framework/core/js/FluidView\.js - fe80::1\
 304 - /src/framework/core/js/FluidDOMUtilities.js - fe80::1\
 304 - /src/framework/core/js/FluidRequests.js - fe80::1\
 200 - /src/framework/core/js/JavaProperties.js - fe80::1\
@@ -273,7 +273,7 @@ Listening @ 8003\
 304 - /src/framework/core/js/Fluid.js - fe80::1\
 304 - /src/framework/core/js/FluidDocument.js - fe80::1\
 304 - /src/framework/core/js/FluidIoC.js - fe80::1\
-304 - /src/framework/core/js/FluidView.js - fe80::1\
+304 - /src/framework/core/js/FluidView\.js - fe80::1\
 304 - /src/framework/core/js/DataBinding.js - fe80::1\
 304 - /src/framework/core/js/JavaProperties.js - fe80::1\
 304 - /src/framework/core/js/FluidRequests.js - fe80::1\
@@ -315,7 +315,7 @@ Listening @ 8003\
 304 - /src/framework/core/js/FluidDocument.js - fe80::1\
 304 - /src/framework/core/js/FluidIoC.js - fe80::1\
 304 - /src/framework/core/js/DataBinding.js - ::1\
-304 - /src/framework/core/js/FluidView.js - fe80::1\
+304 - /src/framework/core/js/FluidView\.js - fe80::1\
 304 - /src/framework/core/js/FluidDOMUtilities.js - ::1\
 304 - /src/framework/core/js/FluidRequests.js - fe80::1\
 304 - /src/framework/core/js/JavaProperties.js - fe80::1\
@@ -347,7 +347,7 @@ Listening @ 8003\
 304 - /src/framework/core/js/FluidDocument.js - fe80::1\
 304 - /src/framework/core/js/FluidIoC.js - ::1\
 304 - /src/framework/core/js/DataBinding.js - fe80::1\
-304 - /src/framework/core/js/FluidView.js - fe80::1\
+304 - /src/framework/core/js/FluidView\.js - fe80::1\
 304 - /src/framework/core/js/FluidRequests.js - fe80::1\
 304 - /src/lib/fastXmlPull/js/fastXmlPull.js - fe80::1\
 304 - /src/framework/renderer/js/fluidParser.js - fe80::1\
@@ -375,7 +375,7 @@ Listening @ 8003\
 304 - /src/framework/core/js/DataBinding.js - fe80::1\
 304 - /src/framework/core/js/ModelTransformation.js - fe80::1\
 304 - /src/framework/core/js/ModelTransformationTransforms.js - fe80::1\
-304 - /src/framework/core/js/FluidView.js - fe80::1\
+304 - /src/framework/core/js/FluidView\.js - fe80::1\
 304 - /src/framework/core/js/FluidRequests.js - fe80::1\
 304 - /src/lib/fastXmlPull/js/fastXmlPull.js - fe80::1\
 304 - /src/framework/renderer/js/fluidParser.js - fe80::1\
@@ -435,7 +435,7 @@ Listening @ 8003\
 304 - /src/framework/core/js/FluidDOMUtilities.js - fe80::1\
 304 - /src/framework/core/js/FluidIoC.js - fe80::1\
 304 - /src/framework/core/js/DataBinding.js - fe80::1\
-304 - /src/framework/core/js/FluidView.js - fe80::1\
+304 - /src/framework/core/js/FluidView\.js - fe80::1\
 304 - /src/framework/core/js/FluidRequests.js - fe80::1\
 304 - /src/lib/fastXmlPull/js/fastXmlPull.js - fe80::1\
 304 - /src/framework/renderer/js/fluidParser.js - fe80::1\
@@ -463,7 +463,7 @@ Listening @ 8003\
 304 - /src/framework/core/js/FluidDOMUtilities.js - fe80::1\
 304 - /src/framework/core/js/FluidIoC.js - fe80::1\
 304 - /src/framework/core/js/DataBinding.js - ::1\
-304 - /src/framework/core/js/FluidView.js - fe80::1\
+304 - /src/framework/core/js/FluidView\.js - fe80::1\
 304 - /src/framework/core/js/FluidRequests.js - fe80::1\
 304 - /src/lib/fastXmlPull/js/fastXmlPull.js - fe80::1\
 304 - /src/framework/renderer/js/fluidParser.js - fe80::1\
@@ -494,7 +494,7 @@ Listening @ 8003\
 304 - /src/framework/core/js/DataBinding.js - fe80::1\
 304 - /src/framework/core/js/ModelTransformation.js - fe80::1\
 304 - /src/framework/core/js/ModelTransformationTransforms.js - fe80::1\
-304 - /src/framework/core/js/FluidView.js - fe80::1\
+304 - /src/framework/core/js/FluidView\.js - fe80::1\
 304 - /src/lib/fastXmlPull/js/fastXmlPull.js - fe80::1\
 304 - /src/framework/renderer/js/fluidParser.js - fe80::1\
 304 - /src/framework/renderer/js/fluidRenderer.js - fe80::1\

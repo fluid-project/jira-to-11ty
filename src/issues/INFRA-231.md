@@ -25,7 +25,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2020-04-09T09:01:32.823-0400",
-      "body": "CC @@Colin Clark @@Alan Harnum just a heads up I'll be working on this.\n"
+      "body": "CC Colin Clark Alan Harnum just a heads up I'll be working on this.\n"
     },
     {
       "author": "Giovanni Tirloni",

@@ -28,7 +28,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-09-29T12:44:57.850-0400",
-      "body": "@@Antranig Basman do you have a thought on how we should proceed with this. The dropdown inline edit is still not a fully supported component/feature in infusion.\n"
+      "body": "Antranig Basman do you have a thought on how we should proceed with this. The dropdown inline edit is still not a fully supported component/feature in infusion.\n"
     },
     {
       "author": "Cindy Li",

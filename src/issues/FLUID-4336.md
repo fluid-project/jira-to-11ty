@@ -33,7 +33,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-09T14:11:11.240-0400",
-      "body": "@@Antranig Basman is this taken care of with <https://github.com/fluid-project/infusion/pull/591>\n"
+      "body": "Antranig Basman is this taken care of with <https://github.com/fluid-project/infusion/pull/591>\n"
     },
     {
       "author": "Antranig Basman",

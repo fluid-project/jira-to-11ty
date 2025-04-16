@@ -38,7 +38,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-02T10:23:06.152-0500",
-      "body": "@@Neel Dalsania thanks for looking into this. Would you like to submit a pull request with your fix? You can have a look at our coding and commit standards ( <https://wiki.fluidproject.org/display/fluid/Coding+and+Commit+Standards> ).\n"
+      "body": "Neel Dalsania thanks for looking into this. Would you like to submit a pull request with your fix? You can have a look at our coding and commit standards ( <https://wiki.fluidproject.org/display/fluid/Coding+and+Commit+Standards> ).\n"
     },
     {
       "author": "Neel Dalsania",

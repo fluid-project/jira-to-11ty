@@ -30,7 +30,7 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2016-06-07T07:59:33.543-0400",
-      "body": "I proceeded with everything else (including a new Gruntfile, etc.).  I would also like to add a \"test\" script to the package.json, but get odd errors when doing so.  @@Antranig Basman, we should look at this together, it should not take more than five minutes.\n"
+      "body": "I proceeded with everything else (including a new Gruntfile, etc.).  I would also like to add a \"test\" script to the package.json, but get odd errors when doing so.  Antranig Basman, we should look at this together, it should not take more than five minutes.\n"
     },
     {
       "author": "Tony Atkins [RtF]",
@@ -50,6 +50,6 @@ Following up on <https://fluidproject.atlassian.net/browse/FLUID-5120#icft=FLUID
 1\. Use ESLint and remove JSHint\
 2\. Use a 1.0.x version of Grunt and all Grunt plugins.
 
-@@Antranig Basman, I was planning to submit a small PR for this unless you, @@Cindy Li, or someone else on the team was already taking it on.
+Antranig Basman, I was planning to submit a small PR for this unless you, Cindy Li, or someone else on the team was already taking it on.
 
         

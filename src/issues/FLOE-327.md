@@ -39,7 +39,7 @@
     {
       "author": "Antranig Basman",
       "date": "2015-06-01T14:18:07.236-0400",
-      "body": "@@Justin Obara believes this issue is related to <https://fluidproject.atlassian.net/browse/FLOE-361#icft=FLOE-361> - we should recheck whether this issue is solved once his branch is merged in\n"
+      "body": "Justin Obara believes this issue is related to <https://fluidproject.atlassian.net/browse/FLOE-361#icft=FLOE-361> - we should recheck whether this issue is solved once his branch is merged in\n"
     },
     {
       "author": "Justin Obara",

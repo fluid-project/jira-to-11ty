@@ -32,12 +32,12 @@
     {
       "author": "Gregor Moss",
       "date": "2020-02-21T17:02:40.978-0500",
-      "body": "In creating my BRANCHES.md file, I've noticed that the two branches `learning-to-learn` and `re-review` are not used. As such I recommend that we delete them along with `stories-floe-dev` when the time comes.\n\nFor a bit of context, `learning-to-learn` was once our main development base (much as `stories-floe-dev` was after that and `master` is now) and `re-review` is a branch that @@Antranig Basman set up for his holistic review efforts that culminated in the <https://fluidproject.atlassian.net/browse/SJRK-255#icft=SJRK-255> work being merged in and the project being updated to satisfy <https://fluidproject.atlassian.net/browse/FLUID-6145#icft=FLUID-6145> and <https://fluidproject.atlassian.net/browse/FLUID-6148#icft=FLUID-6148>.\n"
+      "body": "In creating my BRANCHES.md file, I've noticed that the two branches `learning-to-learn` and `re-review` are not used. As such I recommend that we delete them along with `stories-floe-dev` when the time comes.\n\nFor a bit of context, `learning-to-learn` was once our main development base (much as `stories-floe-dev` was after that and `master` is now) and `re-review` is a branch that Antranig Basman set up for his holistic review efforts that culminated in the <https://fluidproject.atlassian.net/browse/SJRK-255#icft=SJRK-255> work being merged in and the project being updated to satisfy <https://fluidproject.atlassian.net/browse/FLUID-6145#icft=FLUID-6145> and <https://fluidproject.atlassian.net/browse/FLUID-6148#icft=FLUID-6148>.\n"
     },
     {
       "author": "Gregor Moss",
       "date": "2020-02-21T17:12:03.709-0500",
-      "body": "I have also noticed in my review of the CI jobs that the Karisma site (<https://karisma-stories.floeproject.org/>) is being deployed from a particular branch in @@Alan Harnum's fork of the code: <https://github.com/waharnum/sjrk-story-telling-server/tree/SJRK-56-karisma>. Transitioning off of that and onto a more \"mainline\" branch of the code may involve a bit of work bringing that particular theme up to date, since it was originally deployed nearly two years ago, so perhaps that effort deserves its own Jira.\n"
+      "body": "I have also noticed in my review of the CI jobs that the Karisma site (<https://karisma-stories.floeproject.org/>) is being deployed from a particular branch in Alan Harnum's fork of the code: <https://github.com/waharnum/sjrk-story-telling-server/tree/SJRK-56-karisma>. Transitioning off of that and onto a more \"mainline\" branch of the code may involve a bit of work bringing that particular theme up to date, since it was originally deployed nearly two years ago, so perhaps that effort deserves its own Jira.\n"
     },
     {
       "author": "Cindy Li",

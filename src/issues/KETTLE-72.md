@@ -32,7 +32,7 @@
   ]
 }
 ---
-@@Alan Harnum recently added new functionality to Kettle, which requires the form-data module.  That dependency is currently a dev dependency.  The net result is that calling `kettle.loadTestingSupport()` from another package now results in errors like:
+Alan Harnum recently added new functionality to Kettle, which requires the form-data module.  That dependency is currently a dev dependency.  The net result is that calling `kettle.loadTestingSupport()` from another package now results in errors like:
 
 ```java
 10:45:41.189:  FATAL ERROR: Uncaught exception: Cannot find module 'form-data'

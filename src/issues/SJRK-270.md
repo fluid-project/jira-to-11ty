@@ -26,12 +26,12 @@
     {
       "author": "Justin Obara",
       "date": "2019-08-30T07:43:40.190-0400",
-      "body": "@@Gregor Moss maybe cancel the speech synthesis during the cleanup. We do something like that in the TTS tests in Infusion.\n\n<https://github.com/fluid-project/infusion/blob/master/tests/component-tests/textToSpeech/js/TextToSpeechTests.js#L39-L43>\n\n \n\nIf you are using Infusion's TTS, you can call `cancel`\n"
+      "body": "Gregor Moss maybe cancel the speech synthesis during the cleanup. We do something like that in the TTS tests in Infusion.\n\n<https://github.com/fluid-project/infusion/blob/master/tests/component-tests/textToSpeech/js/TextToSpeechTests.js#L39-L43>\n\n \n\nIf you are using Infusion's TTS, you can call `cancel`\n"
     },
     {
       "author": "Gregor Moss",
       "date": "2019-09-12T18:45:55.025-0400",
-      "body": "This is no longer an issue after @@Justin Obara switched the storySpeaker out for the orator component in <https://fluidproject.atlassian.net/browse/SJRK-274#icft=SJRK-274>\n"
+      "body": "This is no longer an issue after Justin Obara switched the storySpeaker out for the orator component in <https://fluidproject.atlassian.net/browse/SJRK-274#icft=SJRK-274>\n"
     }
   ]
 }

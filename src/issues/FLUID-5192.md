@@ -35,7 +35,7 @@
     {
       "author": "Michelle D'Souza",
       "date": "2014-03-27T15:05:28.760-0400",
-      "body": "@@joanna vass@@Dana@@Justin Obara There was some conversation about whether or not this is an issue that we should actually fix. Justin, could you clarify what the questions are and perhaps we can move towards fixing or closing this issue.&#x20;\n"
+      "body": "joanna vassDanaJustin Obara There was some conversation about whether or not this is an issue that we should actually fix. Justin, could you clarify what the questions are and perhaps we can move towards fixing or closing this issue.&#x20;\n"
     },
     {
       "author": "Justin Obara",

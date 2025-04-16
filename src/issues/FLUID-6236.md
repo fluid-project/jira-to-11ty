@@ -27,7 +27,7 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2018-01-12T05:25:54.672-0500",
-      "body": "To quote @@Alfredo Matas when discussing this earlier:\n\n> <https://github.com/fluid-project/infusion/Vagrantfile> , seems very similar to the universal one to me 11:01\\\n> I think that using the same definition of the used at universal repo, and changing the lasts steps to this: <https://github.com/fluid-project/infusion/blob/master/package.json#L22-L25>\\\n> \\*to use these lines\n"
+      "body": "To quote Alfredo Matas when discussing this earlier:\n\n> <https://github.com/fluid-project/infusion/Vagrantfile> , seems very similar to the universal one to me 11:01\\\n> I think that using the same definition of the used at universal repo, and changing the lasts steps to this: <https://github.com/fluid-project/infusion/blob/master/package.json#L22-L25>\\\n> \\*to use these lines\n"
     },
     {
       "author": "Alfredo Matas",
@@ -44,6 +44,6 @@
 ---
 Currently, Infusion is tested on our CI servers using the linux Vagrant vm, and its one one-off Vagrantfile and provisioning.
 
-This ticket covers replacing that with a comparable configuration for the [Vagrant CI Plugin](https://github.com/amatas/vagrant-gpii-ci) developed by @@Alfredo Matas, and defining multiple environments, so that we can easily test in both linux and windows (even if we choose to primarily test one or the other).
+This ticket covers replacing that with a comparable configuration for the [Vagrant CI Plugin](https://github.com/amatas/vagrant-gpii-ci) developed by Alfredo Matas, and defining multiple environments, so that we can easily test in both linux and windows (even if we choose to primarily test one or the other).
 
         

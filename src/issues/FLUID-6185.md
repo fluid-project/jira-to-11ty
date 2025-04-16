@@ -31,7 +31,7 @@
     {
       "author": "Justin Obara",
       "date": "2017-08-14T09:14:03.591-0400",
-      "body": "@@Eloisa Guerrero I wonder if part of the issue with the background of the page may be related to <https://fluidproject.atlassian.net/browse/FLUID-5407#icft=FLUID-5407>. Perhaps the enactors are missing a style or could improve on one that is being used. I'm thinking that the background in the content page is being changed by one of the prefs editor styles, instead of by the enactor styles.\n"
+      "body": "Eloisa Guerrero I wonder if part of the issue with the background of the page may be related to <https://fluidproject.atlassian.net/browse/FLUID-5407#icft=FLUID-5407>. Perhaps the enactors are missing a style or could improve on one that is being used. I'm thinking that the background in the content page is being changed by one of the prefs editor styles, instead of by the enactor styles.\n"
     },
     {
       "author": "Justin Obara",

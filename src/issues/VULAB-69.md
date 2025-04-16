@@ -60,6 +60,6 @@ Investigate various php open source frameworks that would facilitate a MVC syste
 
 At this point the system needs to be completely re-written to follow a fluidproject benchmark. So, 2 branches of VULab will be developed. One "working" version (designed for all-hands meeting) and one built with a proper framework (using data models that are in the current VULab system)
 
-Current candidate is: www.CodeIgniter.com
+Current candidate is: www\.CodeIgniter.com
 
         

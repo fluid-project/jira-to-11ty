@@ -26,12 +26,12 @@
     {
       "author": "Jonathan Hung",
       "date": "2017-06-01T09:52:33.577-0400",
-      "body": "@@Justin Obara The only one missing I can think of is [https://www.floeproject.org](https://www.floeproject.org/)\n\n \n"
+      "body": "Justin Obara The only one missing I can think of is [https://www.floeproject.org](https://www.floeproject.org/)\n\n \n"
     },
     {
       "author": "Justin Obara",
       "date": "2017-06-01T09:58:43.309-0400",
-      "body": "@@Jonathan Hung floeproject.org was already updated. It's currently the only one that is.\n"
+      "body": "Jonathan Hung floeproject.org was already updated. It's currently the only one that is.\n"
     },
     {
       "author": "Justin Obara",

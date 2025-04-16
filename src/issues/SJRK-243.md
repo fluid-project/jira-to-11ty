@@ -27,7 +27,7 @@
     {
       "author": "Michelle D'Souza",
       "date": "2019-04-05T15:01:02.408-0400",
-      "body": "Netlify had an issue opened against them for adding captions to images: <https://github.com/netlify/netlify-cms/issues/1058>\n\nThey closed the issue and suggested using a custom editor component or Hugo shortcode to solve the issue.\n\n@@Avtar Gill and I decided that the Hugo shortcode would result in easier to maintain code and we've gone that route.\n"
+      "body": "Netlify had an issue opened against them for adding captions to images: <https://github.com/netlify/netlify-cms/issues/1058>\n\nThey closed the issue and suggested using a custom editor component or Hugo shortcode to solve the issue.\n\nAvtar Gill and I decided that the Hugo shortcode would result in easier to maintain code and we've gone that route.\n"
     }
   ]
 }

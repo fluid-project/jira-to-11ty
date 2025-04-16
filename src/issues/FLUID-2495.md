@@ -40,7 +40,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-07-09T10:09:16.431-0400",
-      "body": "@@Antranig Basman do you have thoughts on this issue?\n"
+      "body": "Antranig Basman do you have thoughts on this issue?\n"
     },
     {
       "author": "Justin Obara",

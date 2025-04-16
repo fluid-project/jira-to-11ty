@@ -56,7 +56,7 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2018-06-07T07:04:59.170-0400",
-      "body": "@@Jonathan Hung, is there work remaining here?  just reviewing open tickets against pulls.  All the pulls referenced here are merged, but it's a big enough one that I wanted to confirm.\n"
+      "body": "Jonathan Hung, is there work remaining here?  just reviewing open tickets against pulls.  All the pulls referenced here are merged, but it's a big enough one that I wanted to confirm.\n"
     }
   ]
 }

@@ -25,7 +25,7 @@
     {
       "author": "Alan Harnum",
       "date": "2019-06-19T17:20:10.461-0400",
-      "body": "Some challenges to resolve on this one due to the <https://www.codelearncreate.org/> site being hosted on Netlify, with SSL managed there. Discussing with @@Avtar Gill.\n"
+      "body": "Some challenges to resolve on this one due to the <https://www.codelearncreate.org/> site being hosted on Netlify, with SSL managed there. Discussing with Avtar Gill.\n"
     },
     {
       "author": "Alan Harnum",

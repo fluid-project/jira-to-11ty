@@ -47,7 +47,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-15T11:06:09.037-0400",
-      "body": "@@Antranig Basman is this still relevant?\n"
+      "body": "Antranig Basman is this still relevant?\n"
     },
     {
       "author": "Antranig Basman",

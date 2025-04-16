@@ -50,7 +50,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-03T08:47:48.730-0500",
-      "body": "@@sparsh paliwal thanks for adding the screen shot. I think the issue is fairly subtle and it may not be immediately obvious because the borders are changing colours. However if you look at the span containing the buttons, it has the class \"fl-prefsEditor-buttons\", the box-shadow doesn't change colour. I've lowered this to a minor issue though, because your screenshot suggests that it's fairly imperceptible.&#x20;\n"
+      "body": "sparsh paliwal thanks for adding the screen shot. I think the issue is fairly subtle and it may not be immediately obvious because the borders are changing colours. However if you look at the span containing the buttons, it has the class \"fl-prefsEditor-buttons\", the box-shadow doesn't change colour. I've lowered this to a minor issue though, because your screenshot suggests that it's fairly imperceptible.&#x20;\n"
     },
     {
       "author": "Jonathan Hung",

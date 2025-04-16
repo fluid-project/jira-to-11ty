@@ -41,7 +41,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2018-04-03T04:41:53.325-0400",
-      "body": "v2.4.3 is finally available. I will coordinate with @@Alan Harnum to find a time slot to apply this update.\n"
+      "body": "v2.4.3 is finally available. I will coordinate with Alan Harnum to find a time slot to apply this update.\n"
     },
     {
       "author": "Giovanni Tirloni",

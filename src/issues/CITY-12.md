@@ -23,6 +23,6 @@
   "comments": []
 }
 ---
-Integrate the new assets designed by @@Avtar Gill, will likely involve changes in positioning and layout and typography, but otherwise no changes to site content.
+Integrate the new assets designed by Avtar Gill, will likely involve changes in positioning and layout and typography, but otherwise no changes to site content.
 
         

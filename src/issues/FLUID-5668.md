@@ -107,7 +107,7 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2018-01-12T09:15:06.154-0500",
-      "body": "@@Antranig Basman, would this shortcoming also explain why I can't use {arguments}.1 when setting up a member variable in a dynamic component?\n"
+      "body": "Antranig Basman, would this shortcoming also explain why I can't use {arguments}.1 when setting up a member variable in a dynamic component?\n"
     },
     {
       "author": "Tony Atkins [RtF]",

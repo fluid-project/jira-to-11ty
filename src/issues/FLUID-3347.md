@@ -39,7 +39,7 @@
   ]
 }
 ---
-Colin Clark says "Taking a look at the HTML file, I'm reminded that there are better strategies for switching between local testing data and the real thing, instead of commenting out code. Typically we check the window.location property to determine if the page is being hosted at a file:// URL instead of http://. In that case, just load the test data automatically."
+Colin Clark says "Taking a look at the HTML file, I'm reminded that there are better strategies for switching between local testing data and the real thing, instead of commenting out code. Typically we check the window\.location property to determine if the page is being hosted at a file:// URL instead of http\://. In that case, just load the test data automatically."
 
 The html file being referred to is infusion-builder/html/CustomBuild.html around line 98, where the data is loaded from a file vs dynamically assembled from the json files. I've commented out the code for each usage. Find a better way to do this.
 

@@ -48,7 +48,7 @@
     {
       "author": "Gregor Moss",
       "date": "2018-06-14T16:12:20.679-0400",
-      "body": "Consider the prior art in the First Discovery tool (<https://github.com/GPII/first-discovery>) and the Preferences Editor ([https://docs.fluidproject.org/infusion/development/LocalizationInThePreferencesFramework.html#](https://docs.fluidproject.org/infusion/development/LocalizationInThePreferencesFramework.html))\n\nPerhaps @@Cindy Li can weigh in? 🙂\n\ncc @@Michelle D'Souza\n"
+      "body": "Consider the prior art in the First Discovery tool (<https://github.com/GPII/first-discovery>) and the Preferences Editor ([https://docs.fluidproject.org/infusion/development/LocalizationInThePreferencesFramework.html#](https://docs.fluidproject.org/infusion/development/LocalizationInThePreferencesFramework.html))\n\nPerhaps Cindy Li can weigh in? 🙂\n\ncc Michelle D'Souza\n"
     },
     {
       "author": "Cindy Li",
