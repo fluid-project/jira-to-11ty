@@ -3,11 +3,21 @@
     <head>
         <title>{% if title %} {{ title }} {% else %} {{ site.title }} {% endif %} | {{ site.name }}</title>
 
-        {% include "partials/global/meta.njk" %}
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta name="description" content="{{ site.description }}">
+        <meta property="og:title" content="{% if title %} {{ title }} | {% endif %} {{ site.name }}">
+        <meta property="og:description" content="{{ site.shortDesc }}">
+        <meta property="og:locale" content="en">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+        <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
-        {% include "partials/global/stylesheets.njk" %}
 
-        <script type="module" src="/assets/scripts/relative-time/bundle.js"></script>
+        <link rel="stylesheet" href="/assets/styles/style.css" />
+
+        {% block scripts %}
+        {% endblock %}
     </head>
     <body class="{{ pageType }} {{ pageClasses }}">
         <header class="mt-3">
