@@ -9,7 +9,12 @@ import autoprefixer from "autoprefixer";
 import csso from 'postcss-csso';
 
 export default function eleventy(eleventyConfig) {
-  eleventyConfig.addCollection("projects", (collectionsApi) => collectionsApi.getFilteredByGlob("src/projects/*.md"));
+  eleventyConfig.addCollection("projects", (collectionsApi) => collectionsApi
+    .getFilteredByGlob("src/projects/*.md")
+    .sort(function (a, b) {
+      return a.data.title.localeCompare(b.data.title);
+    }
+  ));
 
   eleventyConfig.addTemplateFormats("css");
   eleventyConfig.addExtension('css', {
@@ -26,7 +31,8 @@ export default function eleventy(eleventyConfig) {
           purgeCSSPlugin({
             content: ['./src/**/*.njk'],
             safelist: {
-              standard: ['form', 'input', 'button', 'fieldset', 'legend', 'mark', 'code', 'pre', /hljs-string$/],
+              standard: ['form', 'input', '[type="checkbox"]', 'button', 'fieldset', 'legend', 'mark', 'code', 'pre'],
+              greedy: [/hljs$/],
               deep: [/hljs$/]
             }
           }),
