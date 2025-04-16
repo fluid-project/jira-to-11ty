@@ -25,7 +25,7 @@ export default function eleventy(eleventyConfig) {
           autoprefixer(),
           purgeCSSPlugin({
             content: ['./src/**/*.njk'],
-            safelist: ['form', 'input', 'button']
+            safelist: ['form', 'input', 'button', 'fieldset', 'legend']
           }),
           csso()
         ]).process(content, {
