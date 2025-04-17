@@ -44,7 +44,7 @@ For 1.0 we need to document the workaround for this, using a listener which chec
 
 afterUploadComplete: function () {\
 if (myUpload.uploadManager.queue.getReadyFiles().length === 0) { // we're really really done\
-window.location.href = "/sakai-imagegallery2-web/site/BrowseImages/";\
+window\.location.href = "/sakai-imagegallery2-web/site/BrowseImages/";\
 }\
 }
 

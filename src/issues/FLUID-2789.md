@@ -55,7 +55,7 @@
     {
       "author": "Eli Cochran",
       "date": "2009-05-29T12:46:15.000-0400",
-      "body": "We've decided to go with the Opera only fix, but we're changing the test for Opera since jQuery has deprecated $.browser.opera. After much hunting, we found (window.opera) which appears to only return as defined on Opera!\n"
+      "body": "We've decided to go with the Opera only fix, but we're changing the test for Opera since jQuery has deprecated $.browser.opera. After much hunting, we found (window\\.opera) which appears to only return as defined on Opera!\n"
     },
     {
       "author": "Eli Cochran",

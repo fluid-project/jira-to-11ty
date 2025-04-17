@@ -43,7 +43,7 @@ Set up an SJRK-themed version of the Storytelling Tool to link directly from the
 Title: Social Justice Repair Kit: Storytelling\
 URL: <https://stories.sojustrepairit.org/>
 
-@@Gregor Moss will try to style the tool in a way that matches the SJRK site, i.e. the SJRK logo, colours and link styling, but may reach out to a designer for assistance.
+Gregor Moss will try to style the tool in a way that matches the SJRK site, i.e. the SJRK logo, colours and link styling, but may reach out to a designer for assistance.
 
 The site will consist only of the core ST pages (Browse, View, Edit). Once stories are added, the editing is to be disabled and the link to the edit page removed (the same thing was done with the Cities theme, previously)
 

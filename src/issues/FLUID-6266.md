@@ -32,7 +32,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2018-03-28T16:39:09.985-0400",
-      "body": "@@Alan Harnum thanks! Could you review my PR when you have some free time? I did a few more changes to it that are detailed in the PR's comments.\n"
+      "body": "Alan Harnum thanks! Could you review my PR when you have some free time? I did a few more changes to it that are detailed in the PR's comments.\n"
     },
     {
       "author": "Justin Obara",

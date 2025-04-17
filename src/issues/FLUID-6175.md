@@ -52,7 +52,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-04-19T12:54:02.809-0400",
-      "body": "Discussion with @@Antranig Basman in the fluid-work IRC channel about how to add the UI as an enactor.\n\n<https://botbot.me/freenode/fluid-work/2018-04-19/?msg=99166163&page=2>\n\nIn summary we'll port over the fluid.newViewComponent ( <https://github.com/fluid-project/fluid-authoring/blob/FLUID-4884/src/js/ViewComponentSupport.js#L20> ). This will allow it to either use an existing container or render out its own.\n"
+      "body": "Discussion with Antranig Basman in the fluid-work IRC channel about how to add the UI as an enactor.\n\n<https://botbot.me/freenode/fluid-work/2018-04-19/?msg=99166163&page=2>\n\nIn summary we'll port over the fluid.newViewComponent ( <https://github.com/fluid-project/fluid-authoring/blob/FLUID-4884/src/js/ViewComponentSupport.js#L20> ). This will allow it to either use an existing container or render out its own.\n"
     },
     {
       "author": "Justin Obara",

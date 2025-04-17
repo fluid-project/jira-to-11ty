@@ -31,7 +31,7 @@
   ]
 }
 ---
-The current latest 'stable' version of the storytelling tool at <https://github.com/BlueSlug/sjrk-story-telling/commit/531f0bbada4f1c2bc1beebc3c38b25bc5f8d2ed3> is not working properly. This is due to the package.json file referring to gpii-handlebars version 1.1.0, which introduced a breaking change from 1.0.3 (bad semver!), and Gregor not updating his node\_modules folder on his particular work machine, thereby allowing the issue to go unnoticed until others tried to run the project locally. Thanks to @@Sepideh Shahi and @@Justin Obara for help with investigating this.
+The current latest 'stable' version of the storytelling tool at <https://github.com/BlueSlug/sjrk-story-telling/commit/531f0bbada4f1c2bc1beebc3c38b25bc5f8d2ed3> is not working properly. This is due to the package.json file referring to gpii-handlebars version 1.1.0, which introduced a breaking change from 1.0.3 (bad semver!), and Gregor not updating his node\_modules folder on his particular work machine, thereby allowing the issue to go unnoticed until others tried to run the project locally. Thanks to Sepideh Shahi and Justin Obara for help with investigating this.
 
 Fix this issue and any others that arise as a result.
 

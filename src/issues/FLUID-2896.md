@@ -34,7 +34,7 @@
     {
       "author": "Laurel Williams",
       "date": "2009-06-03T10:57:24.000-0400",
-      "body": "Added a code snipit into initUIOptions as noted below.\n\nvar initUIOptions = function() {\\\nvar options = {\\\nlisteners: {\\\nafterRender: function() {\\\n$('.uiOptions .fl-col:eq(0)').accordion({\\\nheader: 'h2',\\\nclearStyle: true,\\\nautoHeight: false\\\n});\\\n$('.uiOptions .fl-col h2:eq(0)').focus();\\\n},\\\nonCancel: function() {\\\n$(\"#uiOptionsContainer\").dialog(\"close\");\\\n},\\\nonSave: function() {\\\n$(\"#uiOptionsContainer\").dialog(\"close\");\\\n}\\\n}\\\n};\n\n// solves the uri security issue\\\n// remove if we can get relative uri working\\\n//locate .flc-uiOptions-preview-frame in the template\\\n//replace the src parameter with the appropriate value\\\n$(\".flc-uiOptions-preview-frame\").attr(\"src\", \"http://\" + location.host +\\\n\"/uploads/ui-options/UIOptionsPreview.html\");\n\nuiOptions = fluid.uiOptions(\"#uiOptionsContainer\", options);\\\n$(\"#uiOptionsContainer\").dialog('option', 'position', 'center');\\\n};\n"
+      "body": "Added a code snipit into initUIOptions as noted below.\n\nvar initUIOptions = function() {\\\nvar options = {\\\nlisteners: {\\\nafterRender: function() {\\\n$('.uiOptions .fl-col:eq(0)').accordion({\\\nheader: 'h2',\\\nclearStyle: true,\\\nautoHeight: false\\\n});\\\n$('.uiOptions .fl-col h2:eq(0)').focus();\\\n},\\\nonCancel: function() {\\\n$(\"#uiOptionsContainer\").dialog(\"close\");\\\n},\\\nonSave: function() {\\\n$(\"#uiOptionsContainer\").dialog(\"close\");\\\n}\\\n}\\\n};\n\n// solves the uri security issue\\\n// remove if we can get relative uri working\\\n//locate .flc-uiOptions-preview-frame in the template\\\n//replace the src parameter with the appropriate value\\\n$(\".flc-uiOptions-preview-frame\").attr(\"src\", \"http\\://\" + location.host +\\\n\"/uploads/ui-options/UIOptionsPreview\\.html\");\n\nuiOptions = fluid.uiOptions(\"#uiOptionsContainer\", options);\\\n$(\"#uiOptionsContainer\").dialog('option', 'position', 'center');\\\n};\n"
     },
     {
       "author": "Laurel Williams",
@@ -47,7 +47,7 @@
 In the javascript to use ui options, you need to load the ui options template from an html page on the server. Because of ?security issues? I have had to use the exact url in the javascript to load the UIOptions template (see javascript snippet below). I would prefer to have used a relative url, but get security errors when I do.
 
 var loadUIOptions = function() {\
-var urlSelector = "http://" + location.host + "/uploads/ui-options/UIOptions.html .uiOptions";\
+var urlSelector = "http\://" + location.host + "/uploads/ui-options/UIOptions.html .uiOptions";\
 $("#dialogContent").load(urlSelector, initUIOptions);\
 };
 

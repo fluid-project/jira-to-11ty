@@ -82,7 +82,7 @@
     {
       "author": "Svetoslav Nedkov",
       "date": "2010-02-18T06:21:47.000-0500",
-      "body": "ENGAGE-3950-2.patch should be used instead of ENGAGE-3950.patch, the collect/uncollect confirmation position is still absolute but now the top enclosing div is made relative, so the confirmation is relative to it and is less prone to move about in different browsers and with different font sizes. Also as the confirmation is a link (and links under the iphone theme are with black text color) a forced value for its text color is given. The only change to ArtifactCollectiView.js is to hide the confirmation element before setting its text so that the layout of its predecessors is not affected.\n"
+      "body": "ENGAGE-3950-2.patch should be used instead of ENGAGE-3950.patch, the collect/uncollect confirmation position is still absolute but now the top enclosing div is made relative, so the confirmation is relative to it and is less prone to move about in different browsers and with different font sizes. Also as the confirmation is a link (and links under the iphone theme are with black text color) a forced value for its text color is given. The only change to ArtifactCollectiView\\.js is to hide the confirmation element before setting its text so that the layout of its predecessors is not affected.\n"
     },
     {
       "author": "Justin Obara",

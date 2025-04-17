@@ -54,7 +54,7 @@
 ---
 **Updated description 2018-07-17:**
 
-The work @@Gregor Moss and @@Michelle D'Souza have done in SJRK-90 (<https://issues.fluidproject.org/browse/SJRK-90>) has extended from this work, and will form the core of a PR to Infusion. Retaining the original description below for informational purposes.
+The work Gregor Moss and Michelle D'Souza have done in SJRK-90 (<https://issues.fluidproject.org/browse/SJRK-90>) has extended from this work, and will form the core of a PR to Infusion. Retaining the original description below for informational purposes.
 
 —
 

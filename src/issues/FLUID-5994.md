@@ -42,7 +42,7 @@
     {
       "author": "Alan Harnum",
       "date": "2016-10-26T17:32:57.522-0400",
-      "body": "PR at <https://github.com/fluid-project/infusion/pull/770> - thanks @@David for report.\n"
+      "body": "PR at <https://github.com/fluid-project/infusion/pull/770> - thanks David for report.\n"
     },
     {
       "author": "Alan Harnum",

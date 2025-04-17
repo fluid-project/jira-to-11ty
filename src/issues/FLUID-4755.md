@@ -50,6 +50,6 @@ And it is not currently working. The page immediately throws this error:
 "TypeError: fluid.initView is not a function\
 var that = fluid.initView("fluid.infusionBuilder", container, options);"
 
-This appears to be due to the fact that the Builder itself doesn't use an Infusion build file, and instead links to individual files. Somewhere along the way to Infusion 1.5, files were restructured to provide a complete separation between code that requires the DOM and code that does not. fluid.initView() was moved to FluidView.js, but the Builder does not link to this file.
+This appears to be due to the fact that the Builder itself doesn't use an Infusion build file, and instead links to individual files. Somewhere along the way to Infusion 1.5, files were restructured to provide a complete separation between code that requires the DOM and code that does not. fluid.initView() was moved to FluidView\.js, but the Builder does not link to this file.
 
         

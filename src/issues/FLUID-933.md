@@ -36,6 +36,6 @@
   ]
 }
 ---
-Currently they go directly to Allison (abloodworth@berkeley.edu). We'd like them to go to an alias like info@uidesignpatterns.org or something similar which can be forwarded to the appropriate person (which would currently be Allison).&#x20;
+Currently they go directly to Allison (abloodworth\@berkeley.edu). We'd like them to go to an alias like info\@uidesignpatterns.org or something similar which can be forwarded to the appropriate person (which would currently be Allison).&#x20;
 
         

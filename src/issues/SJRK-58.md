@@ -31,12 +31,12 @@
     {
       "author": "Gregor Moss",
       "date": "2018-05-25T14:42:13.408-0400",
-      "body": "We should discuss the issue with @@Justin Obara and see if there is any way to take advantage of his ongoing work on the new Orator self-voicing component, which will have highlighting as it reads each word.\n"
+      "body": "We should discuss the issue with Justin Obara and see if there is any way to take advantage of his ongoing work on the new Orator self-voicing component, which will have highlighting as it reads each word.\n"
     },
     {
       "author": "Gregor Moss",
       "date": "2019-09-12T13:35:28.630-0400",
-      "body": "@@Justin Obara has completed this work in <https://fluidproject.atlassian.net/browse/SJRK-274#icft=SJRK-274>\n"
+      "body": "Justin Obara has completed this work in <https://fluidproject.atlassian.net/browse/SJRK-274#icft=SJRK-274>\n"
     }
   ]
 }

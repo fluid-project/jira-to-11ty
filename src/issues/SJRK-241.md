@@ -25,7 +25,7 @@
   "comments": []
 }
 ---
-For expedience, several items were deferred to this Jira from the reivew of the [pull request for SJRK-239](https://github.com/fluid-project/sjrk-story-telling/pull/19). @@Cindy Li provided review. This may be helpful to break into smaller Jiras when the work is being done.
+For expedience, several items were deferred to this Jira from the reivew of the [pull request for SJRK-239](https://github.com/fluid-project/sjrk-story-telling/pull/19). Cindy Li provided review. This may be helpful to break into smaller Jiras when the work is being done.
 
 1. The Node tests for authoringEnabled on the server side should test both "true" and "false" values, not just whichever is currently set.
 2. Similarly, the browser tests for the UI-side flag should also check both values.

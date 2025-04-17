@@ -25,7 +25,7 @@
     {
       "author": "Justin Obara",
       "date": "2020-06-15T08:40:38.610-0400",
-      "body": "@@Gregor Moss I assigned to @@Giovanni Tirloni because it looked like he originally worked on the CI tasks, but pinging you in the comments as well. \n"
+      "body": "Gregor Moss I assigned to Giovanni Tirloni because it looked like he originally worked on the CI tasks, but pinging you in the comments as well. \n"
     }
   ]
 }

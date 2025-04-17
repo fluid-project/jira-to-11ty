@@ -24,7 +24,7 @@
   "comments": []
 }
 ---
-@@Cindy Li's recent experience with the QI dashboard has shown that we need more clarity about how to visually style charts.
+Cindy Li's recent experience with the QI dashboard has shown that we need more clarity about how to visually style charts.
 
 Specifically, the issue that we saw:
 

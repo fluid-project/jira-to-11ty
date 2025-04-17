@@ -50,7 +50,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-12T11:58:29.702-0400",
-      "body": "@@Dana I've assigned this jira to you, but feel free to pass it along to someone else if you think it is more appropriate.\n"
+      "body": "Dana I've assigned this jira to you, but feel free to pass it along to someone else if you think it is more appropriate.\n"
     }
   ]
 }

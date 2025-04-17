@@ -37,7 +37,7 @@
     {
       "author": "Justin Obara",
       "date": "2009-08-11T14:37:50.000-0400",
-      "body": "Error 1:\\\nuncaught exception: Permission denied to get property Window.tinymce\n\nError 2:\\\nthis.params has no properties\\\nline 5 (tiny\\_mce\\_popups.js)\n"
+      "body": "Error 1:\\\nuncaught exception: Permission denied to get property Window\\.tinymce\n\nError 2:\\\nthis.params has no properties\\\nline 5 (tiny\\_mce\\_popups.js)\n"
     },
     {
       "author": "Jonathan Hung",

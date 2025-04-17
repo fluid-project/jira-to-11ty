@@ -68,7 +68,7 @@
   ]
 }
 ---
-<https://fluidproject.atlassian.net/browse/FLUID-5722#icft=FLUID-5722> added basic searching of the documentation.  @@Antranig Basman and I have discussed improvements to this, namely:
+<https://fluidproject.atlassian.net/browse/FLUID-5722#icft=FLUID-5722> added basic searching of the documentation.  Antranig Basman and I have discussed improvements to this, namely:
 
 1. Support for quoted phrases or quoted words as exact matches.
 2. Support for plus and minuses.

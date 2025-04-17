@@ -32,7 +32,7 @@
     {
       "author": "Dana",
       "date": "2020-07-16T11:42:34.617-0400",
-      "body": "@@Gregor Moss I'm thinking that \"Replace image\", \"Replace video\" and \"Replace audio\" is clearer and more concise (see mockup).\n"
+      "body": "Gregor Moss I'm thinking that \"Replace image\", \"Replace video\" and \"Replace audio\" is clearer and more concise (see mockup).\n"
     }
   ]
 }

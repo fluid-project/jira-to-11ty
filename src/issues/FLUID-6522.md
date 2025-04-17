@@ -31,7 +31,7 @@
   ]
 }
 ---
-In looking into the requirements of our upcoming gamepad navigator, @@Divyanshu Mahajan and I discovered that the bundling of jQuery UI source omits a few later features that are already included in the version that we use, namely the new "tabbable" and "focusable" pseudo-selectors.
+In looking into the requirements of our upcoming gamepad navigator, Divyanshu Mahajan and I discovered that the bundling of jQuery UI source omits a few later features that are already included in the version that we use, namely the new "tabbable" and "focusable" pseudo-selectors.
 
  
 

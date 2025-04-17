@@ -29,7 +29,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2020-04-10T18:32:09.370-0400",
-      "body": "@@Jonathan Hung could you try uploading images directly now? I've changed the settings on that folder to something that may work.\n\n```\nsudo chcon system_u:object_r:httpd_sys_rw_content_t:s0 images\r\nsudo /usr/sbin/semanage fcontext -a -t httpd_sys_rw_content_t /var/www/993da6cd/images\n```\n"
+      "body": "Jonathan Hung could you try uploading images directly now? I've changed the settings on that folder to something that may work.\n\n```\nsudo chcon system_u:object_r:httpd_sys_rw_content_t:s0 images\r\nsudo /usr/sbin/semanage fcontext -a -t httpd_sys_rw_content_t /var/www/993da6cd/images\n```\n"
     },
     {
       "author": "Giovanni Tirloni",

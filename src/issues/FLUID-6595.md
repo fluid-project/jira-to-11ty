@@ -33,7 +33,7 @@
     {
       "author": "Antranig Basman",
       "date": "2021-02-04T08:30:29.550-0500",
-      "body": "Other precedent for work like this is in @@Tony Atkins \\[RtF]'s fluid-express: <https://github.com/fluid-project/fluid-express/blob/main/src/js/lib/querystring-coding.js#L116>\n"
+      "body": "Other precedent for work like this is in Tony Atkins \\[RtF]'s fluid-express: <https://github.com/fluid-project/fluid-express/blob/main/src/js/lib/querystring-coding.js#L116>\n"
     }
   ]
 }

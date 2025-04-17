@@ -83,7 +83,7 @@
     {
       "author": "Justin Obara",
       "date": "2010-02-11T20:22:20.000-0500",
-      "body": "I have committed <https://fluidproject.atlassian.net/browse/ENGAGE-293#icft=ENGAGE-293>.native-couch-view.patch with several changes.\n\nHere is a link to an e-mail thread about it.\\\n<http://old.nabble.com/Object-Entry-Code-Review-to27557626.html>\n"
+      "body": "I have committed <https://fluidproject.atlassian.net/browse/ENGAGE-293#icft=ENGAGE-293>.native-couch-view\\.patch with several changes.\n\nHere is a link to an e-mail thread about it.\\\n<http://old.nabble.com/Object-Entry-Code-Review-to27557626.html>\n"
     },
     {
       "author": "Svetoslav Nedkov",

@@ -25,7 +25,7 @@
     {
       "author": "Alan Harnum",
       "date": "2018-04-16T15:45:20.864-0400",
-      "body": "An initial implementation of this is now done, at <https://github.com/waharnum/fluid-couch-config/tree/SJRK-64,> based off @@Gregor Moss's <https://fluidproject.atlassian.net/browse/SJRK-41#icft=SJRK-41> branch (which is the subject of this open PR: <https://github.com/fluid-project/fluid-couch-config/pull/2)>\n\n@@Gregor Moss, do you think it makes sense for me to PR this against your <https://fluidproject.atlassian.net/browse/SJRK-41#icft=SJRK-41> branch?\n"
+      "body": "An initial implementation of this is now done, at <https://github.com/waharnum/fluid-couch-config/tree/SJRK-64,> based off Gregor Moss's <https://fluidproject.atlassian.net/browse/SJRK-41#icft=SJRK-41> branch (which is the subject of this open PR: <https://github.com/fluid-project/fluid-couch-config/pull/2)>\n\nGregor Moss, do you think it makes sense for me to PR this against your <https://fluidproject.atlassian.net/browse/SJRK-41#icft=SJRK-41> branch?\n"
     },
     {
       "author": "Alan Harnum",
@@ -35,12 +35,12 @@
     {
       "author": "Gregor Moss",
       "date": "2018-04-16T15:55:42.277-0400",
-      "body": "@@Alan Harnum your <https://fluidproject.atlassian.net/browse/SJRK-64#icft=SJRK-64> branch is based off of my master branch, in fact, so I think that it would be best to have a PR against BlueSlug:master. once merged, it will update my PR against fluid-project:master. TLDR: yes 🙂\n"
+      "body": "Alan Harnum your <https://fluidproject.atlassian.net/browse/SJRK-64#icft=SJRK-64> branch is based off of my master branch, in fact, so I think that it would be best to have a PR against BlueSlug:master. once merged, it will update my PR against fluid-project:master. TLDR: yes 🙂\n"
     },
     {
       "author": "Gregor Moss",
       "date": "2019-11-18T14:30:34.663-0500",
-      "body": "@@Alan Harnum's work has been merged into my master branch (<https://github.com/BlueSlug/fluid-couch-config>), so we can leave any substantial review of this for the review of the <https://fluidproject.atlassian.net/browse/SJRK-41#icft=SJRK-41> pull request: <https://github.com/fluid-project/fluid-couch-config/pull/2>\n"
+      "body": "Alan Harnum's work has been merged into my master branch (<https://github.com/BlueSlug/fluid-couch-config>), so we can leave any substantial review of this for the review of the <https://fluidproject.atlassian.net/browse/SJRK-41#icft=SJRK-41> pull request: <https://github.com/fluid-project/fluid-couch-config/pull/2>\n"
     }
   ]
 }

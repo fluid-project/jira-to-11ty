@@ -32,17 +32,17 @@
     {
       "author": "Kasper Galschiot Markus",
       "date": "2014-03-02T18:01:38.402-0500",
-      "body": "@@Colin Clark perhaps this one can be closed? <http://lists.idrc.ocad.ca/pipermail/commits/2012-July/006484.html>\n"
+      "body": "Colin Clark perhaps this one can be closed? <http://lists.idrc.ocad.ca/pipermail/commits/2012-July/006484.html>\n"
     },
     {
       "author": "Colin Clark",
       "date": "2014-03-26T15:14:41.651-0400",
-      "body": "Can you verify that this issue has been resolve and close if so, @@Kasper Galschiot Markus?\n"
+      "body": "Can you verify that this issue has been resolve and close if so, Kasper Galschiot Markus?\n"
     },
     {
       "author": "Justin Obara",
       "date": "2015-06-10T14:12:36.632-0400",
-      "body": "@@Kasper Galschiot Markus and @@Antranig Basman can this be closed?\n"
+      "body": "Kasper Galschiot Markus and Antranig Basman can this be closed?\n"
     },
     {
       "author": "Kasper Galschiot Markus",

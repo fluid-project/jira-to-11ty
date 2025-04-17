@@ -44,7 +44,7 @@
     {
       "author": "Gregor Moss",
       "date": "2021-01-11T10:54:22.929-0500",
-      "body": "This issue was encountered by @@Giovanni Tirloni while working on his PR for <https://fluidproject.atlassian.net/browse/SJRK-446#icft=SJRK-446>, and it has been rearing its head in other PRs before that.\n\nI did some more testing today to try to reproduce it on my personal computer, but I was unable to make it happen. I tried repeated runs of the NPM script (\"npm test\") as well as dozens of runs each in Chrome 87, Firefox 84 and Edge 87. These in-browser tests were accomplished by serving the files via [browsersync](https://browsersync.io/), not the Storytelling Tool server.\n"
+      "body": "This issue was encountered by Giovanni Tirloni while working on his PR for <https://fluidproject.atlassian.net/browse/SJRK-446#icft=SJRK-446>, and it has been rearing its head in other PRs before that.\n\nI did some more testing today to try to reproduce it on my personal computer, but I was unable to make it happen. I tried repeated runs of the NPM script (\"npm test\") as well as dozens of runs each in Chrome 87, Firefox 84 and Edge 87. These in-browser tests were accomplished by serving the files via [browsersync](https://browsersync.io/), not the Storytelling Tool server.\n"
     },
     {
       "author": "Justin Obara",

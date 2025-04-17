@@ -25,7 +25,7 @@
     {
       "author": "Justin Obara",
       "date": "2017-11-07T12:53:22.906-0500",
-      "body": "@@Giovanni Tirloni do you have any thoughts on the feasibility and implementation of this. I was talking to @@Avtar Gill about it today and we were thinking that the build site would point at the latest deployed instance. We'd also have a separate link to point at a directory listing of all of the archived versions. \n"
+      "body": "Giovanni Tirloni do you have any thoughts on the feasibility and implementation of this. I was talking to Avtar Gill about it today and we were thinking that the build site would point at the latest deployed instance. We'd also have a separate link to point at a directory listing of all of the archived versions. \n"
     },
     {
       "author": "Avtar Gill",
@@ -40,7 +40,7 @@
     {
       "author": "Justin Obara",
       "date": "2017-11-08T09:03:59.949-0500",
-      "body": "@@Giovanni Tirloni, currently the build scripts create a \"build\" directory containing the build files and a \"product\" director containing the a zip of the build files. Would you be able to use those?\n"
+      "body": "Giovanni Tirloni, currently the build scripts create a \"build\" directory containing the build files and a \"product\" director containing the a zip of the build files. Would you be able to use those?\n"
     },
     {
       "author": "Giovanni Tirloni",

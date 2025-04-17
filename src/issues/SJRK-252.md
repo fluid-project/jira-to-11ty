@@ -49,7 +49,7 @@ Via an email from Liam O'Doherty:
 >
 > ie there could be a little text, audio, video icon in the middle of the heart, or just below the image to allow the user to more easily identify how the story will /could be communicated to them. Separate from the logo image may work better in the cases where there are multimodal stories.
 
-And a reply to the same from @@Caren Watkins:
+And a reply to the same from Caren Watkins:
 
 > Interestingly, in a recent grade school storytelling workshop, we got some feedback from participants that they would like access to "emojis" to express themselves and identify their stories. I wonder if a choice of colour and/or "avatar" on the book (heart, happy face, lightning bold, etc. etc.) might be a way to give storytellers a bit more individual expression of how their story is visually represented within the collection (list or grid) of stories.
 

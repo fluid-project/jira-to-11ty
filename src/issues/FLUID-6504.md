@@ -52,7 +52,7 @@ Opening a WebSocket connection to the \`bindModel\` endpoint with a path without
 Steps to reproduce the behavior:
 
 1. Start a nexus instance.
-2. In the terminal, execute \`wscat -c ws://localhost:9081/bindModel/example1/a\`.
+2. In the terminal, execute \`wscat -c ws\://localhost:9081/bindModel/example1/a\`.
 3. See error
 
 ### Expected behavior

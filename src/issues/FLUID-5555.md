@@ -29,7 +29,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-02-19T08:12:50.537-0500",
-      "body": "@@Jonathan Hung pointed me at  <https://github.com/sapegin/grunt-webfont>. It should address at least some of the above concerns as you can specify which glyph uses which PUA value.\n"
+      "body": "Jonathan Hung pointed me at  <https://github.com/sapegin/grunt-webfont>. It should address at least some of the above concerns as you can specify which glyph uses which PUA value.\n"
     },
     {
       "author": "Justin Obara",

@@ -31,7 +31,7 @@
     {
       "author": "Alan Harnum",
       "date": "2017-02-28T13:14:29.339-0500",
-      "body": "CC @@Justin Obara @@Jonathan Hung\n"
+      "body": "CC Justin Obara Jonathan Hung\n"
     },
     {
       "author": "Justin Obara",

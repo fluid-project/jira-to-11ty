@@ -25,6 +25,6 @@
 ---
 Another piece of generally useful functionality that should be moved to fluid-couch-config in time: <https://github.com/waharnum/sjrk-story-telling-server/blob/SJRK-56/src/js/db/singleNodeConfiguration.js>
 
-Per some issues raised by @@Giovanni Tirloni<http://docs.couchdb.org/en/latest/install/setup.html>, this programmatically configures CouchDB in single-node mode, as described here: 
+Per some issues raised by Giovanni Tirloni<http://docs.couchdb.org/en/latest/install/setup.html>, this programmatically configures CouchDB in single-node mode, as described here: 
 
         

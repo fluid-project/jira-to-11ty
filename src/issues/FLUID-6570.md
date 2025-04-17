@@ -38,17 +38,17 @@
     {
       "author": "Justin Obara",
       "date": "2020-11-02T08:09:20.947-0500",
-      "body": "@@Antranig Basman what about functions that reference external variables, that may be out of scope when the JSON is parsed and the function executed?\n"
+      "body": "Antranig Basman what about functions that reference external variables, that may be out of scope when the JSON is parsed and the function executed?\n"
     },
     {
       "author": "Antranig Basman",
       "date": "2020-11-02T08:11:49.437-0500",
-      "body": "@@Justin Obara - References to external variables will be forbidden, since \"good functions\" must be pure - <https://wiki.fluidproject.org/display/fluid/A+Good+Function>\n"
+      "body": "Justin Obara - References to external variables will be forbidden, since \"good functions\" must be pure - <https://wiki.fluidproject.org/display/fluid/A+Good+Function>\n"
     },
     {
       "author": "Justin Obara",
       "date": "2020-11-02T08:24:57.778-0500",
-      "body": "@@Antranig Basman I'm a bit worried about the effects of the call to `that.getFace()` in your example above, as it could be overridden before evaluation and thus become impure. Although I suppose we already need guards against this for free transforms, so perhaps something is already in place. Also, wondering if it would make sense to elevate free transforms or perhaps this actually replaces them.\n"
+      "body": "Antranig Basman I'm a bit worried about the effects of the call to `that.getFace()` in your example above, as it could be overridden before evaluation and thus become impure. Although I suppose we already need guards against this for free transforms, so perhaps something is already in place. Also, wondering if it would make sense to elevate free transforms or perhaps this actually replaces them.\n"
     },
     {
       "author": "Antranig Basman",

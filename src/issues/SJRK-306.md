@@ -54,7 +54,7 @@
 ---
 The UI grades are not being rendered properly in Internet Explorer 11. This is potentially due to the Includes method not being present in Trident, the JavaScript engine used in IE11. This is the same root cause as <https://fluidproject.atlassian.net/browse/SJRK-233#icft=SJRK-233>.
 
-@@Antranig Basman has proposed some changes in his pull request for <https://fluidproject.atlassian.net/browse/SJRK-255#icft=SJRK-255> which would solve this issue:\
+Antranig Basman has proposed some changes in his pull request for <https://fluidproject.atlassian.net/browse/SJRK-255#icft=SJRK-255> which would solve this issue:\
 <https://github.com/fluid-project/sjrk-story-telling/pull/35#pullrequestreview-270696714>
 
  

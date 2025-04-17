@@ -43,7 +43,7 @@
     {
       "author": "Dana",
       "date": "2017-09-20T17:43:14.016-0400",
-      "body": "@@Avtar Gill @@Alan Harnum please see attached files for updated, simplified designs (including white on black contrast theme), as per our discussion of 09.20.17.\n"
+      "body": "Avtar Gill Alan Harnum please see attached files for updated, simplified designs (including white on black contrast theme), as per our discussion of 09.20.17.\n"
     }
   ]
 }

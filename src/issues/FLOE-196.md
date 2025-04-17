@@ -31,7 +31,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-09-16T13:53:17.130-0400",
-      "body": "The implementation is basically finished and ready for review in my <https://fluidproject.atlassian.net/browse/FLOE-196#icft=FLOE-196> branch ( <https://github.com/jobara/metadata/tree/FLOE-196> ), except there are issues with some of the unit tests used for integration testing with the feedback tool. These are currently being worked through with @@Antranig Basman <http://fluid.2324889.n4.nabble.com/Unit-test-issues-with-the-feedback-tool-td9179.html>.\n"
+      "body": "The implementation is basically finished and ready for review in my <https://fluidproject.atlassian.net/browse/FLOE-196#icft=FLOE-196> branch ( <https://github.com/jobara/metadata/tree/FLOE-196> ), except there are issues with some of the unit tests used for integration testing with the feedback tool. These are currently being worked through with Antranig Basman <http://fluid.2324889.n4.nabble.com/Unit-test-issues-with-the-feedback-tool-td9179.html>.\n"
     },
     {
       "author": "Justin Obara",

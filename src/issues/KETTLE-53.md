@@ -32,7 +32,7 @@
     {
       "author": "Antranig Basman",
       "date": "2017-01-05T07:48:27.313-0500",
-      "body": "This is most likely a duplicate of <https://issues.fluidproject.org/browse/KETTLE-51> - would you like to test @@Cindy Li 's fix for it?\n\n<https://github.com/fluid-project/kettle/pull/29>\n"
+      "body": "This is most likely a duplicate of <https://issues.fluidproject.org/browse/KETTLE-51> - would you like to test Cindy Li 's fix for it?\n\n<https://github.com/fluid-project/kettle/pull/29>\n"
     },
     {
       "author": "Tony Atkins [RtF]",
@@ -76,6 +76,6 @@ I used requestb.in for the demo, but when working with other services like Couch
 
 If I replace the payload with non-special characters, the entire payload is transmitted as expected. Looking at [the docs](https://github.com/fluid-project/kettle/blob/master/docs/DataSources.md), it seems like the defaults (JSON payloads, utf8 encoding) should be enough to work with special characters, but apparently it's not.
 
-cc: @@Antranig Basman
+cc: Antranig Basman
 
         

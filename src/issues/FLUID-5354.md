@@ -63,7 +63,7 @@
   ]
 }
 ---
-@@Justin Obara and I were discussing <https://fluidproject.atlassian.net/browse/FLUID-5353#icft=FLUID-5353> in the channel, and I made the mistake of going looking for new updates to SWFUpload. What I found was that SWFUpload suffers from a cross-site scripting vulnerability. The maintainer has not bothered to fix it.
+Justin Obara and I were discussing <https://fluidproject.atlassian.net/browse/FLUID-5353#icft=FLUID-5353> in the channel, and I made the mistake of going looking for new updates to SWFUpload. What I found was that SWFUpload suffers from a cross-site scripting vulnerability. The maintainer has not bothered to fix it.
 
 <https://nealpoole.com/blog/2012/05/xss-and-csrf-via-swf-applets-swfupload-plupload/>
 

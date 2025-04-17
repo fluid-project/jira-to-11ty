@@ -76,7 +76,7 @@ python -m http.server --directory public
 open http://localhost:8888 -> click menu options
 ```
 
-It seems that @@Alan Harnum had some problems creating a deployable unit in INFRA-217 as well.
+It seems that Alan Harnum had some problems creating a deployable unit in INFRA-217 as well.
 
 Additionally, the UglifyJsPlugin from webpack 3.10.0 causes a build error. It's necessary to remove it from webpack.production.config.js to get a clean build (which still has the issue with the routes).
 

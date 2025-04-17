@@ -37,7 +37,7 @@
     {
       "author": "Alan Harnum",
       "date": "2015-12-04T15:31:24.361-0500",
-      "body": "I've transferred the repo to <https://github.com/gpii-ops/ansible-gpii-preferences-server>\n\n@@Avtar Gill / @@Giovanni Tirloni, could one of you review?\n"
+      "body": "I've transferred the repo to <https://github.com/gpii-ops/ansible-gpii-preferences-server>\n\nAvtar Gill / Giovanni Tirloni, could one of you review?\n"
     }
   ]
 }

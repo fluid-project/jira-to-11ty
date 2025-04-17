@@ -63,7 +63,7 @@
     {
       "author": "Jorge Silva",
       "date": "2009-06-04T09:08:17.000-0400",
-      "body": "I made some corrections to steps 4, 6 and 7. It should be pretty accurate now... should I close the ticket? (it wouldn't be a bad idea to have someone else go through the whole thing one last time).\n"
+      "body": "I made some corrections to steps 4, 6 and 7. It should be pretty accurate now\\... should I close the ticket? (it wouldn't be a bad idea to have someone else go through the whole thing one last time).\n"
     }
   ]
 }

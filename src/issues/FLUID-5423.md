@@ -40,7 +40,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-06-17T09:44:59.549-0400",
-      "body": "@@Joseph Scheuhammer and I talked about this in the channel today, and compared with an example from the open ajax alliance.\\\n<https://botbot.me/freenode/fluid-work/2014-06-16/?tz=America/Toronto>\\\n<http://www.oaa-accessibility.org/example/27/>\n"
+      "body": "Joseph Scheuhammer and I talked about this in the channel today, and compared with an example from the open ajax alliance.\\\n<https://botbot.me/freenode/fluid-work/2014-06-16/?tz=America/Toronto>\\\n<http://www.oaa-accessibility.org/example/27/>\n"
     },
     {
       "author": "Joseph Scheuhammer",

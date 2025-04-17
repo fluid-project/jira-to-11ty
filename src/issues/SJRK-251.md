@@ -35,6 +35,6 @@ Add a maximum width to the "Learning Reflections" theme of the site, paying spec
 
 Latest designs (at time of filing) have 1280px as a page width, presumably on a 1080p screen, so this seems like a reasonable overall maximum width.
 
-Stories should also have their line spacing increased. Discuss the precise details with @@Caren Watkins
+Stories should also have their line spacing increased. Discuss the precise details with Caren Watkins
 
         

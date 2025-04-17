@@ -64,7 +64,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-15T10:18:21.546-0400",
-      "body": "@@Jonathan Hung do you know the state of this jira?\n"
+      "body": "Jonathan Hung do you know the state of this jira?\n"
     },
     {
       "author": "Justin Obara",

@@ -36,7 +36,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-05-01T16:07:09.103-0400",
-      "body": "Can use the \"selectionchange\" event, along with \"window.getSelection()\" to know when a user selection has been made and to get the contents of the selection.\n\nsee: <https://developer.mozilla.org/en-US/docs/Web/API/Selection>\n"
+      "body": "Can use the \"selectionchange\" event, along with \"window\\.getSelection()\" to know when a user selection has been made and to get the contents of the selection.\n\nsee: <https://developer.mozilla.org/en-US/docs/Web/API/Selection>\n"
     },
     {
       "author": "Justin Obara",

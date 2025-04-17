@@ -48,7 +48,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-15T10:43:36.279-0400",
-      "body": "@@Kasper Galschiot Markus has this been completed?\n"
+      "body": "Kasper Galschiot Markus has this been completed?\n"
     },
     {
       "author": "Kasper Galschiot Markus",

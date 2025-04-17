@@ -79,7 +79,7 @@
     {
       "author": "joan garcia",
       "date": "2009-11-04T11:28:16.000-0500",
-      "body": "(Inside Aptana in debug) When I ajax call from the parade component to kettle i get:\n\n\\[Exception... \"Access to restricted URI denied\"  code: \"1012\" nsresult: \"0x805303f4 (NS\\_ERROR\\_DOM\\_BAD\\_URI)\"  location: \"http://127.0.0.1:8000/infusion/src/webapp/lib/jquery/core/js/jquery.js Line: 3517\"]\n\nBut from the browser it works fine.\\\n<http://localhost:8080/kettleParade/index.html>\n"
+      "body": "(Inside Aptana in debug) When I ajax call from the parade component to kettle i get:\n\n\\[Exception... \"Access to restricted URI denied\"  code: \"1012\" nsresult: \"0x805303f4 (NS\\_ERROR\\_DOM\\_BAD\\_URI)\"  location: \"http\\://127.0.0.1:8000/infusion/src/webapp/lib/jquery/core/js/jquery.js Line: 3517\"]\n\nBut from the browser it works fine.\\\n<http://localhost:8080/kettleParade/index.html>\n"
     },
     {
       "author": "joan garcia",
@@ -109,7 +109,7 @@
     {
       "author": "Andrea Leutgoeb",
       "date": "2010-01-05T05:26:28.000-0500",
-      "body": "Code changes to be reviewed:\n\n1\\. Load local demo data by setting connectivity mode to standalone:\\\nhttp://\\[...]/parade.html?mode=standalone\\\n2\\. Structural issues addressed & jslinted\n"
+      "body": "Code changes to be reviewed:\n\n1\\. Load local demo data by setting connectivity mode to standalone:\\\nhttp\\://\\[...]/parade.html?mode=standalone\\\n2\\. Structural issues addressed & jslinted\n"
     },
     {
       "author": "Andrea Leutgoeb",

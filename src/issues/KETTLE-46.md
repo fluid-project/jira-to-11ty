@@ -51,6 +51,6 @@ To make it possible to use `kettle.dataSource.URL` with `browserify` (see [GPII-
 
 This spike would not add client-side tests, it would only confirm that all tests pass once the code is reorganized.  To preserve support for references to the old structure used in calls like `fluid.require("%kettle/lib/dataSource-node.js");}, I plan to require the new file from within {{dataSource-node.js`.
 
-cc: @@Antranig Basman
+cc: Antranig Basman
 
         

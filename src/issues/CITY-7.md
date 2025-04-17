@@ -24,7 +24,7 @@
   "comments": []
 }
 ---
-Since we are moving to [Hugo](https://gohugo.io/) as the static site generator, we'll need to create a template for the Inclusive Cities website (with UIO capabilities as seen in @@Alan Harnum's site).
+Since we are moving to [Hugo](https://gohugo.io/) as the static site generator, we'll need to create a template for the Inclusive Cities website (with UIO capabilities as seen in Alan Harnum's site).
 
 * Understand how Hugo themes are structured and named
 * Break up the current website design/layout into header, footer, content/posts

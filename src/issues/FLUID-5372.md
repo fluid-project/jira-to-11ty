@@ -43,12 +43,12 @@
     {
       "author": "Jonathan Hung",
       "date": "2016-05-10T11:38:02.739-0400",
-      "body": "I took a look at the solution @@Stanislav Shterev and I agree that a more general solution requires Javascript. Usually I'm hesitant to go that route because we run the risk of our injected styles clashing with pre-existing styles.\n\nHowever maybe in this case it is acceptable because the user has made a decision to magnify everything, so it should also mean the \\<body> element scales accordingly as well.\n\n@@Alan Harnum, @@Cindy Li, or @@Justin Obara - do any of you have thoughts on this?\n"
+      "body": "I took a look at the solution Stanislav Shterev and I agree that a more general solution requires Javascript. Usually I'm hesitant to go that route because we run the risk of our injected styles clashing with pre-existing styles.\n\nHowever maybe in this case it is acceptable because the user has made a decision to magnify everything, so it should also mean the \\<body> element scales accordingly as well.\n\nAlan Harnum, Cindy Li, or Justin Obara - do any of you have thoughts on this?\n"
     },
     {
       "author": "Jonathan Hung",
       "date": "2016-05-12T12:32:12.068-0400",
-      "body": "@@Justin Obara and I were taking a look at this and we think that adding or modifying the body styles via Javascript is risky since we don't want to create problems for the end user.\n\nAn alternative is to use $(document).width(); to set the width of the UIO container. We would want to trigger this adjustment each time a user has changed an option that affects the visuals (since it's conceivable that any of these options would change the document width).\n\nWould this cause a significant performance hit? Also when should the adjustment be calculated (i.e. on blur)? @@Antranig Basman any thoughts?\n"
+      "body": "Justin Obara and I were taking a look at this and we think that adding or modifying the body styles via Javascript is risky since we don't want to create problems for the end user.\n\nAn alternative is to use $(document).width(); to set the width of the UIO container. We would want to trigger this adjustment each time a user has changed an option that affects the visuals (since it's conceivable that any of these options would change the document width).\n\nWould this cause a significant performance hit? Also when should the adjustment be calculated (i.e. on blur)? Antranig Basman any thoughts?\n"
     },
     {
       "author": "Antranig Basman",

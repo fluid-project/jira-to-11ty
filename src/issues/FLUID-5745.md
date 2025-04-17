@@ -32,7 +32,7 @@
     {
       "author": "Colin Clark",
       "date": "2015-08-18T14:58:48.558-0400",
-      "body": "@@Antranig Basman, @@Justin Obara, thoughts on this?\n"
+      "body": "Antranig Basman, Justin Obara, thoughts on this?\n"
     },
     {
       "author": "Justin Obara",

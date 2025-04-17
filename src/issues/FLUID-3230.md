@@ -28,6 +28,6 @@
   "comments": []
 }
 ---
-Remove the window.setTimeout from CustomBuild.html. We can't remember why this is in there!
+Remove the window\.setTimeout from CustomBuild.html. We can't remember why this is in there!
 
         

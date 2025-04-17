@@ -27,7 +27,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2018-04-30T09:25:39.946-0400",
-      "body": "@@Tony Atkins \\[RtF] is it necessary to run the browser tests before the node tests since, it seems, the code is instrumented in the former? [IRC dicussions](https://botbot.me/freenode/fluid-tech/msg/99543548/)\n"
+      "body": "Tony Atkins \\[RtF] is it necessary to run the browser tests before the node tests since, it seems, the code is instrumented in the former? [IRC dicussions](https://botbot.me/freenode/fluid-tech/msg/99543548/)\n"
     },
     {
       "author": "Giovanni Tirloni",
@@ -37,17 +37,17 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2018-05-07T05:32:33.979-0400",
-      "body": "I responded to @@Giovanni Tirloni on IRC, but just to confirm here for the record, the browser and node instrumentation are completely separate.  We use nyc for the node tests, it hooks Babel into \"require\" and instruments anything that matches the settings in .nycrc automatically.  The order of the tests should not matter at all.\n"
+      "body": "I responded to Giovanni Tirloni on IRC, but just to confirm here for the record, the browser and node instrumentation are completely separate.  We use nyc for the node tests, it hooks Babel into \"require\" and instruments anything that matches the settings in .nycrc automatically.  The order of the tests should not matter at all.\n"
     },
     {
       "author": "Giovanni Tirloni",
       "date": "2018-05-22T11:44:31.265-0400",
-      "body": "@@Tony Atkins \\[RtF] Thanks! I'm proposing in [PR#900](https://github.com/fluid-project/infusion/pull/900) we delete the coverage and reports directories after each CI build.\n\nThis shouldn't impact the work that is still to be completed for <https://fluidproject.atlassian.net/browse/FLUID-6265#icft=FLUID-6265> in making the reports available somewhere.\n"
+      "body": "Tony Atkins \\[RtF] Thanks! I'm proposing in [PR#900](https://github.com/fluid-project/infusion/pull/900) we delete the coverage and reports directories after each CI build.\n\nThis shouldn't impact the work that is still to be completed for <https://fluidproject.atlassian.net/browse/FLUID-6265#icft=FLUID-6265> in making the reports available somewhere.\n"
     },
     {
       "author": "Tony Atkins [RtF]",
       "date": "2018-05-23T07:46:50.826-0400",
-      "body": "@@Giovanni Tirloni, I commented on the pull, but I see that you've posted a lot of the details here.  If you were simply running \\`npm test\\`, then the coverage and reports directories should be cleared out by the \\`pretest\\` step.  I guess the CI config runs individual commands instead?  Anyway, if you just issue \\`npm run pretest\\` at the start of each run, that should have the same effect.\n"
+      "body": "Giovanni Tirloni, I commented on the pull, but I see that you've posted a lot of the details here.  If you were simply running \\`npm test\\`, then the coverage and reports directories should be cleared out by the \\`pretest\\` step.  I guess the CI config runs individual commands instead?  Anyway, if you just issue \\`npm run pretest\\` at the start of each run, that should have the same effect.\n"
     },
     {
       "author": "Giovanni Tirloni",

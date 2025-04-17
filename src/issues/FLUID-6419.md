@@ -73,6 +73,6 @@ somePromise["catch"](function () {
 
  
 
-cc @@Tony Atkins \[RtF] and @@Antranig Basman
+cc Tony Atkins \[RtF] and Antranig Basman
 
         

@@ -24,7 +24,7 @@
   "comments": []
 }
 ---
-Create a mailing list intended to address user support issues with the Storytelling Tool. We currently have the address "stories@idrc.ocadu.ca", though it's unclear who has access to this.
+Create a mailing list intended to address user support issues with the Storytelling Tool. We currently have the address "stories\@idrc.ocadu.ca", though it's unclear who has access to this.
 
 This new mailing list should allow anyone to send to it, but only subscribers will receive the messages. Subscribers would include tool developers, designers and other interested individuals.
 

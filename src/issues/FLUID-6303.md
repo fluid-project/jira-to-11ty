@@ -79,12 +79,12 @@
     {
       "author": "Justin Obara",
       "date": "2018-12-17T07:50:44.673-0500",
-      "body": "I spoke with @@Antranig Basman in the fluid-work channel today ( <http://irc-logs.fluidproject.org/%23fluid-work/%23fluid-work.2018-12-17.log> ) about the issue of configuring the language panel with the schema version of the prefs framework. Typically when using the schemas, a primary schema is created that contains the potential values of a preference. For language this is problematic because each integration would have their own set of supported languages. It seems the best we can do now is to have the integrator configure the panel settings against the built prefs editor, that is after the schemas have been compiled and a  prefs editor grade is generated. Antranig, suggested that we could add a helpful utility for it.\n"
+      "body": "I spoke with Antranig Basman in the fluid-work channel today ( <http://irc-logs.fluidproject.org/%23fluid-work/%23fluid-work.2018-12-17.log> ) about the issue of configuring the language panel with the schema version of the prefs framework. Typically when using the schemas, a primary schema is created that contains the potential values of a preference. For language this is problematic because each integration would have their own set of supported languages. It seems the best we can do now is to have the integrator configure the panel settings against the built prefs editor, that is after the schemas have been compiled and a  prefs editor grade is generated. Antranig, suggested that we could add a helpful utility for it.\n"
     },
     {
       "author": "Justin Obara",
       "date": "2018-12-18T08:44:38.515-0500",
-      "body": "Also from my discussion with @@Antranig Basman in the fluid-work channel yesterday ( <http://irc-logs.fluidproject.org/%23fluid-work/%23fluid-work.2018-12-17.log> ), we will setup the enactor to use contextAwareness to switch between the various methods for applying the language change.\n"
+      "body": "Also from my discussion with Antranig Basman in the fluid-work channel yesterday ( <http://irc-logs.fluidproject.org/%23fluid-work/%23fluid-work.2018-12-17.log> ), we will setup the enactor to use contextAwareness to switch between the various methods for applying the language change.\n"
     },
     {
       "author": "Justin Obara",
@@ -94,7 +94,7 @@
     {
       "author": "Cindy Li",
       "date": "2019-01-23T16:18:20.259-0500",
-      "body": "@@Justin Obara issued [the initial pull request](https://github.com/fluid-project/infusion/pull/949) that was based off for [the 2nd pull request](https://github.com/fluid-project/infusion/pull/951), which was to address the last minor code review comment on the initial pull request when @@Justin Obara is on vacation. [The 2nd pull request](https://github.com/fluid-project/infusion/pull/951) has been merged into the project repo master branch at [this commit](https://github.com/fluid-project/infusion/commit/35e8a5a9c958cca65ca403108f784668ff42148d).\n\n[FLUID-6363](https://issues.fluidproject.org/browse/FLUID-6363) is recreated for @@Justin Obara to re-visit the change made in [the 2nd pull request.](https://github.com/fluid-project/infusion/pull/951)\n\n<https://fluidproject.atlassian.net/browse/FLUID-6364#icft=FLUID-6364> is created for the re-examination of the user experience of setting languages thru the localization panel.\n"
+      "body": "Justin Obara issued [the initial pull request](https://github.com/fluid-project/infusion/pull/949) that was based off for [the 2nd pull request](https://github.com/fluid-project/infusion/pull/951), which was to address the last minor code review comment on the initial pull request when Justin Obara is on vacation. [The 2nd pull request](https://github.com/fluid-project/infusion/pull/951) has been merged into the project repo master branch at [this commit](https://github.com/fluid-project/infusion/commit/35e8a5a9c958cca65ca403108f784668ff42148d).\n\n[FLUID-6363](https://issues.fluidproject.org/browse/FLUID-6363) is recreated for Justin Obara to re-visit the change made in [the 2nd pull request.](https://github.com/fluid-project/infusion/pull/951)\n\n<https://fluidproject.atlassian.net/browse/FLUID-6364#icft=FLUID-6364> is created for the re-examination of the user experience of setting languages thru the localization panel.\n"
     }
   ]
 }

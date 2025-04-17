@@ -27,7 +27,7 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2017-10-02T05:52:55.996-0400",
-      "body": "Assigning to @@Justin Obara for now, if @@Antranig Basman or anyone else wants to pick this up, feel free.\n"
+      "body": "Assigning to Justin Obara for now, if Antranig Basman or anyone else wants to pick this up, feel free.\n"
     }
   ]
 }

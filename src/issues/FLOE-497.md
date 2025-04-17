@@ -43,12 +43,12 @@
     {
       "author": "Alan Harnum",
       "date": "2017-01-12T11:57:42.584-0500",
-      "body": "@@Antranig Basman / @@Colin Clark - when you have time could you comment on the above? I've hit my own easy limits of being able to trace Infusion IoC issues.\n\nThis is not an urgent issue because I can pin Chart Authoring to the latest working version of Infusion, but it does prevent me from taking advantage of the new /dist directory from the more recent versions of the NPM package.\n"
+      "body": "Antranig Basman / Colin Clark - when you have time could you comment on the above? I've hit my own easy limits of being able to trace Infusion IoC issues.\n\nThis is not an urgent issue because I can pin Chart Authoring to the latest working version of Infusion, but it does prevent me from taking advantage of the new /dist directory from the more recent versions of the NPM package.\n"
     },
     {
       "author": "Alan Harnum",
       "date": "2017-01-12T12:07:44.388-0500",
-      "body": "Per @@Colin Clark's advice, updating to a development branch of Flocking that's compatible with Infusion 2.0 has fixed the test issue. Pull request opened: <https://github.com/fluid-project/chartAuthoring/pull/17>\n"
+      "body": "Per Colin Clark's advice, updating to a development branch of Flocking that's compatible with Infusion 2.0 has fixed the test issue. Pull request opened: <https://github.com/fluid-project/chartAuthoring/pull/17>\n"
     },
     {
       "author": "Cindy Li",
@@ -68,7 +68,7 @@ DEPENDENCY UPDATES:
 
 TEST FIXES:
 
-After updating to the 2.0.0 release of Infusion, the Chart Authoring tests are now failing. with a 73rd assertion being run (there are only 72 in the test suite) and "TypeError: shadow is undefined" (FF) / "TypeError: undefined is not an object (evaluating 'shadow.path')" (Safari) / "FluidIoC.js:1046 Uncaught TypeError: Cannot read property 'path' of undefined" (Chrome) - this failure is not present in the current master at <http://build.fluidproject.org/chartAuthoring/tests/html/chartAuthoring-Tests.html> and appears to be because of an issue with the change in Infusion version
+After updating to the 2.0.0 release of Infusion, the Chart Authoring tests are now failing. with a 73rd assertion being run (there are only 72 in the test suite) and "TypeError: shadow is undefined" (FF) / "TypeError: undefined is not an object (evaluating 'shadow\.path')" (Safari) / "FluidIoC.js:1046 Uncaught TypeError: Cannot read property 'path' of undefined" (Chrome) - this failure is not present in the current master at <http://build.fluidproject.org/chartAuthoring/tests/html/chartAuthoring-Tests.html> and appears to be because of an issue with the change in Infusion version
 
 In all cases the direct error is line 1046 of FluidIoC.js: <https://github.com/fluid-project/infusion/blob/master/src/framework/core/js/FluidIoC.js#L1046>
 

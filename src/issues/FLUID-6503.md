@@ -27,7 +27,7 @@
 ---
 This issue only affects the in-progress update of Infusion in the FLUID-6148 branch.
 
-Reported by @@Tony Atkins \[RtF] in <https://github.com/GPII/gpii-handlebars/pull/31/files> - when two new-style modelised resources initialise two side-by-side model areas, they both end up with the contents of one resource.
+Reported by Tony Atkins \[RtF] in <https://github.com/GPII/gpii-handlebars/pull/31/files> - when two new-style modelised resources initialise two side-by-side model areas, they both end up with the contents of one resource.
 
 This looks like a blunder in the new fluid.condenseResourceMap function in DataBinding.js
 

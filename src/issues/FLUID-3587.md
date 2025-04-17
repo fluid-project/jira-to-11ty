@@ -34,7 +34,7 @@
 }
 ---
 This is happening due to the permission restriction and the error looks like this:\
-"Permission denied for <[http://tinymce-fluid.appspot.com](http://tinymce-fluid.appspot.com/)> to get property Window.tinymce from <[http://build.fluidproject.org](http://build.fluidproject.org/)>. in tiny\_mce\_popup.js"\
+"Permission denied for <[http://tinymce-fluid.appspot.com](http://tinymce-fluid.appspot.com/)> to get property Window\.tinymce from <[http://build.fluidproject.org](http://build.fluidproject.org/)>. in tiny\_mce\_popup.js"\
 Possibly it should work if this files are included in advance in the markup.
 
         

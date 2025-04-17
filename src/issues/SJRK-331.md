@@ -26,12 +26,12 @@
     {
       "author": "Justin Obara",
       "date": "2020-03-23T08:36:55.406-0400",
-      "body": "@@Gregor Moss the Orator demo is included in the demos directory of Infusion. If you pull down the branches related to the <https://fluidproject.atlassian.net/browse/FLUID-6145#icft=FLUID-6145> and/or <https://fluidproject.atlassian.net/browse/FLUID-6148#icft=FLUID-6148> PRs, you should be able to test them in Edge. \n"
+      "body": "Gregor Moss the Orator demo is included in the demos directory of Infusion. If you pull down the branches related to the <https://fluidproject.atlassian.net/browse/FLUID-6145#icft=FLUID-6145> and/or <https://fluidproject.atlassian.net/browse/FLUID-6148#icft=FLUID-6148> PRs, you should be able to test them in Edge. \n"
     },
     {
       "author": "Gregor Moss",
       "date": "2020-07-27T16:02:54.652-0400",
-      "body": "@@Justin Obara has been working on this issue as part of <https://fluidproject.atlassian.net/browse/SJRK-370#icft=SJRK-370> (now that we have error messages to work with), and came across some causes in Infusion proper that would explain this behaviour. These are captured in <https://fluidproject.atlassian.net/browse/FLUID-6533#icft=FLUID-6533> and <https://fluidproject.atlassian.net/browse/FLUID-6535#icft=FLUID-6535>, the first of which has already been addressed in Infusion and will make its way into the Storytelling Tool at some point.\n\nBeyond that, we are planning not to support pre-Chromium Edge in the future (affects versions 44.\\* and earlier), so this may not be resolved for affected versions.\n"
+      "body": "Justin Obara has been working on this issue as part of <https://fluidproject.atlassian.net/browse/SJRK-370#icft=SJRK-370> (now that we have error messages to work with), and came across some causes in Infusion proper that would explain this behaviour. These are captured in <https://fluidproject.atlassian.net/browse/FLUID-6533#icft=FLUID-6533> and <https://fluidproject.atlassian.net/browse/FLUID-6535#icft=FLUID-6535>, the first of which has already been addressed in Infusion and will make its way into the Storytelling Tool at some point.\n\nBeyond that, we are planning not to support pre-Chromium Edge in the future (affects versions 44.\\* and earlier), so this may not be resolved for affected versions.\n"
     }
   ]
 }

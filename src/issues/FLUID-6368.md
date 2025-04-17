@@ -33,7 +33,7 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2019-02-12T05:45:43.285-0500",
-      "body": "I suspect the error was introduced [in this commit](https://github.com/fluid-project/infusion/commit/8ecfb480779a593a159979d44d67bb4a635da2cd#diff-b9cfc7f2cdf78a7f4b91a753d10865a2), dev releases before that date include a copy of infusion-all.js that is safe to require.  I'm sure we don't test with these because we want coverage data.   As Testem catches and reports the error, I'd suggest creating a separate testem config that runs tests against the bundles.  The test itself would just include the bundle and a trivial passing test.  Since @@Justin Obara is largely out, I may just take this on while I'm thinking of it.\n"
+      "body": "I suspect the error was introduced [in this commit](https://github.com/fluid-project/infusion/commit/8ecfb480779a593a159979d44d67bb4a635da2cd#diff-b9cfc7f2cdf78a7f4b91a753d10865a2), dev releases before that date include a copy of infusion-all.js that is safe to require.  I'm sure we don't test with these because we want coverage data.   As Testem catches and reports the error, I'd suggest creating a separate testem config that runs tests against the bundles.  The test itself would just include the bundle and a trivial passing test.  Since Justin Obara is largely out, I may just take this on while I'm thinking of it.\n"
     },
     {
       "author": "Tony Atkins [RtF]",

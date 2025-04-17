@@ -48,7 +48,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-06-27T13:44:43.839-0400",
-      "body": "@@joanna vass should the default option always be a black on white with a crossout or should it take the style of whatever the integrator specified theme is?\n"
+      "body": "joanna vass should the default option always be a black on white with a crossout or should it take the style of whatever the integrator specified theme is?\n"
     },
     {
       "author": "Justin Obara",

@@ -36,6 +36,6 @@
   ]
 }
 ---
-Both [the server](https://github.com/fluid-project/sjrk-story-telling-server/pull/14) and [the client](https://github.com/fluid-project/sjrk-story-telling/pull/16) pull requests have been merged into "stories-floe-dev" branch, without having code review comments addressed, so that workshops next week can make use of this important feature. These review comments will be addressed when @@Gregor Moss comes back from vacation.
+Both [the server](https://github.com/fluid-project/sjrk-story-telling-server/pull/14) and [the client](https://github.com/fluid-project/sjrk-story-telling/pull/16) pull requests have been merged into "stories-floe-dev" branch, without having code review comments addressed, so that workshops next week can make use of this important feature. These review comments will be addressed when Gregor Moss comes back from vacation.
 
         

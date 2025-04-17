@@ -69,7 +69,7 @@
     {
       "author": "sparsh paliwal",
       "date": "2016-03-07T12:16:37.863-0500",
-      "body": "@@sparsh paliwal\n\nWhat should happen is the text \"Previous\" should no longer look like a link. If a link doesn't do anything, it should look disabled.\n"
+      "body": "sparsh paliwal\n\nWhat should happen is the text \"Previous\" should no longer look like a link. If a link doesn't do anything, it should look disabled.\n"
     },
     {
       "author": "Justin Obara",

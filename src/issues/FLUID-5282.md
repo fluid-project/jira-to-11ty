@@ -37,7 +37,7 @@
     {
       "author": "Colin Clark",
       "date": "2014-03-18T20:51:57.436-0400",
-      "body": "I have reviewed, tested, and pushed this fix to the project repo's master branch at revision 527d757fe8a1020a9356416e49791c7c925b8b3d.\n\n@@Cindy Li can you confirm that this fix resolves the issue and close it if so?\n"
+      "body": "I have reviewed, tested, and pushed this fix to the project repo's master branch at revision 527d757fe8a1020a9356416e49791c7c925b8b3d.\n\nCindy Li can you confirm that this fix resolves the issue and close it if so?\n"
     },
     {
       "author": "Cindy Li",

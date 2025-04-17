@@ -31,7 +31,7 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2016-10-05T08:47:27.642-0400",
-      "body": "@@Kasper Galschiot Markus, @@Antranig Basman, would either of you care to comment on what `transformer` is likely to be on this line:\n\n<https://github.com/fluid-project/infusion/blob/master/src/framework/core/js/ModelTransformationTransforms.js#L116>\n\nI would like to:\n\n1. Add JSDocs throughout the file if possible.\n2. Understand the implications of this variable for my own work on the array handler.\n"
+      "body": "Kasper Galschiot Markus, Antranig Basman, would either of you care to comment on what `transformer` is likely to be on this line:\n\n<https://github.com/fluid-project/infusion/blob/master/src/framework/core/js/ModelTransformationTransforms.js#L116>\n\nI would like to:\n\n1. Add JSDocs throughout the file if possible.\n2. Understand the implications of this variable for my own work on the array handler.\n"
     },
     {
       "author": "Antranig Basman",
@@ -45,6 +45,6 @@ In my own work, I created a transform function that allows you to perform a sing
 
 <https://github.com/the-t-in-rtf/ul-api/blob/UL-65/src/js/client/transformArray.js>
 
-As I will be working on submitting other transformation functions, I wanted to create this and ask @@Antranig Basman if he'd like to see this as well.  "hell no" and "not yet" are perfectly acceptable answers.
+As I will be working on submitting other transformation functions, I wanted to create this and ask Antranig Basman if he'd like to see this as well.  "hell no" and "not yet" are perfectly acceptable answers.
 
         

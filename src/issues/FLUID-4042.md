@@ -38,7 +38,7 @@
     {
       "author": "Justin Obara",
       "date": "2017-02-27T08:58:12.533-0500",
-      "body": "@@Aashay Singhal this one is a bit old, and would probably require some rethinking. I believe it's referring to the grades and components that are used by other components, that do not have demos of their own. As a first step it would require someone to identify all of these components followed up by deciding which are worth showcasing and how.\n"
+      "body": "Aashay Singhal this one is a bit old, and would probably require some rethinking. I believe it's referring to the grades and components that are used by other components, that do not have demos of their own. As a first step it would require someone to identify all of these components followed up by deciding which are worth showcasing and how.\n"
     },
     {
       "author": "Aashay Singhal",
@@ -48,6 +48,6 @@
   ]
 }
 ---
-These small helpers in FluidView.js might be good to demo on their own.
+These small helpers in FluidView\.js might be good to demo on their own.
 
         

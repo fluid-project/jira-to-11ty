@@ -27,7 +27,7 @@
     {
       "author": "Justin Obara",
       "date": "2020-07-21T11:27:22.334-0400",
-      "body": "@@Giovanni Tirloni suggested using [https://codecov.io](https://codecov.io/) because it integrates better with GitHub.\n"
+      "body": "Giovanni Tirloni suggested using [https://codecov.io](https://codecov.io/) because it integrates better with GitHub.\n"
     },
     {
       "author": "Cindy Li",

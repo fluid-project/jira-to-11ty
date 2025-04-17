@@ -32,7 +32,7 @@
 ---
 As we prepare for a first release of VULab, we want to provide a forum for VULab users and early adopters to ask questions, share workarounds, etc.&#x20;
 
-How about vulab-users@fluidproject.org?
+How about vulab-users\@fluidproject.org?
 
 vulab12
 

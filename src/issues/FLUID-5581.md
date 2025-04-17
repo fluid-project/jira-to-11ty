@@ -36,7 +36,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-12-12T10:40:44.394-0500",
-      "body": "@@Javier Hernández thanks for the fix.\n"
+      "body": "Javier Hernández thanks for the fix.\n"
     },
     {
       "author": "Justin Obara",

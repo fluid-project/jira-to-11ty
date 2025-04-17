@@ -37,7 +37,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-07-07T16:11:50.532-0400",
-      "body": "@@Colin Clark could you please add more information about what is needed for this issue.\n"
+      "body": "Colin Clark could you please add more information about what is needed for this issue.\n"
     }
   ]
 }

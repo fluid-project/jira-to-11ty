@@ -26,6 +26,6 @@
 ---
 The latest update to the ILDH structure has resulted in an empty topics side-bar on the home page, as well as only one topic in the side bar on the Introduction page. I suggest that either the side bar should not be available on the Home page and the Introduction page, or that we change the side bar to include the full site navigation/topics.
 
-@@Sepideh Shahi, @@Jonathan Hung, @@Michelle D'Souza
+Sepideh Shahi, Jonathan Hung, Michelle D'Souza
 
         

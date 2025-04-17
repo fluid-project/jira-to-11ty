@@ -47,6 +47,6 @@ The work to solve this issue should be two steps:\
 2\. Update all of the old stories to have "published: true" in their data, then revert the step above to allow only published stories to be served publicly\
 3\. Add tests to anticipate such issues as best as possible
 
-As @@Justin Obara mentions in the comments, a better long-term solution would be version tracking for the records themselves and some migration tools.
+As Justin Obara mentions in the comments, a better long-term solution would be version tracking for the records themselves and some migration tools.
 
         

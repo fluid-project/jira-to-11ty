@@ -31,7 +31,7 @@
     {
       "author": "Justin Obara",
       "date": "2011-02-18T15:19:47.467-0500",
-      "body": "It looks like this is due to a missing dependency on FluidView.js. However, the page still seems to function properly, which leads me to wonder if the real bug is using the DMB in this case.\n"
+      "body": "It looks like this is due to a missing dependency on FluidView\\.js. However, the page still seems to function properly, which leads me to wonder if the real bug is using the DMB in this case.\n"
     },
     {
       "author": "Anastasia Cheetham",

@@ -35,7 +35,7 @@ Background reading:\
 <https://github.com/kubernetes/kubernetes/blob/release-1.0/docs/user-guide/volumes.md>\
 <https://github.com/kubernetes/kubernetes/blob/release-1.0/docs/user-guide/persistent-volumes.md>
 
-@@Giovanni Tirloni's notes on failure modes of NFS:
+Giovanni Tirloni's notes on failure modes of NFS:
 
 * Something to write a lot of meaningful data to the disk while crash happens and be able to check consistency (candidates: MySQL, InfluxDB, CouchDB)
 

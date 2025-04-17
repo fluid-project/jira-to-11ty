@@ -32,7 +32,7 @@
   ]
 }
 ---
-Running \`npm install\` with npm@5 generates the following warning:
+Running \`npm install\` with npm\@5 generates the following warning:
 
 ```
 npm WARN prepublish-on-install As of npm@5, `prepublish` scripts are deprecated.

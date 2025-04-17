@@ -42,6 +42,6 @@
   ]
 }
 ---
-Related artifact links are build incorrectly. Instead of ../artifact/view.html... they are /artifact/view.html...
+Related artifact links are build incorrectly. Instead of ../artifact/view\.html... they are /artifact/view\.html...
 
         

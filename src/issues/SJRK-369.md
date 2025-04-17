@@ -42,7 +42,7 @@ Ideally, we would like the reorderer to call its "refresh" invoker any time a ne
 
 The temporary solution is to delay calling "refresh" until any block has focus, but this results in many superfluous calls to refresh along with subsequent activation of various model relays and listeners related to autosave. These aren't harmful per se (yet), but they do waste cycles and the solution is inelegant and somewhat obscure.
 
-A better solution (proposed by @@Justin Obara) would be to implement a sort of event queue which, when a block is added:
+A better solution (proposed by Justin Obara) would be to implement a sort of event queue which, when a block is added:
 
 1. enqueues (pushes) an object containing the args of the viewComponentContainerRequested event and whatever else is needed for queue management (maybe nothing),
 2. fires the event, passing the args,

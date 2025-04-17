@@ -34,7 +34,7 @@ Using its DSL we could automate the task of logging into an updated site which w
 
 When /I sign in/ do\
 within("#session") do\
-fill\_in 'Login', :with => 'user@example.com'\
+fill\_in 'Login', :with => 'user\@example.com'\
 fill\_in 'Password', :with => 'password'\
 end\
 click\_link 'Sign in'\

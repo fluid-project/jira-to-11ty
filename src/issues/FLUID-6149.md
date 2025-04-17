@@ -27,12 +27,12 @@
     {
       "author": "Antranig Basman",
       "date": "2017-03-22T19:44:08.914-0400",
-      "body": "Thanks for the report, @@Tony Atkins \\[RtF] - I've updated my pull <https://github.com/fluid-project/infusion/pull/820> to include a fix for this issue, together with a bit of cleanup, and published the resulting Infusion build as 3.0.0-dev.20170322T234120Z.278de35 - let me know how you get on!\n"
+      "body": "Thanks for the report, Tony Atkins \\[RtF] - I've updated my pull <https://github.com/fluid-project/infusion/pull/820> to include a fix for this issue, together with a bit of cleanup, and published the resulting Infusion build as 3.0.0-dev.20170322T234120Z.278de35 - let me know how you get on!\n"
     },
     {
       "author": "Tony Atkins [RtF]",
       "date": "2017-03-23T09:00:03.330-0400",
-      "body": "Thanks @@Antranig Basman.  I updated both gpii-express and gpii-testem to use the dev release, after which \"fluid.require\" works as expected when run from the root of the v: drive.\n"
+      "body": "Thanks Antranig Basman.  I updated both gpii-express and gpii-testem to use the dev release, after which \"fluid.require\" works as expected when run from the root of the v: drive.\n"
     },
     {
       "author": "Antranig Basman",

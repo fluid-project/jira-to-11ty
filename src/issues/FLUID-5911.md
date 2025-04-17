@@ -26,7 +26,7 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2016-06-01T04:12:42.962-0400",
-      "body": "I encountered problems related to the age of our QUnit when trying [qunit-tap](https://github.com/twada/qunit-tap) per a suggestion from  @@Antranig Basman.\n\nThey have specifically had problems with QUnit 1.12.0 (the version we keep a local copy of) for a few years running.  1.13.0 or higher seems fine:\n\n<https://github.com/twada/qunit-tap>\n\nI am trying to use [an older version of qunit-tap](https://github.com/twada/qunit-tap/tree/1.3.0), but this really doesn't seem sustainable in the longer term.\n"
+      "body": "I encountered problems related to the age of our QUnit when trying [qunit-tap](https://github.com/twada/qunit-tap) per a suggestion from  Antranig Basman.\n\nThey have specifically had problems with QUnit 1.12.0 (the version we keep a local copy of) for a few years running.  1.13.0 or higher seems fine:\n\n<https://github.com/twada/qunit-tap>\n\nI am trying to use [an older version of qunit-tap](https://github.com/twada/qunit-tap/tree/1.3.0), but this really doesn't seem sustainable in the longer term.\n"
     },
     {
       "author": "Tony Atkins [RtF]",

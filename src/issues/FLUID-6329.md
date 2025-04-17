@@ -27,7 +27,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-08-22T08:43:40.792-0400",
-      "body": "@@Tony Atkins \\[RtF] thanks for filing this. I ran into the same issue the other day and just didn't get around to filing a Jira for it yet. The issue seems to be stemming from the use of the \"relativeDest\" option ( <https://github.com/fluid-project/infusion/blob/master/Gruntfile.js#L276> ) when writing to the dist directory. Possibly to do with this being a path that needs to be created along with changes they have made between 1.0.2 and 1.0.3 to file.js ( <https://github.com/gruntjs/grunt/commit/01055249b3a6493ee2c0ef43168f1d4d591f31f4> ).\n\n \n\nOne potential solution, which I haven't tested yet, would be to make the stylus directory a sibling of css instead of a child.\n"
+      "body": "Tony Atkins \\[RtF] thanks for filing this. I ran into the same issue the other day and just didn't get around to filing a Jira for it yet. The issue seems to be stemming from the use of the \"relativeDest\" option ( <https://github.com/fluid-project/infusion/blob/master/Gruntfile.js#L276> ) when writing to the dist directory. Possibly to do with this being a path that needs to be created along with changes they have made between 1.0.2 and 1.0.3 to file.js ( <https://github.com/gruntjs/grunt/commit/01055249b3a6493ee2c0ef43168f1d4d591f31f4> ).\n\n \n\nOne potential solution, which I haven't tested yet, would be to make the stylus directory a sibling of css instead of a child.\n"
     },
     {
       "author": "Justin Obara",

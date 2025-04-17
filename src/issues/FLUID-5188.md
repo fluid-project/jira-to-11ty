@@ -41,7 +41,7 @@
     {
       "author": "Michelle D'Souza",
       "date": "2014-05-26T11:53:04.714-0400",
-      "body": "We discussed this at the May 21, 2014 community meeting and @@Antranig Basman said that this page is now complete and ready to move to the new documentation space.&#x20;\n"
+      "body": "We discussed this at the May 21, 2014 community meeting and Antranig Basman said that this page is now complete and ready to move to the new documentation space.&#x20;\n"
     }
   ]
 }

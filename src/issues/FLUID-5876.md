@@ -33,7 +33,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-18T09:27:52.908-0400",
-      "body": "@@Aman varshney I don't know of anyone working on this at the moment, but you'll probably want to talk to the designers about it first.\n\n@@Dana and @@Jonathan Hung do you have any ideas/feedback about how the interaction should be?\n"
+      "body": "Aman varshney I don't know of anyone working on this at the moment, but you'll probably want to talk to the designers about it first.\n\nDana and Jonathan Hung do you have any ideas/feedback about how the interaction should be?\n"
     },
     {
       "author": "Aman varshney",
@@ -43,7 +43,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-21T08:39:43.154-0400",
-      "body": "@@Aman varshney it's part of the Overview Panel component. <https://github.com/fluid-project/infusion/tree/master/src/components/overviewPanel>\n"
+      "body": "Aman varshney it's part of the Overview Panel component. <https://github.com/fluid-project/infusion/tree/master/src/components/overviewPanel>\n"
     },
     {
       "author": "Blagoj Dimovski",

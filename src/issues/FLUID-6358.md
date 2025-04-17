@@ -35,7 +35,7 @@
     {
       "author": "Justin Obara",
       "date": "2019-09-24T12:39:48.375-0400",
-      "body": "@@Ned Zimmerman has also suggested adding default community health files in GitHub.\n\n<https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization>\n"
+      "body": "Ned Zimmerman has also suggested adding default community health files in GitHub.\n\n<https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization>\n"
     },
     {
       "author": "Justin Obara",

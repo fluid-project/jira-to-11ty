@@ -29,7 +29,7 @@
     {
       "author": "Michelle D'Souza",
       "date": "2014-03-27T14:43:34.860-0400",
-      "body": "@@Antranig Basman Please check these docs when you get a chance and close this issue if appropriate. Thanks!\n"
+      "body": "Antranig Basman Please check these docs when you get a chance and close this issue if appropriate. Thanks!\n"
     },
     {
       "author": "Antranig Basman",

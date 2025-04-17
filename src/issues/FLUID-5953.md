@@ -37,7 +37,7 @@
     {
       "author": "Justin Obara",
       "date": "2019-11-06T15:07:59.673-0500",
-      "body": "@@Avtar Gill can this be closed?\n"
+      "body": "Avtar Gill can this be closed?\n"
     },
     {
       "author": "Avtar Gill",

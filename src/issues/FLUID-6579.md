@@ -26,7 +26,7 @@
     {
       "author": "Justin Obara",
       "date": "2020-11-16T07:44:01.590-0500",
-      "body": "@@Antranig Basman the reports are generated from NYC and sent to codecov for reporting. I was testing a PR out locally last week and also noticed an anomalous drop in coverage in one run. I have a suspicion that this might be caused by some of our conditional tests randomly not running. For example the text-to-speech system has a condition to [check if TTS is supported](https://github.com/fluid-project/infusion/blob/main/tests/component-tests/textToSpeech/js/TextToSpeechTests.js#L22-L62) in the browser. In this case it might be timing out on some runs; thus dropping the coverage report.\n"
+      "body": "Antranig Basman the reports are generated from NYC and sent to codecov for reporting. I was testing a PR out locally last week and also noticed an anomalous drop in coverage in one run. I have a suspicion that this might be caused by some of our conditional tests randomly not running. For example the text-to-speech system has a condition to [check if TTS is supported](https://github.com/fluid-project/infusion/blob/main/tests/component-tests/textToSpeech/js/TextToSpeechTests.js#L22-L62) in the browser. In this case it might be timing out on some runs; thus dropping the coverage report.\n"
     }
   ]
 }

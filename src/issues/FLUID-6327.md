@@ -33,7 +33,7 @@
     {
       "author": "Antranig Basman",
       "date": "2018-08-21T13:16:01.551-0400",
-      "body": "Cheers for the report, @@Giovanni Tirloni. We have a new linting implementation contributed by @@Tony Atkins \\[RtF] which makes many more checks than before, which is responsible for the increased processing time. Hopefully we can increase the build timeouts in order to compensate.\n"
+      "body": "Cheers for the report, Giovanni Tirloni. We have a new linting implementation contributed by Tony Atkins \\[RtF] which makes many more checks than before, which is responsible for the increased processing time. Hopefully we can increase the build timeouts in order to compensate.\n"
     },
     {
       "author": "Justin Obara",
@@ -43,12 +43,12 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2018-08-21T15:59:39.367-0400",
-      "body": "Thanks @@Antranig Basman & @@Justin Obara.\n\nThe new build average time is 35 minutes.\n"
+      "body": "Thanks Antranig Basman & Justin Obara.\n\nThe new build average time is 35 minutes.\n"
     },
     {
       "author": "Tony Atkins [RtF]",
       "date": "2018-08-22T04:48:49.083-0400",
-      "body": "@@Giovanni Tirloni or anyone, is there an example of successful build with the new timeout?  I'd like to review and confirm that we aren't accidentally linting non-repo content.\n"
+      "body": "Giovanni Tirloni or anyone, is there an example of successful build with the new timeout?  I'd like to review and confirm that we aren't accidentally linting non-repo content.\n"
     },
     {
       "author": "Giovanni Tirloni",

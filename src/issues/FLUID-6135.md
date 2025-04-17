@@ -39,7 +39,7 @@
 ---
 We have been [reviewing](https://github.com/GPII/gpii-testem/pull/1) the new [gpii-testem](https://www.npmjs.com/package/gpii-testem) package, which provides the ability to instrument and gather code coverage for client-side browser tests using Testem and Istanbul.
 
-@@Antranig Basman and I discussed submitting a self-contained PR to:
+Antranig Basman and I discussed submitting a self-contained PR to:
 
 1. Convert the existing testem.json file to work with gpii-testem.
 2. Collate node and browser test coverage into a single report.&#x20;

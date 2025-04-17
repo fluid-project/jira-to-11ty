@@ -54,7 +54,7 @@
     {
       "author": "Anastasia Cheetham",
       "date": "2009-05-25T11:34:27.000-0400",
-      "body": "The css file that was removed for this is still being referenced by ui-options-fss-sakai.html and UIOptionsPreview.html. The references should be removed.\n"
+      "body": "The css file that was removed for this is still being referenced by ui-options-fss-sakai.html and UIOptionsPreview\\.html. The references should be removed.\n"
     },
     {
       "author": "Anastasia Cheetham",

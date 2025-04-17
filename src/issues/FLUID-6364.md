@@ -38,7 +38,7 @@
 ---
 The implementation of the localization preference adds a localization example to Infusion.
 
-Thoughts from @@Justin Obara:
+Thoughts from Justin Obara:
 
 From our mini design crit there were a lot of view points expressed that made us wonder if the approach taken here is the best. For example there was a mention that usually language happens through a toggle directly visible on the page and/or on a screen before hand, which makes me wonder if a user would ever find it in the panel. We also do have a paradigm at the moment for exposing adjusters outside of the panel. Although I don't think it would be too much work to make that happen. At any rate, I think it warrants more design thought, maybe user testing and/or co-design and a more extensive exploration of how sites currently set language.
 

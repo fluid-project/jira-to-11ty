@@ -46,7 +46,7 @@
     {
       "author": "Harris Wong",
       "date": "2011-07-26T16:47:50.382-0400",
-      "body": "white-on-black.ong:\n\n* button text is white and is invisible, should be in black\n* header and paragraph are in dark gray, change that to white\n\nblack-on-yellow.png:\n\n* slider bar is white, which is extremely close to the yellow background colour.  Change it to black.\n\nyellow-on-black.png:\n\n* button text is yellow and is invisible, should be in black\n* header and paragraph are in dark gray, change that to white\n"
+      "body": "white-on-black.ong:\n\n* button text is white and is invisible, should be in black\n* header and paragraph are in dark gray, change that to white\n\nblack-on-yellow\\.png:\n\n* slider bar is white, which is extremely close to the yellow background colour.  Change it to black.\n\nyellow-on-black.png:\n\n* button text is yellow and is invisible, should be in black\n* header and paragraph are in dark gray, change that to white\n"
     },
     {
       "author": "Harris Wong",

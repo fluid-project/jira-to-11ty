@@ -35,7 +35,7 @@
     {
       "author": "Eloisa Guerrero",
       "date": "2018-07-06T10:03:45.615-0400",
-      "body": "@@Caren Watkins yes it is possible\n"
+      "body": "Caren Watkins yes it is possible\n"
     },
     {
       "author": "Caren Watkins",
@@ -45,7 +45,7 @@
     {
       "author": "Jonathan Hung",
       "date": "2018-07-12T15:46:27.216-0400",
-      "body": "@@Caren Watkins Is this resolved? Can we close it? It looks like the Twitter feed is looking better than it was before.\n"
+      "body": "Caren Watkins Is this resolved? Can we close it? It looks like the Twitter feed is looking better than it was before.\n"
     }
   ]
 }

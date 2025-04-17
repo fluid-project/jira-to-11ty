@@ -28,12 +28,12 @@
     {
       "author": "Justin Obara",
       "date": "2018-11-05T07:12:30.247-0500",
-      "body": "@@Tony Atkins \\[RtF] is this something you may be able to track down?\n"
+      "body": "Tony Atkins \\[RtF] is this something you may be able to track down?\n"
     },
     {
       "author": "Tony Atkins [RtF]",
       "date": "2018-11-05T10:07:26.594-0500",
-      "body": "Hi, @@Justin Obara.  This is definitely a problem with Testem and/or my wrapper around it.  I'm tracking the work here:\n\n<https://issues.gpii.net/browse/GPII-3500>\n"
+      "body": "Hi, Justin Obara.  This is definitely a problem with Testem and/or my wrapper around it.  I'm tracking the work here:\n\n<https://issues.gpii.net/browse/GPII-3500>\n"
     },
     {
       "author": "Tony Atkins [RtF]",

@@ -44,7 +44,7 @@
     {
       "author": "Justin Obara",
       "date": "2009-02-11T12:08:42.000-0500",
-      "body": "Forgot to mark this one for review... will reopen and mark as resolved\n"
+      "body": "Forgot to mark this one for review\\... will reopen and mark as resolved\n"
     },
     {
       "author": "Anastasia Cheetham",

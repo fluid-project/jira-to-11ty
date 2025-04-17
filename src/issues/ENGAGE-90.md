@@ -32,7 +32,7 @@
     {
       "author": "Antranig Basman",
       "date": "2009-09-24T22:01:56.000-0400",
-      "body": "Fixed at revision 8120 with manual test case, but since we do not have assertDeepEq in Java, this will have to remain \"by eye\" for now...\n"
+      "body": "Fixed at revision 8120 with manual test case, but since we do not have assertDeepEq in Java, this will have to remain \"by eye\" for now\\...\n"
     },
     {
       "author": "y z",

@@ -23,7 +23,7 @@
     {
       "author": "Dana",
       "date": "2016-07-20T12:37:10.726-0400",
-      "body": "@@Jonathan Hung I couldn't find an existing JIRA for this, so I created a new one\n"
+      "body": "Jonathan Hung I couldn't find an existing JIRA for this, so I created a new one\n"
     }
   ]
 }

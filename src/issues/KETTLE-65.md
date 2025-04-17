@@ -25,13 +25,13 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2017-11-22T04:13:38.635-0500",
-      "body": "@@Antranig Basman handled the security updates in fixing <https://fluidproject.atlassian.net/browse/FLUID-6225#icft=FLUID-6225>.\n"
+      "body": "Antranig Basman handled the security updates in fixing <https://fluidproject.atlassian.net/browse/FLUID-6225#icft=FLUID-6225>.\n"
     }
   ]
 }
 ---
 [Snyk](http://snyk.io) is reporting inherited vulnerabilities coming in via Kettle, mainly via its outdated express.  I am in the process of creating a quick PR to address this.
 
-cc: @@Antranig Basman
+cc: Antranig Basman
 
         

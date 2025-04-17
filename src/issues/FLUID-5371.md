@@ -40,7 +40,7 @@
     {
       "author": "Colin Clark",
       "date": "2014-05-27T19:05:59.955-0400",
-      "body": "Reviewed and tested by @@Cindy Li, @@Justin Obara and me. Committed and pushed to project master at f77fac2d2d8ecd7fe5ffd2f497cf404e8f13814b\n"
+      "body": "Reviewed and tested by Cindy Li, Justin Obara and me. Committed and pushed to project master at f77fac2d2d8ecd7fe5ffd2f497cf404e8f13814b\n"
     }
   ]
 }

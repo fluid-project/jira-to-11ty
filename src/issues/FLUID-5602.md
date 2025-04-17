@@ -27,7 +27,7 @@
 ---
 In a recent report on gpii-architecture list
 
-\[placeholder for link to post from 3/3/15 from Tony Atkins "Can't seem to wire in" which has not yet appeared on http://lists.gpii.net/pipermail/architecture/2015-March/date.html ]
+\[placeholder for link to post from 3/3/15 from Tony Atkins "Can't seem to wire in" which has not yet appeared on http\://lists.gpii.net/pipermail/architecture/2015-March/date.html ]
 
 there was a problem where the extra containment level "events" was missed out from a compound event boiling specification: "The events block was omitted from Antranig's otherwise excellent example, and is necessary to avoid cryptic errors about not having a base event name."
 

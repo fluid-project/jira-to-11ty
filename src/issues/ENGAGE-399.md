@@ -32,7 +32,7 @@
     {
       "author": "Colin Clark",
       "date": "2010-02-17T16:08:57.000-0500",
-      "body": "I resolved this issue at r9424 by using relative URLs instead of absolute URLs. This also enabled me to simplify some code in ArtifactCollectView.js\n"
+      "body": "I resolved this issue at r9424 by using relative URLs instead of absolute URLs. This also enabled me to simplify some code in ArtifactCollectView\\.js\n"
     },
     {
       "author": "Antranig Basman",

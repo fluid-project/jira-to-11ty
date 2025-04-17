@@ -43,7 +43,7 @@ This is the error log from Opera 9.6 on the mac
 
 JavaScript\
 Timeout thread: delay 13 ms\
-09:14:43 GMT-0400:  Error finding root template for fluid.pager.renderedPageList: selector ".ss-members .pager-top .pager-links" with name root returned no results in context \[document: location http://build.fluidproject.org/fluid/sample-code/pager/sakai-site-setting/site\_setting\_members.html#]\
+09:14:43 GMT-0400:  Error finding root template for fluid.pager.renderedPageList: selector ".ss-members .pager-top .pager-links" with name root returned no results in context \[document: location http\://build.fluidproject.org/fluid/sample-code/pager/sakai-site-setting/site\_setting\_members.html#]\
 JavaScript - <http://build.fluidproject.org/fluid/sample-code/pager/sakai-site-setting/site_setting_members.html>\
 Timeout thread: delay 13 ms\
 Error:\

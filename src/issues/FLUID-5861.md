@@ -45,7 +45,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-02-11T11:31:37.200-0500",
-      "body": "I used a Surface Pro 3 running Windows 10 to try to reproduce this issue in IE 11, but was unable to.&#x20;\n\n@@Giovanni Tirloni I can't see in the screenshots where the mouse was exactly though. Could you highlight it?\n"
+      "body": "I used a Surface Pro 3 running Windows 10 to try to reproduce this issue in IE 11, but was unable to.&#x20;\n\nGiovanni Tirloni I can't see in the screenshots where the mouse was exactly though. Could you highlight it?\n"
     },
     {
       "author": "Giovanni Tirloni",

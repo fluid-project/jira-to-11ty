@@ -34,7 +34,7 @@
     {
       "author": "Jonathan Hung",
       "date": "2011-02-17T11:00:47.560-0500",
-      "body": "To clarify why tooltips should be implemented this way, here's an example:\\\nPage 1 has the following data in Name and Email columns: Alex a@foo.com, Betsy b@foo.com, Carlos amazing@foo.com\n\nNow:\n\n* sort by email\n* Page 1 will be ordered: Alex a@foo.com, Carlos amazing@foo.com, Betsy b@foo.com,&#x20;\n* the tooltip for page 1 will be: \"Alex | Betsy\"\n\nThis is misleading because the tooltip implies there are only results from Alex to Betsy inclusive. But when you visit Page 1, it actually includes Carlos which doesn't fit the pattern.\n\nWorse case scenario is if a user has a lot of data and is looking for one particular result, the user may never find that record if using the tooltips alone.\n\nSo the only way to ensure that the tooltips are accurate is to display tooltips based on the sort column.\n"
+      "body": "To clarify why tooltips should be implemented this way, here's an example:\\\nPage 1 has the following data in Name and Email columns: Alex a\\@foo.com, Betsy b\\@foo.com, Carlos amazing\\@foo.com\n\nNow:\n\n* sort by email\n* Page 1 will be ordered: Alex a\\@foo.com, Carlos amazing\\@foo.com, Betsy b\\@foo.com,&#x20;\n* the tooltip for page 1 will be: \"Alex | Betsy\"\n\nThis is misleading because the tooltip implies there are only results from Alex to Betsy inclusive. But when you visit Page 1, it actually includes Carlos which doesn't fit the pattern.\n\nWorse case scenario is if a user has a lot of data and is looking for one particular result, the user may never find that record if using the tooltips alone.\n\nSo the only way to ensure that the tooltips are accurate is to display tooltips based on the sort column.\n"
     },
     {
       "author": "Antranig Basman",
@@ -51,6 +51,6 @@ Example:
 * load <http://build.fluidproject.org/infusion/demos/pager/demo.html>
 * sort by email
 * hover over page 2 link.
-* tooltip reads "Arturo Hayhurst | Brendan Anagnos" but it should be "arturo.hayhurst@local.host | brendan.anagnos@local.host"
+* tooltip reads "Arturo Hayhurst | Brendan Anagnos" but it should be "arturo.hayhurst\@local.host | brendan.anagnos\@local.host"
 
         

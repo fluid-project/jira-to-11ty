@@ -99,7 +99,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-09T09:15:59.980-0500",
-      "body": "@@Saksham Saxena I just did a quick test in Safari 9 and the issue is still present there. Also <https://fluidproject.atlassian.net/browse/FLUID-4075#icft=FLUID-4075> was close because it is a duplicate of this issue.\n"
+      "body": "Saksham Saxena I just did a quick test in Safari 9 and the issue is still present there. Also <https://fluidproject.atlassian.net/browse/FLUID-4075#icft=FLUID-4075> was close because it is a duplicate of this issue.\n"
     },
     {
       "author": "Akshay Agarwal",

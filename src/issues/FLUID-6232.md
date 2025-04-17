@@ -43,7 +43,7 @@
     {
       "author": "Alan Harnum",
       "date": "2018-03-28T10:15:01.107-0400",
-      "body": "@@Mohamed Shadab I'd assume that they already have node/npm and basic knowledge - you can provide a link out to documentation at <https://nodejs.org/en/> or similar as a courtesy, but it's reasonable to assume that someone interested in using npm has node/npm/basic CLI. \n"
+      "body": "Mohamed Shadab I'd assume that they already have node/npm and basic knowledge - you can provide a link out to documentation at <https://nodejs.org/en/> or similar as a courtesy, but it's reasonable to assume that someone interested in using npm has node/npm/basic CLI. \n"
     },
     {
       "author": "Mohamed Shadab",

@@ -61,7 +61,7 @@
     {
       "author": "Jonathan Hung",
       "date": "2018-07-24T16:29:04.500-0400",
-      "body": "@@Justin Obara\n\nA way to address this would be to apply a line height specific class to the body whenever the line height adjuster is applied. For example \"fl-uio-lineheight-12\"  can be applied to the body element for when line height is set to 1.2x.\n\nThis way it is possible to style against a specific line height using specific CSS rules.\n\n \n\nEdit: I guess that is what @@Michelle D'Souza was saying above.\n"
+      "body": "Justin Obara\n\nA way to address this would be to apply a line height specific class to the body whenever the line height adjuster is applied. For example \"fl-uio-lineheight-12\"  can be applied to the body element for when line height is set to 1.2x.\n\nThis way it is possible to style against a specific line height using specific CSS rules.\n\n \n\nEdit: I guess that is what Michelle D'Souza was saying above.\n"
     },
     {
       "author": "Jonathan Hung",
@@ -76,7 +76,7 @@
     {
       "author": "Justin Obara",
       "date": "2021-01-28T15:26:37.955-0500",
-      "body": "@@Sean F @ opin thanks for writing this up. We appreciate the feedback and suggestions. Sorry for the late reply, I've just come across this now while looking for a reference to this issue. It's probably not in scope for our work at the moment, but something that we'll keep in mind when we have a chance to address this issue. \n\nThanks also for the suggestion of [PostCSS](https://postcss.org). It's been our radar for things to explore more.\n"
+      "body": "Sean F @ opin thanks for writing this up. We appreciate the feedback and suggestions. Sorry for the late reply, I've just come across this now while looking for a reference to this issue. It's probably not in scope for our work at the moment, but something that we'll keep in mind when we have a chance to address this issue. \n\nThanks also for the suggestion of [PostCSS](https://postcss.org). It's been our radar for things to explore more.\n"
     },
     {
       "author": "Justin Obara",

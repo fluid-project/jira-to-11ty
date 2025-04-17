@@ -29,7 +29,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2018-01-23T09:11:21.170-0500",
-      "body": "@@Alan Harnum is it okay if we close this Jira and open a new one specifically for ELK? I can do that if you think that's okay.\n"
+      "body": "Alan Harnum is it okay if we close this Jira and open a new one specifically for ELK? I can do that if you think that's okay.\n"
     }
   ]
 }

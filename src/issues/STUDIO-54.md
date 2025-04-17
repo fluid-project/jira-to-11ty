@@ -27,7 +27,7 @@
     {
       "author": "Justin Obara",
       "date": "2012-06-29T08:01:33.024-0400",
-      "body": "We can probably make use of window.matchMedia. There isn't any IE support for anything below IE10, but most of those didn't support media queries anyways and are thus immune to this bug.\n\n<http://old.nabble.com/window.matchMedia-the-js-equivalent-of-media-queries-td34090941.html>\n"
+      "body": "We can probably make use of window\\.matchMedia. There isn't any IE support for anything below IE10, but most of those didn't support media queries anyways and are thus immune to this bug.\n\n<http://old.nabble.com/window.matchMedia-the-js-equivalent-of-media-queries-td34090941.html>\n"
     },
     {
       "author": "Justin Obara",

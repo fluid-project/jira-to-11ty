@@ -40,6 +40,6 @@ When uploading files to a media block (image, audio, video), add restrictions to
 
 This work includes research into which formats are supported by which browsers, followed by adding the restrictions.
 
-@@Colin Clark has conducted some similar research for his work on Bubbles, and he mentioned that (at the time of filing) h.264-encoded video in MPEG containers and WebM are basically the only broadly-supported formats. This is worth discussing.
+Colin Clark has conducted some similar research for his work on Bubbles, and he mentioned that (at the time of filing) h.264-encoded video in MPEG containers and WebM are basically the only broadly-supported formats. This is worth discussing.
 
         

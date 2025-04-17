@@ -26,7 +26,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-05-28T15:15:44.608-0400",
-      "body": "@@Anastasia Cheetham could you add a screen shot for this. You can take a screen shot of the iPad screen by pressing the home and sleep button at the same time.\n"
+      "body": "Anastasia Cheetham could you add a screen shot for this. You can take a screen shot of the iPad screen by pressing the home and sleep button at the same time.\n"
     },
     {
       "author": "Jonathan Hung",

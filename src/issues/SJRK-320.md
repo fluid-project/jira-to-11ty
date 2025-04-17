@@ -37,7 +37,7 @@
   ]
 }
 ---
-In the review process for work on SJRK-255, @@Antranig Basman left the following review comments:
+In the review process for work on SJRK-255, Antranig Basman left the following review comments:
 
 <https://github.com/fluid-project/sjrk-story-telling/pull/35#pullrequestreview-270700397>
 

@@ -41,7 +41,7 @@
   ]
 }
 ---
-The following revision of ErrorsView.js (now outdated) shows a construct that was led to confusion:
+The following revision of ErrorsView\.js (now outdated) shows a construct that was led to confusion:
 
 <https://github.com/jhung/infusion/blob/9e8ae1fb32dac30a0c0170676a3cc343fca994b5/src/webapp/components/uploader/js/ErrorsView.js>
 

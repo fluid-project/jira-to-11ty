@@ -41,7 +41,7 @@
     {
       "author": "Gregor Moss",
       "date": "2020-04-29T14:08:28.704-0400",
-      "body": "Issue was also reported by @@Cindy Li while testing the <https://fluidproject.atlassian.net/browse/SJRK-342#icft=SJRK-342> pull request: <https://github.com/fluid-project/sjrk-story-telling/pull/74>\n\nSee the attached \"2020-04-29 ST Galaxy S9 simulated background bug.png\" for that instance.\n"
+      "body": "Issue was also reported by Cindy Li while testing the <https://fluidproject.atlassian.net/browse/SJRK-342#icft=SJRK-342> pull request: <https://github.com/fluid-project/sjrk-story-telling/pull/74>\n\nSee the attached \"2020-04-29 ST Galaxy S9 simulated background bug.png\" for that instance.\n"
     }
   ]
 }

@@ -50,7 +50,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-07T10:45:35.446-0500",
-      "body": "@@Neel Dalsania feel free to submit a pull request. The proposed fix can be discussed further then.\n"
+      "body": "Neel Dalsania feel free to submit a pull request. The proposed fix can be discussed further then.\n"
     },
     {
       "author": "Neel Dalsania",

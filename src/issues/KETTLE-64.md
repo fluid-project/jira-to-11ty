@@ -36,6 +36,6 @@ In reviewing the kettle docs recently, I noticed a page with two errors:
 
 Rather than fix only the problems we happen to notice this go around, I'd like to add [grunt-markdownlint](https://github.com/sagiegurari/grunt-markdownlint) to our lint checks and then fix everything at once.
 
-cc: @@Antranig Basman
+cc: Antranig Basman
 
         

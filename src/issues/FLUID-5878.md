@@ -33,12 +33,12 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-21T08:37:18.630-0400",
-      "body": "@@Cindy Li in regards to \"// need more thoughts about how to specify a jQuery method\" could you just take in an invoker? Another idea would be to use something similar to the approach that invokers and etc use for thisist functions, but you'd still need to sort out the difference between a jQuery method and some other thisist function, because they may have different signatures.\n"
+      "body": "Cindy Li in regards to \"// need more thoughts about how to specify a jQuery method\" could you just take in an invoker? Another idea would be to use something similar to the approach that invokers and etc use for thisist functions, but you'd still need to sort out the difference between a jQuery method and some other thisist function, because they may have different signatures.\n"
     }
   ]
 }
 ---
-To simplify the methods to localize messages used in the prefs framework, especially at the prefsEditorLoader level where the message needs to be applied to the DOM elements using jQuery functions such as text(), html(), attr(), @@Antranig Basman suggests,
+To simplify the methods to localize messages used in the prefs framework, especially at the prefsEditorLoader level where the message needs to be applied to the DOM elements using jQuery functions such as text(), html(), attr(), Antranig Basman suggests,
 
 1, Create a fluid binding component that binds DOM elements, messages and methods to apply messages. The binding in this case looks like:
 

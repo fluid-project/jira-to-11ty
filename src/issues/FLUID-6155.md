@@ -35,6 +35,6 @@ If I resolve the same path from v:/, I get output like "v://path/to/file".  Note
 
 Either variation is directly useful as part of a [file URI scheme](https://en.wikipedia.org/wiki/File_URI_scheme), but IMO unless there is a concrete reason for it to differ, the output should be consistent in using (or not using) a second slash following the drive letter.
 
-cc: @@Antranig Basman
+cc: Antranig Basman
 
         

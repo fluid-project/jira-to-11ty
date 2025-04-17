@@ -30,6 +30,6 @@
   ]
 }
 ---
-Currently, master lints using the deprecated gpii-grunt-lint-all@1.0.7.  This ticket updates that to use the latest version of the replacement, fluid-grunt-lint-all@1.0.8.
+Currently, master lints using the deprecated gpii-grunt-lint-all\@1.0.7.  This ticket updates that to use the latest version of the replacement, fluid-grunt-lint-all\@1.0.8.
 
         

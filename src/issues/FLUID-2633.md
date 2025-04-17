@@ -29,7 +29,7 @@
     {
       "author": "Laurel Williams",
       "date": "2009-05-12T16:10:17.000-0400",
-      "body": "pages can be seen at \\\nwww.fluidproject.org/ui-options\\\nand\\\nwww.fluidproject.org/projects-ui-options\n"
+      "body": "pages can be seen at \\\nwww\\.fluidproject.org/ui-options\\\nand\\\nwww\\.fluidproject.org/projects-ui-options\n"
     },
     {
       "author": "Laurel Williams",

@@ -30,7 +30,7 @@
     {
       "author": "Ned Zimmerman",
       "date": "2020-10-27T13:33:23.573-0400",
-      "body": "@@Justin Obara I've created a shareable config and requested a transfer to you so you can add it to the fluid-project organization.\n"
+      "body": "Justin Obara I've created a shareable config and requested a transfer to you so you can add it to the fluid-project organization.\n"
     },
     {
       "author": "Ned Zimmerman",

@@ -30,7 +30,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2018-04-13T09:05:51.613-0400",
-      "body": "@@Avtar Gill does this approach sound okay? I'm just worried about what I mentioned in the caveats section. That will make the pipeline.yml file look a bit ugly. Some people have tried to simplify it by turning the yaml into a shell script and then getting the agent's name and adding it to everything (so the step becomes \"pipeline.sh | buildkite-agent upload pipeline\"). If issue#173 would be implemented, that would be awesome but I'm not sure how long we'd have to wait for that.\n\n \n\nI'm trying to think of a situation where running steps in different hosts would be beneficial, it's so different from the way we have been working for years now.\n"
+      "body": "Avtar Gill does this approach sound okay? I'm just worried about what I mentioned in the caveats section. That will make the pipeline.yml file look a bit ugly. Some people have tried to simplify it by turning the yaml into a shell script and then getting the agent's name and adding it to everything (so the step becomes \"pipeline.sh | buildkite-agent upload pipeline\"). If issue#173 would be implemented, that would be awesome but I'm not sure how long we'd have to wait for that.\n\n \n\nI'm trying to think of a situation where running steps in different hosts would be beneficial, it's so different from the way we have been working for years now.\n"
     },
     {
       "author": "Giovanni Tirloni",
@@ -45,7 +45,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2018-05-22T12:21:17.866-0400",
-      "body": "Thanks @@Justin Obara! Now we can spin up new agents for other purposes and they won't interfere. \n"
+      "body": "Thanks Justin Obara! Now we can spin up new agents for other purposes and they won't interfere. \n"
     },
     {
       "author": "Giovanni Tirloni",

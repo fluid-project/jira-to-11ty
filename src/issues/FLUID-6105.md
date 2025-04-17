@@ -43,7 +43,7 @@
     {
       "author": "Cindy Li",
       "date": "2017-01-18T12:08:17.158-0500",
-      "body": "@@Justin Obara, I didn't close this JIRA in case you wanna use it to cover the work on deprecating the erroneous releases.&#x20;\n"
+      "body": "Justin Obara, I didn't close this JIRA in case you wanna use it to cover the work on deprecating the erroneous releases.&#x20;\n"
     },
     {
       "author": "Cindy Li",

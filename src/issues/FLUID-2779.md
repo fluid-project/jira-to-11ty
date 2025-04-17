@@ -52,7 +52,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-03T08:40:08.420-0500",
-      "body": "@@sparsh paliwal I've updated the description to include a link to pager demo. The parent of the previous/next link gets a class \"fl-pager-disabled\" added to it when it should be disabled. The active page link gets a class of \"fl-pager-currentPage\" added to it. You should be able to make use of these classes to create the appropriate styles needed.&#x20;\n"
+      "body": "sparsh paliwal I've updated the description to include a link to pager demo. The parent of the previous/next link gets a class \"fl-pager-disabled\" added to it when it should be disabled. The active page link gets a class of \"fl-pager-currentPage\" added to it. You should be able to make use of these classes to create the appropriate styles needed.&#x20;\n"
     },
     {
       "author": "sparsh paliwal",

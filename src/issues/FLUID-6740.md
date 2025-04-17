@@ -27,7 +27,7 @@
   "comments": []
 }
 ---
-@@Tony Atkins reports being surprised by the limitations in our rather primitive containerRenderingView which simply defers to jQuery to build its DOM. <https://matrix.to/#/!JcoHDrfLedPQdFhAXn:matrix.org/$H3F4fd29hxf7mplIcMVXuHifyV9yy0gj7PnDf0TE49U?via=matrix.org> - and then in this PR comment. <https://github.com/continuing-creativity/youme/pull/2/files#diff-0fc429a4adb45daae4cf6999778dea58e34ef3497388bb7a4ebcdd39a48e1513R30>
+Tony Atkins reports being surprised by the limitations in our rather primitive containerRenderingView which simply defers to jQuery to build its DOM. <https://matrix.to/#/!JcoHDrfLedPQdFhAXn:matrix.org/$H3F4fd29hxf7mplIcMVXuHifyV9yy0gj7PnDf0TE49U?via=matrix.org> - and then in this PR comment. <https://github.com/continuing-creativity/youme/pull/2/files#diff-0fc429a4adb45daae4cf6999778dea58e34ef3497388bb7a4ebcdd39a48e1513R30>
 
 We should document this more clearly
 

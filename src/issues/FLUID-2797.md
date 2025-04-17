@@ -56,7 +56,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-29T08:07:16.795-0400",
-      "body": "@@Blagoj Dimovski I do not believe that anyone else is working on this issue, feel free to work on it.\n"
+      "body": "Blagoj Dimovski I do not believe that anyone else is working on this issue, feel free to work on it.\n"
     },
     {
       "author": "Blagoj Dimovski",
@@ -71,7 +71,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-03-19T08:57:36.648-0400",
-      "body": "@@sushant mehta yes you can work on this issue.\n"
+      "body": "sushant mehta yes you can work on this issue.\n"
     }
   ]
 }

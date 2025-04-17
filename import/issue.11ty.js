@@ -65,13 +65,13 @@ class Issue {
                     return {
                         author: comment.author.displayName,
                         date: comment.created,
-                        body: this.fromADF(comment.body)
+                        body: this.removeMentions(this.fromADF(comment.body))
                     }
                 }) :
                 []
         }
         const body = data.issue.fields.description?.version === 1 ?
-            this.fromADF(data.issue.fields.description) :
+            this.removeMentions(this.fromADF(data.issue.fields.description)) :
             '';
         return `---json
 ${JSON.stringify(frontMatter, null, 2)}

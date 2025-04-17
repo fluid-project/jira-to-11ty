@@ -44,7 +44,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-07-30T15:34:52.609-0400",
-      "body": "@@Antranig Basman is this something that we should fix, or should we not expect reRender to be called directly?\n"
+      "body": "Antranig Basman is this something that we should fix, or should we not expect reRender to be called directly?\n"
     }
   ]
 }

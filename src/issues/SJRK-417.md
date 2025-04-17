@@ -53,7 +53,7 @@ overall config file for the project.
 
 **Why it needs doing:**
 
-As highlighted by [this review feedback](https://github.com/fluid-project/sjrk-story-telling/pull/77#pullrequestreview-502386906) by @@Justin Obara on the SJRK-289 pull request, the ESLint global variable declarations which are present in many files are repetitive and can instead be defined just once in the .eslintrc.json file.
+As highlighted by [this review feedback](https://github.com/fluid-project/sjrk-story-telling/pull/77#pullrequestreview-502386906) by Justin Obara on the SJRK-289 pull request, the ESLint global variable declarations which are present in many files are repetitive and can instead be defined just once in the .eslintrc.json file.
 
 Previous attempts at this ran afoul of the linter, but the configuration and tools now seem to agree (at time of filing)
 

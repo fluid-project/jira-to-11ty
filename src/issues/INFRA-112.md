@@ -40,7 +40,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2018-02-09T06:01:58.295-0500",
-      "body": "After stopping GitHub polling, it seems we're not rate limited anymore. <https://fluidproject.atlassian.net/browse/FLOE-535#icft=FLOE-535> is showing the merged PR now.\n\n@@Justin Obara could you confirm everything is okay? It seems it might take up to 60min to get a PR reflected in JIRA (if we're not rate limited).\n\nI also updated JIRA to version 7.7.1 and it might help with that (as there are some fixes for DVCS in it).\n"
+      "body": "After stopping GitHub polling, it seems we're not rate limited anymore. <https://fluidproject.atlassian.net/browse/FLOE-535#icft=FLOE-535> is showing the merged PR now.\n\nJustin Obara could you confirm everything is okay? It seems it might take up to 60min to get a PR reflected in JIRA (if we're not rate limited).\n\nI also updated JIRA to version 7.7.1 and it might help with that (as there are some fixes for DVCS in it).\n"
     },
     {
       "author": "Giovanni Tirloni",

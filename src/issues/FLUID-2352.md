@@ -35,7 +35,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-07-09T09:40:59.011-0400",
-      "body": "The maximum font size is not only 2 ems, which is generally usable. Perhaps this is no longer an issue, or something that the design team will need to weigh in on. @@joanna vass, @@Dana, and @@Jonathan Hung any thoughts?\n"
+      "body": "The maximum font size is not only 2 ems, which is generally usable. Perhaps this is no longer an issue, or something that the design team will need to weigh in on. joanna vass, Dana, and Jonathan Hung any thoughts?\n"
     },
     {
       "author": "Justin Obara",

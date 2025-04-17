@@ -57,10 +57,10 @@
   ]
 }
 ---
-The rich text editor for inline edit in the demo page does not seem to be able to edit using any features which launch a popup window...for example Anchor, Insert/Edit Image, etc.
+The rich text editor for inline edit in the demo page does not seem to be able to edit using any features which launch a popup window\...for example Anchor, Insert/Edit Image, etc.
 
 This is happening due to the permission restriction and the error looks like this:\
-"Permission denied for <[http://tinymce-fluid.appspot.com](http://tinymce-fluid.appspot.com/)> to get property Window.tinymce from <[http://build.fluidproject.org](http://build.fluidproject.org/)>. in tiny\_mce\_popup.js"\
+"Permission denied for <[http://tinymce-fluid.appspot.com](http://tinymce-fluid.appspot.com/)> to get property Window\.tinymce from <[http://build.fluidproject.org](http://build.fluidproject.org/)>. in tiny\_mce\_popup.js"\
 Possibly it should work if this files are included in advance in the markup.
 
         

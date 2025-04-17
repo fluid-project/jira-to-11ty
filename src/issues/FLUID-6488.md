@@ -78,7 +78,7 @@
     {
       "author": "Justin Obara",
       "date": "2020-04-27T09:26:17.144-0400",
-      "body": "@@Antranig Basman I've tested this using a Windows 8.1 VM running IE 11 Version: 11.0.9600.19678 Update Versionss: 11.0.185 (KB4550905). The tests are passing there. If it's an issue with different versions of IE 11, should we consider not supporting it at all for the tests?\n"
+      "body": "Antranig Basman I've tested this using a Windows 8.1 VM running IE 11 Version: 11.0.9600.19678 Update Versionss: 11.0.185 (KB4550905). The tests are passing there. If it's an issue with different versions of IE 11, should we consider not supporting it at all for the tests?\n"
     },
     {
       "author": "Justin Obara",
@@ -88,12 +88,12 @@
     {
       "author": "Antranig Basman",
       "date": "2020-04-28T12:41:14.088-0400",
-      "body": "Hi @@Justin Obara - I've tried testing with another IE11 at my disposal which reports itself as Version: 11.0.9600.19002, Update Versions: 11.0.60 and whilst the keyboard-a11y tests indeed run fine, I get various other test failures, e.g. in the Caching-test.html I get \"Unable to get property 'clear' of undefined\" and the IoC testing framework tests hang, unless they are run with the Developer Tools console open.\n\nIf you are amenable, I agree that we should cease to advertise IE11 as a supported browser for Infusion as of now, since it seems the effort of testing reliably with it exceeds what we can manage as a community. If you agree, I'll file a separate Jira for the update of our docs and testing configuration to reflect this.\n"
+      "body": "Hi Justin Obara - I've tried testing with another IE11 at my disposal which reports itself as Version: 11.0.9600.19002, Update Versions: 11.0.60 and whilst the keyboard-a11y tests indeed run fine, I get various other test failures, e.g. in the Caching-test.html I get \"Unable to get property 'clear' of undefined\" and the IoC testing framework tests hang, unless they are run with the Developer Tools console open.\n\nIf you are amenable, I agree that we should cease to advertise IE11 as a supported browser for Infusion as of now, since it seems the effort of testing reliably with it exceeds what we can manage as a community. If you agree, I'll file a separate Jira for the update of our docs and testing configuration to reflect this.\n"
     },
     {
       "author": "Justin Obara",
       "date": "2020-04-28T14:26:32.321-0400",
-      "body": "@@Antranig Basman I wonder what's causing those other issues.\n\nWhile I'm not a fan of maintaining IE 11 support, you had suggested that we make this upcoming release the last one to support IE 11. That way we had an option for our users to come back to. If we drop support for IE 11 now, we can either put out a beta or some other release that still officially supports IE 11 or just note that the 2.x line is the last that supported it.\n\nAlthough I think what we should do first is to check with the community to see if there is any need for maintaining IE 11 support right now. I believe that will help us to better decide what path forward to take.\n"
+      "body": "Antranig Basman I wonder what's causing those other issues.\n\nWhile I'm not a fan of maintaining IE 11 support, you had suggested that we make this upcoming release the last one to support IE 11. That way we had an option for our users to come back to. If we drop support for IE 11 now, we can either put out a beta or some other release that still officially supports IE 11 or just note that the 2.x line is the last that supported it.\n\nAlthough I think what we should do first is to check with the community to see if there is any need for maintaining IE 11 support right now. I believe that will help us to better decide what path forward to take.\n"
     },
     {
       "author": "Antranig Basman",
@@ -103,7 +103,7 @@
     {
       "author": "Justin Obara",
       "date": "2020-05-14T14:01:27.982-0400",
-      "body": "@@Antranig Basman the feedback from the fluid-work list has all been in support of no longer officially supporting IE 11. See: <http://fluid.2324889.n4.nabble.com/Proposal-to-remove-IE-11-support-from-Infusion-td10852.html>\n\nPlease feel free to update the documentation and other resources as you suggested.\n"
+      "body": "Antranig Basman the feedback from the fluid-work list has all been in support of no longer officially supporting IE 11. See: <http://fluid.2324889.n4.nabble.com/Proposal-to-remove-IE-11-support-from-Infusion-td10852.html>\n\nPlease feel free to update the documentation and other resources as you suggested.\n"
     }
   ]
 }

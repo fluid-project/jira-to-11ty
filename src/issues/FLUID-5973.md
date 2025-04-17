@@ -36,7 +36,7 @@
     {
       "author": "Alan Harnum",
       "date": "2016-09-29T12:26:52.005-0400",
-      "body": "Speaking to @@Justin Obara we're going to do the following for now:\n\n* write a general test function for skipping tests based on OS detection\n* wrap the pause/resume test in this function so we skip them on Linux for the moment\n\nThis isn't ideal but the reality seems to be that the TTS support under Linux doesn't allow for pause and resume behaviour.\n\nMore broadly, we should establish practice about tests being skipped by browser or platform - when they should be revisited and how to indicate this.\n"
+      "body": "Speaking to Justin Obara we're going to do the following for now:\n\n* write a general test function for skipping tests based on OS detection\n* wrap the pause/resume test in this function so we skip them on Linux for the moment\n\nThis isn't ideal but the reality seems to be that the TTS support under Linux doesn't allow for pause and resume behaviour.\n\nMore broadly, we should establish practice about tests being skipped by browser or platform - when they should be revisited and how to indicate this.\n"
     },
     {
       "author": "Alan Harnum",

@@ -80,7 +80,7 @@ But here we have a catastrophic failure of open authoring - we can't even expres
 
 We have exactly the same issue with respect to model contents, so we had better think up some kind of Edwardian crock that generalises the entire options merging pipeline into some generally interceptable pipeline.
 
-Note that <https://fluidproject.atlassian.net/browse/FLUID-4189#icft=FLUID-4189> calls for something similar - and also that we abandoned the naive kind of "DataSource calculus", fossilised in @@Justin Obara 's "queued DataSource" pull <https://github.com/fluid-project/infusion/pull/566> (very reminiscent of Weiher's "[storage combinators](http://hirschfeld.org/writings/media/WeiherHirschfeld_2019_StorageCombinators_AcmDL_Preprint.pdf)") because it is not effectively interceptable.
+Note that <https://fluidproject.atlassian.net/browse/FLUID-4189#icft=FLUID-4189> calls for something similar - and also that we abandoned the naive kind of "DataSource calculus", fossilised in Justin Obara 's "queued DataSource" pull <https://github.com/fluid-project/infusion/pull/566> (very reminiscent of Weiher's "[storage combinators](http://hirschfeld.org/writings/media/WeiherHirschfeld_2019_StorageCombinators_AcmDL_Preprint.pdf)") because it is not effectively interceptable.
 
 If we say that "every option becomes a component", we end up with a kind of endless design regress, but nonetheless something needs to happen to turn the entirety of a component tree into a form of more or less homogeneous material - somehow one that exists in "depth" as well as extension, and in time as well as space.
 

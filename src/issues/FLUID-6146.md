@@ -68,6 +68,6 @@ fluid.defaults("examples.creator", {
 
 The firing of the event "createIt" in this case will trigger the <https://fluidproject.atlassian.net/browse/FLUID-5266#icft=FLUID-5266> diagnostic for referring to a "createOnEvent" component before its construction time (in this case, 50% of the time, although the rate could be increased to 100% by creating a cyclic reference). The framework should be able to treat the construction of all components triggered by the same component as a single transactional unit.
 
-This issue was informally reported by @@Colin Clark some time ago during some implementation work for the Flocking audio synthesis engine.
+This issue was informally reported by Colin Clark some time ago during some implementation work for the Flocking audio synthesis engine.
 
         

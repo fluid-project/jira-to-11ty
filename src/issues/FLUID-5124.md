@@ -44,6 +44,6 @@ The preview window shows an error:
 
 Not Found
 
-The requested URL /infusion/components/uiOptions/html/UIOptionsPreview.html was not found on this server.
+The requested URL /infusion/components/uiOptions/html/UIOptionsPreview\.html was not found on this server.
 
         

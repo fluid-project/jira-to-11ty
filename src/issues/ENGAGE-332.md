@@ -46,10 +46,10 @@
   ]
 }
 ---
-At the moment, the Exhibtion View and About pages are implemented using the same component, called ExhibitionView.js. However, they have very different templates which show very different views on the data.
+At the moment, the Exhibtion View and About pages are implemented using the same component, called ExhibitionView\.js. However, they have very different templates which show very different views on the data.
 
 They should be separate components--if there's shared logic between the two, it should be factored out into an object that they both use. This should enable us to deliver much smaller and less bug-prone versions of each component.
 
-An example of this issue is how we handle catalogue information. Exhibtion About doesn't display any catalog information at all, yet ExhibitionView.js fundamentally concerned with this sort of information.
+An example of this issue is how we handle catalogue information. Exhibtion About doesn't display any catalog information at all, yet ExhibitionView\.js fundamentally concerned with this sort of information.
 
         

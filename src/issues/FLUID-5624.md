@@ -40,7 +40,7 @@ notice: null\
 info: null\
 info: undefined 'ghpages, handlebars, highlightjs, marked'\
 info: undefined 'static'\
-info: undefined 'http://:::9778/' 'F:\\\Dropbox\\\IDRC\_Work\\\infusion-docs\
+info: undefined 'http\://:::9778/' 'F:\\\Dropbox\\\IDRC\_Work\\\infusion-docs\
 out'\
 info: null\
 error: null\

@@ -60,7 +60,7 @@
     {
       "author": "Kasper Galschiot Markus",
       "date": "2016-09-13T03:39:49.505-0400",
-      "body": "@@Antranig Basman Given the pull/710 merge, do you think this can be closed?\n"
+      "body": "Antranig Basman Given the pull/710 merge, do you think this can be closed?\n"
     },
     {
       "author": "Antranig Basman",
