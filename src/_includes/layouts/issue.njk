@@ -109,7 +109,7 @@
         </div>
 
         <div>
-            <div class="description spacing-y-1">
+            <div class="spacing-y-1">
                 <h2>Description</h2>
                 {{ content | replace(r/\s([A-Z]+\-[0-9]+)/, ' <a href="/browse/$1/">$1</a>') | safe }}
             </div>
