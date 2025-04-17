@@ -4,7 +4,7 @@ export default (value, outputPath) => {
     if (outputPath && outputPath.includes(".html")) {
         const {document} = parseHTML(value);
         const links = [
-            ...document.querySelectorAll(`a[href*="#icft="]`)
+            ...document.querySelectorAll('a[href*="#icft="]')
         ];
 
         if (links.length > 0) {
