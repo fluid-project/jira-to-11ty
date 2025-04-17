@@ -31,9 +31,7 @@ export default function eleventy(eleventyConfig) {
           purgeCSSPlugin({
             content: ['./src/**/*.njk'],
             safelist: {
-              standard: ['form', 'input', '[type="checkbox"]', 'button', 'fieldset', 'legend', 'mark', 'code', 'pre'],
-              greedy: [/hljs$/],
-              deep: [/hljs$/]
+              standard: ['form', 'input', '[type="checkbox"]', 'button', 'fieldset', 'legend', 'mark', 'code', 'pre', 'hljs-string', 'hljs'],
             }
           }),
           csso()
