@@ -46,7 +46,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-01-26T11:01:29.764-0500",
-      "body": "Conversation with @@Alan Harnum in the channel about this today: <https://botbot.me/freenode/fluid-work/2018-01-26/?msg=96180428&page=1>\n\n \n\ntl:dr\n\nIt's hard, and accuracy at best would be 85 - 90%.\n"
+      "body": "Conversation with Alan Harnum in the channel about this today: <https://botbot.me/freenode/fluid-work/2018-01-26/?msg=96180428&page=1>\n\n \n\ntl:dr\n\nIt's hard, and accuracy at best would be 85 - 90%.\n"
     },
     {
       "author": "Justin Obara",

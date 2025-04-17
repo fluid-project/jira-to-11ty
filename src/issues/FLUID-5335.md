@@ -51,7 +51,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-05-07T14:33:34.901-0400",
-      "body": "Spoke with @@joanna vass  and @@Dana today about the status format.\n\n* 0 files -> \"0 files\"\n* any state when there are files in the queue whether, uploading, uploaded or to be uploaded -> \"X out of Y files uploaded (uploadedSize of totalSize)\"\n"
+      "body": "Spoke with joanna vass  and Dana today about the status format.\n\n* 0 files -> \"0 files\"\n* any state when there are files in the queue whether, uploading, uploaded or to be uploaded -> \"X out of Y files uploaded (uploadedSize of totalSize)\"\n"
     },
     {
       "author": "Justin Obara",

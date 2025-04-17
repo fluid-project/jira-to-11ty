@@ -31,6 +31,6 @@
   ]
 }
 ---
-Incorporate the latest design updates into the Storytelling Tool UI. These were provided to Gregor by @@Sepideh Shahi in the form of a PDF rendering along with colour codes and SVG assets.
+Incorporate the latest design updates into the Storytelling Tool UI. These were provided to Gregor by Sepideh Shahi in the form of a PDF rendering along with colour codes and SVG assets.
 
         

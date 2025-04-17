@@ -32,7 +32,7 @@
     {
       "author": "Kasper Galschiot Markus",
       "date": "2015-12-09T08:35:27.238-0500",
-      "body": "Awesome! Thanks for clearing that up, @@Antranig Basman\n"
+      "body": "Awesome! Thanks for clearing that up, Antranig Basman\n"
     }
   ]
 }
@@ -55,6 +55,6 @@ Whereas an exact copy obviously would be:
 { a: "hello world", b: undefined}
 ```
 
-@@Antranig Basman is this a design decision or a bug?
+Antranig Basman is this a design decision or a bug?
 
         

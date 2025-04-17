@@ -28,7 +28,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-03-15T15:34:58.004-0400",
-      "body": "@@Cindy Li mentioned that we should also namespace the distribute options.\n"
+      "body": "Cindy Li mentioned that we should also namespace the distribute options.\n"
     },
     {
       "author": "Cindy Li",

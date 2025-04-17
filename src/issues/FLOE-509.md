@@ -27,7 +27,7 @@
 ---
 High-level JIRA to note eventually anticipated work on this...
 
-As we work further on projects involving the Chart Authoring library, it becomes clear that its functionality and concepts should be broken apart into separate modules, and incorporate some functionality from other projects (such as the Nexus) into the **Materialization Toolkit** (so named by @@Colin Clark).
+As we work further on projects involving the Chart Authoring library, it becomes clear that its functionality and concepts should be broken apart into separate modules, and incorporate some functionality from other projects (such as the Nexus) into the **Materialization Toolkit** (so named by Colin Clark).
 
 The toolkit will support our need to materialize data and other "things" in different states to support one-to-one individualized learning, such as:
 

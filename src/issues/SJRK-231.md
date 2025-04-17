@@ -25,7 +25,7 @@
     {
       "author": "Dana",
       "date": "2019-02-20T13:09:45.516-0500",
-      "body": "FYI @@Jonathan Hung\n"
+      "body": "FYI Jonathan Hung\n"
     }
   ]
 }

@@ -30,7 +30,7 @@
     {
       "author": "Antranig Basman",
       "date": "2015-06-23T22:27:06.347-0400",
-      "body": "fluid.cacheShadowGrades has         \\\ncontextHash\\[shadow.memberName] = true; // TODO: injected shadows in theory have a different memberName\n\nWe seem to remember having decided that we would ignore alternative member names at other injection sites, but currently hard to reconstruct a sensible reason for this.\n\nThere should be a branch in recordComponent \"else\" which takes account of \"name\" in working through parentShadow.childrenScope - and if possible, even manages to ignore the memberName at the source site. Is this sufficient, or do we need to adjust ownScope too?\n"
+      "body": "fluid.cacheShadowGrades has         \\\ncontextHash\\[shadow\\.memberName] = true; // TODO: injected shadows in theory have a different memberName\n\nWe seem to remember having decided that we would ignore alternative member names at other injection sites, but currently hard to reconstruct a sensible reason for this.\n\nThere should be a branch in recordComponent \"else\" which takes account of \"name\" in working through parentShadow\\.childrenScope - and if possible, even manages to ignore the memberName at the source site. Is this sufficient, or do we need to adjust ownScope too?\n"
     },
     {
       "author": "Antranig Basman",

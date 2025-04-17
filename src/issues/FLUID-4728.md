@@ -43,7 +43,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-07T10:42:11.036-0500",
-      "body": "@@Neel Dalsania it's hard to tell from the screenshot. Could you file a pull request with your changes?\n"
+      "body": "Neel Dalsania it's hard to tell from the screenshot. Could you file a pull request with your changes?\n"
     }
   ]
 }

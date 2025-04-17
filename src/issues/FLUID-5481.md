@@ -53,7 +53,7 @@
     {
       "author": "Antranig Basman",
       "date": "2015-08-18T22:20:18.949-0400",
-      "body": "I am fairly confident that this bug will never be resolved. I suggest we try to hack together an \"ad hoc\" solution, using input from this now fairly-well supported browser measurement:\\\n<http://www.quirksmode.org/blog/archives/2012/06/devicepixelrati.html> - my tests today indicate that window.devicePixelRatio is supported on Firefox and Chrome which should be enough coverage. We may run into some problems on retina-resolution devices but I don't think we've done any testing on those anyway.\n"
+      "body": "I am fairly confident that this bug will never be resolved. I suggest we try to hack together an \"ad hoc\" solution, using input from this now fairly-well supported browser measurement:\\\n<http://www.quirksmode.org/blog/archives/2012/06/devicepixelrati.html> - my tests today indicate that window\\.devicePixelRatio is supported on Firefox and Chrome which should be enough coverage. We may run into some problems on retina-resolution devices but I don't think we've done any testing on those anyway.\n"
     },
     {
       "author": "Justin Obara",

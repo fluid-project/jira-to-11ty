@@ -46,6 +46,6 @@ The Storytelling Tool is using CouchDB for persistence and expects to make a fai
 
 Per this thread on fluid-work (<http://lists.idrc.ocad.ca/pipermail/fluid-work/2017-August/010443.html>), an Infusion component that can do basic DB configuration management (ensure a database exists, ensure it has certain design document functions, etc) has been identified as useful to have.
 
-Some initial work has already gone on in this direction by @@Alan Harnum and @@Gregor Moss in this repo: <https://github.com/waharnum/couch-config> - this issue makes it official.
+Some initial work has already gone on in this direction by Alan Harnum and Gregor Moss in this repo: <https://github.com/waharnum/couch-config> - this issue makes it official.
 
         

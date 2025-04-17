@@ -42,7 +42,7 @@
     {
       "author": "Simon Bates",
       "date": "2020-03-09T14:13:12.461-0400",
-      "body": "The License used for the Nexus repositories contains a reference to GPII:\\\n \\\n\"No external contributions are allowed under licenses which are fundamentally incompatible with the BSD or Apache licenses that the GPII is distributed under.\"\n\nFor example: <https://github.com/fluid-project/infusion-nexus/blob/c297ae91c66d852d85429238b2252755d6c99b4c/LICENSE.txt#L5-L7>\n\n@@Colin Clark Could you suggest alternative wording here? Thanks.\n"
+      "body": "The License used for the Nexus repositories contains a reference to GPII:\\\n \\\n\"No external contributions are allowed under licenses which are fundamentally incompatible with the BSD or Apache licenses that the GPII is distributed under.\"\n\nFor example: <https://github.com/fluid-project/infusion-nexus/blob/c297ae91c66d852d85429238b2252755d6c99b4c/LICENSE.txt#L5-L7>\n\nColin Clark Could you suggest alternative wording here? Thanks.\n"
     },
     {
       "author": "Simon Bates",

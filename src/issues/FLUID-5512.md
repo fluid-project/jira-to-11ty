@@ -82,12 +82,12 @@
     {
       "author": "Kasper Galschiot Markus",
       "date": "2016-10-26T09:23:13.513-0400",
-      "body": "@@Antranig Basman @@Cindy Li: I think this is covered by my valuemapper overhaul: <https://github.com/fluid-project/infusion/pull/710> ... if you agree, this can be closed\n"
+      "body": "Antranig Basman Cindy Li: I think this is covered by my valuemapper overhaul: <https://github.com/fluid-project/infusion/pull/710> ... if you agree, this can be closed\n"
     },
     {
       "author": "Justin Obara",
       "date": "2017-09-26T10:49:39.553-0400",
-      "body": "@@Antranig Basman and @@Cindy Li can this be closed?\n"
+      "body": "Antranig Basman and Cindy Li can this be closed?\n"
     }
   ]
 }

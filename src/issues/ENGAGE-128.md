@@ -37,6 +37,6 @@
   ]
 }
 ---
-Description for one specific artifact does not collapse: artifacts/view.html?mccord\&M956.5
+Description for one specific artifact does not collapse: artifacts/view\.html?mccord\&M956.5
 
         

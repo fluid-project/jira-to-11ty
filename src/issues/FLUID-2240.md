@@ -59,7 +59,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-07-08T11:03:31.220-0400",
-      "body": "@@Colin Clark is this still an issue?\n"
+      "body": "Colin Clark is this still an issue?\n"
     }
   ]
 }

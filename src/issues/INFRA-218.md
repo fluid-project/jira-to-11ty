@@ -23,7 +23,7 @@
   "comments": []
 }
 ---
-From an email from @@Justin Obara:
+From an email from Justin Obara:
 
 "Also an issue we’ve had in the past is that the build site retained moved/deleted files after a new deployment. I believe this is because the remote server that hosts the build site didn’t clear out the directory and just had the new files copied over top."
 

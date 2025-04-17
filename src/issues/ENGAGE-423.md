@@ -29,7 +29,7 @@
     {
       "author": "Jess Mitchell",
       "date": "2010-02-22T15:25:27.000-0500",
-      "body": "r9470 | antranig@caret.cam.ac.uk | 2010-02-22 14:50:03 -0500 (Mon, 22 Feb 2010) | 1 line\\\nChanged paths:\\\nM /fluid/engage/fluid-engage-core/branches/<https://fluidproject.atlassian.net/browse/ENGAGE-434#icft=ENGAGE-434>/components/catalogue/js/Catalogue.js\n\n<https://fluidproject.atlassian.net/browse/ENGAGE-423#icft=ENGAGE-423>: Default catalogue view should be grid\n"
+      "body": "r9470 | antranig\\@caret.cam.ac.uk | 2010-02-22 14:50:03 -0500 (Mon, 22 Feb 2010) | 1 line\\\nChanged paths:\\\nM /fluid/engage/fluid-engage-core/branches/<https://fluidproject.atlassian.net/browse/ENGAGE-434#icft=ENGAGE-434>/components/catalogue/js/Catalogue.js\n\n<https://fluidproject.atlassian.net/browse/ENGAGE-423#icft=ENGAGE-423>: Default catalogue view should be grid\n"
     }
   ]
 }

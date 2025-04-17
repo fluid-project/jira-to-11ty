@@ -48,7 +48,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-04T08:44:38.771-0500",
-      "body": "@@sparsh paliwal well it's a bit different we really want to include the specific grunt command needed to create the file. Perhaps you could investigate if it's possible to get access to the command that was used to trigger the grunt build? We'd also like to have access to the specific revision that the build was created from. This is particularly important for cases where the build is from some point in development. Since this JIRA was first filed we've started posting dev releases on [NPM](https://www.npmjs.com/package/infusion). Meaning that it isn't entirely clear what the need for this work will be going into the future; however, it's still probably useful information to supply.\n"
+      "body": "sparsh paliwal well it's a bit different we really want to include the specific grunt command needed to create the file. Perhaps you could investigate if it's possible to get access to the command that was used to trigger the grunt build? We'd also like to have access to the specific revision that the build was created from. This is particularly important for cases where the build is from some point in development. Since this JIRA was first filed we've started posting dev releases on [NPM](https://www.npmjs.com/package/infusion). Meaning that it isn't entirely clear what the need for this work will be going into the future; however, it's still probably useful information to supply.\n"
     },
     {
       "author": "sparsh paliwal",
@@ -68,7 +68,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-03-12T15:44:45.076-0400",
-      "body": "@@Mohamed Shadab we're starting to move away from creating zip packages and unpacking them into a project because we are moving more towards pulling in from NPM directly and copying over the necessary files.\n\n \n\nHowever, the idea of this issue was to cover the case where a custom build was made and you wanted to be able to reproduce it. We tended to write VERSION.md files like <https://github.com/fluid-project/floeproject.org/blob/master/lib/infusion/VERSION.md> . You can see that file includes the branch and revision that build was generated from as well as the specific grunt command used.\n"
+      "body": "Mohamed Shadab we're starting to move away from creating zip packages and unpacking them into a project because we are moving more towards pulling in from NPM directly and copying over the necessary files.\n\n \n\nHowever, the idea of this issue was to cover the case where a custom build was made and you wanted to be able to reproduce it. We tended to write VERSION.md files like <https://github.com/fluid-project/floeproject.org/blob/master/lib/infusion/VERSION.md> . You can see that file includes the branch and revision that build was generated from as well as the specific grunt command used.\n"
     },
     {
       "author": "Mohamed Shadab",
@@ -78,7 +78,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-03-20T10:22:14.631-0400",
-      "body": "@@Mohamed Shadab I took a quick look at the Gruntfile.js in your branch. Some of the values are already available in the grunt config, such as pkg, revision, branch. Can you just access these from there instead of having to recall the methods to populate the values. Also what will happen in the case of running a \"grunt buildDists\" which runs several custom builds and outputs them to the dist directory? It would also be good if you could add the name of the build to the header and also probably as the file name. \n"
+      "body": "Mohamed Shadab I took a quick look at the Gruntfile.js in your branch. Some of the values are already available in the grunt config, such as pkg, revision, branch. Can you just access these from there instead of having to recall the methods to populate the values. Also what will happen in the case of running a \"grunt buildDists\" which runs several custom builds and outputs them to the dist directory? It would also be good if you could add the name of the build to the header and also probably as the file name. \n"
     },
     {
       "author": "Mohamed Shadab",
@@ -93,7 +93,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-04-05T09:40:26.650-0400",
-      "body": "@@Mohamed Shadab I've only had time to skim over your branch so far. I think it would be easier to review as a PR though. So yes, please file one. Thanks.\n"
+      "body": "Mohamed Shadab I've only had time to skim over your branch so far. I think it would be easier to review as a PR though. So yes, please file one. Thanks.\n"
     },
     {
       "author": "Justin Obara",

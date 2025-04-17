@@ -27,7 +27,7 @@
     {
       "author": "Dana",
       "date": "2017-11-22T12:05:37.661-0500",
-      "body": "Hi Eloisa, site looks great, a few minor things:\n\n* for the text at the bottom of the page, instead of \"Join Us\" please change it to \"Contact Us\"\n* I think it would be better if the links opened new tabs (instead of in same tab)\n* Please change the resources order to the following:\n  * What Is Inclusive Design?\n  * The Inclusive Design Guide\n  * The Inclusive Learning Design Handbook\n  * Empathy (video)\n  * Introduction to User Interface Options (video)\n  * Storytelling and Story-Gathering Resources, Tools and Examples\n  * Youth Guides to Action\n  * The Youth Effect doc\n\n@@Alan Harnum does this sound good to you?\n\nThanks!\n\n \n"
+      "body": "Hi Eloisa, site looks great, a few minor things:\n\n* for the text at the bottom of the page, instead of \"Join Us\" please change it to \"Contact Us\"\n* I think it would be better if the links opened new tabs (instead of in same tab)\n* Please change the resources order to the following:\n  * What Is Inclusive Design?\n  * The Inclusive Design Guide\n  * The Inclusive Learning Design Handbook\n  * Empathy (video)\n  * Introduction to User Interface Options (video)\n  * Storytelling and Story-Gathering Resources, Tools and Examples\n  * Youth Guides to Action\n  * The Youth Effect doc\n\nAlan Harnum does this sound good to you?\n\nThanks!\n\n \n"
     },
     {
       "author": "Alan Harnum",

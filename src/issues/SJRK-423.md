@@ -38,7 +38,7 @@
     {
       "author": "Justin Obara",
       "date": "2020-11-12T16:12:49.736-0500",
-      "body": "\"Screen Shot - empty preview.png\" shows the empty preview screen after traveling forward in history.\n"
+      "body": "\"Screen Shot - empty preview\\.png\" shows the empty preview screen after traveling forward in history.\n"
     },
     {
       "author": "Gregor Moss",

@@ -29,7 +29,7 @@ Firstly, when working in "Fluid authoring" for the "Visible nexus" at <https://g
 
  
 
-Secondly, when working on performance improvements for schema-based request validation in <https://issues.gpii.net/browse/GPII-4009>, @@Tony Atkins \[RtF] noticed a significant penalty for placing request-specific definitions in the request grade, which ought to have been unnecessary since the validation action was actually request-static.
+Secondly, when working on performance improvements for schema-based request validation in <https://issues.gpii.net/browse/GPII-4009>, Tony Atkins \[RtF] noticed a significant penalty for placing request-specific definitions in the request grade, which ought to have been unnecessary since the validation action was actually request-static.
 
  
 

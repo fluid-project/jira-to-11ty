@@ -29,7 +29,7 @@
     {
       "author": "Kasper Galschiot Markus",
       "date": "2016-04-14T13:10:15.790-0400",
-      "body": "@@Antranig Basman Yeah - this is absolutely horrible naming... I think your suggestions above are pretty good... Only alternatives I can come up with are the below:\n\n* arrayOfObjectsToMapOfObjects (and vice versa)\n* arrayToObjectWithPivotElement (and objectToArrayWithPivotElement)\n\nI dont feel particularly strong either way (other than we would have a hard time finding a more misleading name than the current ones)\n\nI'm refactoring and documenting at the moment, so we should just pick the least terrible 🙂\n"
+      "body": "Antranig Basman Yeah - this is absolutely horrible naming... I think your suggestions above are pretty good... Only alternatives I can come up with are the below:\n\n* arrayOfObjectsToMapOfObjects (and vice versa)\n* arrayToObjectWithPivotElement (and objectToArrayWithPivotElement)\n\nI dont feel particularly strong either way (other than we would have a hard time finding a more misleading name than the current ones)\n\nI'm refactoring and documenting at the moment, so we should just pick the least terrible 🙂\n"
     }
   ]
 }

@@ -40,7 +40,7 @@ Currently the text style option for the UIO mentions "Times New Roman" however, 
 
 The option and the preferred font in the implementation should match, either changing the name of the option or changing the fallback order in the CSS.
 
-A suggestion from @@Caren Watkins is to also include some added information in the option e.g. Georgia (serif) to make it more clear for those making the choice. And Georgia is also a more legible font, so may make sense to change the option name instead of the implementation. 
+A suggestion from Caren Watkins is to also include some added information in the option e.g. Georgia (serif) to make it more clear for those making the choice. And Georgia is also a more legible font, so may make sense to change the option name instead of the implementation. 
 
 See the [conversation](https://matrix.to/#/!CiNvDHGGdtIVCpYoGy:matrix.org/$H-KMuGnpAk1woo4g30q0MlTe0BY42xLAL2-eRSV8HQI?via=matrix.org) in the fluid-design matrix channel. 
 

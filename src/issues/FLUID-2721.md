@@ -48,7 +48,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-07-11T14:29:51.356-0400",
-      "body": "@@Steven Githens do you know if this is still an issue, or would you happen to have an updated test case that demonstrates this issue?\n"
+      "body": "Steven Githens do you know if this is still an issue, or would you happen to have an updated test case that demonstrates this issue?\n"
     },
     {
       "author": "Justin Obara",

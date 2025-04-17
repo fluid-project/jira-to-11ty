@@ -40,9 +40,9 @@ This may not necessarily require rewriting of the existing enactors, but may pos
 
 Right now it is difficult for users of the preferences framework to configure enactors since there is a documentation and comprehension burden in order to figure out which grade is responsible for some behaviour, override its options, and then arrange for that substitute enactor grade to be configured into the system. Instead, we should rely on the more mature ecosystem surrounding GPII solutions registry entries and settings handlers, and package each enactor that we currently have as a settings handler, with schemas supplied for its modifiable elements, etc.
 
-This kind of requirement emerged from @@Alan Harnum's experiences when trying to add an extra CSS class name into the fluid.uiEnhancer.cssClassEnhancerBase. This is explained in \
+This kind of requirement emerged from Alan Harnum's experiences when trying to add an extra CSS class name into the fluid.uiEnhancer.cssClassEnhancerBase. This is explained in \
 <https://pad.gpii.net/p/uio-and-prefs-framework-requirements-2u194n92> starting at line 80 - the suggestion leading to this JIRA appears at line 102 under "radical suggestion".
 
-Once we have split off responsibility for configuring enactors from the existing "auxSchema" it can instead be consumed in a third form of schema grade that holds material structured per solutions registry entries (more directly, in the form of the new "schema grades" that @@Tony Atkins \[RtF] will be implementing for the upcoming "live solutions registry). We can then take the opportunity to rename the existing "auxiliary schema" as something intelligible such as "presentation schema".
+Once we have split off responsibility for configuring enactors from the existing "auxSchema" it can instead be consumed in a third form of schema grade that holds material structured per solutions registry entries (more directly, in the form of the new "schema grades" that Tony Atkins \[RtF] will be implementing for the upcoming "live solutions registry). We can then take the opportunity to rename the existing "auxiliary schema" as something intelligible such as "presentation schema".
 
         

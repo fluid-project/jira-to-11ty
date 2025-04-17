@@ -32,11 +32,11 @@
   ]
 }
 ---
-As part of the Inverted Wordles project, positioned as an early taster of our pluralistic data infrastructure based on github and other public massive-scale platforms, there was an idea that URLs hosted under raw.githubusercontent.com could be used to circumvent the same origin policy, and be polled regularly in order to update the user visualisation.
+As part of the Inverted Wordles project, positioned as an early taster of our pluralistic data infrastructure based on github and other public massive-scale platforms, there was an idea that URLs hosted under raw\.githubusercontent.com could be used to circumvent the same origin policy, and be polled regularly in order to update the user visualisation.
 
 There was early resistance to implementing dedicated Netlify proxies for these polls due to the concern that they might eat into our 125,000 per month allowance of requests under their free or OSS tiers. Since the client should realistically poll every 5 to 10 seconds to gives some responsiveness, a number of clients polling these endpoints simultaneously might chew into the request allowance quite fast.
 
-Whilst we found that the CDN hosting raw.githubusercontent.com does indeed set the proper CORS headers, in practice it is incompletely configured in that it does not respond to cache control headers nor preflight CORS requests, and is hardwired behind an HTTP varnish cache that does not allow updates more frequently than every 300 seconds.
+Whilst we found that the CDN hosting raw\.githubusercontent.com does indeed set the proper CORS headers, in practice it is incompletely configured in that it does not respond to cache control headers nor preflight CORS requests, and is hardwired behind an HTTP varnish cache that does not allow updates more frequently than every 300 seconds.
 
 Nonetheless, this technique could be useful in other contexts where responsiveness is not so important, so some of the code is reproduced here for reference.
 

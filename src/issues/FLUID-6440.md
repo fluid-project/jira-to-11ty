@@ -31,7 +31,7 @@
     {
       "author": "Justin Obara",
       "date": "2019-12-09T12:34:17.728-0500",
-      "body": "@@Antranig Basman in my <https://fluidproject.atlassian.net/browse/FLUID-6420#icft=FLUID-6420> branch, for the prefs framework demo we have the contextAwareness for applying the Text-to-Speech preference. With your latest changes to the <https://fluidproject.atlassian.net/browse/FLUID-6148#icft=FLUID-6148> branch, things appear to be working to apply the Text-to-speech preference. However, when the context check fails, I have a default grade for supplying the template that should be used instead. This template is not being applied. \n\nI can supply the template path in the options when instantiating the component, but then the template path supplied when the context check passes, is no longer applied.\n\n \n"
+      "body": "Antranig Basman in my <https://fluidproject.atlassian.net/browse/FLUID-6420#icft=FLUID-6420> branch, for the prefs framework demo we have the contextAwareness for applying the Text-to-Speech preference. With your latest changes to the <https://fluidproject.atlassian.net/browse/FLUID-6148#icft=FLUID-6148> branch, things appear to be working to apply the Text-to-speech preference. However, when the context check fails, I have a default grade for supplying the template that should be used instead. This template is not being applied. \n\nI can supply the template path in the options when instantiating the component, but then the template path supplied when the context check passes, is no longer applied.\n\n \n"
     }
   ]
 }

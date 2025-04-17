@@ -35,7 +35,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-09T10:33:50.381-0400",
-      "body": "@@Antranig Basman could you please determine if this jira is still relevant?\n"
+      "body": "Antranig Basman could you please determine if this jira is still relevant?\n"
     },
     {
       "author": "Antranig Basman",

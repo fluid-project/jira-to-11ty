@@ -86,7 +86,7 @@
     {
       "author": "Dana",
       "date": "2021-01-21T22:06:53.715-0500",
-      "body": "@@Gregor Moss, @@Justin Obara I attached latest version of mockups for adding the Start new story (reset) button and flow. Please add to the following description if I've missed anything.\n\nTo document our decision - this is a temporary stopgap to allow for an author to clear all content (and reset the Story ID), in the event that a draft story is loaded from local storage that they do not wish to edit/publish (possibly because it's left over from another author).\n"
+      "body": "Gregor Moss, Justin Obara I attached latest version of mockups for adding the Start new story (reset) button and flow. Please add to the following description if I've missed anything.\n\nTo document our decision - this is a temporary stopgap to allow for an author to clear all content (and reset the Story ID), in the event that a draft story is loaded from local storage that they do not wish to edit/publish (possibly because it's left over from another author).\n"
     }
   ]
 }

@@ -32,7 +32,7 @@
   "comments": []
 }
 ---
-Add a hover state over story links on the Browse page. Design to be provided by @@Sepideh Shahi and @@Caren Watkins
+Add a hover state over story links on the Browse page. Design to be provided by Sepideh Shahi and Caren Watkins
 
  
 

@@ -115,6 +115,6 @@ I would expect one of two things to happen when an error is encountered:
 1. onError is fired and no remaining onWrite events are fired.
 2. onError is fired, and then the remaining onWrite events are fired.  This would allow for retries, but also for clear "stop the world" type error processing by setting a "dirty" member to indicate that a failure has already occurred.
 
-cc: @@Antranig Basman
+cc: Antranig Basman
 
         

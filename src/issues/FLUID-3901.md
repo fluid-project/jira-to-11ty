@@ -50,12 +50,12 @@ This appears to be caused by this line of code.\
 line: 23
 
 fluid.browser.binaryXHR = function () {\
-var canSendBinary = window.FormData || XMLHttpRequest.prototype.sendAsBinary;\
+var canSendBinary = window\.FormData || XMLHttpRequest.prototype.sendAsBinary;\
 return canSendBinary ? fluid.typeTag("fluid.browser.supportsBinaryXHR") : undefined;\
 };
 
 Below is Colin's suggested fix from the fluid-work channel ( <http://wiki.fluidproject.org/display/fluid/fluid-work+IRC+Logs-2010-12-14> )
 
-var canSendBinary = window.FormData || (window.XMLHttpRequest && window.XMLHttpRequest.prototype.sendAsBinary);
+var canSendBinary = window\.FormData || (window\.XMLHttpRequest && window\.XMLHttpRequest.prototype.sendAsBinary);
 
         

@@ -31,7 +31,7 @@
     {
       "author": "Gregor Moss",
       "date": "2019-01-17T17:38:41.728-0500",
-      "body": "@@Sepideh Shahi left a comment on our Google doc saying \"we have removed the term \"optional\" from all text fields in the updated design\" today. With this in mind, we will be proceeding with Option 1 laid out above. This will require handling the case of totally empty stories. We will allow their submission, though we will need to make sure the tool will allow publishing of empty blocks. <https://fluidproject.atlassian.net/browse/SJRK-182#icft=SJRK-182> will have to be solved before this is possible.\n"
+      "body": "Sepideh Shahi left a comment on our Google doc saying \"we have removed the term \"optional\" from all text fields in the updated design\" today. With this in mind, we will be proceeding with Option 1 laid out above. This will require handling the case of totally empty stories. We will allow their submission, though we will need to make sure the tool will allow publishing of empty blocks. <https://fluidproject.atlassian.net/browse/SJRK-182#icft=SJRK-182> will have to be solved before this is possible.\n"
     }
   ]
 }

@@ -32,7 +32,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-05-12T09:28:05.851-0400",
-      "body": "@@Anastasia Cheetham there was a bug with saving to the store. This has been fixed in <https://fluidproject.atlassian.net/browse/FLOE-314#icft=FLOE-314>\n"
+      "body": "Anastasia Cheetham there was a bug with saving to the store. This has been fixed in <https://fluidproject.atlassian.net/browse/FLOE-314#icft=FLOE-314>\n"
     },
     {
       "author": "Justin Obara",

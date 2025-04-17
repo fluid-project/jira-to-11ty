@@ -42,7 +42,7 @@
     {
       "author": "Svetoslav Nedkov",
       "date": "2010-02-11T09:02:43.000-0500",
-      "body": "Attached <https://fluidproject.atlassian.net/browse/ENGAGE-353#icft=ENGAGE-353>.patch that removes the test code from the code entry component.\\\nThis patch makes obsolete the patch attached to:\n\n<http://issues.fluidproject.org/browse/ENGAGE-293>\n\nnamed  <https://fluidproject.atlassian.net/browse/ENGAGE-293#icft=ENGAGE-293>.native-couch-view.patch  as it applies the changes that it contains.\n"
+      "body": "Attached <https://fluidproject.atlassian.net/browse/ENGAGE-353#icft=ENGAGE-353>.patch that removes the test code from the code entry component.\\\nThis patch makes obsolete the patch attached to:\n\n<http://issues.fluidproject.org/browse/ENGAGE-293>\n\nnamed  <https://fluidproject.atlassian.net/browse/ENGAGE-293#icft=ENGAGE-293>.native-couch-view\\.patch  as it applies the changes that it contains.\n"
     },
     {
       "author": "Justin Obara",

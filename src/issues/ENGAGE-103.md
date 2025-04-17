@@ -31,7 +31,7 @@
     {
       "author": "Colin Clark",
       "date": "2009-10-09T18:38:09.000-0400",
-      "body": "This was fixed by me at r8276 by mounting View and Browse at the following URLs:\n\n/artifacts/view.html and /artifacts/browse.html for the markup feeds\\\n/artifacts/view.json for /artifacts/browse.json the data feeds\n"
+      "body": "This was fixed by me at r8276 by mounting View and Browse at the following URLs:\n\n/artifacts/view\\.html and /artifacts/browse.html for the markup feeds\\\n/artifacts/view\\.json for /artifacts/browse.json the data feeds\n"
     },
     {
       "author": "Justin Obara",

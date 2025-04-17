@@ -28,7 +28,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2020-10-05T08:59:36.202-0400",
-      "body": "@@Jonathan Hung Is this still needed?\n"
+      "body": "Jonathan Hung Is this still needed?\n"
     }
   ]
 }

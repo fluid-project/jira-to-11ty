@@ -54,12 +54,12 @@
     {
       "author": "Justin Obara",
       "date": "2020-06-02T08:37:54.934-0400",
-      "body": "@@Gregor Moss perhaps the [Layout Reorderer](https://build.fluidproject.org/infusion/demos/reorderer/layoutReorderer/) might be a closer example of what you're looking for.\n"
+      "body": "Gregor Moss perhaps the [Layout Reorderer](https://build.fluidproject.org/infusion/demos/reorderer/layoutReorderer/) might be a closer example of what you're looking for.\n"
     },
     {
       "author": "Dana",
       "date": "2020-06-10T14:24:43.274-0400",
-      "body": "@@Gregor Moss I attached an updated mockup to show the drag and drop handle positioning, as well as assets for handle, up arrow, and down arrow.\n"
+      "body": "Gregor Moss I attached an updated mockup to show the drag and drop handle positioning, as well as assets for handle, up arrow, and down arrow.\n"
     },
     {
       "author": "Cindy Li",

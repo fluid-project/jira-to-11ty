@@ -63,7 +63,7 @@
     {
       "author": "Gregor Moss",
       "date": "2018-10-03T14:30:40.100-0400",
-      "body": "After discussions with @@Michelle D'Souza, @@Alan Harnum and @@Justin Obara, we will be storing the locale at {prefsEditorLoader}.settings.preferences.locale, as any previous storage scheme was either not implemented or not implemented correctly, so there is no concern for backwards compatibility. Also, considering we've got a panel and enactor implemented as part of <https://fluidproject.atlassian.net/browse/FLUID-6303#icft=FLUID-6303>, it follows that any value stored as a result of actions within that panel should be stored along with the values from other panels, i.e. on the \"preferences\" key.\n\nRevised goal:\n\n* get it to store and load properly from {prefsEditorLoader}.settings.preferences.locale\n* add any required tests\n* readjust the docs (this could/should be a separate Jira)\n"
+      "body": "After discussions with Michelle D'Souza, Alan Harnum and Justin Obara, we will be storing the locale at {prefsEditorLoader}.settings.preferences.locale, as any previous storage scheme was either not implemented or not implemented correctly, so there is no concern for backwards compatibility. Also, considering we've got a panel and enactor implemented as part of <https://fluidproject.atlassian.net/browse/FLUID-6303#icft=FLUID-6303>, it follows that any value stored as a result of actions within that panel should be stored along with the values from other panels, i.e. on the \"preferences\" key.\n\nRevised goal:\n\n* get it to store and load properly from {prefsEditorLoader}.settings.preferences.locale\n* add any required tests\n* readjust the docs (this could/should be a separate Jira)\n"
     },
     {
       "author": "Justin Obara",

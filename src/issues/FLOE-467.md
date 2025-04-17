@@ -33,7 +33,7 @@ There seem to be two different types of failures in the Chart Authoring Tool:
 
 For #1, we need to do the following:
 
-* Upstream in Flocking, ensure that hard errors don't occur when trying to destroy a synth that no longer has a valid Environment reference. [This has been fixed](https://github.com/colinbdclark/Flocking/issues/183) thanks to @@Alan Harnum.
+* Upstream in Flocking, ensure that hard errors don't occur when trying to destroy a synth that no longer has a valid Environment reference. [This has been fixed](https://github.com/colinbdclark/Flocking/issues/183) thanks to Alan Harnum.
 * Provide a means in the Chart Authoring Tool itself for creating a Flocking environment as early as possible (i.e. immediately after Flocking's own scripts have loaded)
 * Ensure that the CA Tool's own unit tests define their own custom environment that can be created and torn down on each test run.
 
@@ -43,6 +43,6 @@ For #2, the following tests seem to be failing:
 * sonifier-Tests.html
 * chartAuthoring-Tests.html
 
-@@Alan Harnum [mentioned in the IRC channel that these tests all employ the fluid.resourceLoader component to asynchronously load templates](https://botbot.me/freenode/fluid-work/2016-06-23/?msg=68477194\&page=2).
+Alan Harnum [mentioned in the IRC channel that these tests all employ the fluid.resourceLoader component to asynchronously load templates](https://botbot.me/freenode/fluid-work/2016-06-23/?msg=68477194\&page=2).
 
         

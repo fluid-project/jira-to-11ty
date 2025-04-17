@@ -32,7 +32,7 @@
   "comments": []
 }
 ---
-Based on a [review comment](https://github.com/fluid-project/sjrk-story-telling/pull/33#pullrequestreview-263893884) by @@Cindy Li:
+Based on a [review comment](https://github.com/fluid-project/sjrk-story-telling/pull/33#pullrequestreview-263893884) by Cindy Li:
 
 > It seems limited to only allow users to write one js file and one css file for their custom themes. Users would have more freedom if these type of files can be included in their custom templates such as a header template.
 

@@ -43,7 +43,7 @@ Unfortunately this workflow necessarily inverted the order of expansion and merg
 
 This optimisation has become the basis for a lot of unstable and confusion behaviour in the framework, especially as more and more work is done with options distributions which by and large work the way users expect and are also the only way certain effects can be achieved. Particular anomalies are FLUID-5668 which, like many areas in which we require stable behaviour, have been hacked in with a kind of "deferring mergePolicy" which simply defeats all framework action during merging and allows parts of the framework to pick up the pieces later.&#x20;
 
-@@Justin Obara's work on FLUID-6420 has now inherited another of these awkward mergePolicies.
+Justin Obara's work on FLUID-6420 has now inherited another of these awkward mergePolicies.
 
 Unfortunately any change in behaviour in this area would be hugely destabilising to people working with the framework, since it amounts to a silent change in the meaning of all configuration so far written, with very little possibility for producing any diagnostics helpful in interpreting the meaning of new failures. In addition, we would be saddled with all the performance problems that this cache was designed to remove. Therefore work on this problem will be impractical until we can combine with the radical change in internal structures and performance improvements required by <https://fluidproject.atlassian.net/browse/FLUID-5304#icft=FLUID-5304>.
 

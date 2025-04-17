@@ -27,7 +27,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-09T10:28:18.104-0400",
-      "body": "@@Colin Clark, Firefox 3.6 is fairly old at this point. Firefox is currently at version 38. How should we go about addressing this? Can this ticket just be closed, or should some old code also be deprecated/removed?\n"
+      "body": "Colin Clark, Firefox 3.6 is fairly old at this point. Firefox is currently at version 38. How should we go about addressing this? Can this ticket just be closed, or should some old code also be deprecated/removed?\n"
     },
     {
       "author": "Colin Clark",

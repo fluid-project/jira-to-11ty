@@ -52,7 +52,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-07T10:49:01.072-0500",
-      "body": "@@sparsh paliwal and @@rajat dhyani, thanks, I've updated the link in the description.\n"
+      "body": "sparsh paliwal and rajat dhyani, thanks, I've updated the link in the description.\n"
     },
     {
       "author": "Jonathan Hung",
@@ -67,7 +67,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-17T11:49:13.751-0400",
-      "body": "@@Arnold Tagne IE 10 is no longer a supported browser. Currently we are supporting latest Chrome, Firefox Internet Explorer and Safari. Were you able to reproduce the issue in any of these browsers?\n"
+      "body": "Arnold Tagne IE 10 is no longer a supported browser. Currently we are supporting latest Chrome, Firefox Internet Explorer and Safari. Were you able to reproduce the issue in any of these browsers?\n"
     },
     {
       "author": "Blagoj Dimovski",

@@ -87,12 +87,12 @@
     {
       "author": "Justin Obara",
       "date": "2016-10-17T10:20:32.497-0400",
-      "body": "@@Antranig Basman based on your comment above, does it mean that this issue should remain open after <https://github.com/fluid-project/infusion/pull/763> is merged?\n"
+      "body": "Antranig Basman based on your comment above, does it mean that this issue should remain open after <https://github.com/fluid-project/infusion/pull/763> is merged?\n"
     },
     {
       "author": "Antranig Basman",
       "date": "2016-10-17T11:12:48.610-0400",
-      "body": "@@Justin Obara - Yes, that's right, because this issue now depends on <https://fluidproject.atlassian.net/browse/FLUID-5981#icft=FLUID-5981> which will not be fixed in this cycle\n"
+      "body": "Justin Obara - Yes, that's right, because this issue now depends on <https://fluidproject.atlassian.net/browse/FLUID-5981#icft=FLUID-5981> which will not be fixed in this cycle\n"
     },
     {
       "author": "Justin Obara",

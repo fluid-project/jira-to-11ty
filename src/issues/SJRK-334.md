@@ -32,7 +32,7 @@
   ]
 }
 ---
-The Karisma Stories site (<https://karisma-stories.floeproject.org/>) is [currently being built](https://github.com/inclusive-design/ci-service/blob/master/jenkins_jobs/stack-karisma-stories.floeproject.org.yml#L8) from @@Alan Harnum's fork and hasn't been updated in over a year. In that time, many changes of considerable substance have been made to the code, so it will likely need a bit of work to get it up to date again.
+The Karisma Stories site (<https://karisma-stories.floeproject.org/>) is [currently being built](https://github.com/inclusive-design/ci-service/blob/master/jenkins_jobs/stack-karisma-stories.floeproject.org.yml#L8) from Alan Harnum's fork and hasn't been updated in over a year. In that time, many changes of considerable substance have been made to the code, so it will likely need a bit of work to get it up to date again.
 
 The work should proceed thus:
 

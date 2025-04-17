@@ -28,7 +28,7 @@
     {
       "author": "Justin Obara",
       "date": "2024-07-23T11:18:44.558-0400",
-      "body": "Could not reproduce with MS Edge 126 on macOS 14.5, and Internet Explorer is no longer supported.&#x20;\n\nWith MS Edge now being based off of Chromium,@@Antranig Basman your wish mostly came true.\n"
+      "body": "Could not reproduce with MS Edge 126 on macOS 14.5, and Internet Explorer is no longer supported.&#x20;\n\nWith MS Edge now being based off of Chromium,Antranig Basman your wish mostly came true.\n"
     }
   ]
 }

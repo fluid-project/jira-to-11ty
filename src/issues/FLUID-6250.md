@@ -32,7 +32,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-03-12T09:38:39.150-0400",
-      "body": "@@Atisaya Jain I believe this is still open. Please feel free to submit a PR to address it.\n"
+      "body": "Atisaya Jain I believe this is still open. Please feel free to submit a PR to address it.\n"
     },
     {
       "author": "Atisaya Jain",
@@ -42,7 +42,7 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2018-03-13T05:53:37.366-0400",
-      "body": "Hi, @@Atisaya Jain. For \"dev\" releases, this package generates a version number (based in part on the date) that is saved to the package.json file. The updated package.json file is committed as part of a new tag. Once this is done, the goal is to leave the current working branch in the same state it was in before the release. We accomplish this by checking out the previous package.json from whatever branch we are working in.\n\nThis ticket covers also reverting the package-lock.json file, as though we had issued the command `git checkout package-lock.json`.\n"
+      "body": "Hi, Atisaya Jain. For \"dev\" releases, this package generates a version number (based in part on the date) that is saved to the package.json file. The updated package.json file is committed as part of a new tag. Once this is done, the goal is to leave the current working branch in the same state it was in before the release. We accomplish this by checking out the previous package.json from whatever branch we are working in.\n\nThis ticket covers also reverting the package-lock.json file, as though we had issued the command `git checkout package-lock.json`.\n"
     },
     {
       "author": "Atisaya Jain",

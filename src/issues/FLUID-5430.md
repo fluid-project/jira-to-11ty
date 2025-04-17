@@ -39,7 +39,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-07T10:47:15.256-0500",
-      "body": "@@Harshit Juneja I've updated the link to the Manual Test in question.\n"
+      "body": "Harshit Juneja I've updated the link to the Manual Test in question.\n"
     },
     {
       "author": "Aashay Singhal",
@@ -49,7 +49,7 @@
     {
       "author": "Justin Obara",
       "date": "2017-02-17T09:25:01.788-0500",
-      "body": "@@Aashay Singhal I think you probably want to just style `fl-reorderer-dropmarker`. It could be that this demo is missing a css file, that some other styling is rendering it invisible or etc. It could also be the problem that the reordererable elements are just too close together so the drop marker isn't perceivable.&#x20;\n"
+      "body": "Aashay Singhal I think you probably want to just style `fl-reorderer-dropmarker`. It could be that this demo is missing a css file, that some other styling is rendering it invisible or etc. It could also be the problem that the reordererable elements are just too close together so the drop marker isn't perceivable.&#x20;\n"
     },
     {
       "author": "Aashay Singhal",

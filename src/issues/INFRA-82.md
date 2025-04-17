@@ -51,7 +51,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-08-22T09:59:06.587-0400",
-      "body": "@@Giovanni Tirloni, yes, this happened again to me last week.\n"
+      "body": "Giovanni Tirloni, yes, this happened again to me last week.\n"
     },
     {
       "author": "Giovanni Tirloni",
@@ -61,7 +61,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-11-23T12:18:56.933-0500",
-      "body": "@@Giovanni Tirloni I have v3.6.9-014 and tested it just now. Same problem.\n"
+      "body": "Giovanni Tirloni I have v3.6.9-014 and tested it just now. Same problem.\n"
     },
     {
       "author": "Giovanni Tirloni",
@@ -76,12 +76,12 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2017-09-21T11:01:42.209-0400",
-      "body": "I have uploaded version 3.6.14 of VidyoDesktop this morning.\n\n@@Justin Obara could you try that and see if it fixes this issue? Thanks in advance.\n"
+      "body": "I have uploaded version 3.6.14 of VidyoDesktop this morning.\n\nJustin Obara could you try that and see if it fixes this issue? Thanks in advance.\n"
     },
     {
       "author": "Justin Obara",
       "date": "2017-09-21T13:39:24.715-0400",
-      "body": "@@Giovanni Tirloni I tried with v3.6.14 of VidyoDesktop and it still crashes. I also tried with the Vidyo Neo client, and didn't see this particular issue there.\n"
+      "body": "Giovanni Tirloni I tried with v3.6.14 of VidyoDesktop and it still crashes. I also tried with the Vidyo Neo client, and didn't see this particular issue there.\n"
     },
     {
       "author": "Giovanni Tirloni",

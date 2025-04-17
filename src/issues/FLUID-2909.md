@@ -33,7 +33,7 @@
     {
       "author": "Laurel Williams",
       "date": "2009-06-04T11:02:35.000-0400",
-      "body": "completed the edit to the config.php\\\nreviewed the entire website for links to www.fluidproject.org and replaced them with fluidproject.org\n"
+      "body": "completed the edit to the config.php\\\nreviewed the entire website for links to www\\.fluidproject.org and replaced them with fluidproject.org\n"
     },
     {
       "author": "Laurel Williams",
@@ -53,7 +53,7 @@
   ]
 }
 ---
-After some discussion we have decided that www.fluidproject.org should re-direct to fluidproject.org and all links should reflect this
+After some discussion we have decided that www\.fluidproject.org should re-direct to fluidproject.org and all links should reflect this
 
 Edit conf for cmsms\
 check and fix .htaccess\

@@ -42,7 +42,7 @@
     {
       "author": "Jacob Farber",
       "date": "2008-08-25T15:08:23.000-0400",
-      "body": "Using the ESC key to erase a text input field in IE6/IE7 is the native behaviour for IE (see www.google.com as an example )&#x20;\n\nI would think this as extremely hazardous native behaviour. Rather than wiping out the field and saving, perhaps it would be more preferable to simply undo the last action and then exit editing the field.\n\nCan we overwrite the native behaviour?\n"
+      "body": "Using the ESC key to erase a text input field in IE6/IE7 is the native behaviour for IE (see www\\.google.com as an example )&#x20;\n\nI would think this as extremely hazardous native behaviour. Rather than wiping out the field and saving, perhaps it would be more preferable to simply undo the last action and then exit editing the field.\n\nCan we overwrite the native behaviour?\n"
     },
     {
       "author": "Justin Obara",

@@ -59,17 +59,17 @@
     {
       "author": "Gregor Moss",
       "date": "2019-08-01T16:29:52.489-0400",
-      "body": "@@Antranig Basman I've added more detail on reproduction and error messages received. Sorry for the delay 🙂\n\n \n"
+      "body": "Antranig Basman I've added more detail on reproduction and error messages received. Sorry for the delay 🙂\n\n \n"
     },
     {
       "author": "Antranig Basman",
       "date": "2019-08-05T06:40:02.225-0400",
-      "body": "Hi @@Gregor Moss - thanks for the reproduction instructions, luckily it turns out I can reproduce the problem quite easily. I'm investigating the root cause which appears to be the message bundle not loading correctly for 2nd and subsequent UIO instances but in the meantime I've raised <https://github.com/fluid-project/sjrk-story-telling/pull/35> in which to accumulate suggestions for refactoring. My sense is at the moment there is a fault in the very-oldfashioned resource loading code in Infusion master, which is being exacerbated by there being a lot of component leaks in the SJRK implementation. Once I find the root cause of the race we should be able to patch it in Infusion but at the same time we should also head off the issue by removing the leaks in SJRK which should also result in better performance and a design that is easier to work with.\n"
+      "body": "Hi Gregor Moss - thanks for the reproduction instructions, luckily it turns out I can reproduce the problem quite easily. I'm investigating the root cause which appears to be the message bundle not loading correctly for 2nd and subsequent UIO instances but in the meantime I've raised <https://github.com/fluid-project/sjrk-story-telling/pull/35> in which to accumulate suggestions for refactoring. My sense is at the moment there is a fault in the very-oldfashioned resource loading code in Infusion master, which is being exacerbated by there being a lot of component leaks in the SJRK implementation. Once I find the root cause of the race we should be able to patch it in Infusion but at the same time we should also head off the issue by removing the leaks in SJRK which should also result in better performance and a design that is easier to work with.\n"
     },
     {
       "author": "Cindy Li",
       "date": "2020-01-22T16:43:55.406-0500",
-      "body": "[The pull request](https://github.com/fluid-project/sjrk-story-telling/pull/53) has been merged into stories-floe-dev branch at [this commit](https://github.com/fluid-project/sjrk-story-telling/commit/58c559545a3788925e5236c407e7b8999aba0a50) so @@Gregor Moss can build upon them for other Jiras.\n\n[The initial pull request against re-review branch](https://github.com/fluid-project/sjrk-story-telling/pull/35) is preserved in order to accommodate further review on the source branch by @@Antranig Basman or others.\n"
+      "body": "[The pull request](https://github.com/fluid-project/sjrk-story-telling/pull/53) has been merged into stories-floe-dev branch at [this commit](https://github.com/fluid-project/sjrk-story-telling/commit/58c559545a3788925e5236c407e7b8999aba0a50) so Gregor Moss can build upon them for other Jiras.\n\n[The initial pull request against re-review branch](https://github.com/fluid-project/sjrk-story-telling/pull/35) is preserved in order to accommodate further review on the source branch by Antranig Basman or others.\n"
     }
   ]
 }

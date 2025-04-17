@@ -26,6 +26,6 @@
   "comments": []
 }
 ---
-These are being removed as unnecessary in this PR because of the 'paused' model path that can be used via a model listener (see PR comments from @@Antranig Basman at <https://github.com/fluid-project/infusion/pull/732/#issuecomment-244151680>)
+These are being removed as unnecessary in this PR because of the 'paused' model path that can be used via a model listener (see PR comments from Antranig Basman at <https://github.com/fluid-project/infusion/pull/732/#issuecomment-244151680>)
 
         

@@ -34,6 +34,6 @@
 ---
 Given the international scope of the project, interface translation is an important need, as is structure to make this manageable and allow translation contribution.
 
-As a starting point, @@Tony Atkins \[RtF] did some valuable investigative work into what's currently in Infusion and the most popular JS internationalization library (i18next): <https://wiki.gpii.net/w/Technology_Evaluation_-_Internationalising_and_Localising_UI_strings>
+As a starting point, Tony Atkins \[RtF] did some valuable investigative work into what's currently in Infusion and the most popular JS internationalization library (i18next): <https://wiki.gpii.net/w/Technology_Evaluation_-_Internationalising_and_Localising_UI_strings>
 
         

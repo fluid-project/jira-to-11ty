@@ -39,7 +39,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-04-04T18:14:35.890-0400",
-      "body": "@@Blagoj Dimovski yes feel free to work on this one.&#x20;\n"
+      "body": "Blagoj Dimovski yes feel free to work on this one.&#x20;\n"
     },
     {
       "author": "Blagoj Dimovski",

@@ -50,7 +50,7 @@
 ---
 Exhibition About is throwing an error upon page load. This is due to the fact that it is implemented using the same component as Exhibition View, which attempts to create a Navigation List for displaying catalogue information. However, the Exhibition About template doesn't have any catalogue information in it.
 
-Since both data feeds share the same underlying representation of Exhibition models, ExhibitionView.js attempts to instantiate a NavList and bind it to the "catalogue" element in the page, even those Exhibition about.html doesn't have this information in it.
+Since both data feeds share the same underlying representation of Exhibition models, ExhibitionView\.js attempts to instantiate a NavList and bind it to the "catalogue" element in the page, even those Exhibition about.html doesn't have this information in it.
 
 Here's the offending code:
 

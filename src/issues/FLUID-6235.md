@@ -39,7 +39,7 @@
     {
       "author": "Tony Atkins [RtF]",
       "date": "2018-01-03T09:38:49.825-0500",
-      "body": "Thanks, @@Antranig Basman.  I'll close this one as a duplicate.\n"
+      "body": "Thanks, Antranig Basman.  I'll close this one as a duplicate.\n"
     }
   ]
 }
@@ -166,6 +166,6 @@ On reading this, I would expect the base grade's options to have been expanded, 
 
 The inconsistencies can be mitigated somewhat using merge policies for expanded options, i.e. you can specific a merge policy of "nomerge" that will ensure the "child" grade's options will be used.  However, this does not cover the case above, in which we wish to inherit generated options and merge them with individual options of our choosing.
 
-cc: @@Antranig Basman
+cc: Antranig Basman
 
         

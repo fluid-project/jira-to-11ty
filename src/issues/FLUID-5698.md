@@ -32,7 +32,7 @@
     {
       "author": "Antranig Basman",
       "date": "2015-06-24T17:35:50.698-0400",
-      "body": "Thanks for the investigation, @@Cindy Li - I think we can fix this with only a small amount of refactoring\n"
+      "body": "Thanks for the investigation, Cindy Li - I think we can fix this with only a small amount of refactoring\n"
     },
     {
       "author": "Antranig Basman",
@@ -47,7 +47,7 @@
     {
       "author": "Alan Harnum",
       "date": "2016-04-19T14:32:11.920-0400",
-      "body": "After speaking to @@Cindy Li and @@Michelle D'Souza I've created <https://fluidproject.atlassian.net/browse/FLUID-5892#icft=FLUID-5892>\n\nI believe once this is done we'll be able to remove all Javascript from HTML expected to be delivered to the iframe in cases where the dependencies (Infusion, jQuery, etc) are already present in the parent of the iframe.\n"
+      "body": "After speaking to Cindy Li and Michelle D'Souza I've created <https://fluidproject.atlassian.net/browse/FLUID-5892#icft=FLUID-5892>\n\nI believe once this is done we'll be able to remove all Javascript from HTML expected to be delivered to the iframe in cases where the dependencies (Infusion, jQuery, etc) are already present in the parent of the iframe.\n"
     },
     {
       "author": "Alan Harnum",

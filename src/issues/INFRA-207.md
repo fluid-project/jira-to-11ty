@@ -29,7 +29,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2020-04-13T08:08:09.065-0400",
-      "body": "It doesn't look like we're using Buildkite anymore. @@Avtar Gill @@Alan Harnum could you confirm?\n"
+      "body": "It doesn't look like we're using Buildkite anymore. Avtar Gill Alan Harnum could you confirm?\n"
     },
     {
       "author": "Avtar Gill",

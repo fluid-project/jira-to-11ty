@@ -49,12 +49,12 @@
     {
       "author": "Justin Obara",
       "date": "2018-03-09T11:22:27.805-0500",
-      "body": "I spoke with @@Antranig Basman in the fluid-work IRC channel today regarding this.\n\n<https://botbot.me/freenode/fluid-work/2018-03-09/?msg=97684144&page=1>\n\n \n"
+      "body": "I spoke with Antranig Basman in the fluid-work IRC channel today regarding this.\n\n<https://botbot.me/freenode/fluid-work/2018-03-09/?msg=97684144&page=1>\n\n \n"
     },
     {
       "author": "Justin Obara",
       "date": "2018-03-12T11:10:01.832-0400",
-      "body": "From a discussion in the fluid-work IRC channel today, @@Antranig Basman said:\n\n> I suggested updating the remote model after a write, but only after updating the IPC backing to actually give a reliable receipt for the handling of the remote write message\\\n> And to update the docs to clarify that this is what the resolution of the write promise is actually meant to mean 🙂\\\n> That is, it means a successful write, not just a successful writing of a message to write 🙂\n"
+      "body": "From a discussion in the fluid-work IRC channel today, Antranig Basman said:\n\n> I suggested updating the remote model after a write, but only after updating the IPC backing to actually give a reliable receipt for the handling of the remote write message\\\n> And to update the docs to clarify that this is what the resolution of the write promise is actually meant to mean 🙂\\\n> That is, it means a successful write, not just a successful writing of a message to write 🙂\n"
     }
   ]
 }

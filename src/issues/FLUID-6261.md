@@ -47,7 +47,7 @@
     {
       "author": "Justin Obara",
       "date": "2018-03-12T13:13:59.445-0400",
-      "body": "\"closed.png\" shows the closed state.\n\n\"opened.png\" shows the opened state.\n\n\"description not visible.png\" shows when the window is small that the description can be mostly obscured.\n\n\"footer overflow.png\" shows the footer going offscreen when letter-spacing applied.\n"
+      "body": "\"closed.png\" shows the closed state.\n\n\"opened.png\" shows the opened state.\n\n\"description not visible.png\" shows when the window is small that the description can be mostly obscured.\n\n\"footer overflow\\.png\" shows the footer going offscreen when letter-spacing applied.\n"
     }
   ]
 }

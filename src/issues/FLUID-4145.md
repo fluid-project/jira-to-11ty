@@ -39,7 +39,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-09T13:16:19.365-0400",
-      "body": "@@Anastasia Cheetham should we close this jira and make specific jiras for examples that are needed?\n"
+      "body": "Anastasia Cheetham should we close this jira and make specific jiras for examples that are needed?\n"
     },
     {
       "author": "Justin Obara",

@@ -34,7 +34,7 @@
     {
       "author": "Justin Obara",
       "date": "2020-06-16T09:24:29.398-0400",
-      "body": "@@Giovanni Tirloni regarding running tests against Safari on macOS there is an issue with testem and recent versions of Safari. I filed an issue with them <https://github.com/testem/testem/issues/1387> \n"
+      "body": "Giovanni Tirloni regarding running tests against Safari on macOS there is an issue with testem and recent versions of Safari. I filed an issue with them <https://github.com/testem/testem/issues/1387> \n"
     }
   ]
 }

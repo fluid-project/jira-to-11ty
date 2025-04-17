@@ -27,7 +27,7 @@
     {
       "author": "Justin Obara",
       "date": "2019-08-19T12:39:29.303-0400",
-      "body": "@@Alan Harnum mentioned <https://github.com/ThomasJockin/lexend> to me in the fluid-work channel today. Lexend is a variable font for improving reading-proficiency.\n"
+      "body": "Alan Harnum mentioned <https://github.com/ThomasJockin/lexend> to me in the fluid-work channel today. Lexend is a variable font for improving reading-proficiency.\n"
     }
   ]
 }

@@ -32,7 +32,7 @@
     {
       "author": "Antranig Basman",
       "date": "2016-08-17T12:58:58.367-0400",
-      "body": "My experience is very similar to @@Simon Bates - for example, I get an \"upPath\" of \"E:\\\\\" and an upInfusionPath of \"E:\\kettle\\node\\_modules\\infusion\\src\\module\\fluid.js\". As far as I can see, this is a bug within require.resolve as well as a filesystem oddity, since there is no reason for the contents of E:\\kettle to be resolvable.\n"
+      "body": "My experience is very similar to Simon Bates - for example, I get an \"upPath\" of \"E:\\\\\" and an upInfusionPath of \"E:\\kettle\\node\\_modules\\infusion\\src\\module\\fluid.js\". As far as I can see, this is a bug within require.resolve as well as a filesystem oddity, since there is no reason for the contents of E:\\kettle to be resolvable.\n"
     },
     {
       "author": "Antranig Basman",

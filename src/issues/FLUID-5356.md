@@ -38,7 +38,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-03-03T08:52:01.597-0500",
-      "body": "@@Abhishek Bansal thanks for looking at this. It does appear to have been fixed.\n"
+      "body": "Abhishek Bansal thanks for looking at this. It does appear to have been fixed.\n"
     },
     {
       "author": "Justin Obara",

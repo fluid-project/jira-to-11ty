@@ -36,7 +36,7 @@
     {
       "author": "Gregor Moss",
       "date": "2018-05-30T17:42:42.448-0400",
-      "body": "The issue seems to have been a leftover IoC reference from a time before the current factoring. it refers to {editable}, which no longer exists. I've updated it to {imageBlockEditor} as it should be, and the client-side error stopped happening.\n\nI have pushed this fix to <https://fluidproject.atlassian.net/browse/SJRK-91#icft=SJRK-91> branch. Once the server build has been updated, we can retry.\n\ncc @@Alan Harnum @@Michelle D'Souza @@Dana\n"
+      "body": "The issue seems to have been a leftover IoC reference from a time before the current factoring. it refers to {editable}, which no longer exists. I've updated it to {imageBlockEditor} as it should be, and the client-side error stopped happening.\n\nI have pushed this fix to <https://fluidproject.atlassian.net/browse/SJRK-91#icft=SJRK-91> branch. Once the server build has been updated, we can retry.\n\ncc Alan Harnum Michelle D'Souza Dana\n"
     },
     {
       "author": "Gregor Moss",
@@ -46,7 +46,7 @@
   ]
 }
 ---
-As reported by @@Michelle D'Souza: "Another issue that we hit - and I saw it on my phone too, was an inability to save. I was able to save a simple story, but when I tried to enter one that a student had sent us, it failed. One thing she did was put some emojis in the text as well as the title and the keywords. Dana can WhatsApp you the story."
+As reported by Michelle D'Souza: "Another issue that we hit - and I saw it on my phone too, was an inability to save. I was able to save a simple story, but when I tried to enter one that a student had sent us, it failed. One thing she did was put some emojis in the text as well as the title and the keywords. Dana can WhatsApp you the story."
 
 The emoji are likely a factor, worth exploring
 

@@ -23,6 +23,6 @@
   "comments": []
 }
 ---
-Per request from jhung, @@Giovanni Tirloni has done this before for him.
+Per request from jhung, Giovanni Tirloni has done this before for him.
 
         

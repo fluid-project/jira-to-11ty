@@ -40,7 +40,7 @@
     {
       "author": "Jess Mitchell",
       "date": "2010-02-19T18:05:18.000-0500",
-      "body": "changed the default icon and alternative icon in mycollectionview.js for the navigationBar:\n\nnavigationBar : {\\\ntype : \"fluid.engage.navigationBar\",\\\noptions: {\\\nselectors: {\\\ntoggleDefaultIcon: \".flc-navigationBar-toggle-list\",\\\ntoggleAlternateIcon: \".flc-navigationBar-toggle-grid\"\\\n}\\\n}\\\n},\n"
+      "body": "changed the default icon and alternative icon in mycollectionview\\.js for the navigationBar:\n\nnavigationBar : {\\\ntype : \"fluid.engage.navigationBar\",\\\noptions: {\\\nselectors: {\\\ntoggleDefaultIcon: \".flc-navigationBar-toggle-list\",\\\ntoggleAlternateIcon: \".flc-navigationBar-toggle-grid\"\\\n}\\\n}\\\n},\n"
     },
     {
       "author": "Colin Clark",

@@ -40,7 +40,7 @@
     {
       "author": "Alan Harnum",
       "date": "2015-11-03T09:05:29.454-0500",
-      "body": "@@Giovanni Tirloni, is this issue satisfactorily resolved now? Can we close this one?\n"
+      "body": "Giovanni Tirloni, is this issue satisfactorily resolved now? Can we close this one?\n"
     },
     {
       "author": "Giovanni Tirloni",
@@ -57,6 +57,6 @@
 ---
 Besides being a good practice to have reserve DNS configured, we also need it to avoid mail errors like this:
 
-to=\<keineantwortadresse@web.de>, relay=mx-ha03.web.de\[212.227.15.17]:25, delay=256735, delays=256734/0.02/1.1/0, dsn=4.0.0, status=deferred (host mx-ha03.web.de\[212.227.15.17] refused to talk to me: 554-web.de (mxweb005) Nemesis ESMTP Service not available 554-No SMTP service 554 invalid DNS PTR resource record, IP=205.211.169.31)
+to=\<keineantwortadresse\@web.de>, relay=mx-ha03.web.de\[212.227.15.17]:25, delay=256735, delays=256734/0.02/1.1/0, dsn=4.0.0, status=deferred (host mx-ha03.web.de\[212.227.15.17] refused to talk to me: 554-web.de (mxweb005) Nemesis ESMTP Service not available 554-No SMTP service 554 invalid DNS PTR resource record, IP=205.211.169.31)
 
         

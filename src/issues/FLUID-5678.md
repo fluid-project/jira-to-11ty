@@ -59,7 +59,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-08-12T09:38:18.281-0400",
-      "body": "@@Kaye Mao the description talks about \"Wording for measure of scale with text size and line height as x Times may be confusing\" but this doesn't appear to be handled in your pull request. Could you please create a new jira for this issue?\n"
+      "body": "Kaye Mao the description talks about \"Wording for measure of scale with text size and line height as x Times may be confusing\" but this doesn't appear to be handled in your pull request. Could you please create a new jira for this issue?\n"
     },
     {
       "author": "Kaye Mao",

@@ -50,7 +50,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-07-11T14:34:03.597-0400",
-      "body": "@@Cindy Li could you please update these screenshots. They are missing, and I'm not exactly sure what they were of. ( e.g. current state, with the viewport meta tag, or a design )\n"
+      "body": "Cindy Li could you please update these screenshots. They are missing, and I'm not exactly sure what they were of. ( e.g. current state, with the viewport meta tag, or a design )\n"
     }
   ]
 }

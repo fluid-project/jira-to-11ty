@@ -60,7 +60,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-03-21T15:22:47.144-0400",
-      "body": "Had some further discussion with @@Colin Clark in the channel today about some of the configuration options for jshint as well as not including the jshint comment in every file and just relying on the jshintrc file at the root for the default configuration.\n\n<https://botbot.me/freenode/fluid-work/2014-03-21/?tz=America/Toronto>\n"
+      "body": "Had some further discussion with Colin Clark in the channel today about some of the configuration options for jshint as well as not including the jshint comment in every file and just relying on the jshintrc file at the root for the default configuration.\n\n<https://botbot.me/freenode/fluid-work/2014-03-21/?tz=America/Toronto>\n"
     },
     {
       "author": "Justin Obara",

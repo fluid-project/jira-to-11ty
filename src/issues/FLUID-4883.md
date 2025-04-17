@@ -47,7 +47,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-12T11:57:16.820-0400",
-      "body": "@@Antranig Basman are \"latched events\" still in the plans?\n"
+      "body": "Antranig Basman are \"latched events\" still in the plans?\n"
     },
     {
       "author": "Antranig Basman",

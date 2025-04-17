@@ -90,6 +90,6 @@ tasks:
 * check out text resizing issues in Firefox and IE
 * check cross-browser behaviour.
 
-CONTACT: Allison (abloodworth@berkeley.edu) or Jonathan (jonathan.hung@utoronto.ca) to help out with this task--thanks!
+CONTACT: Allison (abloodworth\@berkeley.edu) or Jonathan (jonathan.hung\@utoronto.ca) to help out with this task--thanks!
 
         

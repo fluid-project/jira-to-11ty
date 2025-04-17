@@ -25,7 +25,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2017-07-03T16:21:19.962-0400",
-      "body": "I've submitted a PR to show what I mean by this. Please let me know if this approach is acceptable.\n\n<https://github.com/fluid-project/kettle/pull/34>\n\nDiscussion with @@Cindy Li @@Justin Obara @@Michelle D'Souza: <https://botbot.me/freenode/fluid-work/2017-06-29/?msg=87941169&page=1>\n"
+      "body": "I've submitted a PR to show what I mean by this. Please let me know if this approach is acceptable.\n\n<https://github.com/fluid-project/kettle/pull/34>\n\nDiscussion with Cindy Li Justin Obara Michelle D'Souza: <https://botbot.me/freenode/fluid-work/2017-06-29/?msg=87941169&page=1>\n"
     },
     {
       "author": "Antranig Basman",

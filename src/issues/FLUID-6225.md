@@ -26,7 +26,7 @@
   "comments": []
 }
 ---
-In the process of resolving KETTLE-65, @@Tony Atkins \[RtF] found that the simple process of updating Kettle's dependency on Infusion broke one of its tests, the "ErrorTests.js" which rely on interception via node's "uncaught exception handler".
+In the process of resolving KETTLE-65, Tony Atkins \[RtF] found that the simple process of updating Kettle's dependency on Infusion broke one of its tests, the "ErrorTests.js" which rely on interception via node's "uncaught exception handler".
 
 It appears this arose simply because of a mismatch between the versions of Infusion used by kettle and node-jqunit - these had been brought into step by a previous round of dedupe fixing.
 

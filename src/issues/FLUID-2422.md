@@ -28,7 +28,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-07-09T09:43:00.979-0400",
-      "body": "@@joanna vass and @@Dana is this still a feature we'd want?\n"
+      "body": "joanna vass and Dana is this still a feature we'd want?\n"
     }
   ]
 }

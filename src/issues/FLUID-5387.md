@@ -46,7 +46,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-06-11T10:17:13.913-0400",
-      "body": "Spoke with @@Antranig Basman in the channel today about this. It seems there is a timing issue, that may require a fix in qunit. This seems to be out of the scope for the 1.5 release, and should be addressed afterwards.\n\n<https://botbot.me/freenode/fluid-work/2014-06-11/>\n"
+      "body": "Spoke with Antranig Basman in the channel today about this. It seems there is a timing issue, that may require a fix in qunit. This seems to be out of the scope for the 1.5 release, and should be addressed afterwards.\n\n<https://botbot.me/freenode/fluid-work/2014-06-11/>\n"
     },
     {
       "author": "Justin Obara",

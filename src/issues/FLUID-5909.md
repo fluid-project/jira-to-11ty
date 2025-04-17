@@ -32,7 +32,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-05-26T08:58:37.111-0400",
-      "body": "@@Antranig Basman is this going to be a test or should all our other projects/repos make the switch to ESHint now too?\n"
+      "body": "Antranig Basman is this going to be a test or should all our other projects/repos make the switch to ESHint now too?\n"
     },
     {
       "author": "Cindy Li",
@@ -82,7 +82,7 @@
   ]
 }
 ---
-@@Tony Atkins \[RtF] has brought to our attention an alternative linting tool to our JSHint (frozen at an ancient version to retain whitespace support), ESHint, that appears to have considerably superior engineering values and supports essentially all of the requirements motivating our JSHint fork at <https://github.com/fluid-project/jshint>
+Tony Atkins \[RtF] has brought to our attention an alternative linting tool to our JSHint (frozen at an ancient version to retain whitespace support), ESHint, that appears to have considerably superior engineering values and supports essentially all of the requirements motivating our JSHint fork at <https://github.com/fluid-project/jshint>
 
 We should move over to ESHint, draw up an equivalent .eshintrc file to our existing rules, and also take the opportunity to move over to the grunt 1.x release which appeared recently.
 

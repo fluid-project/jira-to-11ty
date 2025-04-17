@@ -22,7 +22,7 @@
   "comments": []
 }
 ---
-From a design crit suggestion by @@Jonathan Hung, it would be good to implement accessibility metadata for stories as described at <https://handbook.floeproject.org/AccessibilityMetadata.html>
+From a design crit suggestion by Jonathan Hung, it would be good to implement accessibility metadata for stories as described at <https://handbook.floeproject.org/AccessibilityMetadata.html>
 
 How exactly this would be done (client-side and server-side interactions, etc) would need to be discussed but the idea is very good - we can infer a lot of this information from the content types and whether or not affordances like simplified text have been included.
 

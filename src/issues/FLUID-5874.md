@@ -45,7 +45,7 @@
     {
       "author": "Jonathan Hung",
       "date": "2016-03-11T14:44:49.650-0500",
-      "body": "@@Arnold Tagne\\\nThe image isn't showing up. Use the \"Attach Files\" option in the \"More\" menu to attach an image to the Jira.\n"
+      "body": "Arnold Tagne\\\nThe image isn't showing up. Use the \"Attach Files\" option in the \"More\" menu to attach an image to the Jira.\n"
     },
     {
       "author": "Arnold Tagne",
@@ -80,7 +80,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-04-01T10:40:35.075-0400",
-      "body": "@@Arnold Tagne are you sure this is a problem. Can you try it again with the latest version of Chrome. I am not able to reproduce this issue at all. If you can reproduce it, please include all of the steps necessary to trigger the problem.\n"
+      "body": "Arnold Tagne are you sure this is a problem. Can you try it again with the latest version of Chrome. I am not able to reproduce this issue at all. If you can reproduce it, please include all of the steps necessary to trigger the problem.\n"
     },
     {
       "author": "Aman varshney",
@@ -95,7 +95,7 @@
     {
       "author": "Justin Obara",
       "date": "2016-04-04T07:40:08.439-0400",
-      "body": "@@Jonathan Hung could you please review the associated pull request\n"
+      "body": "Jonathan Hung could you please review the associated pull request\n"
     }
   ]
 }

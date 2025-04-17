@@ -47,7 +47,7 @@ The text should read as follows (subject to changes):
 • You won’t be able to make changes to your story once you\
 publish.\
 • You can have your story removed by emailing\
-stories@idrc.ocadu.ca"
+stories\@idrc.ocadu.ca"
 
  
 

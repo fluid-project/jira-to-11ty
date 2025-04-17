@@ -68,7 +68,7 @@
 Our infusion image, stored in github at <https://github.com/fluid-project/infusion> , mixes together (at least) 3 different kinds of material, which are suitable for different audiences -&#x20;
 
 i) cross-platform framework code (including the core framework, IoC, data binding, and parts of the preferences framework) which are suitable for all contexts, including the browser, node.js and possibly others\
-ii) browser-dependent framework code (FluidView.js etc.)\
+ii) browser-dependent framework code (FluidView\.js etc.)\
 iii) browser-dependent components (e.g. InlineEdit, Reorderer)\
 iv) definitions to assist testing (jqUnit. IoC testing framework)
 

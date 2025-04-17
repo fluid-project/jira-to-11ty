@@ -34,7 +34,7 @@
   ]
 }
 ---
-@@Tony Atkins \[RtF] found when working on the GPII's Live Solutions Registry that configuration of the form "${{session}.preferences}" was being expanded when occurring as free-form component options. This occurs in the solutions registry in sections such as
+Tony Atkins \[RtF] found when working on the GPII's Live Solutions Registry that configuration of the form "${{session}.preferences}" was being expanded when occurring as free-form component options. This occurs in the solutions registry in sections such as
 
 ```java
 "launchHandlers": {

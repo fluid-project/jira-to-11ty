@@ -65,7 +65,7 @@ name: TypeError\
 message: Statement on line 1173: Cannot convert undefined or null to Object\
 Backtrace:\
 Line 1173 of linked script <http://build.fluidproject.org/fluid/fluid-components/js/jquery/jquery-1.3.1.js>\
-function(elem){return jQuery.nodeName(elem,"iframe")?elem.contentDocument||elem.contentWindow.document:jQuery.makeArray(elem.childNodes);}\
+function(elem){return jQuery.nodeName(elem,"iframe")?elem.contentDocument||elem.contentWindow\.document:jQuery.makeArray(elem.childNodes);}\
 Line 1139 of linked script <http://build.fluidproject.org/fluid/fluid-components/js/jquery/jquery-1.3.1.js>\
 var value = callback( elems\[ i ], i );\
 Line 1176 of linked script <http://build.fluidproject.org/fluid/fluid-components/js/jquery/jquery-1.3.1.js>\

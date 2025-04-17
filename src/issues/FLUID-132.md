@@ -78,17 +78,17 @@
     {
       "author": "Dave Ayotte",
       "date": "2016-12-20T14:55:26.926-0500",
-      "body": "In IE 11 only, repeated multiple moves with the mouse sometimes causes some grid squares to disappear completely or for a grid square to lose it's letter (blank content). This does not occur in Firefox or Chrome. @@Justin Obara @@Dana\n"
+      "body": "In IE 11 only, repeated multiple moves with the mouse sometimes causes some grid squares to disappear completely or for a grid square to lose it's letter (blank content). This does not occur in Firefox or Chrome. Justin Obara Dana\n"
     },
     {
       "author": "Dave Ayotte",
       "date": "2016-12-20T15:05:36.347-0500",
-      "body": "<!-- media: file e1607c0b-f0cb-4426-8ccb-377d572ef527 -->\n\n&#x20;Ths image demos my previous comment @@Justin Obara @@Dana\n"
+      "body": "<!-- media: file e1607c0b-f0cb-4426-8ccb-377d572ef527 -->\n\n&#x20;Ths image demos my previous comment Justin Obara Dana\n"
     },
     {
       "author": "Dana",
       "date": "2017-01-25T19:13:33.975-0500",
-      "body": "Thanks @@Dave Ayotte the issue you report in your comment has been captured in <https://issues.fluidproject.org/browse/FLUID-5870> (also see various sub-issues there)&#x20;\n\nFYI @@Justin Obara\n"
+      "body": "Thanks Dave Ayotte the issue you report in your comment has been captured in <https://issues.fluidproject.org/browse/FLUID-5870> (also see various sub-issues there)&#x20;\n\nFYI Justin Obara\n"
     }
   ]
 }

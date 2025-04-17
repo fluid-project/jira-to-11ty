@@ -33,6 +33,6 @@
   ]
 }
 ---
-When placing focus on an inline editable text, JAWS reads "Link http://\<Reads off URL> number underline." instead of the instructions to edit the text.
+When placing focus on an inline editable text, JAWS reads "Link http\://\<Reads off URL> number underline." instead of the instructions to edit the text.
 
         

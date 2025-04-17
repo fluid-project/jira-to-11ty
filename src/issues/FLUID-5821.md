@@ -55,7 +55,7 @@
   ]
 }
 ---
-If you run `that.locate(selector)` from a view component that does not have a matching selector, currently the entire container is returned.  This means that a single typo in a selector can result in mistakenly operating on the entire container.  In talking with Antranig about working around this problem, he proposed simply fixing it in FluidView.js.
+If you run `that.locate(selector)` from a view component that does not have a matching selector, currently the entire container is returned.  This means that a single typo in a selector can result in mistakenly operating on the entire container.  In talking with Antranig about working around this problem, he proposed simply fixing it in FluidView\.js.
 
 ```java
 @bosmon, I hope you recall our "binder" that binds selectors to model values. the-t-in-rtf1 @ 2:57

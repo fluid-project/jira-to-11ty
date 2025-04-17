@@ -24,7 +24,7 @@
   "comments": []
 }
 ---
-Per discussion at <https://github.com/fluid-project/chartAuthoring/pull/11#discussion_r52120230>, quoting @@Antranig Basman:
+Per discussion at <https://github.com/fluid-project/chartAuthoring/pull/11#discussion_r52120230>, quoting Antranig Basman:
 
 *— Whilst we can't explicitly iterate over dynamicComponents, we can have them "report for duty on creation" by broadcasting onCreate listeners to them via distributeOptions, which will allow us to build up the data structure above.*
 

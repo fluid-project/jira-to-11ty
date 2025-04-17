@@ -26,7 +26,7 @@
     {
       "author": "Jonathan Hung",
       "date": "2013-04-01T09:16:42.049-0400",
-      "body": "@@Justin Obara Can you elaborate on this Jira description for me?\n"
+      "body": "Justin Obara Can you elaborate on this Jira description for me?\n"
     }
   ]
 }

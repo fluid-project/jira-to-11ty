@@ -27,7 +27,7 @@
     {
       "author": "Justin Obara",
       "date": "2020-10-21T16:50:15.247-0400",
-      "body": "In speaking with @@Antranig Basman in the [fluid-work irc channel](http://irc-logs.fluidproject.org/%23fluid-work/%23fluid-work.2020-10-21.log) today, it was decided to just do the simple fix for now and check to see if the branch is either \"master\" or \"main\".\n"
+      "body": "In speaking with Antranig Basman in the [fluid-work irc channel](http://irc-logs.fluidproject.org/%23fluid-work/%23fluid-work.2020-10-21.log) today, it was decided to just do the simple fix for now and check to see if the branch is either \"master\" or \"main\".\n"
     }
   ]
 }

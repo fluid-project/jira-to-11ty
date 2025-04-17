@@ -39,7 +39,7 @@
     {
       "author": "Colin Clark",
       "date": "2010-02-19T18:39:47.000-0500",
-      "body": "This is caused by an error in MyCollectionView.js:\n\nthat.navBar.events.onToggle.addListener(function () {\\\nthat.navigationList.toggleLayout();\\\n});\n\nWe're assuming that the Navigation List subcomponent is always instantiated. If the user's collection is empty, this is not the case. We should change the code to guard against this case, like this:\n\nthat.navBar.events.onToggle.addListener(function () {\\\nif (that.navigationList) {\\\nthat.navigationList.toggleLayout();\\\n}\\\n});\n"
+      "body": "This is caused by an error in MyCollectionView\\.js:\n\nthat.navBar.events.onToggle.addListener(function () {\\\nthat.navigationList.toggleLayout();\\\n});\n\nWe're assuming that the Navigation List subcomponent is always instantiated. If the user's collection is empty, this is not the case. We should change the code to guard against this case, like this:\n\nthat.navBar.events.onToggle.addListener(function () {\\\nif (that.navigationList) {\\\nthat.navigationList.toggleLayout();\\\n}\\\n});\n"
     },
     {
       "author": "Colin Clark",

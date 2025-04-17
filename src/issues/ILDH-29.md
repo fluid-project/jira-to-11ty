@@ -31,6 +31,6 @@
 ---
 When user selects Perspectives, Approaches or Techniques from the top navigation tabs they are taken to a landing page. From there, if they choose a topic, there is no way to get back to the landing page for that section without first navigating to a different section (since the navigation tab becomes inactive). 
 
-@@Sepideh Shahi, @@Jonathan Hung, @@Michelle D'Souza
+Sepideh Shahi, Jonathan Hung, Michelle D'Souza
 
         

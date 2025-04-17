@@ -32,7 +32,7 @@
 ---
 There are a couple of issues in the Home screen that prevent its use in the Screen Navigator:
 
-1\. Home causes a page transition using window.location upon load to ensure that we get the correct strings bundle for the current locale. This should refactored to use an as-yet non-existent SN API
+1\. Home causes a page transition using window\.location upon load to ensure that we get the correct strings bundle for the current locale. This should refactored to use an as-yet non-existent SN API
 
 2\. Makes references to itself in links with relative URLs that aren't fully qualified. So:\
 ./Home.html\

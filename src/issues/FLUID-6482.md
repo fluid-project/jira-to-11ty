@@ -29,7 +29,7 @@
     {
       "author": "Justin Obara",
       "date": "2020-03-26T14:05:01.074-0400",
-      "body": "@@Alan Harnum are there reproducible steps that we can perform to trigger this issue, or is it random failures? Is there an example we can test?\n"
+      "body": "Alan Harnum are there reproducible steps that we can perform to trigger this issue, or is it random failures? Is there an example we can test?\n"
     }
   ]
 }

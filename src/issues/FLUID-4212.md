@@ -48,6 +48,6 @@ The upstream Chromium bugs are discussed at&#x20;
 <https://code.google.com/p/chromium/issues/detail?id=6759> "Clicking scrollbar in renderer should not change focus" and\
 <http://code.google.com/p/chromium/issues/detail?id=14204> "Scrollbar triggers onmousedown, but fails to trigger onmouseup."
 
-I have commented on the latter issue requesting a consistent resolution. That report provides clue to a workaround - the "mousedown" event is the ONLY one which can be detected in this condition and will be added to FluidView.js as a Chrome-specific workaround.
+I have commented on the latter issue requesting a consistent resolution. That report provides clue to a workaround - the "mousedown" event is the ONLY one which can be detected in this condition and will be added to FluidView\.js as a Chrome-specific workaround.
 
         

@@ -34,7 +34,7 @@
     {
       "author": "Anastasia Cheetham",
       "date": "2011-08-23T11:19:54.580-0400",
-      "body": "This is a case-sensitivity issue: The default preview filename is \"UIOptionsPreview.html\" but my preview file is called \"uiOptionsPreview.html\"  Locally, my Firefox doesn't care, so I didn't catch it. I'll rename.\n"
+      "body": "This is a case-sensitivity issue: The default preview filename is \"UIOptionsPreview\\.html\" but my preview file is called \"uiOptionsPreview\\.html\"  Locally, my Firefox doesn't care, so I didn't catch it. I'll rename.\n"
     },
     {
       "author": "Anastasia Cheetham",

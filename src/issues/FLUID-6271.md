@@ -27,12 +27,12 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2018-04-16T20:36:32.543-0400",
-      "body": "The git clean flags are a per-agent configuration so I had to change /etc/buildkite-agent/buildkite-agent.cfg and add git-clean-flags to it:\n\n```\ntoken=\"xxx\"\r\ntags=\"type=physical,hypervisor=virtualbox,docker=true,vagrant=true\"\r\ngit-clean-flags=\"-fqd\"\n```\n\nThe first build with v3.0 that ran correctly but still failed (unrelated to CI, it seems): <https://buildkite.com/fluid-project/fluid-infusion/builds/195> – Waiting on @@Joseph Scheuhammer's feedback before closing this as fixed.\n"
+      "body": "The git clean flags are a per-agent configuration so I had to change /etc/buildkite-agent/buildkite-agent.cfg and add git-clean-flags to it:\n\n```\ntoken=\"xxx\"\r\ntags=\"type=physical,hypervisor=virtualbox,docker=true,vagrant=true\"\r\ngit-clean-flags=\"-fqd\"\n```\n\nThe first build with v3.0 that ran correctly but still failed (unrelated to CI, it seems): <https://buildkite.com/fluid-project/fluid-infusion/builds/195> – Waiting on Joseph Scheuhammer's feedback before closing this as fixed.\n"
     },
     {
       "author": "Joseph Scheuhammer",
       "date": "2018-04-17T15:21:30.832-0400",
-      "body": "@@Giovanni Tirloni I can confirm the console output I get when I run this pull request locally on my vagrant VM matches, in all relevant respects, the console output from buildkite (<https://buildkite.com/fluid-project/fluid-infusion/builds/195).>  The failure(s) observed are due to a bug in my testing code, not in what buildkite is doing.\n"
+      "body": "Giovanni Tirloni I can confirm the console output I get when I run this pull request locally on my vagrant VM matches, in all relevant respects, the console output from buildkite (<https://buildkite.com/fluid-project/fluid-infusion/builds/195).>  The failure(s) observed are due to a bug in my testing code, not in what buildkite is doing.\n"
     }
   ]
 }

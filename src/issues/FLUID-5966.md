@@ -51,6 +51,6 @@ When trying to upgrading to jQuery v3.1 ( see: <https://fluidproject.atlassian.n
 
 The DOM Binder has taken care of re-adding these properties to the jQuery objects resolved through it. However, Panels.js from the Prefs Framework requires the "selector" property when reseting the DOM binder in sub panels.&#x20;
 
-It is necessary to add the context and selector properties back to component containers created with fluid.container in FluidView.js and with fluid.prefs.subPanel.resetDomBinder in Panels.js. ( the sub panel does a manual recreation of the container to ensure that it is sourced from an attached DOM element in the correct document – e.g. iframe ) ( see: FLUID-4536 )
+It is necessary to add the context and selector properties back to component containers created with fluid.container in FluidView\.js and with fluid.prefs.subPanel.resetDomBinder in Panels.js. ( the sub panel does a manual recreation of the container to ensure that it is sourced from an attached DOM element in the correct document – e.g. iframe ) ( see: FLUID-4536 )
 
         

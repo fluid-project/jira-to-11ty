@@ -35,7 +35,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-10T13:53:47.018-0400",
-      "body": "I'm not really sure what we want the default to be for the cookie expiration.&#x20;\n\n* browser quit\n* some number of days\n* forever\n* etc.\n\n@@Dana and @@Jonathan Hung did you have any thoughts?\n"
+      "body": "I'm not really sure what we want the default to be for the cookie expiration.&#x20;\n\n* browser quit\n* some number of days\n* forever\n* etc.\n\nDana and Jonathan Hung did you have any thoughts?\n"
     }
   ]
 }

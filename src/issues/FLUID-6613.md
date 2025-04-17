@@ -25,7 +25,7 @@
   "comments": []
 }
 ---
-In pull request underway at <https://github.com/inclusive-design/covid-data-monitor/pull/10/files>, @@Cindy Li has implemented an "expand button" which necessarily has a rather unintegral design. Its mission is to implement a button with two states, "expanded", "collapsed", which then controls the visibility of a number of other DOM elements provided in configuration. The current implementation is&#x20;
+In pull request underway at <https://github.com/inclusive-design/covid-data-monitor/pull/10/files>, Cindy Li has implemented an "expand button" which necessarily has a rather unintegral design. Its mission is to implement a button with two states, "expanded", "collapsed", which then controls the visibility of a number of other DOM elements provided in configuration. The current implementation is&#x20;
 
 ```java
 fluid.defaults("fluid.expandButton", {

@@ -27,7 +27,7 @@
     {
       "author": "Anastasia Cheetham",
       "date": "2015-12-10T11:07:23.956-0500",
-      "body": "@@Antranig Basman, the documentation table of contents has been reworked a fair amount recently. Could you re-examine this issue, and either a) update it with ideas for further improvement, or b) close it if you think it's fine now.\n"
+      "body": "Antranig Basman, the documentation table of contents has been reworked a fair amount recently. Could you re-examine this issue, and either a) update it with ideas for further improvement, or b) close it if you think it's fine now.\n"
     },
     {
       "author": "Justin Obara",

@@ -36,7 +36,7 @@
     {
       "author": "Antranig Basman",
       "date": "2022-05-09T08:01:29.035-0400",
-      "body": "Thanks @@Justin Obara - these are worth knowing about and are now usable across our environments since node 12, in which they are not supported, had end of life a couple of weeks ago.\n"
+      "body": "Thanks Justin Obara - these are worth knowing about and are now usable across our environments since node 12, in which they are not supported, had end of life a couple of weeks ago.\n"
     },
     {
       "author": "Justin Obara",

@@ -27,7 +27,7 @@
 ---
 Enactors should no longer be defined in the auxiliary schema, which should just be for configuring the panels. 
 
-From @@Antranig Basman:
+From Antranig Basman:
 
 The indirection between auxSchema and enactors will always be via the "setting names" established via the primary schema grades (which, in practice, will likely end up being mapped as "application specific terms" in the GPII ontology of things).
 

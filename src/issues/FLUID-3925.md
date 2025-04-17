@@ -53,7 +53,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-05-26T15:34:21.888-0400",
-      "body": "@@Anastasia Cheetham i re-tested this today. It seems that it is no longer an issue in Chrome, Firefox, or Safari. However it's still present in IE (i've updated the environments). The behaviour should be to capture the keyboard short cut so that no action occurs. What happens in IE is that you will be using ctrl-k, when you get to the end, a new browser tab is opened.\n"
+      "body": "Anastasia Cheetham i re-tested this today. It seems that it is no longer an issue in Chrome, Firefox, or Safari. However it's still present in IE (i've updated the environments). The behaviour should be to capture the keyboard short cut so that no action occurs. What happens in IE is that you will be using ctrl-k, when you get to the end, a new browser tab is opened.\n"
     }
   ]
 }

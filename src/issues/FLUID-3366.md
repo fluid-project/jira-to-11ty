@@ -158,13 +158,13 @@ at org.apache.maven.DefaultMaven.collectProjects(DefaultMaven.java:467)\
 at org.apache.maven.DefaultMaven.collectProjects(DefaultMaven.java:511)\
 at org.apache.maven.DefaultMaven.getProjects(DefaultMaven.java:364)\
 ... 11 more\
-Caused by: org.apache.maven.project.ProjectBuildingException: Error getting POM for 'org.sakaiproject:master' from the repository: Unable to read local copy of metadata: Cannot read metadata from '/home/flexibus/.m2/repository/org/sakaiproject/master/SNAPSHOT/maven-metadata-media-berkeley-edu-dev.xml': entity reference name can not contain character =' (position: TEXT seen ...ww.atlassian.com/ex/GenerateLicense.jspa?product=Crucible\&version=... @148:128) \
+Caused by: org.apache.maven.project.ProjectBuildingException: Error getting POM for 'org.sakaiproject:master' from the repository: Unable to read local copy of metadata: Cannot read metadata from '/home/flexibus/.m2/repository/org/sakaiproject/master/SNAPSHOT/maven-metadata-media-berkeley-edu-dev.xml': entity reference name can not contain character =' (position: TEXT seen ...ww\.atlassian.com/ex/GenerateLicense.jspa?product=Crucible\&version=... @148:128) \
 org.sakaiproject:master:pom:SNAPSHOT
 
 at org.apache.maven.project.DefaultMavenProjectBuilder.findModelFromRepository(DefaultMavenProjectBuilder.java:560)\
 at org.apache.maven.project.DefaultMavenProjectBuilder.assembleLineage(DefaultMavenProjectBuilder.java:1260)\
 ... 19 more\
-Caused by: org.apache.maven.artifact.resolver.ArtifactResolutionException: Unable to read local copy of metadata: Cannot read metadata from '/home/flexibus/.m2/repository/org/sakaiproject/master/SNAPSHOT/maven-metadata-media-berkeley-edu-dev.xml': entity reference name can not contain character =' (position: TEXT seen ...ww.atlassian.com/ex/GenerateLicense.jspa?product=Crucible\&version=... @148:128) \
+Caused by: org.apache.maven.artifact.resolver.ArtifactResolutionException: Unable to read local copy of metadata: Cannot read metadata from '/home/flexibus/.m2/repository/org/sakaiproject/master/SNAPSHOT/maven-metadata-media-berkeley-edu-dev.xml': entity reference name can not contain character =' (position: TEXT seen ...ww\.atlassian.com/ex/GenerateLicense.jspa?product=Crucible\&version=... @148:128) \
 org.sakaiproject:master:pom:SNAPSHOT
 
 at org.apache.maven.artifact.transform.SnapshotTransformation.transformForResolve(SnapshotTransformation.java:68)\
@@ -173,18 +173,18 @@ at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolve(DefaultArt
 at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:73)\
 at org.apache.maven.project.DefaultMavenProjectBuilder.findModelFromRepository(DefaultMavenProjectBuilder.java:526)\
 ... 20 more\
-Caused by: org.apache.maven.artifact.repository.metadata.RepositoryMetadataResolutionException: Unable to read local copy of metadata: Cannot read metadata from '/home/flexibus/.m2/repository/org/sakaiproject/master/SNAPSHOT/maven-metadata-media-berkeley-edu-dev.xml': entity reference name can not contain character =' (position: TEXT seen ...ww.atlassian.com/ex/GenerateLicense.jspa?product=Crucible\&version=... @148:128) \
+Caused by: org.apache.maven.artifact.repository.metadata.RepositoryMetadataResolutionException: Unable to read local copy of metadata: Cannot read metadata from '/home/flexibus/.m2/repository/org/sakaiproject/master/SNAPSHOT/maven-metadata-media-berkeley-edu-dev.xml': entity reference name can not contain character =' (position: TEXT seen ...ww\.atlassian.com/ex/GenerateLicense.jspa?product=Crucible\&version=... @148:128) \
 at org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager.resolve(DefaultRepositoryMetadataManager.java:143)\
 at org.apache.maven.artifact.transform.AbstractVersionTransformation.resolveVersion(AbstractVersionTransformation.java:65)\
 at org.apache.maven.artifact.transform.SnapshotTransformation.transformForResolve(SnapshotTransformation.java:63)\
 ... 24 more\
-Caused by: org.apache.maven.artifact.repository.metadata.RepositoryMetadataReadException: Cannot read metadata from '/home/flexibus/.m2/repository/org/sakaiproject/master/SNAPSHOT/maven-metadata-media-berkeley-edu-dev.xml': entity reference name can not contain character =' (position: TEXT seen ...ww.atlassian.com/ex/GenerateLicense.jspa?product=Crucible\&version=... @148:128) \
+Caused by: org.apache.maven.artifact.repository.metadata.RepositoryMetadataReadException: Cannot read metadata from '/home/flexibus/.m2/repository/org/sakaiproject/master/SNAPSHOT/maven-metadata-media-berkeley-edu-dev.xml': entity reference name can not contain character =' (position: TEXT seen ...ww\.atlassian.com/ex/GenerateLicense.jspa?product=Crucible\&version=... @148:128) \
 at org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager.readMetadata(DefaultRepositoryMetadataManager.java:292)\
 at org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager.loadMetadata(DefaultRepositoryMetadataManager.java:244)\
 at org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager.mergeMetadata(DefaultRepositoryMetadataManager.java:166)\
 at org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager.resolve(DefaultRepositoryMetadataManager.java:134)\
 ... 26 more\
-Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: entity reference name can not contain character =' (position: TEXT seen ...ww.atlassian.com/ex/GenerateLicense.jspa?product=Crucible\&version=... @148:128) \
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: entity reference name can not contain character =' (position: TEXT seen ...ww\.atlassian.com/ex/GenerateLicense.jspa?product=Crucible\&version=... @148:128) \
 at org.codehaus.plexus.util.xml.pull.MXParser.parseEntityRef(MXParser.java:2219)\
 at org.codehaus.plexus.util.xml.pull.MXParser.parseAttribute(MXParser.java:2044)\
 at org.codehaus.plexus.util.xml.pull.MXParser.parseStartTag(MXParser.java:1796)\

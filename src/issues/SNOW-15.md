@@ -34,7 +34,7 @@
     {
       "author": "Eloisa Guerrero",
       "date": "2018-02-09T08:51:53.388-0500",
-      "body": "Paired with @@Michelle D'Souza yesterday and to solve the problem instead of rolling back, in the foreach loop we used an anonymous function and assigned it to variable $register\\_panel and put that in add\\_action so that it would satisfy the condition of using a function. Important to note that in PHP, functions have a new scope so \"use\" is required to pass in values from outside of the function. In this case we passed in $new\\_widget to get its information.\n\n```java\nforeach ($snow_panels as $panel) {\r\n    $new_widget = new snow_panel_widget($panel['id'], $panel['title'],   $panel['category']);\r\n    $register_panel = function() use ($new_widget) {\r\n        register_widget( $new_widget );\r\n    };\r\n    add_action('widgets_init', $register_panel);\r\n}\n```\n"
+      "body": "Paired with Michelle D'Souza yesterday and to solve the problem instead of rolling back, in the foreach loop we used an anonymous function and assigned it to variable $register\\_panel and put that in add\\_action so that it would satisfy the condition of using a function. Important to note that in PHP, functions have a new scope so \"use\" is required to pass in values from outside of the function. In this case we passed in $new\\_widget to get its information.\n\n```java\nforeach ($snow_panels as $panel) {\r\n    $new_widget = new snow_panel_widget($panel['id'], $panel['title'],   $panel['category']);\r\n    $register_panel = function() use ($new_widget) {\r\n        register_widget( $new_widget );\r\n    };\r\n    add_action('widgets_init', $register_panel);\r\n}\n```\n"
     }
   ]
 }

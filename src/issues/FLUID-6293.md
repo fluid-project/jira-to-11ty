@@ -24,7 +24,7 @@
     {
       "author": "Giovanni Tirloni",
       "date": "2018-07-01T16:30:28.951-0400",
-      "body": "@@Avtar Gill could you take a quick look at this? I'm not sure the behavior is expected or not.\n\nThis has happened to manually triggered builds that I used to test the pipeline as well as a merge by @@Antranig Basman on the Kettle repository.\n\nI know we talked about my PRs never getting unblock but it seems this is a different error. For that error, the unblocker returns \"Invalid Buildkite webhook payload\" but for this one it seems to crash.\n"
+      "body": "Avtar Gill could you take a quick look at this? I'm not sure the behavior is expected or not.\n\nThis has happened to manually triggered builds that I used to test the pipeline as well as a merge by Antranig Basman on the Kettle repository.\n\nI know we talked about my PRs never getting unblock but it seems this is a different error. For that error, the unblocker returns \"Invalid Buildkite webhook payload\" but for this one it seems to crash.\n"
     }
   ]
 }

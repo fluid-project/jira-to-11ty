@@ -57,7 +57,7 @@ BadRequestError: request aborted
 ok 70 Firefox 63.0 - [undefined ms] - Component Tests: /
 ```
 
-@@Justin Obara asked me to look into this in the context of gpii-testem in [GPII-3508](https://issues.gpii.net/browse/GPII-3508).  I spent a day researching and reading up on each of the involved libraries (gpii-testem, Testem, jqUnit, QUnit, QUnit.composite).
+Justin Obara asked me to look into this in the context of gpii-testem in [GPII-3508](https://issues.gpii.net/browse/GPII-3508).  I spent a day researching and reading up on each of the involved libraries (gpii-testem, Testem, jqUnit, QUnit, QUnit.composite).
 
 My conclusion is that our very old version of QUnit and QUnit.composite only expect a synchronous callback to be hooked into QUnit.done.  This causes problems when an asynchronous activity like sending coverage data is performed as part of that callback.  QUnit.composite listens for "child" iframes to trigger their own QUnit.done event before closing them.  Depending on the timing, QUnit.composite may close the "child" iframe before all results are sent, which results in the above error message and, depending on when the hangup occurs, potentially the loss of coverage data.
 
@@ -72,6 +72,6 @@ There are a few potential solutions I can see:
 
 I will experiment with the third and fourth approaches, as these seem less disruptive than updating QUnit.composite and/or QUnit.
 
-cc: @@Antranig Basman
+cc: Antranig Basman
 
         

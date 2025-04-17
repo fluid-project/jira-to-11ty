@@ -29,7 +29,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-15T10:48:12.494-0400",
-      "body": "@@Anastasia Cheetham can this be closed now that the first set of docs are live at <http://docs.fluidproject.org/infusion/development/>\n"
+      "body": "Anastasia Cheetham can this be closed now that the first set of docs are live at <http://docs.fluidproject.org/infusion/development/>\n"
     },
     {
       "author": "Tony Atkins [RtF]",

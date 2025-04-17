@@ -52,7 +52,7 @@
     {
       "author": "heidi valles",
       "date": "2011-01-25T17:41:03.191-0500",
-      "body": "This patch renames scrolling table styles in fss-layout.css, adds an fss demo, tweaks Uploader.css, and updates FluidView.js\n"
+      "body": "This patch renames scrolling table styles in fss-layout.css, adds an fss demo, tweaks Uploader.css, and updates FluidView\\.js\n"
     },
     {
       "author": "heidi valles",
@@ -72,7 +72,7 @@
     {
       "author": "heidi valles",
       "date": "2011-01-28T13:29:59.712-0500",
-      "body": "hey c, could you review this patch? It cleans up the fss-layout classes (and tweaks the fluidview.js and uploader.css to match) and adds the fss demo\n"
+      "body": "hey c, could you review this patch? It cleans up the fss-layout classes (and tweaks the fluidview\\.js and uploader.css to match) and adds the fss demo\n"
     },
     {
       "author": "heidi valles",

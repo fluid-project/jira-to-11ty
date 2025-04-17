@@ -26,6 +26,6 @@
   "comments": []
 }
 ---
-@@Gregor Moss has written are post about GSoC 2018 which now should be added to the website.
+Gregor Moss has written are post about GSoC 2018 which now should be added to the website.
 
         

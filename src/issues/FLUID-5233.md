@@ -34,7 +34,7 @@
     {
       "author": "Justin Obara",
       "date": "2015-06-15T11:05:04.777-0400",
-      "body": "@@Antranig Basman can this be closed after with this pull request <https://github.com/fluid-project/infusion/pull/591>\n"
+      "body": "Antranig Basman can this be closed after with this pull request <https://github.com/fluid-project/infusion/pull/591>\n"
     },
     {
       "author": "Jonathan Hung",
@@ -44,7 +44,7 @@
     {
       "author": "Anastasia Cheetham",
       "date": "2015-12-14T09:05:20.636-0500",
-      "body": "This reference to the \"static environment\" is referring to the Infusion static environment, not the static site generation issue.\n\n@@Antranig Basman: The pull request you referenced is closed. Is there associated documentation that addresses this issue?\n"
+      "body": "This reference to the \"static environment\" is referring to the Infusion static environment, not the static site generation issue.\n\nAntranig Basman: The pull request you referenced is closed. Is there associated documentation that addresses this issue?\n"
     },
     {
       "author": "Antranig Basman",

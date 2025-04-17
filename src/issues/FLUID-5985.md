@@ -43,7 +43,7 @@
   ]
 }
 ---
-Per @@Antranig Basman's comment here: <https://github.com/fluid-project/infusion/pull/577#issuecomment-255065212>
+Per Antranig Basman's comment here: <https://github.com/fluid-project/infusion/pull/577#issuecomment-255065212>
 
 The platform detection is functionally assuming Infusion is only run in browser contexts and has the 'navigator' object available. This is obviously not true.
 

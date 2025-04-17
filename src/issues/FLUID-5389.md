@@ -28,7 +28,7 @@
     {
       "author": "Justin Obara",
       "date": "2014-06-04T09:12:39.405-0400",
-      "body": "@@beth.mejsullivan in safari you may need to use option-tab to navigate to links.&#x20;\n"
+      "body": "beth.mejsullivan in safari you may need to use option-tab to navigate to links.&#x20;\n"
     },
     {
       "author": "Cindy Li",
