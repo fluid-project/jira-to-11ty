@@ -1,5 +1,9 @@
 {% extends "layouts/base.njk" %}
 
+{% block scripts %}
+<script src="/assets/scripts/filter-container.js" type="module"></script>
+{% endblock %}
+
 {% set pageType = "page-project" %}
 
 {% block pageHeader %}
@@ -69,5 +73,4 @@
     {% endfor %}
   </table>
 </filter-container>
-<script src="/assets/scripts/filter-container.js" type="module"></script>
 {% endblock %}
