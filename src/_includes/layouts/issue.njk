@@ -115,7 +115,7 @@
         <div>
             <div class="spacing-y-1">
                 <h2>Description</h2>
-                {{ content | safe }}
+                {{ content | replace(r/\s([A-Z]+\-[0-9]+)/, ' <a href="/browse/$1/">$1</a>') | safe }}
             </div>
             {% if environment %}
             <div class="spacing-y-1">
@@ -161,7 +161,7 @@
                     {% for comment in comments %}
                     <li>
                         <p class="mb-0"><b>{{ comment.author }}</b> <i>commented <relative-time datetime="{{ comment.date }}">{{ comment.date }}</relative-time></i></p>
-                        {{ comment.body | renderContent("md") | safe }}
+                        {{ comment.body | renderContent("md") | replace(r/\s([A-Z]+\-[0-9]+)/, ' <a href="/browse/$1/">$1</a>') | safe }}
                     </li>
                     {% endfor %}
                 </ul>
